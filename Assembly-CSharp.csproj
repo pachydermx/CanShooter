@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\CanShooter\Scripts\ShooterC.cs" />
      <Compile Include="Assets\CanShooter\Scripts\VirtualButtonHandler.cs" />
+     <Compile Include="Assets\CanTable.cs" />
      <Compile Include="Assets\Common\UIFramework\AboutScreenView.cs" />
      <Compile Include="Assets\Common\UIFramework\AppManager.cs" />
      <Compile Include="Assets\Common\UIFramework\ISampleAppUIElement.cs" />

@@ -7,7 +7,6 @@ public class ShooterC : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
 	}
 	
 	// Update is called once per frame
@@ -31,7 +30,9 @@ public class ShooterC : MonoBehaviour {
 
 
 	void Fire () {
-		GameObject bullet = (GameObject) Instantiate(Bullet, transform.position, transform.rotation);
+		Vector3 delta = new Vector3(0, 1, 0);
+		GameObject bullet = (GameObject) Instantiate(Bullet, transform.position + delta, transform.rotation);
+		//bullet.transform.parent = this.gameObject.transform;
 		bullet.transform.localScale = new Vector3(1f, 1, 1);
 		Rigidbody rb = (Rigidbody) bullet.GetComponent<Rigidbody>();
 		rb.AddForce(transform.right * -1000);
