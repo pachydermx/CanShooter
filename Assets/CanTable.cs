@@ -14,8 +14,11 @@ public class CanTable : MonoBehaviour {
 		new Vector3(0, 1, 0.5f),
 		new Vector3(0, 3, 0),
 	};
+	private static Vector3[] stage3 = {
+		new Vector3(0, 0, 0)
+	};
 
-	private Vector3[][] Stages = {stage1, stage2};
+	private Vector3[][] Stages = {stage1, stage2, stage3};
 
 	// Use this for initialization
 	void Start () {
@@ -29,6 +32,9 @@ public class CanTable : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha2)){
 			Stage (1);
 		}
+		if(Input.GetKeyDown(KeyCode.Alpha3)){
+			Stage (2);
+		}
 	}
 
 	void Stage(int index){
@@ -39,7 +45,7 @@ public class CanTable : MonoBehaviour {
 
 	void Put(Vector3 pos){
 		GameObject newCan = (GameObject) Instantiate(CanPrefab, transform.position + (pos + new Vector3(0, 0.5f, 0)) * 1, transform.rotation);
-		//newCan.transform.parent = this.gameObject.transform;
+		newCan.transform.parent = this.gameObject.transform;
 		Rigidbody rb = (Rigidbody) newCan.GetComponent<Rigidbody>();
 	}
 

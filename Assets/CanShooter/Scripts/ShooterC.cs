@@ -5,6 +5,7 @@ public class ShooterC : MonoBehaviour {
 	public GameObject Bullet;
 	private float RotateSpeed = 50;
 	public GameObject Table;
+	public GameObject Manager;
 
 	// Use this for initialization
 	void Start () {

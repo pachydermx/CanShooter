@@ -67,6 +67,7 @@
      <Compile Include="Assets\Common\UIFramework\SceneViewManager.cs" />
      <Compile Include="Assets\Common\UIFramework\SplashScreenView.cs" />
      <Compile Include="Assets\GameManager.cs" />
+     <Compile Include="Assets\ScoreNotificator.cs" />
      <Compile Include="Assets\Scripts\MultiTargetUIEventHandler.cs" />
      <Compile Include="Assets\Scripts\MultiTargetUIView.cs" />
      <Compile Include="Assets\Scripts\RotateAround.cs" />
