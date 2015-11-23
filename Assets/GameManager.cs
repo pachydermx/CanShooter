@@ -31,12 +31,11 @@ public class GameManager : MonoBehaviour {
 		UpdateDisplay();
 	}
 
-	bool RequestAmmo() {
+	void RequestAmmo(GameObject sender) {
 		if (Ammo > 0) {
 			Ammo--;
-			return true;
-		} else {
-			return false;
+			sender.SendMessage("Fire");
+			UpdateDisplay();
 		}
 	}
 }

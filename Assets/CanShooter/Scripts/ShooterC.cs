@@ -14,7 +14,7 @@ public class ShooterC : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.J)){
-			Fire();
+			Manager.SendMessage("RequestAmmo", this.gameObject);
 		}
 		if(Input.GetKey(KeyCode.W)){
 			transform.Rotate(-Vector3.forward * RotateSpeed * Time.deltaTime);
@@ -33,7 +33,8 @@ public class ShooterC : MonoBehaviour {
 
 	void Fire () {
 		Vector3 delta = new Vector3(0, 1, 0);
-		GameObject bullet = (GameObject) Instantiate(Bullet, transform.position + delta, transform.rotation);
+		GameObject bullet;
+		bullet = (GameObject) Instantiate(Bullet, this.transform.position + delta, this.transform.rotation);
 		bullet.transform.localScale = new Vector3(1f, 1, 1);
 		Rigidbody rb = (Rigidbody) bullet.GetComponent<Rigidbody>();
 		rb.AddForce(transform.right * -2000);
