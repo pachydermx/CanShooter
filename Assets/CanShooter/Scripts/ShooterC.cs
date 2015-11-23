@@ -35,9 +35,9 @@ public class ShooterC : MonoBehaviour {
 		Vector3 delta = new Vector3(0, 1, 0);
 		GameObject bullet;
 		bullet = (GameObject) Instantiate(Bullet, this.transform.position + delta, this.transform.rotation);
-		bullet.transform.localScale = new Vector3(1f, 1, 1);
+		bullet.transform.localScale = new Vector3(1, 1, 1) * 25;
 		Rigidbody rb = (Rigidbody) bullet.GetComponent<Rigidbody>();
-		rb.AddForce(transform.right * -2000);
+		rb.AddForce(transform.right * 8000);
 		bullet.transform.parent = Table.transform;
 	}
 }

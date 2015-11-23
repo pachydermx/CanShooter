@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject AmmoDisplay;
 
 	public int Score = 0;
-	public int Ammo = 10;
+	public int Ammo = 100;
 
 	// Use this for initialization
 	void Start () {
@@ -19,11 +19,13 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void UpdateDisplay () {
+		/*
 		TextMesh tm = ScoreDisplay.GetComponent<TextMesh>();
 		tm.text = "Score: " + Score;
 
 		tm = AmmoDisplay.GetComponent<TextMesh>();
 		tm.text = "Ammo: " + Ammo;
+		*/
 	}
 
 	void AddScore(int delta){

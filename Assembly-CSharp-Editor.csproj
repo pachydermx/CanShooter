@@ -63,9 +63,6 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Resources\Vuforia_About.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
- <Reference Include="Assembly-UnityScript">
- <HintPath>/Users/pachydermx/Git/Unity/CanShooter/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
  <Reference Include="Assembly-UnityScript-Editor-firstpass">
  <HintPath>/Users/pachydermx/Git/Unity/CanShooter/Library/ScriptAssemblies/Assembly-UnityScript-Editor-firstpass.dll</HintPath>
  </Reference>
