@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="stones" size="1.000000 0.700103"/>
+        <ImageTarget name="GunT.Top" size="0.215000 0.154151"/>
+        <ImageTarget name="GunT.Left" size="0.154000 0.749737"/>
+        <ImageTarget name="GunT.Right" size="0.154000 0.750000"/>
+        <ImageTarget name="GunT.Back" size="0.215000 0.750472"/>
+        <ImageTarget name="GunT.Front" size="0.215000 0.750000"/>
+        <ImageTarget name="GunT.Bottom" size="0.215000 0.154151"/>
+        <ImageTarget name="BaseT.Top" size="0.777000 0.193000"/>
+        <ImageTarget name="BaseT.Left" size="0.193000 1.001603"/>
+        <ImageTarget name="BaseT.Right" size="0.193000 1.001603"/>
+        <ImageTarget name="BaseT.Back" size="0.777000 0.999474"/>
+        <ImageTarget name="BaseT.Front" size="0.777000 0.999474"/>
+        <ImageTarget name="BaseT.Bottom" size="0.777000 0.193000"/>
+        <MultiTarget name="GunT">
+            <Part name="GunT.Left" translation="-0.10750000178813934 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="GunT.Right" translation="0.10750000178813934 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="GunT.Front" translation="0 0 0.07699999958276749" rotation="AD: 1 0 0 0"/>
+            <Part name="GunT.Back" translation="0 0 -0.07699999958276749" rotation="AD: 0 1 0 180"/>
+            <Part name="GunT.Top" translation="0 0.375 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="GunT.Bottom" translation="0 -0.375 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="BaseT">
+            <Part name="BaseT.Left" translation="-0.38850000500679016 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="BaseT.Right" translation="0.38850000500679016 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="BaseT.Front" translation="0 0 0.09650000184774399" rotation="AD: 1 0 0 0"/>
+            <Part name="BaseT.Back" translation="0 0 -0.09650000184774399" rotation="AD: 0 1 0 180"/>
+            <Part name="BaseT.Top" translation="0 0.5 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="BaseT.Bottom" translation="0 -0.5 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
