@@ -81,9 +81,9 @@ public class CanTable : MonoBehaviour {
 	}
 
 	void Put(Vector3 pos){
-		GameObject newCan = (GameObject) Instantiate(CanPrefab, transform.position + (pos + new Vector3(0, 0.5f, 0)) * 1, transform.rotation);
+		GameObject newCan = (GameObject) Instantiate(CanPrefab, transform.position + (pos + new Vector3(0, 1f, 0)) * 0.1f, transform.rotation);
 		newCan.transform.parent = this.gameObject.transform;
-		Rigidbody rb = (Rigidbody) newCan.GetComponent<Rigidbody>();
+		//Rigidbody rb = (Rigidbody) newCan.GetComponent<Rigidbody>();
 		Cans.Add(newCan);
 	}
 

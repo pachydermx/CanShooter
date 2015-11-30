@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject ct;
 
 	public int Score = 0;
-	public int Ammo = 100;
+	public int Ammo = 1000;
 
 	// Use this for initialization
 	void Start () {
@@ -42,5 +42,6 @@ public class GameManager : MonoBehaviour {
 			sender.SendMessage("Fire");
 			UpdateDisplay();
 		}
+		Debug.Log("Bullet Used Up");
 	}
 }

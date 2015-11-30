@@ -32,12 +32,12 @@ public class ShooterC : MonoBehaviour {
 
 
 	void Fire () {
-		Vector3 delta = new Vector3(0, 1, 0);
+		Vector3 delta = new Vector3(0, 0, 0);
 		GameObject bullet;
 		bullet = (GameObject) Instantiate(Bullet, this.transform.position + delta, this.transform.rotation);
-		bullet.transform.localScale = new Vector3(1, 1, 1) * 1;
+		//bullet.transform.localScale = new Vector3(1, 1, 1) * 1;
 		Rigidbody rb = (Rigidbody) bullet.GetComponent<Rigidbody>();
-		rb.AddForce(transform.right * -1500);
+		rb.AddForce(transform.forward * 250);
 		//bullet.transform.parent = Table.transform;
 	}
 }
