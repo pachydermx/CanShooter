@@ -4,6 +4,7 @@ using System.Collections;
 public class GameManager : MonoBehaviour {
 	public GameObject ScoreDisplay;
 	public GameObject AmmoDisplay;
+	public GameObject ct;
 
 	public int Score = 0;
 	public int Ammo = 100;
@@ -31,6 +32,8 @@ public class GameManager : MonoBehaviour {
 	void AddScore(int delta){
 		Score += delta;
 		UpdateDisplay();
+		// check cans
+		ct.SendMessage("canDestroied");
 	}
 
 	void RequestAmmo(GameObject sender) {
