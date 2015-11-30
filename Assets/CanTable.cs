@@ -9,27 +9,88 @@ public class CanTable : MonoBehaviour {
 
 	private Vector3 Size = new Vector3(1, 1, 1);
 	private static Vector3[] stage1 = {
-		new Vector3(0, 1, 0),
-		new Vector3(0, 1, 1),
-		new Vector3(0, 1, -1)
-	};
-	private static Vector3[] stage2 = {
-		new Vector3(0, 1, -0.5f),
-		new Vector3(0, 1, 0.5f),
-		new Vector3(0, 3, 0),
-	};
-	private static Vector3[] stage3 = {
-		new Vector3(0, 0, 0)
-	};
-	private static Vector3[] stage4 = {
-		new Vector3(0, 1, -0.5f),
-		new Vector3(0, 1, 0.5f),
-		new Vector3(0, 3, 0),
-		new Vector3(0.5f, 1, -0.5f),
-		new Vector3(-0.5f, 1, 0.5f),
+		new Vector3(0f,0f,0.5f),
+		new Vector3(0f,0f,-0.5f),
+		new Vector3(0f,1f,0)
 	};
 
-	private Vector3[][] Stages = {stage1, stage2, stage3};
+	private static Vector3[] stage2 = {
+		new Vector3(0f,0f,0.71f),
+		new Vector3(0f,0f,-0.71f),
+		new Vector3(0.71f,0f,0f),
+		new Vector3(-0.71f,0f,0f),
+		new Vector3(0f,1f,0)
+	};
+
+	private static Vector3[] stage3 = {
+		new Vector3(0f,0f,0f),
+		new Vector3(0f,0f,1.5f),
+		new Vector3(0f,0f,-1.5f),
+		new Vector3(0f,1f,0.75f),
+		new Vector3(0f,1f,-0.75f),
+		new Vector3(0f,2f,1.5f),
+		new Vector3(0f,2f,-1.5f),
+		new Vector3(0f,2f,0)
+	};
+
+	private static Vector3[] stage4 = {
+		new Vector3(0f,0f,0.5f),
+		new Vector3(0f,0f,-0.5f),
+		new Vector3(-1f,0f,0f),
+		new Vector3(1f,0f,0f),
+		new Vector3(1f,0f,1f),
+		new Vector3(1f,0f,-1f),
+		new Vector3(0.5f,1f,1f),
+		new Vector3(0.5f,1f,0.5f),
+		new Vector3(0.5f,1f,-0.5f),
+		new Vector3(0f,2f,0)
+	};
+
+	private static Vector3[] stage5 = {
+		new Vector3(0f,0f,0f),
+		new Vector3(0.71f,0f,0.71f),
+		new Vector3(0.71f,0f,-0.71f),
+		new Vector3(-0.71f,0f,0.71f),
+		new Vector3(-0.71f,0f,0.71f),
+		new Vector3(0.5f,1f,0.5f),
+		new Vector3(0.5f,1f,-0.5f),
+		new Vector3(-0.5f,1f,0.5f),
+		new Vector3(-0.5f,1f,-0.5f),
+		new Vector3(0f,2f,0.71f),
+		new Vector3(0f,2f,-0.71f),
+		new Vector3(0.71f,2f,0f),
+		new Vector3(-0.71f,2f,0)
+	};
+
+	private static Vector3[] stage6 = {
+		new Vector3(0f,0f,0.5f),
+		new Vector3(0f,0f,-0.5f),
+		new Vector3(0.87f,0f,0f),
+		new Vector3(0.87f,0f,1f),
+		new Vector3(0.87f,0f,-1f),
+		new Vector3(-0.87f,0f,0f),
+		new Vector3(-0.87f,0f,1f),
+		new Vector3(-0.87f,0f,-1f),
+		new Vector3(0.5f,1f,0.5f),
+		new Vector3(0.5f,1f,-0.5f),
+		new Vector3(-0.5f,1f,0.5f),
+		new Vector3(-0.5f,1f,-0.5f),
+		new Vector3(0f,2f,0.5f),
+		new Vector3(0f,2f,-0.5f),
+		new Vector3(0f,3f,0)
+	};
+
+	private static Vector3[] stage7 = {
+		new Vector3(0f,0f,0.71f),
+		new Vector3(0f,0f,-0.71f),
+		new Vector3(0.71f,0f,0f),
+		new Vector3(-0.71f,0f,0f),
+		new Vector3(0f,1f,0.5f),
+		new Vector3(0f,1f,-0.5f),
+		new Vector3(0f,2f,0)
+	};
+
+	private Vector3[][] Stages = {stage1, stage2, stage3, stage4, stage5, stage6, stage7};
 	private List<GameObject> Cans = new List<GameObject>();
 
 	// Use this for initialization
@@ -51,6 +112,9 @@ public class CanTable : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha4)){
 			Stage (3);
 		}
+		if(Input.GetKeyDown(KeyCode.Period)){
+			nextStage();
+		}
 	}
 
 	void Stage(int index){
@@ -68,6 +132,11 @@ public class CanTable : MonoBehaviour {
 	}
 
 	public void nextStage() {
+		StartCoroutine(NextStageWorker());
+	}
+
+	IEnumerator NextStageWorker(){
+		yield return new WaitForSeconds(2);
 		// reset
 		foreach(GameObject theCan in Cans){
 			Destroy(theCan);
@@ -81,7 +150,7 @@ public class CanTable : MonoBehaviour {
 	}
 
 	void Put(Vector3 pos){
-		GameObject newCan = (GameObject) Instantiate(CanPrefab, transform.position + (pos + new Vector3(0, 1f, 0)) * 0.1f, transform.rotation);
+		GameObject newCan = (GameObject) Instantiate(CanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.1f, transform.rotation);
 		newCan.transform.parent = this.gameObject.transform;
 		//Rigidbody rb = (Rigidbody) newCan.GetComponent<Rigidbody>();
 		Cans.Add(newCan);
