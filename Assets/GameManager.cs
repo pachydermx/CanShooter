@@ -2,12 +2,11 @@
 using System.Collections;
 
 public class GameManager : MonoBehaviour {
-	public GameObject ScoreDisplay;
-	public GameObject AmmoDisplay;
+	public GameObject InfoDisplay;
 	public GameObject ct;
 
 	public int Score = 0;
-	public int Ammo = 1000;
+	public int Ammo = 100;
 
 	// Use this for initialization
 	void Start () {
@@ -20,13 +19,8 @@ public class GameManager : MonoBehaviour {
 	}
 
 	void UpdateDisplay () {
-		/*
-		TextMesh tm = ScoreDisplay.GetComponent<TextMesh>();
-		tm.text = "Score: " + Score;
-
-		tm = AmmoDisplay.GetComponent<TextMesh>();
-		tm.text = "Ammo: " + Ammo;
-		*/
+		UnityEngine.UI.Text textBox =  InfoDisplay.GetComponent<UnityEngine.UI.Text>();
+		textBox.text = "Score: " + Score + "\nAmmo: " + Ammo;
 	}
 
 	void AddScore(int delta){

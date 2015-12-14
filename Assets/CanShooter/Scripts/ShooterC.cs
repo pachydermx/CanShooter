@@ -40,4 +40,8 @@ public class ShooterC : MonoBehaviour {
 		rb.AddForce(transform.forward * 350);
 		//bullet.transform.parent = Table.transform;
 	}
+
+	void askAmmo () {
+		Manager.SendMessage("RequestAmmo", this.gameObject);
+	}
 }

@@ -22,8 +22,7 @@ public class VirtualButtonHandler : MonoBehaviour, IVirtualButtonEventHandler {
 	}
 
 	public void OnButtonPressed(VirtualButtonAbstractBehaviour vb){
-		Debug.Log("Pressed");
-		this.gameObject.transform.FindChild("Shooter").SendMessage("Fire");
+		this.gameObject.transform.FindChild("Shooter").SendMessage("askAmmo");
 
 	}
 
