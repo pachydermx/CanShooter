@@ -9,6 +9,9 @@ public class CanTable : MonoBehaviour {
 	public int canRemain = -1;
 
 	private Vector3 Size = new Vector3(1, 1, 1);
+
+	private int[] explosive = {1, 2, 4, 4, 4, 4, 3};
+
 	private static Vector3[] stage1 = {
 		new Vector3(0f,0f,0.5f),
 		new Vector3(0f,0f,-0.5f),
@@ -112,8 +115,12 @@ public class CanTable : MonoBehaviour {
 	}
 
 	void Stage(int index){
-		foreach(Vector3 item in Stages[index]){
-			Put(item, false);
+		for (int i = 0; i < Stages[index].Length; i++){
+			if (i == explosive[index]){
+				Put (Stages[index][i], true);
+			} else {
+				Put (Stages[index][i], false);
+			}
 		}
 		canRemain = Stages[index].Length;
 	}
@@ -159,7 +166,7 @@ public class CanTable : MonoBehaviour {
 	void Explode(Vector3 position){
 		foreach(GameObject theCan in Cans){
 			Rigidbody rb = (Rigidbody) theCan.GetComponent<Rigidbody>();
-			rb.AddExplosionForce(10, position, 10);
+			rb.AddExplosionForce(50, position, 10);
 		}
 	}
 

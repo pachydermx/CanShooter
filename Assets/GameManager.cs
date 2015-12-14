@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour {
 	public GameObject ct;
 
 	public int Score = 0;
-	public int Ammo = 100;
+	public int Ammo = 10;
 
 	// Use this for initialization
 	void Start () {
