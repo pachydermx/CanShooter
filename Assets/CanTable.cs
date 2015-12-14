@@ -4,6 +4,7 @@ using System.Collections.Generic;
 
 public class CanTable : MonoBehaviour {
 	public GameObject CanPrefab;
+	public GameObject ExplosiveCanPrefab;
 	public int currentStage = -1;
 	public int canRemain = -1;
 
@@ -101,16 +102,9 @@ public class CanTable : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		if(Input.GetKeyDown(KeyCode.Alpha1)){
-			Stage (0);
-		}
-		if(Input.GetKeyDown(KeyCode.Alpha2)){
-			Stage (1);
-		}
-		if(Input.GetKeyDown(KeyCode.Alpha3)){
-			Stage (2);
-		}
-		if(Input.GetKeyDown(KeyCode.Alpha4)){
-			Stage (3);
+			foreach(Vector3 item in Stages[0]){
+				Put(item, true);
+			}
 		}
 		if(Input.GetKeyDown(KeyCode.Period)){
 			nextStage();
@@ -119,7 +113,7 @@ public class CanTable : MonoBehaviour {
 
 	void Stage(int index){
 		foreach(Vector3 item in Stages[index]){
-			Put(item);
+			Put(item, false);
 		}
 		canRemain = Stages[index].Length;
 	}
@@ -149,11 +143,24 @@ public class CanTable : MonoBehaviour {
 		Stage (currentStage);
 	}
 
-	void Put(Vector3 pos){
-		GameObject newCan = (GameObject) Instantiate(CanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.1f, transform.rotation);
+	void Put(Vector3 pos, bool explosive){
+		GameObject newCan;
+		if (explosive){
+			newCan = (GameObject) Instantiate(ExplosiveCanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.1f, transform.rotation);
+		} else {
+			newCan = (GameObject) Instantiate(CanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.1f, transform.rotation);
+		}
 		newCan.transform.parent = this.gameObject.transform;
 		//Rigidbody rb = (Rigidbody) newCan.GetComponent<Rigidbody>();
 		Cans.Add(newCan);
+	}
+
+
+	void Explode(Vector3 position){
+		foreach(GameObject theCan in Cans){
+			Rigidbody rb = (Rigidbody) theCan.GetComponent<Rigidbody>();
+			rb.AddExplosionForce(10, position, 10);
+		}
 	}
 
 }

@@ -38,4 +38,5 @@ public class GameManager : MonoBehaviour {
 		}
 		Debug.Log("Bullet Used Up");
 	}
+
 }
