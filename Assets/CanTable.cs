@@ -153,9 +153,9 @@ public class CanTable : MonoBehaviour {
 	void Put(Vector3 pos, bool explosive){
 		GameObject newCan;
 		if (explosive){
-			newCan = (GameObject) Instantiate(ExplosiveCanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.1f, transform.rotation);
+			newCan = (GameObject) Instantiate(ExplosiveCanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.3f, transform.rotation);
 		} else {
-			newCan = (GameObject) Instantiate(CanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.1f, transform.rotation);
+			newCan = (GameObject) Instantiate(CanPrefab, transform.position + (new Vector3(pos.x, pos.y * 2 + 1, pos.z)) * 0.3f, transform.rotation);
 		}
 		newCan.transform.parent = this.gameObject.transform;
 		//Rigidbody rb = (Rigidbody) newCan.GetComponent<Rigidbody>();
