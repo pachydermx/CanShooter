@@ -12,11 +12,11 @@
 
 
 #include "mscorlib_System_ValueType.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__18.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__19.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
-struct  Enumerator_t1_1100 
+struct  Enumerator_t1_1101 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::host_enumerator
-	Enumerator_t1_1774  ___host_enumerator_0;
+	Enumerator_t1_1780  ___host_enumerator_0;
 };

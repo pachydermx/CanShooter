@@ -16,7 +16,7 @@ struct List_1_t1_882;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.DatabaseLoadAbstractBehaviour
-struct  DatabaseLoadAbstractBehaviour_t6_56  : public MonoBehaviour_t5_94
+struct  DatabaseLoadAbstractBehaviour_t6_56  : public MonoBehaviour_t5_95
 {
 	// System.Boolean Vuforia.DatabaseLoadAbstractBehaviour::mDatasetsLoaded
 	bool ___mDatasetsLoaded_2;

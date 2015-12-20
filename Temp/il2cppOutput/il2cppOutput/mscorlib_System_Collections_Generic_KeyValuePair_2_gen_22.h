@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// Vuforia.VirtualButton
-struct VirtualButton_t6_167;
+// Vuforia.Trackable
+struct Trackable_t6_16;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VirtualButton>
-struct  KeyValuePair_2_t1_1833 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.Trackable>
+struct  KeyValuePair_2_t1_1831 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	VirtualButton_t6_167 * ___value_1;
+	Object_t * ___value_1;
 };

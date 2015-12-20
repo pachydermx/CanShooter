@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_17.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.EventSystems.RaycastResult>
-struct  DefaultComparer_t1_2068  : public Comparer_1_t1_2067
+struct  DefaultComparer_t1_2074  : public Comparer_1_t1_2073
 {
 };

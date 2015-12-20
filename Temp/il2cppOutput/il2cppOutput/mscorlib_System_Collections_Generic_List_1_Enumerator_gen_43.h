@@ -18,7 +18,7 @@ struct SmtpFailedRecipientException_t2_313;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Net.Mail.SmtpFailedRecipientException>
-struct  Enumerator_t1_1464 
+struct  Enumerator_t1_1465 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_974 * ___l_0;

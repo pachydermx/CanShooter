@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image>
-struct Dictionary_2_t1_1044;
+struct Dictionary_2_t1_1045;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image>
-struct  ValueCollection_t1_1124  : public Object_t
+struct  ValueCollection_t1_1125  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
-	Dictionary_2_t1_1044 * ___dictionary_0;
+	Dictionary_2_t1_1045 * ___dictionary_0;
 };

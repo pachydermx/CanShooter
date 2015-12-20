@@ -16,7 +16,7 @@ struct Action_t4_11;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.SmartTerrainTrackerAbstractBehaviour
-struct  SmartTerrainTrackerAbstractBehaviour_t6_49  : public MonoBehaviour_t5_94
+struct  SmartTerrainTrackerAbstractBehaviour_t6_49  : public MonoBehaviour_t5_95
 {
 	// System.Boolean Vuforia.SmartTerrainTrackerAbstractBehaviour::mAutoInitTracker
 	bool ___mAutoInitTracker_2;

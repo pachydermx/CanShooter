@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // AutoDelete
-struct  AutoDelete_t8_1  : public MonoBehaviour_t5_94
+struct  AutoDelete_t8_1  : public MonoBehaviour_t5_95
 {
 };

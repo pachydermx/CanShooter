@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<System.Net.Mail.MailAddress>
-struct IList_1_t1_1460;
+struct IList_1_t1_1461;
 // System.Object
 struct Object_t;
 

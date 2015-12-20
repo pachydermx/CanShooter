@@ -12,35 +12,30 @@
 #include <assert.h>
 #include <exception>
 
+// System.Collections.Generic.Dictionary`2<System.Object,Vuforia.WebCamProfile/ProfileData>
+struct Dictionary_2_t1_2007;
+// System.Object
+struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_59MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_ValueCollec_61.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-#define ValueCollection__ctor_m1_18049(__this, ___dictionary, method) (( void (*) (ValueCollection_t1_2019 *, Dictionary_2_t1_1073 *, const MethodInfo*))ValueCollection__ctor_m1_17978_gshared)(__this, ___dictionary, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.Generic.ICollection<TValue>.Add(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m1_18050(__this, ___item, method) (( void (*) (ValueCollection_t1_2019 *, ProfileData_t6_170 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Add_m1_17979_gshared)(__this, ___item, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.Generic.ICollection<TValue>.Clear()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m1_18051(__this, method) (( void (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Clear_m1_17980_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.Generic.ICollection<TValue>.Contains(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m1_18052(__this, ___item, method) (( bool (*) (ValueCollection_t1_2019 *, ProfileData_t6_170 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Contains_m1_17981_gshared)(__this, ___item, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.Generic.ICollection<TValue>.Remove(TValue)
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m1_18053(__this, ___item, method) (( bool (*) (ValueCollection_t1_2019 *, ProfileData_t6_170 , const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_Remove_m1_17982_gshared)(__this, ___item, method)
-// System.Collections.Generic.IEnumerator`1<TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.Generic.IEnumerable<TValue>.GetEnumerator()
-#define ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m1_18054(__this, method) (( Object_t* (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_System_Collections_Generic_IEnumerableU3CTValueU3E_GetEnumerator_m1_17983_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
-#define ValueCollection_System_Collections_ICollection_CopyTo_m1_18055(__this, ___array, ___index, method) (( void (*) (ValueCollection_t1_2019 *, Array_t *, int32_t, const MethodInfo*))ValueCollection_System_Collections_ICollection_CopyTo_m1_17984_gshared)(__this, ___array, ___index, method)
-// System.Collections.IEnumerator System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.IEnumerable.GetEnumerator()
-#define ValueCollection_System_Collections_IEnumerable_GetEnumerator_m1_18056(__this, method) (( Object_t * (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_System_Collections_IEnumerable_GetEnumerator_m1_17985_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.Generic.ICollection<TValue>.get_IsReadOnly()
-#define ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m1_18057(__this, method) (( bool (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_System_Collections_Generic_ICollectionU3CTValueU3E_get_IsReadOnly_m1_17986_gshared)(__this, method)
-// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.ICollection.get_IsSynchronized()
-#define ValueCollection_System_Collections_ICollection_get_IsSynchronized_m1_18058(__this, method) (( bool (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_IsSynchronized_m1_17987_gshared)(__this, method)
-// System.Object System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::System.Collections.ICollection.get_SyncRoot()
-#define ValueCollection_System_Collections_ICollection_get_SyncRoot_m1_18059(__this, method) (( Object_t * (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_System_Collections_ICollection_get_SyncRoot_m1_17988_gshared)(__this, method)
-// System.Void System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::CopyTo(TValue[],System.Int32)
-#define ValueCollection_CopyTo_m1_18060(__this, ___array, ___index, method) (( void (*) (ValueCollection_t1_2019 *, ProfileDataU5BU5D_t6_257*, int32_t, const MethodInfo*))ValueCollection_CopyTo_m1_17989_gshared)(__this, ___array, ___index, method)
-// System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::GetEnumerator()
-#define ValueCollection_GetEnumerator_m1_18061(__this, method) (( Enumerator_t1_2344  (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_GetEnumerator_m1_17990_gshared)(__this, method)
-// System.Int32 System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>::get_Count()
-#define ValueCollection_get_Count_m1_18062(__this, method) (( int32_t (*) (ValueCollection_t1_2019 *, const MethodInfo*))ValueCollection_get_Count_m1_17991_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
+extern "C" void Enumerator__ctor_m1_18096_gshared (Enumerator_t1_2017 * __this, Dictionary_2_t1_2007 * ___host, const MethodInfo* method);
+#define Enumerator__ctor_m1_18096(__this, ___host, method) (( void (*) (Enumerator_t1_2017 *, Dictionary_2_t1_2007 *, const MethodInfo*))Enumerator__ctor_m1_18096_gshared)(__this, ___host, method)
+// System.Object System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::System.Collections.IEnumerator.get_Current()
+extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m1_18097_gshared (Enumerator_t1_2017 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_get_Current_m1_18097(__this, method) (( Object_t * (*) (Enumerator_t1_2017 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_get_Current_m1_18097_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::System.Collections.IEnumerator.Reset()
+extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m1_18098_gshared (Enumerator_t1_2017 * __this, const MethodInfo* method);
+#define Enumerator_System_Collections_IEnumerator_Reset_m1_18098(__this, method) (( void (*) (Enumerator_t1_2017 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m1_18098_gshared)(__this, method)
+// System.Void System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::Dispose()
+extern "C" void Enumerator_Dispose_m1_18099_gshared (Enumerator_t1_2017 * __this, const MethodInfo* method);
+#define Enumerator_Dispose_m1_18099(__this, method) (( void (*) (Enumerator_t1_2017 *, const MethodInfo*))Enumerator_Dispose_m1_18099_gshared)(__this, method)
+// System.Boolean System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::MoveNext()
+extern "C" bool Enumerator_MoveNext_m1_18100_gshared (Enumerator_t1_2017 * __this, const MethodInfo* method);
+#define Enumerator_MoveNext_m1_18100(__this, method) (( bool (*) (Enumerator_t1_2017 *, const MethodInfo*))Enumerator_MoveNext_m1_18100_gshared)(__this, method)
+// TValue System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Current()
+extern "C" ProfileData_t6_170  Enumerator_get_Current_m1_18101_gshared (Enumerator_t1_2017 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m1_18101(__this, method) (( ProfileData_t6_170  (*) (Enumerator_t1_2017 *, const MethodInfo*))Enumerator_get_Current_m1_18101_gshared)(__this, method)

@@ -5,6 +5,10 @@ public class GameManager : MonoBehaviour {
 	public GameObject InfoDisplay;
 	public GameObject ct;
 
+	public GameObject ScoreBoard;
+	public GameObject NameInput;
+	public GameObject SubmitButton;
+
 	public int Score = 0;
 	public int Ammo = 10;
 
@@ -13,6 +17,10 @@ public class GameManager : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		UpdateDisplay();
+
+		SubmitButton.GetComponent<UnityEngine.UI.Button>().onClick.AddListener (() => {
+			Debug.Log("Hello");
+		});
 	}
 	
 	// Update is called once per frame
@@ -37,6 +45,8 @@ public class GameManager : MonoBehaviour {
 			Ammo--;
 			sender.SendMessage("Fire");
 			UpdateDisplay();
+
+			StartCoroutine( GetScoreBoard() );
 		} else {
 			Debug.Log("Bullet Used Up");
 			ResetGame();
@@ -47,6 +57,21 @@ public class GameManager : MonoBehaviour {
 		Score = 0;
 		Ammo = DefaultAmmo;
 		ct.SendMessage("GameReset");
+	}
+
+	void ShowScoreBoard() {
+		GetScoreBoard();
+	}
+
+	IEnumerator GetScoreBoard(){
+		string url = "http://pachydermx.com/canshooter/test.php";
+		WWW www = new WWW(url);
+		yield return www;
+		if(www.error == null){
+			ScoreBoard.GetComponent<UnityEngine.UI.Text>().text = www.text;
+		} else {
+			Debug.Log(www.error);
+		}
 	}
 
 }

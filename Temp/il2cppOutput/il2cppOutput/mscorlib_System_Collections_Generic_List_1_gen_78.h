@@ -16,7 +16,7 @@ struct ToggleU5BU5D_t7_224;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.UI.Toggle>
-struct  List_1_t1_1206  : public Object_t
+struct  List_1_t1_1207  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	ToggleU5BU5D_t7_224* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1206  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1206_StaticFields{
+struct List_1_t1_1207_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	ToggleU5BU5D_t7_224* ___EmptyArray_4;
 };

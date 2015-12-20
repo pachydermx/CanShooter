@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_PropAbstractBehavio.h"
 
 // Vuforia.PropBehaviour
-struct  PropBehaviour_t8_41  : public PropAbstractBehaviour_t6_151
+struct  PropBehaviour_t8_43  : public PropAbstractBehaviour_t6_151
 {
 };

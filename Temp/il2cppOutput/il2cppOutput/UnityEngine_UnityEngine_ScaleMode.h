@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_ScaleMode.h"
 
 // UnityEngine.ScaleMode
-struct  ScaleMode_t5_169 
+struct  ScaleMode_t5_170 
 {
 	// System.Int32 UnityEngine.ScaleMode::value__
 	int32_t ___value___1;

@@ -17,7 +17,7 @@ struct Material_t5_33;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // Vuforia.WireframeBehaviour
-struct  WireframeBehaviour_t8_67  : public MonoBehaviour_t5_94
+struct  WireframeBehaviour_t8_69  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.Material Vuforia.WireframeBehaviour::mLineMaterial
 	Material_t5_33 * ___mLineMaterial_2;

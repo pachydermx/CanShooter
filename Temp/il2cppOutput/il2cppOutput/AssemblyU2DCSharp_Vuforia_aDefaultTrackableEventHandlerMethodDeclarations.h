@@ -13,18 +13,18 @@
 #include <exception>
 
 // Vuforia.aDefaultTrackableEventHandler
-struct aDefaultTrackableEventHandler_t8_33;
+struct aDefaultTrackableEventHandler_t8_35;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TrackableBehaviour_.h"
 
 // System.Void Vuforia.aDefaultTrackableEventHandler::.ctor()
-extern "C" void aDefaultTrackableEventHandler__ctor_m8_178 (aDefaultTrackableEventHandler_t8_33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void aDefaultTrackableEventHandler__ctor_m8_193 (aDefaultTrackableEventHandler_t8_35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.aDefaultTrackableEventHandler::Start()
-extern "C" void aDefaultTrackableEventHandler_Start_m8_179 (aDefaultTrackableEventHandler_t8_33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void aDefaultTrackableEventHandler_Start_m8_194 (aDefaultTrackableEventHandler_t8_35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.aDefaultTrackableEventHandler::OnTrackableStateChanged(Vuforia.TrackableBehaviour/Status,Vuforia.TrackableBehaviour/Status)
-extern "C" void aDefaultTrackableEventHandler_OnTrackableStateChanged_m8_180 (aDefaultTrackableEventHandler_t8_33 * __this, int32_t ___previousStatus, int32_t ___newStatus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void aDefaultTrackableEventHandler_OnTrackableStateChanged_m8_195 (aDefaultTrackableEventHandler_t8_35 * __this, int32_t ___previousStatus, int32_t ___newStatus, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.aDefaultTrackableEventHandler::OnTrackingFound()
-extern "C" void aDefaultTrackableEventHandler_OnTrackingFound_m8_181 (aDefaultTrackableEventHandler_t8_33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void aDefaultTrackableEventHandler_OnTrackingFound_m8_196 (aDefaultTrackableEventHandler_t8_35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.aDefaultTrackableEventHandler::OnTrackingLost()
-extern "C" void aDefaultTrackableEventHandler_OnTrackingLost_m8_182 (aDefaultTrackableEventHandler_t8_33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void aDefaultTrackableEventHandler_OnTrackingLost_m8_197 (aDefaultTrackableEventHandler_t8_35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

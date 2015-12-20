@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // System.Action
 struct Action_t4_11;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
-struct Dictionary_2_t1_1040;
+struct Dictionary_2_t1_1041;
 
 #include "mscorlib_System_Object.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_CameraDevice_Camera.h"
@@ -27,7 +27,7 @@ struct Dictionary_2_t1_1040;
 struct  MonoCameraConfiguration_t6_10  : public Object_t
 {
 	// UnityEngine.Camera Vuforia.MonoCameraConfiguration::mPrimaryCamera
-	Camera_t5_89 * ___mPrimaryCamera_0;
+	Camera_t5_90 * ___mPrimaryCamera_0;
 	// Vuforia.CameraDevice/CameraDeviceMode Vuforia.MonoCameraConfiguration::mCameraDeviceMode
 	int32_t ___mCameraDeviceMode_1;
 	// Vuforia.VuforiaRenderer/VideoBackgroundReflection Vuforia.MonoCameraConfiguration::mLastVideoBackGroundMirroredFromSDK
@@ -35,7 +35,7 @@ struct  MonoCameraConfiguration_t6_10  : public Object_t
 	// System.Action Vuforia.MonoCameraConfiguration::mOnVideoBackgroundConfigChanged
 	Action_t4_11 * ___mOnVideoBackgroundConfigChanged_3;
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour> Vuforia.MonoCameraConfiguration::mVideoBackgroundBehaviours
-	Dictionary_2_t1_1040 * ___mVideoBackgroundBehaviours_4;
+	Dictionary_2_t1_1041 * ___mVideoBackgroundBehaviours_4;
 	// UnityEngine.Rect Vuforia.MonoCameraConfiguration::mViewportRect
 	Rect_t5_30  ___mViewportRect_5;
 	// System.Boolean Vuforia.MonoCameraConfiguration::mRenderVideoBackground

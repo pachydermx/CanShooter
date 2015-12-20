@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_7.h"
 
 // System.Collections.Generic.GenericComparer`1<System.Int32>
-struct  GenericComparer_1_t1_1582  : public Comparer_1_t1_1581
+struct  GenericComparer_1_t1_1583  : public Comparer_1_t1_1582
 {
 };

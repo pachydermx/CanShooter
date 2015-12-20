@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.ExecuteInEditMode
-struct ExecuteInEditMode_t5_207;
+struct ExecuteInEditMode_t5_208;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.ExecuteInEditMode::.ctor()
-extern "C" void ExecuteInEditMode__ctor_m5_1608 (ExecuteInEditMode_t5_207 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExecuteInEditMode__ctor_m5_1621 (ExecuteInEditMode_t5_208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

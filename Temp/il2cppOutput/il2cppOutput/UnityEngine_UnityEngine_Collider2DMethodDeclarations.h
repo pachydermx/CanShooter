@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.Collider2D
-struct Collider2D_t5_121;
+struct Collider2D_t5_122;
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t5_122;
+struct Rigidbody2D_t5_123;
 
 #include "codegen/il2cpp-codegen.h"
 
 // UnityEngine.Rigidbody2D UnityEngine.Collider2D::get_attachedRigidbody()
-extern "C" Rigidbody2D_t5_122 * Collider2D_get_attachedRigidbody_m5_972 (Collider2D_t5_121 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Rigidbody2D_t5_123 * Collider2D_get_attachedRigidbody_m5_985 (Collider2D_t5_122 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

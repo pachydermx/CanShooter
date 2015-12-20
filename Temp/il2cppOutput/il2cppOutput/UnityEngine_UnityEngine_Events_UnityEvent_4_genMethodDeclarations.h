@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>
-struct UnityEvent_4_t5_355;
+struct UnityEvent_4_t5_356;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 // System.String
@@ -21,16 +21,16 @@ struct String_t;
 // System.Object
 struct Object_t;
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t5_263;
+struct BaseInvokableCall_t5_264;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>::.ctor()
-extern "C" void UnityEvent_4__ctor_m5_2045_gshared (UnityEvent_4_t5_355 * __this, const MethodInfo* method);
-#define UnityEvent_4__ctor_m5_2045(__this, method) (( void (*) (UnityEvent_4_t5_355 *, const MethodInfo*))UnityEvent_4__ctor_m5_2045_gshared)(__this, method)
+extern "C" void UnityEvent_4__ctor_m5_2059_gshared (UnityEvent_4_t5_356 * __this, const MethodInfo* method);
+#define UnityEvent_4__ctor_m5_2059(__this, method) (( void (*) (UnityEvent_4_t5_356 *, const MethodInfo*))UnityEvent_4__ctor_m5_2059_gshared)(__this, method)
 // System.Reflection.MethodInfo UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>::FindMethod_Impl(System.String,System.Object)
-extern "C" MethodInfo_t * UnityEvent_4_FindMethod_Impl_m5_2046_gshared (UnityEvent_4_t5_355 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method);
-#define UnityEvent_4_FindMethod_Impl_m5_2046(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_4_t5_355 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_4_FindMethod_Impl_m5_2046_gshared)(__this, ___name, ___targetObj, method)
+extern "C" MethodInfo_t * UnityEvent_4_FindMethod_Impl_m5_2060_gshared (UnityEvent_4_t5_356 * __this, String_t* ___name, Object_t * ___targetObj, const MethodInfo* method);
+#define UnityEvent_4_FindMethod_Impl_m5_2060(__this, ___name, ___targetObj, method) (( MethodInfo_t * (*) (UnityEvent_4_t5_356 *, String_t*, Object_t *, const MethodInfo*))UnityEvent_4_FindMethod_Impl_m5_2060_gshared)(__this, ___name, ___targetObj, method)
 // UnityEngine.Events.BaseInvokableCall UnityEngine.Events.UnityEvent`4<System.Object,System.Object,System.Object,System.Object>::GetDelegate(System.Object,System.Reflection.MethodInfo)
-extern "C" BaseInvokableCall_t5_263 * UnityEvent_4_GetDelegate_m5_2047_gshared (UnityEvent_4_t5_355 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
-#define UnityEvent_4_GetDelegate_m5_2047(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t5_263 * (*) (UnityEvent_4_t5_355 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_4_GetDelegate_m5_2047_gshared)(__this, ___target, ___theFunction, method)
+extern "C" BaseInvokableCall_t5_264 * UnityEvent_4_GetDelegate_m5_2061_gshared (UnityEvent_4_t5_356 * __this, Object_t * ___target, MethodInfo_t * ___theFunction, const MethodInfo* method);
+#define UnityEvent_4_GetDelegate_m5_2061(__this, ___target, ___theFunction, method) (( BaseInvokableCall_t5_264 * (*) (UnityEvent_4_t5_356 *, Object_t *, MethodInfo_t *, const MethodInfo*))UnityEvent_4_GetDelegate_m5_2061_gshared)(__this, ___target, ___theFunction, method)

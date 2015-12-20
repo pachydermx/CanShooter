@@ -10,17 +10,17 @@
 
 #include <stdint.h>
 
-// Vuforia.Image
-struct Image_t6_74;
+// System.Object
+struct Object_t;
 
 #include "mscorlib_System_ValueType.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
-// System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image>
-struct  KeyValuePair_2_t1_1813 
+// System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>
+struct  KeyValuePair_2_t1_1805 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	Image_t6_74 * ___value_1;
+	Object_t * ___value_1;
 };

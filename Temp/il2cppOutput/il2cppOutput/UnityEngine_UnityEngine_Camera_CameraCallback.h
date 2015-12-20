@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Camera/CameraCallback
-struct  CameraCallback_t5_88  : public MulticastDelegate_t1_21
+struct  CameraCallback_t5_89  : public MulticastDelegate_t1_21
 {
 };

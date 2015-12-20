@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.CloudRecoBehaviour
-struct CloudRecoBehaviour_t8_35;
+struct CloudRecoBehaviour_t8_37;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.CloudRecoBehaviour::.ctor()
-extern "C" void CloudRecoBehaviour__ctor_m8_184 (CloudRecoBehaviour_t8_35 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CloudRecoBehaviour__ctor_m8_199 (CloudRecoBehaviour_t8_37 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

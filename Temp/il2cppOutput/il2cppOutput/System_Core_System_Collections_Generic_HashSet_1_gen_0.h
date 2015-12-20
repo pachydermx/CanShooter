@@ -17,7 +17,7 @@ struct LinkU5BU5D_t4_23;
 // System.Object[]
 struct ObjectU5BU5D_t1_158;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1_1281;
+struct IEqualityComparer_1_t1_1282;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t1_178;
 

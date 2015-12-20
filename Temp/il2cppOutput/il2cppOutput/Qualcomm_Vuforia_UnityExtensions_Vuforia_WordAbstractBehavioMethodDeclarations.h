@@ -21,7 +21,7 @@ struct String_t;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WordTemplateMode.h"
@@ -53,4 +53,4 @@ extern "C" void WordAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_set_enab
 // UnityEngine.Transform Vuforia.WordAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * WordAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_2028 (WordAbstractBehaviour_t6_197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.WordAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * WordAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_2029 (WordAbstractBehaviour_t6_197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * WordAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_2029 (WordAbstractBehaviour_t6_197 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

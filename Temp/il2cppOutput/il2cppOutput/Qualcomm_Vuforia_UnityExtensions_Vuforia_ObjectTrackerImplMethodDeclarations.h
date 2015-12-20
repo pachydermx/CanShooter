@@ -21,7 +21,7 @@ struct TargetFinder_t6_81;
 // Vuforia.DataSet
 struct DataSet_t6_55;
 // System.Collections.Generic.IEnumerable`1<Vuforia.DataSet>
-struct IEnumerable_1_t1_1083;
+struct IEnumerable_1_t1_1084;
 
 #include "codegen/il2cpp-codegen.h"
 

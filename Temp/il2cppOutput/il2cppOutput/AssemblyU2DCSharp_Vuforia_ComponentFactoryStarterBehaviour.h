@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.ComponentFactoryStarterBehaviour
-struct  ComponentFactoryStarterBehaviour_t8_48  : public MonoBehaviour_t5_94
+struct  ComponentFactoryStarterBehaviour_t8_50  : public MonoBehaviour_t5_95
 {
 };

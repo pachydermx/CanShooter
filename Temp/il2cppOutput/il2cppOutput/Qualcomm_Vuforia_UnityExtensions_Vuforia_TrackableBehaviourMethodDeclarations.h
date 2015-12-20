@@ -25,7 +25,7 @@ struct Renderer_t5_28;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TrackableBehaviour_.h"
@@ -80,4 +80,4 @@ extern "C" void TrackableBehaviour_Vuforia_IEditorTrackableBehaviour_set_enabled
 // UnityEngine.Transform Vuforia.TrackableBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * TrackableBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_119 (TrackableBehaviour_t6_15 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.TrackableBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * TrackableBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_120 (TrackableBehaviour_t6_15 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * TrackableBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_120 (TrackableBehaviour_t6_15 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

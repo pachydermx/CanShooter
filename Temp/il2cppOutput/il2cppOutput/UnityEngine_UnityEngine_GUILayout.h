@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.GUILayout
-struct  GUILayout_t5_176  : public Object_t
+struct  GUILayout_t5_177  : public Object_t
 {
 };

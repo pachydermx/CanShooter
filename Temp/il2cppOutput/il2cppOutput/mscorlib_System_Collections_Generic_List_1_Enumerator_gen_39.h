@@ -18,7 +18,7 @@ struct StrongName_t1_656;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Security.Policy.StrongName>
-struct  Enumerator_t1_1393 
+struct  Enumerator_t1_1394 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_922 * ___l_0;

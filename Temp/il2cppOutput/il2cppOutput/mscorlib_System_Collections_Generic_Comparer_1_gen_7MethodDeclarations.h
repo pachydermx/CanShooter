@@ -13,21 +13,21 @@
 #include <exception>
 
 // System.Collections.Generic.Comparer`1<System.Int32>
-struct Comparer_1_t1_1581;
+struct Comparer_1_t1_1582;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.Generic.Comparer`1<System.Int32>::.ctor()
-extern "C" void Comparer_1__ctor_m1_10872_gshared (Comparer_1_t1_1581 * __this, const MethodInfo* method);
-#define Comparer_1__ctor_m1_10872(__this, method) (( void (*) (Comparer_1_t1_1581 *, const MethodInfo*))Comparer_1__ctor_m1_10872_gshared)(__this, method)
+extern "C" void Comparer_1__ctor_m1_10873_gshared (Comparer_1_t1_1582 * __this, const MethodInfo* method);
+#define Comparer_1__ctor_m1_10873(__this, method) (( void (*) (Comparer_1_t1_1582 *, const MethodInfo*))Comparer_1__ctor_m1_10873_gshared)(__this, method)
 // System.Void System.Collections.Generic.Comparer`1<System.Int32>::.cctor()
-extern "C" void Comparer_1__cctor_m1_10873_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1__cctor_m1_10873(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m1_10873_gshared)(__this /* static, unused */, method)
+extern "C" void Comparer_1__cctor_m1_10874_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1__cctor_m1_10874(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1__cctor_m1_10874_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.Comparer`1<System.Int32>::System.Collections.IComparer.Compare(System.Object,System.Object)
-extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m1_10874_gshared (Comparer_1_t1_1581 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define Comparer_1_System_Collections_IComparer_Compare_m1_10874(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t1_1581 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m1_10874_gshared)(__this, ___x, ___y, method)
+extern "C" int32_t Comparer_1_System_Collections_IComparer_Compare_m1_10875_gshared (Comparer_1_t1_1582 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define Comparer_1_System_Collections_IComparer_Compare_m1_10875(__this, ___x, ___y, method) (( int32_t (*) (Comparer_1_t1_1582 *, Object_t *, Object_t *, const MethodInfo*))Comparer_1_System_Collections_IComparer_Compare_m1_10875_gshared)(__this, ___x, ___y, method)
 // System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1<System.Int32>::get_Default()
-extern "C" Comparer_1_t1_1581 * Comparer_1_get_Default_m1_10875_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define Comparer_1_get_Default_m1_10875(__this /* static, unused */, method) (( Comparer_1_t1_1581 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m1_10875_gshared)(__this /* static, unused */, method)
+extern "C" Comparer_1_t1_1582 * Comparer_1_get_Default_m1_10876_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define Comparer_1_get_Default_m1_10876(__this /* static, unused */, method) (( Comparer_1_t1_1582 * (*) (Object_t * /* static, unused */, const MethodInfo*))Comparer_1_get_Default_m1_10876_gshared)(__this /* static, unused */, method)

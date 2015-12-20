@@ -13,26 +13,26 @@
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
 struct Dictionary_2_t1_1017;
 // UnityEngine.GUILayoutUtility/LayoutCache
-struct LayoutCache_t5_177;
+struct LayoutCache_t5_178;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 
 #include "mscorlib_System_Object.h"
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // UnityEngine.GUILayoutUtility
-struct  GUILayoutUtility_t5_179  : public Object_t
+struct  GUILayoutUtility_t5_180  : public Object_t
 {
 };
-struct GUILayoutUtility_t5_179_StaticFields{
+struct GUILayoutUtility_t5_180_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache> UnityEngine.GUILayoutUtility::s_StoredLayouts
 	Dictionary_2_t1_1017 * ___s_StoredLayouts_0;
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache> UnityEngine.GUILayoutUtility::s_StoredWindows
 	Dictionary_2_t1_1017 * ___s_StoredWindows_1;
 	// UnityEngine.GUILayoutUtility/LayoutCache UnityEngine.GUILayoutUtility::current
-	LayoutCache_t5_177 * ___current_2;
+	LayoutCache_t5_178 * ___current_2;
 	// UnityEngine.Rect UnityEngine.GUILayoutUtility::kDummyRect
 	Rect_t5_30  ___kDummyRect_3;
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutUtility::s_SpaceStyle
-	GUIStyle_t5_180 * ___s_SpaceStyle_4;
+	GUIStyle_t5_181 * ___s_SpaceStyle_4;
 };

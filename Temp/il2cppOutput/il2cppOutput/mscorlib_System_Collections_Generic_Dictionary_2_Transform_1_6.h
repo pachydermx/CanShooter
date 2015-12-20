@@ -21,6 +21,6 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Object,System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  Transform_1_t1_1319  : public MulticastDelegate_t1_21
+struct  Transform_1_t1_1320  : public MulticastDelegate_t1_21
 {
 };

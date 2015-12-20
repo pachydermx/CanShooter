@@ -19,13 +19,13 @@ struct Prop_t6_152;
 // UnityEngine.MeshFilter
 struct MeshFilter_t5_24;
 // UnityEngine.MeshCollider
-struct MeshCollider_t5_117;
+struct MeshCollider_t5_118;
 // UnityEngine.BoxCollider
-struct BoxCollider_t5_116;
+struct BoxCollider_t5_117;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -44,13 +44,13 @@ extern "C" void PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_SetMeshFilter
 // UnityEngine.MeshFilter Vuforia.PropAbstractBehaviour::Vuforia.IEditorPropBehaviour.get_MeshFilterToUpdate()
 extern "C" MeshFilter_t5_24 * PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_get_MeshFilterToUpdate_m6_1621 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.PropAbstractBehaviour::Vuforia.IEditorPropBehaviour.SetMeshColliderToUpdate(UnityEngine.MeshCollider)
-extern "C" void PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_SetMeshColliderToUpdate_m6_1622 (PropAbstractBehaviour_t6_151 * __this, MeshCollider_t5_117 * ___meshColliderToUpdate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_SetMeshColliderToUpdate_m6_1622 (PropAbstractBehaviour_t6_151 * __this, MeshCollider_t5_118 * ___meshColliderToUpdate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.MeshCollider Vuforia.PropAbstractBehaviour::Vuforia.IEditorPropBehaviour.get_MeshColliderToUpdate()
-extern "C" MeshCollider_t5_117 * PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_get_MeshColliderToUpdate_m6_1623 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MeshCollider_t5_118 * PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_get_MeshColliderToUpdate_m6_1623 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.PropAbstractBehaviour::Vuforia.IEditorPropBehaviour.SetBoxColliderToUpdate(UnityEngine.BoxCollider)
-extern "C" void PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_SetBoxColliderToUpdate_m6_1624 (PropAbstractBehaviour_t6_151 * __this, BoxCollider_t5_116 * ___boxColliderToUpdate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_SetBoxColliderToUpdate_m6_1624 (PropAbstractBehaviour_t6_151 * __this, BoxCollider_t5_117 * ___boxColliderToUpdate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.BoxCollider Vuforia.PropAbstractBehaviour::Vuforia.IEditorPropBehaviour.get_BoxColliderToUpdate()
-extern "C" BoxCollider_t5_116 * PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_get_BoxColliderToUpdate_m6_1625 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" BoxCollider_t5_117 * PropAbstractBehaviour_Vuforia_IEditorPropBehaviour_get_BoxColliderToUpdate_m6_1625 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.PropAbstractBehaviour::.ctor()
 extern "C" void PropAbstractBehaviour__ctor_m6_1626 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.PropAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_enabled()
@@ -60,4 +60,4 @@ extern "C" void PropAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_set_enab
 // UnityEngine.Transform Vuforia.PropAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * PropAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_1629 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.PropAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * PropAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1630 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * PropAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1630 (PropAbstractBehaviour_t6_151 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -13,7 +13,7 @@
 // Vuforia.VuforiaAbstractBehaviour
 struct VuforiaAbstractBehaviour_t6_6;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // Vuforia.BackgroundPlaneAbstractBehaviour
 struct BackgroundPlaneAbstractBehaviour_t6_4;
 // System.Collections.Generic.HashSet`1<UnityEngine.MeshRenderer>
@@ -22,7 +22,7 @@ struct HashSet_1_t4_17;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.VideoBackgroundAbstractBehaviour
-struct  VideoBackgroundAbstractBehaviour_t6_193  : public MonoBehaviour_t5_94
+struct  VideoBackgroundAbstractBehaviour_t6_193  : public MonoBehaviour_t5_95
 {
 	// System.Int32 Vuforia.VideoBackgroundAbstractBehaviour::mClearBuffers
 	int32_t ___mClearBuffers_2;
@@ -31,7 +31,7 @@ struct  VideoBackgroundAbstractBehaviour_t6_193  : public MonoBehaviour_t5_94
 	// Vuforia.VuforiaAbstractBehaviour Vuforia.VideoBackgroundAbstractBehaviour::mVuforiaAbstractBehaviour
 	VuforiaAbstractBehaviour_t6_6 * ___mVuforiaAbstractBehaviour_4;
 	// UnityEngine.Camera Vuforia.VideoBackgroundAbstractBehaviour::mCamera
-	Camera_t5_89 * ___mCamera_5;
+	Camera_t5_90 * ___mCamera_5;
 	// Vuforia.BackgroundPlaneAbstractBehaviour Vuforia.VideoBackgroundAbstractBehaviour::mBackgroundBehaviour
 	BackgroundPlaneAbstractBehaviour_t6_4 * ___mBackgroundBehaviour_6;
 	// System.Single Vuforia.VideoBackgroundAbstractBehaviour::mStereoDepth

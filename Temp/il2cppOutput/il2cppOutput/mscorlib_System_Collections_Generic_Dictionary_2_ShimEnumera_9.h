@@ -12,11 +12,11 @@
 
 
 #include "mscorlib_System_Object.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__34.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__35.h"
 
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>
-struct  ShimEnumerator_t1_2014  : public Object_t
+struct  ShimEnumerator_t1_2020  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator::host_enumerator
-	Enumerator_t1_2008  ___host_enumerator_0;
+	Enumerator_t1_2014  ___host_enumerator_0;
 };

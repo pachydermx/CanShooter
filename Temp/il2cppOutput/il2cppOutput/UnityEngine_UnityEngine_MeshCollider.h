@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Collider.h"
 
 // UnityEngine.MeshCollider
-struct  MeshCollider_t5_117  : public Collider_t5_111
+struct  MeshCollider_t5_118  : public Collider_t5_112
 {
 };

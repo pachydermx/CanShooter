@@ -17,7 +17,7 @@
 #include "UnityEngine_UI_UnityEngine_UI_ObjectPool_1_gen_1MethodDeclarations.h"
 
 // System.Void UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder>::.ctor(UnityEngine.Events.UnityAction`1<T>,UnityEngine.Events.UnityAction`1<T>)
-#define ObjectPool_1__ctor_m7_1504(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t7_151 *, UnityAction_1_t5_317 *, UnityAction_1_t5_317 *, const MethodInfo*))ObjectPool_1__ctor_m7_1527_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
+#define ObjectPool_1__ctor_m7_1504(__this, ___actionOnGet, ___actionOnRelease, method) (( void (*) (ObjectPool_1_t7_151 *, UnityAction_1_t5_318 *, UnityAction_1_t5_318 *, const MethodInfo*))ObjectPool_1__ctor_m7_1527_gshared)(__this, ___actionOnGet, ___actionOnRelease, method)
 // System.Int32 UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder>::get_countAll()
 #define ObjectPool_1_get_countAll_m7_1695(__this, method) (( int32_t (*) (ObjectPool_1_t7_151 *, const MethodInfo*))ObjectPool_1_get_countAll_m7_1529_gshared)(__this, method)
 // System.Void UnityEngine.UI.ObjectPool`1<UnityEngine.UI.LayoutRebuilder>::set_countAll(System.Int32)

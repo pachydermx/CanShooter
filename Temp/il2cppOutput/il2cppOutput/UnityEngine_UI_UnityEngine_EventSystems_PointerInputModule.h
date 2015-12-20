@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData>
-struct Dictionary_2_t1_1192;
+struct Dictionary_2_t1_1193;
 // UnityEngine.EventSystems.PointerInputModule/MouseState
 struct MouseState_t7_39;
 
@@ -21,7 +21,7 @@ struct MouseState_t7_39;
 struct  PointerInputModule_t7_40  : public BaseInputModule_t7_4
 {
 	// System.Collections.Generic.Dictionary`2<System.Int32,UnityEngine.EventSystems.PointerEventData> UnityEngine.EventSystems.PointerInputModule::m_PointerData
-	Dictionary_2_t1_1192 * ___m_PointerData_10;
+	Dictionary_2_t1_1193 * ___m_PointerData_10;
 	// UnityEngine.EventSystems.PointerInputModule/MouseState UnityEngine.EventSystems.PointerInputModule::m_MouseState
 	MouseState_t7_39 * ___m_MouseState_11;
 };

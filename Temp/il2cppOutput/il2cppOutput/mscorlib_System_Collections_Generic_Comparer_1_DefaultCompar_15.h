@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_15.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<Vuforia.Image/PIXEL_FORMAT>
-struct  DefaultComparer_t1_1822  : public Comparer_1_t1_1821
+struct  DefaultComparer_t1_1828  : public Comparer_1_t1_1827
 {
 };

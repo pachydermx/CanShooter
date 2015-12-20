@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.EventTrigger/Entry>
-struct List_1_t1_1186;
+struct List_1_t1_1187;
 // UnityEngine.EventSystems.EventTrigger/Entry
 struct Entry_t7_7;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.EventTrigger/Entry>
-struct  Enumerator_t1_2077 
+struct  Enumerator_t1_2083 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1186 * ___l_0;
+	List_1_t1_1187 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

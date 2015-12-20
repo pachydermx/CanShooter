@@ -21,7 +21,7 @@ struct SliderEvent_t7_123;
 // UnityEngine.EventSystems.PointerEventData
 struct PointerEventData_t7_36;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // UnityEngine.EventSystems.AxisEventData
 struct AxisEventData_t7_33;
 // UnityEngine.UI.Selectable
@@ -103,7 +103,7 @@ extern "C" bool Slider_get_reverseValue_m7_1053 (Slider_t7_125 * __this, const M
 // System.Void UnityEngine.UI.Slider::UpdateVisuals()
 extern "C" void Slider_UpdateVisuals_m7_1054 (Slider_t7_125 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::UpdateDrag(UnityEngine.EventSystems.PointerEventData,UnityEngine.Camera)
-extern "C" void Slider_UpdateDrag_m7_1055 (Slider_t7_125 * __this, PointerEventData_t7_36 * ___eventData, Camera_t5_89 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Slider_UpdateDrag_m7_1055 (Slider_t7_125 * __this, PointerEventData_t7_36 * ___eventData, Camera_t5_90 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Slider::MayDrag(UnityEngine.EventSystems.PointerEventData)
 extern "C" bool Slider_MayDrag_m7_1056 (Slider_t7_125 * __this, PointerEventData_t7_36 * ___eventData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Slider::OnPointerDown(UnityEngine.EventSystems.PointerEventData)

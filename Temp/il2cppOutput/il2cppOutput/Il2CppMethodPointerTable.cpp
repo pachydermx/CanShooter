@@ -14371,1197 +14371,1210 @@ extern "C" void DataUtility_GetOuterUV_m5_630 ();
 extern "C" void DataUtility_GetPadding_m5_631 ();
 extern "C" void DataUtility_GetMinSize_m5_632 ();
 extern "C" void DataUtility_Internal_GetMinSize_m5_633 ();
-extern "C" void UnityString_Format_m5_634 ();
-extern "C" void AsyncOperation__ctor_m5_635 ();
-extern "C" void AsyncOperation_InternalDestroy_m5_636 ();
-extern "C" void AsyncOperation_Finalize_m5_637 ();
-extern "C" void LogCallback__ctor_m5_638 ();
-extern "C" void LogCallback_Invoke_m5_639 ();
-extern "C" void LogCallback_BeginInvoke_m5_640 ();
-extern "C" void LogCallback_EndInvoke_m5_641 ();
-extern "C" void Application_Quit_m5_642 ();
-extern "C" void Application_LoadLevel_m5_643 ();
-extern "C" void Application_LoadLevelAsync_m5_644 ();
-extern "C" void Application_get_isPlaying_m5_645 ();
-extern "C" void Application_get_isEditor_m5_646 ();
-extern "C" void Application_get_platform_m5_647 ();
-extern "C" void Application_set_runInBackground_m5_648 ();
-extern "C" void Application_get_dataPath_m5_649 ();
-extern "C" void Application_get_unityVersion_m5_650 ();
-extern "C" void Application_CallLogCallback_m5_651 ();
-extern "C" void Behaviour__ctor_m5_652 ();
-extern "C" void Behaviour_get_enabled_m5_653 ();
-extern "C" void Behaviour_set_enabled_m5_654 ();
-extern "C" void Behaviour_get_isActiveAndEnabled_m5_655 ();
-extern "C" void CameraCallback__ctor_m5_656 ();
-extern "C" void CameraCallback_Invoke_m5_657 ();
-extern "C" void CameraCallback_BeginInvoke_m5_658 ();
-extern "C" void CameraCallback_EndInvoke_m5_659 ();
-extern "C" void Camera_get_fieldOfView_m5_660 ();
-extern "C" void Camera_get_nearClipPlane_m5_661 ();
-extern "C" void Camera_set_nearClipPlane_m5_662 ();
-extern "C" void Camera_get_farClipPlane_m5_663 ();
-extern "C" void Camera_set_farClipPlane_m5_664 ();
-extern "C" void Camera_set_orthographicSize_m5_665 ();
-extern "C" void Camera_set_orthographic_m5_666 ();
-extern "C" void Camera_get_depth_m5_667 ();
-extern "C" void Camera_set_aspect_m5_668 ();
-extern "C" void Camera_get_cullingMask_m5_669 ();
-extern "C" void Camera_set_cullingMask_m5_670 ();
-extern "C" void Camera_get_eventMask_m5_671 ();
-extern "C" void Camera_get_rect_m5_672 ();
-extern "C" void Camera_set_rect_m5_673 ();
-extern "C" void Camera_INTERNAL_get_rect_m5_674 ();
-extern "C" void Camera_INTERNAL_set_rect_m5_675 ();
-extern "C" void Camera_get_pixelRect_m5_676 ();
-extern "C" void Camera_INTERNAL_get_pixelRect_m5_677 ();
-extern "C" void Camera_get_targetTexture_m5_678 ();
-extern "C" void Camera_set_targetTexture_m5_679 ();
-extern "C" void Camera_get_projectionMatrix_m5_680 ();
-extern "C" void Camera_set_projectionMatrix_m5_681 ();
-extern "C" void Camera_INTERNAL_get_projectionMatrix_m5_682 ();
-extern "C" void Camera_INTERNAL_set_projectionMatrix_m5_683 ();
-extern "C" void Camera_get_clearFlags_m5_684 ();
-extern "C" void Camera_WorldToScreenPoint_m5_685 ();
-extern "C" void Camera_INTERNAL_CALL_WorldToScreenPoint_m5_686 ();
-extern "C" void Camera_ScreenToViewportPoint_m5_687 ();
-extern "C" void Camera_INTERNAL_CALL_ScreenToViewportPoint_m5_688 ();
-extern "C" void Camera_ScreenPointToRay_m5_689 ();
-extern "C" void Camera_INTERNAL_CALL_ScreenPointToRay_m5_690 ();
-extern "C" void Camera_get_main_m5_691 ();
-extern "C" void Camera_get_current_m5_692 ();
-extern "C" void Camera_get_allCamerasCount_m5_693 ();
-extern "C" void Camera_GetAllCameras_m5_694 ();
-extern "C" void Camera_FireOnPreCull_m5_695 ();
-extern "C" void Camera_FireOnPreRender_m5_696 ();
-extern "C" void Camera_FireOnPostRender_m5_697 ();
-extern "C" void Camera_Render_m5_698 ();
-extern "C" void Camera_RaycastTry_m5_699 ();
-extern "C" void Camera_INTERNAL_CALL_RaycastTry_m5_700 ();
-extern "C" void Camera_RaycastTry2D_m5_701 ();
-extern "C" void Camera_INTERNAL_CALL_RaycastTry2D_m5_702 ();
-extern "C" void Debug_Internal_Log_m5_703 ();
-extern "C" void Debug_Internal_LogException_m5_704 ();
-extern "C" void Debug_Log_m5_705 ();
-extern "C" void Debug_LogError_m5_706 ();
-extern "C" void Debug_LogError_m5_707 ();
-extern "C" void Debug_LogException_m5_708 ();
-extern "C" void Debug_LogException_m5_709 ();
-extern "C" void Debug_LogWarning_m5_710 ();
-extern "C" void Debug_LogWarning_m5_711 ();
-extern "C" void DisplaysUpdatedDelegate__ctor_m5_712 ();
-extern "C" void DisplaysUpdatedDelegate_Invoke_m5_713 ();
-extern "C" void DisplaysUpdatedDelegate_BeginInvoke_m5_714 ();
-extern "C" void DisplaysUpdatedDelegate_EndInvoke_m5_715 ();
-extern "C" void Display__ctor_m5_716 ();
-extern "C" void Display__ctor_m5_717 ();
-extern "C" void Display__cctor_m5_718 ();
-extern "C" void Display_add_onDisplaysUpdated_m5_719 ();
-extern "C" void Display_remove_onDisplaysUpdated_m5_720 ();
-extern "C" void Display_get_renderingWidth_m5_721 ();
-extern "C" void Display_get_renderingHeight_m5_722 ();
-extern "C" void Display_get_systemWidth_m5_723 ();
-extern "C" void Display_get_systemHeight_m5_724 ();
-extern "C" void Display_get_colorBuffer_m5_725 ();
-extern "C" void Display_get_depthBuffer_m5_726 ();
-extern "C" void Display_Activate_m5_727 ();
-extern "C" void Display_Activate_m5_728 ();
-extern "C" void Display_SetParams_m5_729 ();
-extern "C" void Display_SetRenderingResolution_m5_730 ();
-extern "C" void Display_MultiDisplayLicense_m5_731 ();
-extern "C" void Display_RelativeMouseAt_m5_732 ();
-extern "C" void Display_get_main_m5_733 ();
-extern "C" void Display_RecreateDisplayList_m5_734 ();
-extern "C" void Display_FireDisplaysUpdated_m5_735 ();
-extern "C" void Display_GetSystemExtImpl_m5_736 ();
-extern "C" void Display_GetRenderingExtImpl_m5_737 ();
-extern "C" void Display_GetRenderingBuffersImpl_m5_738 ();
-extern "C" void Display_SetRenderingResolutionImpl_m5_739 ();
-extern "C" void Display_ActivateDisplayImpl_m5_740 ();
-extern "C" void Display_SetParamsImpl_m5_741 ();
-extern "C" void Display_MultiDisplayLicenseImpl_m5_742 ();
-extern "C" void Display_RelativeMouseAtImpl_m5_743 ();
-extern "C" void MonoBehaviour__ctor_m5_744 ();
-extern "C" void MonoBehaviour_StartCoroutine_m5_745 ();
-extern "C" void MonoBehaviour_StartCoroutine_Auto_m5_746 ();
-extern "C" void MonoBehaviour_StopCoroutine_m5_747 ();
-extern "C" void MonoBehaviour_StopCoroutine_m5_748 ();
-extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m5_749 ();
-extern "C" void MonoBehaviour_StopCoroutine_Auto_m5_750 ();
-extern "C" void Touch_get_fingerId_m5_751 ();
-extern "C" void Touch_get_position_m5_752 ();
-extern "C" void Touch_get_phase_m5_753 ();
-extern "C" void Input__cctor_m5_754 ();
-extern "C" void Input_GetKeyInt_m5_755 ();
-extern "C" void Input_GetKeyDownInt_m5_756 ();
-extern "C" void Input_GetAxisRaw_m5_757 ();
-extern "C" void Input_GetButtonDown_m5_758 ();
-extern "C" void Input_GetKey_m5_759 ();
-extern "C" void Input_GetKeyDown_m5_760 ();
-extern "C" void Input_GetMouseButton_m5_761 ();
-extern "C" void Input_GetMouseButtonDown_m5_762 ();
-extern "C" void Input_GetMouseButtonUp_m5_763 ();
-extern "C" void Input_get_mousePosition_m5_764 ();
-extern "C" void Input_INTERNAL_get_mousePosition_m5_765 ();
-extern "C" void Input_get_mouseScrollDelta_m5_766 ();
-extern "C" void Input_INTERNAL_get_mouseScrollDelta_m5_767 ();
-extern "C" void Input_get_mousePresent_m5_768 ();
-extern "C" void Input_GetTouch_m5_769 ();
-extern "C" void Input_get_touchCount_m5_770 ();
-extern "C" void Input_get_touchSupported_m5_771 ();
-extern "C" void Input_set_imeCompositionMode_m5_772 ();
-extern "C" void Input_get_compositionString_m5_773 ();
-extern "C" void Input_set_compositionCursorPos_m5_774 ();
-extern "C" void Input_INTERNAL_set_compositionCursorPos_m5_775 ();
-extern "C" void Object__ctor_m5_776 ();
-extern "C" void Object_Internal_CloneSingle_m5_777 ();
-extern "C" void Object_Internal_InstantiateSingle_m5_778 ();
-extern "C" void Object_INTERNAL_CALL_Internal_InstantiateSingle_m5_779 ();
-extern "C" void Object_Destroy_m5_780 ();
-extern "C" void Object_Destroy_m5_781 ();
-extern "C" void Object_DestroyImmediate_m5_782 ();
-extern "C" void Object_DestroyImmediate_m5_783 ();
-extern "C" void Object_FindObjectsOfType_m5_784 ();
-extern "C" void Object_get_name_m5_785 ();
-extern "C" void Object_set_name_m5_786 ();
-extern "C" void Object_DontDestroyOnLoad_m5_787 ();
-extern "C" void Object_set_hideFlags_m5_788 ();
-extern "C" void Object_ToString_m5_789 ();
-extern "C" void Object_Equals_m5_790 ();
-extern "C" void Object_GetHashCode_m5_791 ();
-extern "C" void Object_CompareBaseObjects_m5_792 ();
-extern "C" void Object_IsNativeObjectAlive_m5_793 ();
-extern "C" void Object_GetInstanceID_m5_794 ();
-extern "C" void Object_GetCachedPtr_m5_795 ();
-extern "C" void Object_Instantiate_m5_796 ();
-extern "C" void Object_Instantiate_m5_797 ();
-extern "C" void Object_CheckNullArgument_m5_798 ();
-extern "C" void Object_FindObjectOfType_m5_799 ();
-extern "C" void Object_op_Implicit_m5_800 ();
-extern "C" void Object_op_Equality_m5_801 ();
-extern "C" void Object_op_Inequality_m5_802 ();
-extern "C" void Component__ctor_m5_803 ();
-extern "C" void Component_get_transform_m5_804 ();
-extern "C" void Component_get_gameObject_m5_805 ();
-extern "C" void Component_GetComponent_m5_806 ();
-extern "C" void Component_GetComponentFastPath_m5_807 ();
-extern "C" void Component_GetComponentInChildren_m5_808 ();
-extern "C" void Component_GetComponentInParent_m5_809 ();
-extern "C" void Component_GetComponentsForListInternal_m5_810 ();
-extern "C" void Component_GetComponents_m5_811 ();
-extern "C" void Component_SendMessage_m5_812 ();
-extern "C" void Component_SendMessage_m5_813 ();
-extern "C" void GameObject__ctor_m5_814 ();
-extern "C" void GameObject__ctor_m5_815 ();
-extern "C" void GameObject__ctor_m5_816 ();
-extern "C" void GameObject_CreatePrimitive_m5_817 ();
-extern "C" void GameObject_GetComponent_m5_818 ();
-extern "C" void GameObject_GetComponentFastPath_m5_819 ();
-extern "C" void GameObject_GetComponentInChildren_m5_820 ();
-extern "C" void GameObject_GetComponentInParent_m5_821 ();
-extern "C" void GameObject_GetComponentsInternal_m5_822 ();
-extern "C" void GameObject_get_transform_m5_823 ();
-extern "C" void GameObject_get_layer_m5_824 ();
-extern "C" void GameObject_set_layer_m5_825 ();
-extern "C" void GameObject_SetActive_m5_826 ();
-extern "C" void GameObject_get_activeSelf_m5_827 ();
-extern "C" void GameObject_get_activeInHierarchy_m5_828 ();
-extern "C" void GameObject_SendMessage_m5_829 ();
-extern "C" void GameObject_SendMessage_m5_830 ();
-extern "C" void GameObject_SendMessage_m5_831 ();
-extern "C" void GameObject_Internal_AddComponentWithType_m5_832 ();
-extern "C" void GameObject_AddComponent_m5_833 ();
-extern "C" void GameObject_Internal_CreateGameObject_m5_834 ();
-extern "C" void GameObject_Find_m5_835 ();
-extern "C" void Enumerator__ctor_m5_836 ();
-extern "C" void Enumerator_get_Current_m5_837 ();
-extern "C" void Enumerator_MoveNext_m5_838 ();
-extern "C" void Enumerator_Reset_m5_839 ();
-extern "C" void Transform_get_position_m5_840 ();
-extern "C" void Transform_set_position_m5_841 ();
-extern "C" void Transform_INTERNAL_get_position_m5_842 ();
-extern "C" void Transform_INTERNAL_set_position_m5_843 ();
-extern "C" void Transform_get_localPosition_m5_844 ();
-extern "C" void Transform_set_localPosition_m5_845 ();
-extern "C" void Transform_INTERNAL_get_localPosition_m5_846 ();
-extern "C" void Transform_INTERNAL_set_localPosition_m5_847 ();
-extern "C" void Transform_get_eulerAngles_m5_848 ();
-extern "C" void Transform_get_forward_m5_849 ();
-extern "C" void Transform_get_rotation_m5_850 ();
-extern "C" void Transform_set_rotation_m5_851 ();
-extern "C" void Transform_INTERNAL_get_rotation_m5_852 ();
-extern "C" void Transform_INTERNAL_set_rotation_m5_853 ();
-extern "C" void Transform_get_localRotation_m5_854 ();
-extern "C" void Transform_set_localRotation_m5_855 ();
-extern "C" void Transform_INTERNAL_get_localRotation_m5_856 ();
-extern "C" void Transform_INTERNAL_set_localRotation_m5_857 ();
-extern "C" void Transform_get_localScale_m5_858 ();
-extern "C" void Transform_set_localScale_m5_859 ();
-extern "C" void Transform_INTERNAL_get_localScale_m5_860 ();
-extern "C" void Transform_INTERNAL_set_localScale_m5_861 ();
-extern "C" void Transform_get_parent_m5_862 ();
-extern "C" void Transform_set_parent_m5_863 ();
-extern "C" void Transform_get_parentInternal_m5_864 ();
-extern "C" void Transform_set_parentInternal_m5_865 ();
-extern "C" void Transform_SetParent_m5_866 ();
-extern "C" void Transform_SetParent_m5_867 ();
-extern "C" void Transform_get_worldToLocalMatrix_m5_868 ();
-extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m5_869 ();
-extern "C" void Transform_get_localToWorldMatrix_m5_870 ();
-extern "C" void Transform_INTERNAL_get_localToWorldMatrix_m5_871 ();
-extern "C" void Transform_Rotate_m5_872 ();
-extern "C" void Transform_Rotate_m5_873 ();
-extern "C" void Transform_RotateAroundInternal_m5_874 ();
-extern "C" void Transform_INTERNAL_CALL_RotateAroundInternal_m5_875 ();
-extern "C" void Transform_RotateAround_m5_876 ();
-extern "C" void Transform_TransformPoint_m5_877 ();
-extern "C" void Transform_INTERNAL_CALL_TransformPoint_m5_878 ();
-extern "C" void Transform_InverseTransformPoint_m5_879 ();
-extern "C" void Transform_INTERNAL_CALL_InverseTransformPoint_m5_880 ();
-extern "C" void Transform_get_root_m5_881 ();
-extern "C" void Transform_get_childCount_m5_882 ();
-extern "C" void Transform_SetAsFirstSibling_m5_883 ();
-extern "C" void Transform_Find_m5_884 ();
-extern "C" void Transform_get_lossyScale_m5_885 ();
-extern "C" void Transform_INTERNAL_get_lossyScale_m5_886 ();
-extern "C" void Transform_IsChildOf_m5_887 ();
-extern "C" void Transform_FindChild_m5_888 ();
-extern "C" void Transform_GetEnumerator_m5_889 ();
-extern "C" void Transform_GetChild_m5_890 ();
-extern "C" void Time_get_time_m5_891 ();
-extern "C" void Time_get_deltaTime_m5_892 ();
-extern "C" void Time_get_unscaledTime_m5_893 ();
-extern "C" void Time_get_unscaledDeltaTime_m5_894 ();
-extern "C" void Time_get_frameCount_m5_895 ();
-extern "C" void YieldInstruction__ctor_m5_896 ();
-extern "C" void UnityAdsInternal__ctor_m5_897 ();
-extern "C" void UnityAdsInternal_add_onCampaignsAvailable_m5_898 ();
-extern "C" void UnityAdsInternal_remove_onCampaignsAvailable_m5_899 ();
-extern "C" void UnityAdsInternal_add_onCampaignsFetchFailed_m5_900 ();
-extern "C" void UnityAdsInternal_remove_onCampaignsFetchFailed_m5_901 ();
-extern "C" void UnityAdsInternal_add_onShow_m5_902 ();
-extern "C" void UnityAdsInternal_remove_onShow_m5_903 ();
-extern "C" void UnityAdsInternal_add_onHide_m5_904 ();
-extern "C" void UnityAdsInternal_remove_onHide_m5_905 ();
-extern "C" void UnityAdsInternal_add_onVideoCompleted_m5_906 ();
-extern "C" void UnityAdsInternal_remove_onVideoCompleted_m5_907 ();
-extern "C" void UnityAdsInternal_add_onVideoStarted_m5_908 ();
-extern "C" void UnityAdsInternal_remove_onVideoStarted_m5_909 ();
-extern "C" void UnityAdsInternal_RegisterNative_m5_910 ();
-extern "C" void UnityAdsInternal_Init_m5_911 ();
-extern "C" void UnityAdsInternal_Show_m5_912 ();
-extern "C" void UnityAdsInternal_CanShowAds_m5_913 ();
-extern "C" void UnityAdsInternal_SetLogLevel_m5_914 ();
-extern "C" void UnityAdsInternal_SetCampaignDataURL_m5_915 ();
-extern "C" void UnityAdsInternal_RemoveAllEventHandlers_m5_916 ();
-extern "C" void UnityAdsInternal_CallUnityAdsCampaignsAvailable_m5_917 ();
-extern "C" void UnityAdsInternal_CallUnityAdsCampaignsFetchFailed_m5_918 ();
-extern "C" void UnityAdsInternal_CallUnityAdsShow_m5_919 ();
-extern "C" void UnityAdsInternal_CallUnityAdsHide_m5_920 ();
-extern "C" void UnityAdsInternal_CallUnityAdsVideoCompleted_m5_921 ();
-extern "C" void UnityAdsInternal_CallUnityAdsVideoStarted_m5_922 ();
-extern "C" void Particle_get_position_m5_923 ();
-extern "C" void Particle_set_position_m5_924 ();
-extern "C" void Particle_get_velocity_m5_925 ();
-extern "C" void Particle_set_velocity_m5_926 ();
-extern "C" void Particle_get_energy_m5_927 ();
-extern "C" void Particle_set_energy_m5_928 ();
-extern "C" void Particle_get_startEnergy_m5_929 ();
-extern "C" void Particle_set_startEnergy_m5_930 ();
-extern "C" void Particle_get_size_m5_931 ();
-extern "C" void Particle_set_size_m5_932 ();
-extern "C" void Particle_get_rotation_m5_933 ();
-extern "C" void Particle_set_rotation_m5_934 ();
-extern "C" void Particle_get_angularVelocity_m5_935 ();
-extern "C" void Particle_set_angularVelocity_m5_936 ();
-extern "C" void Particle_get_color_m5_937 ();
-extern "C" void Particle_set_color_m5_938 ();
-extern "C" void Collision_get_relativeVelocity_m5_939 ();
-extern "C" void Physics_Raycast_m5_940 ();
-extern "C" void Physics_Raycast_m5_941 ();
-extern "C" void Physics_Raycast_m5_942 ();
-extern "C" void Physics_RaycastAll_m5_943 ();
-extern "C" void Physics_RaycastAll_m5_944 ();
-extern "C" void Physics_RaycastAll_m5_945 ();
-extern "C" void Physics_INTERNAL_CALL_RaycastAll_m5_946 ();
-extern "C" void Physics_Internal_Raycast_m5_947 ();
-extern "C" void Physics_INTERNAL_CALL_Internal_Raycast_m5_948 ();
-extern "C" void Rigidbody_AddForce_m5_949 ();
-extern "C" void Rigidbody_INTERNAL_CALL_AddForce_m5_950 ();
-extern "C" void Rigidbody_AddExplosionForce_m5_951 ();
-extern "C" void Rigidbody_INTERNAL_CALL_AddExplosionForce_m5_952 ();
-extern "C" void Collider_set_enabled_m5_953 ();
-extern "C" void MeshCollider_set_sharedMesh_m5_954 ();
-extern "C" void RaycastHit_get_point_m5_955 ();
-extern "C" void RaycastHit_get_normal_m5_956 ();
-extern "C" void RaycastHit_get_distance_m5_957 ();
-extern "C" void RaycastHit_get_collider_m5_958 ();
-extern "C" void Physics2D__cctor_m5_959 ();
-extern "C" void Physics2D_Internal_Raycast_m5_960 ();
-extern "C" void Physics2D_INTERNAL_CALL_Internal_Raycast_m5_961 ();
-extern "C" void Physics2D_Raycast_m5_962 ();
-extern "C" void Physics2D_Raycast_m5_963 ();
-extern "C" void Physics2D_RaycastAll_m5_964 ();
-extern "C" void Physics2D_INTERNAL_CALL_RaycastAll_m5_965 ();
-extern "C" void RaycastHit2D_get_point_m5_966 ();
-extern "C" void RaycastHit2D_get_normal_m5_967 ();
-extern "C" void RaycastHit2D_get_fraction_m5_968 ();
-extern "C" void RaycastHit2D_get_collider_m5_969 ();
-extern "C" void RaycastHit2D_get_rigidbody_m5_970 ();
-extern "C" void RaycastHit2D_get_transform_m5_971 ();
-extern "C" void Collider2D_get_attachedRigidbody_m5_972 ();
-extern "C" void AudioConfigurationChangeHandler__ctor_m5_973 ();
-extern "C" void AudioConfigurationChangeHandler_Invoke_m5_974 ();
-extern "C" void AudioConfigurationChangeHandler_BeginInvoke_m5_975 ();
-extern "C" void AudioConfigurationChangeHandler_EndInvoke_m5_976 ();
-extern "C" void AudioSettings_InvokeOnAudioConfigurationChanged_m5_977 ();
-extern "C" void PCMReaderCallback__ctor_m5_978 ();
-extern "C" void PCMReaderCallback_Invoke_m5_979 ();
-extern "C" void PCMReaderCallback_BeginInvoke_m5_980 ();
-extern "C" void PCMReaderCallback_EndInvoke_m5_981 ();
-extern "C" void PCMSetPositionCallback__ctor_m5_982 ();
-extern "C" void PCMSetPositionCallback_Invoke_m5_983 ();
-extern "C" void PCMSetPositionCallback_BeginInvoke_m5_984 ();
-extern "C" void PCMSetPositionCallback_EndInvoke_m5_985 ();
-extern "C" void AudioClip_InvokePCMReaderCallback_Internal_m5_986 ();
-extern "C" void AudioClip_InvokePCMSetPositionCallback_Internal_m5_987 ();
-extern "C" void WebCamDevice_get_name_m5_988 ();
-extern "C" void WebCamDevice_get_isFrontFacing_m5_989 ();
-extern "C" void WebCamTexture__ctor_m5_990 ();
-extern "C" void WebCamTexture_Internal_CreateWebCamTexture_m5_991 ();
-extern "C" void WebCamTexture_Play_m5_992 ();
-extern "C" void WebCamTexture_INTERNAL_CALL_Play_m5_993 ();
-extern "C" void WebCamTexture_Stop_m5_994 ();
-extern "C" void WebCamTexture_INTERNAL_CALL_Stop_m5_995 ();
-extern "C" void WebCamTexture_get_isPlaying_m5_996 ();
-extern "C" void WebCamTexture_set_deviceName_m5_997 ();
-extern "C" void WebCamTexture_set_requestedFPS_m5_998 ();
-extern "C" void WebCamTexture_set_requestedWidth_m5_999 ();
-extern "C" void WebCamTexture_set_requestedHeight_m5_1000 ();
-extern "C" void WebCamTexture_get_devices_m5_1001 ();
-extern "C" void WebCamTexture_get_didUpdateThisFrame_m5_1002 ();
-extern "C" void AnimationEvent__ctor_m5_1003 ();
-extern "C" void AnimationEvent_get_data_m5_1004 ();
-extern "C" void AnimationEvent_set_data_m5_1005 ();
-extern "C" void AnimationEvent_get_stringParameter_m5_1006 ();
-extern "C" void AnimationEvent_set_stringParameter_m5_1007 ();
-extern "C" void AnimationEvent_get_floatParameter_m5_1008 ();
-extern "C" void AnimationEvent_set_floatParameter_m5_1009 ();
-extern "C" void AnimationEvent_get_intParameter_m5_1010 ();
-extern "C" void AnimationEvent_set_intParameter_m5_1011 ();
-extern "C" void AnimationEvent_get_objectReferenceParameter_m5_1012 ();
-extern "C" void AnimationEvent_set_objectReferenceParameter_m5_1013 ();
-extern "C" void AnimationEvent_get_functionName_m5_1014 ();
-extern "C" void AnimationEvent_set_functionName_m5_1015 ();
-extern "C" void AnimationEvent_get_time_m5_1016 ();
-extern "C" void AnimationEvent_set_time_m5_1017 ();
-extern "C" void AnimationEvent_get_messageOptions_m5_1018 ();
-extern "C" void AnimationEvent_set_messageOptions_m5_1019 ();
-extern "C" void AnimationEvent_get_isFiredByLegacy_m5_1020 ();
-extern "C" void AnimationEvent_get_isFiredByAnimator_m5_1021 ();
-extern "C" void AnimationEvent_get_animationState_m5_1022 ();
-extern "C" void AnimationEvent_get_animatorStateInfo_m5_1023 ();
-extern "C" void AnimationEvent_get_animatorClipInfo_m5_1024 ();
-extern "C" void AnimationEvent_GetHash_m5_1025 ();
-extern "C" void AnimationCurve__ctor_m5_1026 ();
-extern "C" void AnimationCurve__ctor_m5_1027 ();
-extern "C" void AnimationCurve_Cleanup_m5_1028 ();
-extern "C" void AnimationCurve_Finalize_m5_1029 ();
-extern "C" void AnimationCurve_Init_m5_1030 ();
-extern "C" void AnimatorStateInfo_IsName_m5_1031 ();
-extern "C" void AnimatorStateInfo_get_fullPathHash_m5_1032 ();
-extern "C" void AnimatorStateInfo_get_nameHash_m5_1033 ();
-extern "C" void AnimatorStateInfo_get_shortNameHash_m5_1034 ();
-extern "C" void AnimatorStateInfo_get_normalizedTime_m5_1035 ();
-extern "C" void AnimatorStateInfo_get_length_m5_1036 ();
-extern "C" void AnimatorStateInfo_get_speed_m5_1037 ();
-extern "C" void AnimatorStateInfo_get_speedMultiplier_m5_1038 ();
-extern "C" void AnimatorStateInfo_get_tagHash_m5_1039 ();
-extern "C" void AnimatorStateInfo_IsTag_m5_1040 ();
-extern "C" void AnimatorStateInfo_get_loop_m5_1041 ();
-extern "C" void AnimatorTransitionInfo_IsName_m5_1042 ();
-extern "C" void AnimatorTransitionInfo_IsUserName_m5_1043 ();
-extern "C" void AnimatorTransitionInfo_get_fullPathHash_m5_1044 ();
-extern "C" void AnimatorTransitionInfo_get_nameHash_m5_1045 ();
-extern "C" void AnimatorTransitionInfo_get_userNameHash_m5_1046 ();
-extern "C" void AnimatorTransitionInfo_get_normalizedTime_m5_1047 ();
-extern "C" void AnimatorTransitionInfo_get_anyState_m5_1048 ();
-extern "C" void AnimatorTransitionInfo_get_entry_m5_1049 ();
-extern "C" void AnimatorTransitionInfo_get_exit_m5_1050 ();
-extern "C" void Animator_SetTrigger_m5_1051 ();
-extern "C" void Animator_ResetTrigger_m5_1052 ();
-extern "C" void Animator_get_runtimeAnimatorController_m5_1053 ();
-extern "C" void Animator_StringToHash_m5_1054 ();
-extern "C" void Animator_SetTriggerString_m5_1055 ();
-extern "C" void Animator_ResetTriggerString_m5_1056 ();
-extern "C" void HumanBone_get_boneName_m5_1057 ();
-extern "C" void HumanBone_set_boneName_m5_1058 ();
-extern "C" void HumanBone_get_humanName_m5_1059 ();
-extern "C" void HumanBone_set_humanName_m5_1060 ();
-extern "C" void CharacterInfo_get_advance_m5_1061 ();
-extern "C" void CharacterInfo_set_advance_m5_1062 ();
-extern "C" void CharacterInfo_get_glyphWidth_m5_1063 ();
-extern "C" void CharacterInfo_set_glyphWidth_m5_1064 ();
-extern "C" void CharacterInfo_get_glyphHeight_m5_1065 ();
-extern "C" void CharacterInfo_set_glyphHeight_m5_1066 ();
-extern "C" void CharacterInfo_get_bearing_m5_1067 ();
-extern "C" void CharacterInfo_set_bearing_m5_1068 ();
-extern "C" void CharacterInfo_get_minY_m5_1069 ();
-extern "C" void CharacterInfo_set_minY_m5_1070 ();
-extern "C" void CharacterInfo_get_maxY_m5_1071 ();
-extern "C" void CharacterInfo_set_maxY_m5_1072 ();
-extern "C" void CharacterInfo_get_minX_m5_1073 ();
-extern "C" void CharacterInfo_set_minX_m5_1074 ();
-extern "C" void CharacterInfo_get_maxX_m5_1075 ();
-extern "C" void CharacterInfo_set_maxX_m5_1076 ();
-extern "C" void CharacterInfo_get_uvBottomLeftUnFlipped_m5_1077 ();
-extern "C" void CharacterInfo_set_uvBottomLeftUnFlipped_m5_1078 ();
-extern "C" void CharacterInfo_get_uvBottomRightUnFlipped_m5_1079 ();
-extern "C" void CharacterInfo_set_uvBottomRightUnFlipped_m5_1080 ();
-extern "C" void CharacterInfo_get_uvTopRightUnFlipped_m5_1081 ();
-extern "C" void CharacterInfo_set_uvTopRightUnFlipped_m5_1082 ();
-extern "C" void CharacterInfo_get_uvTopLeftUnFlipped_m5_1083 ();
-extern "C" void CharacterInfo_set_uvTopLeftUnFlipped_m5_1084 ();
-extern "C" void CharacterInfo_get_uvBottomLeft_m5_1085 ();
-extern "C" void CharacterInfo_set_uvBottomLeft_m5_1086 ();
-extern "C" void CharacterInfo_get_uvBottomRight_m5_1087 ();
-extern "C" void CharacterInfo_set_uvBottomRight_m5_1088 ();
-extern "C" void CharacterInfo_get_uvTopRight_m5_1089 ();
-extern "C" void CharacterInfo_set_uvTopRight_m5_1090 ();
-extern "C" void CharacterInfo_get_uvTopLeft_m5_1091 ();
-extern "C" void CharacterInfo_set_uvTopLeft_m5_1092 ();
-extern "C" void FontTextureRebuildCallback__ctor_m5_1093 ();
-extern "C" void FontTextureRebuildCallback_Invoke_m5_1094 ();
-extern "C" void FontTextureRebuildCallback_BeginInvoke_m5_1095 ();
-extern "C" void FontTextureRebuildCallback_EndInvoke_m5_1096 ();
-extern "C" void Font__ctor_m5_1097 ();
-extern "C" void Font__ctor_m5_1098 ();
-extern "C" void Font__ctor_m5_1099 ();
-extern "C" void Font_add_textureRebuilt_m5_1100 ();
-extern "C" void Font_remove_textureRebuilt_m5_1101 ();
-extern "C" void Font_add_m_FontTextureRebuildCallback_m5_1102 ();
-extern "C" void Font_remove_m_FontTextureRebuildCallback_m5_1103 ();
-extern "C" void Font_GetOSInstalledFontNames_m5_1104 ();
-extern "C" void Font_Internal_CreateFont_m5_1105 ();
-extern "C" void Font_Internal_CreateDynamicFont_m5_1106 ();
-extern "C" void Font_CreateDynamicFontFromOSFont_m5_1107 ();
-extern "C" void Font_CreateDynamicFontFromOSFont_m5_1108 ();
-extern "C" void Font_get_material_m5_1109 ();
-extern "C" void Font_set_material_m5_1110 ();
-extern "C" void Font_HasCharacter_m5_1111 ();
-extern "C" void Font_get_fontNames_m5_1112 ();
-extern "C" void Font_set_fontNames_m5_1113 ();
-extern "C" void Font_get_characterInfo_m5_1114 ();
-extern "C" void Font_set_characterInfo_m5_1115 ();
-extern "C" void Font_RequestCharactersInTexture_m5_1116 ();
-extern "C" void Font_RequestCharactersInTexture_m5_1117 ();
-extern "C" void Font_RequestCharactersInTexture_m5_1118 ();
-extern "C" void Font_InvokeTextureRebuilt_Internal_m5_1119 ();
-extern "C" void Font_get_textureRebuildCallback_m5_1120 ();
-extern "C" void Font_set_textureRebuildCallback_m5_1121 ();
-extern "C" void Font_GetMaxVertsForString_m5_1122 ();
-extern "C" void Font_GetCharacterInfo_m5_1123 ();
-extern "C" void Font_GetCharacterInfo_m5_1124 ();
-extern "C" void Font_GetCharacterInfo_m5_1125 ();
-extern "C" void Font_get_dynamic_m5_1126 ();
-extern "C" void Font_get_ascent_m5_1127 ();
-extern "C" void Font_get_lineHeight_m5_1128 ();
-extern "C" void Font_get_fontSize_m5_1129 ();
-extern "C" void TextGenerator__ctor_m5_1130 ();
-extern "C" void TextGenerator__ctor_m5_1131 ();
-extern "C" void TextGenerator_System_IDisposable_Dispose_m5_1132 ();
-extern "C" void TextGenerator_Init_m5_1133 ();
-extern "C" void TextGenerator_Dispose_cpp_m5_1134 ();
-extern "C" void TextGenerator_Populate_Internal_m5_1135 ();
-extern "C" void TextGenerator_Populate_Internal_cpp_m5_1136 ();
-extern "C" void TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m5_1137 ();
-extern "C" void TextGenerator_get_rectExtents_m5_1138 ();
-extern "C" void TextGenerator_INTERNAL_get_rectExtents_m5_1139 ();
-extern "C" void TextGenerator_get_vertexCount_m5_1140 ();
-extern "C" void TextGenerator_GetVerticesInternal_m5_1141 ();
-extern "C" void TextGenerator_GetVerticesArray_m5_1142 ();
-extern "C" void TextGenerator_get_characterCount_m5_1143 ();
-extern "C" void TextGenerator_get_characterCountVisible_m5_1144 ();
-extern "C" void TextGenerator_GetCharactersInternal_m5_1145 ();
-extern "C" void TextGenerator_GetCharactersArray_m5_1146 ();
-extern "C" void TextGenerator_get_lineCount_m5_1147 ();
-extern "C" void TextGenerator_GetLinesInternal_m5_1148 ();
-extern "C" void TextGenerator_GetLinesArray_m5_1149 ();
-extern "C" void TextGenerator_get_fontSizeUsedForBestFit_m5_1150 ();
-extern "C" void TextGenerator_Finalize_m5_1151 ();
-extern "C" void TextGenerator_ValidatedSettings_m5_1152 ();
-extern "C" void TextGenerator_Invalidate_m5_1153 ();
-extern "C" void TextGenerator_GetCharacters_m5_1154 ();
-extern "C" void TextGenerator_GetLines_m5_1155 ();
-extern "C" void TextGenerator_GetVertices_m5_1156 ();
-extern "C" void TextGenerator_GetPreferredWidth_m5_1157 ();
-extern "C" void TextGenerator_GetPreferredHeight_m5_1158 ();
-extern "C" void TextGenerator_Populate_m5_1159 ();
-extern "C" void TextGenerator_PopulateAlways_m5_1160 ();
-extern "C" void TextGenerator_get_verts_m5_1161 ();
-extern "C" void TextGenerator_get_characters_m5_1162 ();
-extern "C" void TextGenerator_get_lines_m5_1163 ();
-extern "C" void WillRenderCanvases__ctor_m5_1164 ();
-extern "C" void WillRenderCanvases_Invoke_m5_1165 ();
-extern "C" void WillRenderCanvases_BeginInvoke_m5_1166 ();
-extern "C" void WillRenderCanvases_EndInvoke_m5_1167 ();
-extern "C" void Canvas_add_willRenderCanvases_m5_1168 ();
-extern "C" void Canvas_remove_willRenderCanvases_m5_1169 ();
-extern "C" void Canvas_get_renderMode_m5_1170 ();
-extern "C" void Canvas_get_isRootCanvas_m5_1171 ();
-extern "C" void Canvas_get_worldCamera_m5_1172 ();
-extern "C" void Canvas_get_scaleFactor_m5_1173 ();
-extern "C" void Canvas_set_scaleFactor_m5_1174 ();
-extern "C" void Canvas_get_referencePixelsPerUnit_m5_1175 ();
-extern "C" void Canvas_set_referencePixelsPerUnit_m5_1176 ();
-extern "C" void Canvas_get_pixelPerfect_m5_1177 ();
-extern "C" void Canvas_get_renderOrder_m5_1178 ();
-extern "C" void Canvas_get_overrideSorting_m5_1179 ();
-extern "C" void Canvas_set_overrideSorting_m5_1180 ();
-extern "C" void Canvas_get_sortingOrder_m5_1181 ();
-extern "C" void Canvas_set_sortingOrder_m5_1182 ();
-extern "C" void Canvas_get_sortingLayerID_m5_1183 ();
-extern "C" void Canvas_set_sortingLayerID_m5_1184 ();
-extern "C" void Canvas_GetDefaultCanvasMaterial_m5_1185 ();
-extern "C" void Canvas_SendWillRenderCanvases_m5_1186 ();
-extern "C" void Canvas_ForceUpdateCanvases_m5_1187 ();
-extern "C" void CanvasGroup_get_alpha_m5_1188 ();
-extern "C" void CanvasGroup_set_alpha_m5_1189 ();
-extern "C" void CanvasGroup_get_interactable_m5_1190 ();
-extern "C" void CanvasGroup_get_blocksRaycasts_m5_1191 ();
-extern "C" void CanvasGroup_get_ignoreParentGroups_m5_1192 ();
-extern "C" void CanvasGroup_IsRaycastLocationValid_m5_1193 ();
-extern "C" void UIVertex__cctor_m5_1194 ();
-extern "C" void CanvasRenderer_SetColor_m5_1195 ();
-extern "C" void CanvasRenderer_INTERNAL_CALL_SetColor_m5_1196 ();
-extern "C" void CanvasRenderer_GetColor_m5_1197 ();
-extern "C" void CanvasRenderer_EnableRectClipping_m5_1198 ();
-extern "C" void CanvasRenderer_INTERNAL_CALL_EnableRectClipping_m5_1199 ();
-extern "C" void CanvasRenderer_DisableRectClipping_m5_1200 ();
-extern "C" void CanvasRenderer_set_hasPopInstruction_m5_1201 ();
-extern "C" void CanvasRenderer_get_materialCount_m5_1202 ();
-extern "C" void CanvasRenderer_set_materialCount_m5_1203 ();
-extern "C" void CanvasRenderer_SetMaterial_m5_1204 ();
-extern "C" void CanvasRenderer_SetMaterial_m5_1205 ();
-extern "C" void CanvasRenderer_set_popMaterialCount_m5_1206 ();
-extern "C" void CanvasRenderer_SetPopMaterial_m5_1207 ();
-extern "C" void CanvasRenderer_SetTexture_m5_1208 ();
-extern "C" void CanvasRenderer_SetMesh_m5_1209 ();
-extern "C" void CanvasRenderer_Clear_m5_1210 ();
-extern "C" void CanvasRenderer_SplitUIVertexStreams_m5_1211 ();
-extern "C" void CanvasRenderer_SplitUIVertexStreamsInternal_m5_1212 ();
-extern "C" void CanvasRenderer_SplitIndiciesStreamsInternal_m5_1213 ();
-extern "C" void CanvasRenderer_CreateUIVertexStream_m5_1214 ();
-extern "C" void CanvasRenderer_CreateUIVertexStreamInternal_m5_1215 ();
-extern "C" void CanvasRenderer_AddUIVertexStream_m5_1216 ();
-extern "C" void CanvasRenderer_get_cull_m5_1217 ();
-extern "C" void CanvasRenderer_set_cull_m5_1218 ();
-extern "C" void CanvasRenderer_get_absoluteDepth_m5_1219 ();
-extern "C" void CanvasRenderer_get_hasMoved_m5_1220 ();
-extern "C" void RectTransformUtility__cctor_m5_1221 ();
-extern "C" void RectTransformUtility_RectangleContainsScreenPoint_m5_1222 ();
-extern "C" void RectTransformUtility_INTERNAL_CALL_RectangleContainsScreenPoint_m5_1223 ();
-extern "C" void RectTransformUtility_PixelAdjustPoint_m5_1224 ();
-extern "C" void RectTransformUtility_PixelAdjustPoint_m5_1225 ();
-extern "C" void RectTransformUtility_INTERNAL_CALL_PixelAdjustPoint_m5_1226 ();
-extern "C" void RectTransformUtility_PixelAdjustRect_m5_1227 ();
-extern "C" void RectTransformUtility_ScreenPointToWorldPointInRectangle_m5_1228 ();
-extern "C" void RectTransformUtility_ScreenPointToLocalPointInRectangle_m5_1229 ();
-extern "C" void RectTransformUtility_ScreenPointToRay_m5_1230 ();
-extern "C" void RectTransformUtility_FlipLayoutOnAxis_m5_1231 ();
-extern "C" void RectTransformUtility_FlipLayoutAxes_m5_1232 ();
-extern "C" void RectTransformUtility_GetTransposed_m5_1233 ();
-extern "C" void Event__ctor_m5_1234 ();
-extern "C" void Event__ctor_m5_1235 ();
-extern "C" void Event__ctor_m5_1236 ();
-extern "C" void Event_Finalize_m5_1237 ();
-extern "C" void Event_get_mousePosition_m5_1238 ();
-extern "C" void Event_set_mousePosition_m5_1239 ();
-extern "C" void Event_get_delta_m5_1240 ();
-extern "C" void Event_set_delta_m5_1241 ();
-extern "C" void Event_get_mouseRay_m5_1242 ();
-extern "C" void Event_set_mouseRay_m5_1243 ();
-extern "C" void Event_get_shift_m5_1244 ();
-extern "C" void Event_set_shift_m5_1245 ();
-extern "C" void Event_get_control_m5_1246 ();
-extern "C" void Event_set_control_m5_1247 ();
-extern "C" void Event_get_alt_m5_1248 ();
-extern "C" void Event_set_alt_m5_1249 ();
-extern "C" void Event_get_command_m5_1250 ();
-extern "C" void Event_set_command_m5_1251 ();
-extern "C" void Event_get_capsLock_m5_1252 ();
-extern "C" void Event_set_capsLock_m5_1253 ();
-extern "C" void Event_get_numeric_m5_1254 ();
-extern "C" void Event_set_numeric_m5_1255 ();
-extern "C" void Event_get_functionKey_m5_1256 ();
-extern "C" void Event_get_current_m5_1257 ();
-extern "C" void Event_set_current_m5_1258 ();
-extern "C" void Event_Internal_MakeMasterEventCurrent_m5_1259 ();
-extern "C" void Event_get_isKey_m5_1260 ();
-extern "C" void Event_get_isMouse_m5_1261 ();
-extern "C" void Event_KeyboardEvent_m5_1262 ();
-extern "C" void Event_GetHashCode_m5_1263 ();
-extern "C" void Event_Equals_m5_1264 ();
-extern "C" void Event_ToString_m5_1265 ();
-extern "C" void Event_Init_m5_1266 ();
-extern "C" void Event_Cleanup_m5_1267 ();
-extern "C" void Event_InitCopy_m5_1268 ();
-extern "C" void Event_InitPtr_m5_1269 ();
-extern "C" void Event_get_rawType_m5_1270 ();
-extern "C" void Event_get_type_m5_1271 ();
-extern "C" void Event_set_type_m5_1272 ();
-extern "C" void Event_GetTypeForControl_m5_1273 ();
-extern "C" void Event_Internal_SetMousePosition_m5_1274 ();
-extern "C" void Event_INTERNAL_CALL_Internal_SetMousePosition_m5_1275 ();
-extern "C" void Event_Internal_GetMousePosition_m5_1276 ();
-extern "C" void Event_Internal_SetMouseDelta_m5_1277 ();
-extern "C" void Event_INTERNAL_CALL_Internal_SetMouseDelta_m5_1278 ();
-extern "C" void Event_Internal_GetMouseDelta_m5_1279 ();
-extern "C" void Event_get_button_m5_1280 ();
-extern "C" void Event_set_button_m5_1281 ();
-extern "C" void Event_get_modifiers_m5_1282 ();
-extern "C" void Event_set_modifiers_m5_1283 ();
-extern "C" void Event_get_pressure_m5_1284 ();
-extern "C" void Event_set_pressure_m5_1285 ();
-extern "C" void Event_get_clickCount_m5_1286 ();
-extern "C" void Event_set_clickCount_m5_1287 ();
-extern "C" void Event_get_character_m5_1288 ();
-extern "C" void Event_set_character_m5_1289 ();
-extern "C" void Event_get_commandName_m5_1290 ();
-extern "C" void Event_set_commandName_m5_1291 ();
-extern "C" void Event_get_keyCode_m5_1292 ();
-extern "C" void Event_set_keyCode_m5_1293 ();
-extern "C" void Event_Internal_SetNativeEvent_m5_1294 ();
-extern "C" void Event_Use_m5_1295 ();
-extern "C" void Event_PopEvent_m5_1296 ();
-extern "C" void Event_GetEventCount_m5_1297 ();
-extern "C" void ScrollViewState__ctor_m5_1298 ();
-extern "C" void WindowFunction__ctor_m5_1299 ();
-extern "C" void WindowFunction_Invoke_m5_1300 ();
-extern "C" void WindowFunction_BeginInvoke_m5_1301 ();
-extern "C" void WindowFunction_EndInvoke_m5_1302 ();
-extern "C" void GUI__cctor_m5_1303 ();
-extern "C" void GUI_get_nextScrollStepTime_m5_1304 ();
-extern "C" void GUI_set_nextScrollStepTime_m5_1305 ();
-extern "C" void GUI_get_scrollTroughSide_m5_1306 ();
-extern "C" void GUI_set_scrollTroughSide_m5_1307 ();
-extern "C" void GUI_set_skin_m5_1308 ();
-extern "C" void GUI_get_skin_m5_1309 ();
-extern "C" void GUI_DoSetSkin_m5_1310 ();
-extern "C" void GUI_get_matrix_m5_1311 ();
-extern "C" void GUI_set_matrix_m5_1312 ();
-extern "C" void GUI_Label_m5_1313 ();
-extern "C" void GUI_Label_m5_1314 ();
-extern "C" void GUI_Label_m5_1315 ();
-extern "C" void GUI_DrawTexture_m5_1316 ();
-extern "C" void GUI_DrawTexture_m5_1317 ();
-extern "C" void GUI_DrawTexture_m5_1318 ();
-extern "C" void GUI_DrawTexture_m5_1319 ();
-extern "C" void GUI_Box_m5_1320 ();
-extern "C" void GUI_Box_m5_1321 ();
-extern "C" void GUI_Button_m5_1322 ();
-extern "C" void GUI_Button_m5_1323 ();
-extern "C" void GUI_Button_m5_1324 ();
-extern "C" void GUI_DoRepeatButton_m5_1325 ();
-extern "C" void GUI_Toggle_m5_1326 ();
-extern "C" void GUI_Toggle_m5_1327 ();
-extern "C" void GUI_Slider_m5_1328 ();
-extern "C" void GUI_HorizontalScrollbar_m5_1329 ();
-extern "C" void GUI_ScrollerRepeatButton_m5_1330 ();
-extern "C" void GUI_VerticalScrollbar_m5_1331 ();
-extern "C" void GUI_Scroller_m5_1332 ();
-extern "C" void GUI_BeginGroup_m5_1333 ();
-extern "C" void GUI_EndGroup_m5_1334 ();
-extern "C" void GUI_BeginScrollView_m5_1335 ();
-extern "C" void GUI_EndScrollView_m5_1336 ();
-extern "C" void GUI_Window_m5_1337 ();
-extern "C" void GUI_CallWindowDelegate_m5_1338 ();
-extern "C" void GUI_get_color_m5_1339 ();
-extern "C" void GUI_INTERNAL_get_color_m5_1340 ();
-extern "C" void GUI_set_changed_m5_1341 ();
-extern "C" void GUI_DoLabel_m5_1342 ();
-extern "C" void GUI_INTERNAL_CALL_DoLabel_m5_1343 ();
-extern "C" void GUI_get_blendMaterial_m5_1344 ();
-extern "C" void GUI_get_blitMaterial_m5_1345 ();
-extern "C" void GUI_DoButton_m5_1346 ();
-extern "C" void GUI_INTERNAL_CALL_DoButton_m5_1347 ();
-extern "C" void GUI_DoToggle_m5_1348 ();
-extern "C" void GUI_INTERNAL_CALL_DoToggle_m5_1349 ();
-extern "C" void GUI_get_usePageScrollbars_m5_1350 ();
-extern "C" void GUI_InternalRepaintEditorWindow_m5_1351 ();
-extern "C" void GUI_DoWindow_m5_1352 ();
-extern "C" void GUI_INTERNAL_CALL_DoWindow_m5_1353 ();
-extern "C" void GUIContent__ctor_m5_1354 ();
-extern "C" void GUIContent__ctor_m5_1355 ();
-extern "C" void GUIContent__ctor_m5_1356 ();
-extern "C" void GUIContent__cctor_m5_1357 ();
-extern "C" void GUIContent_Temp_m5_1358 ();
-extern "C" void GUIContent_Temp_m5_1359 ();
-extern "C" void GUIContent_ClearStaticCache_m5_1360 ();
-extern "C" void GUILayout_Label_m5_1361 ();
-extern "C" void GUILayout_DoLabel_m5_1362 ();
-extern "C" void GUILayout_FlexibleSpace_m5_1363 ();
-extern "C" void GUILayout_BeginHorizontal_m5_1364 ();
-extern "C" void GUILayout_BeginHorizontal_m5_1365 ();
-extern "C" void GUILayout_EndHorizontal_m5_1366 ();
-extern "C" void GUILayout_BeginArea_m5_1367 ();
-extern "C" void GUILayout_BeginArea_m5_1368 ();
-extern "C" void GUILayout_EndArea_m5_1369 ();
-extern "C" void GUILayout_BeginScrollView_m5_1370 ();
-extern "C" void GUILayout_BeginScrollView_m5_1371 ();
-extern "C" void GUILayout_EndScrollView_m5_1372 ();
-extern "C" void GUILayout_EndScrollView_m5_1373 ();
-extern "C" void GUILayout_Width_m5_1374 ();
-extern "C" void GUILayout_Height_m5_1375 ();
-extern "C" void GUILayout_ExpandWidth_m5_1376 ();
-extern "C" void GUILayout_ExpandHeight_m5_1377 ();
-extern "C" void LayoutCache__ctor_m5_1378 ();
-extern "C" void GUILayoutUtility__cctor_m5_1379 ();
-extern "C" void GUILayoutUtility_SelectIDList_m5_1380 ();
-extern "C" void GUILayoutUtility_Begin_m5_1381 ();
-extern "C" void GUILayoutUtility_BeginWindow_m5_1382 ();
-extern "C" void GUILayoutUtility_EndGroup_m5_1383 ();
-extern "C" void GUILayoutUtility_Layout_m5_1384 ();
-extern "C" void GUILayoutUtility_LayoutFromEditorWindow_m5_1385 ();
-extern "C" void GUILayoutUtility_LayoutFreeGroup_m5_1386 ();
-extern "C" void GUILayoutUtility_LayoutSingleGroup_m5_1387 ();
-extern "C" void GUILayoutUtility_CreateGUILayoutGroupInstanceOfType_m5_1388 ();
-extern "C" void GUILayoutUtility_BeginLayoutGroup_m5_1389 ();
-extern "C" void GUILayoutUtility_EndLayoutGroup_m5_1390 ();
-extern "C" void GUILayoutUtility_BeginLayoutArea_m5_1391 ();
-extern "C" void GUILayoutUtility_GetRect_m5_1392 ();
-extern "C" void GUILayoutUtility_DoGetRect_m5_1393 ();
-extern "C" void GUILayoutUtility_GetRect_m5_1394 ();
-extern "C" void GUILayoutUtility_DoGetRect_m5_1395 ();
-extern "C" void GUILayoutUtility_get_spaceStyle_m5_1396 ();
-extern "C" void GUILayoutUtility_Internal_GetWindowRect_m5_1397 ();
-extern "C" void GUILayoutUtility_Internal_MoveWindow_m5_1398 ();
-extern "C" void GUILayoutUtility_INTERNAL_CALL_Internal_MoveWindow_m5_1399 ();
-extern "C" void GUILayoutEntry__ctor_m5_1400 ();
-extern "C" void GUILayoutEntry__ctor_m5_1401 ();
-extern "C" void GUILayoutEntry__cctor_m5_1402 ();
-extern "C" void GUILayoutEntry_get_style_m5_1403 ();
-extern "C" void GUILayoutEntry_set_style_m5_1404 ();
-extern "C" void GUILayoutEntry_get_margin_m5_1405 ();
-extern "C" void GUILayoutEntry_CalcWidth_m5_1406 ();
-extern "C" void GUILayoutEntry_CalcHeight_m5_1407 ();
-extern "C" void GUILayoutEntry_SetHorizontal_m5_1408 ();
-extern "C" void GUILayoutEntry_SetVertical_m5_1409 ();
-extern "C" void GUILayoutEntry_ApplyStyleSettings_m5_1410 ();
-extern "C" void GUILayoutEntry_ApplyOptions_m5_1411 ();
-extern "C" void GUILayoutEntry_ToString_m5_1412 ();
-extern "C" void GUILayoutGroup__ctor_m5_1413 ();
-extern "C" void GUILayoutGroup_get_margin_m5_1414 ();
-extern "C" void GUILayoutGroup_ApplyOptions_m5_1415 ();
-extern "C" void GUILayoutGroup_ApplyStyleSettings_m5_1416 ();
-extern "C" void GUILayoutGroup_ResetCursor_m5_1417 ();
-extern "C" void GUILayoutGroup_GetNext_m5_1418 ();
-extern "C" void GUILayoutGroup_Add_m5_1419 ();
-extern "C" void GUILayoutGroup_CalcWidth_m5_1420 ();
-extern "C" void GUILayoutGroup_SetHorizontal_m5_1421 ();
-extern "C" void GUILayoutGroup_CalcHeight_m5_1422 ();
-extern "C" void GUILayoutGroup_SetVertical_m5_1423 ();
-extern "C" void GUILayoutGroup_ToString_m5_1424 ();
-extern "C" void GUIScrollGroup__ctor_m5_1425 ();
-extern "C" void GUIScrollGroup_CalcWidth_m5_1426 ();
-extern "C" void GUIScrollGroup_SetHorizontal_m5_1427 ();
-extern "C" void GUIScrollGroup_CalcHeight_m5_1428 ();
-extern "C" void GUIScrollGroup_SetVertical_m5_1429 ();
-extern "C" void GUIWordWrapSizer__ctor_m5_1430 ();
-extern "C" void GUIWordWrapSizer_CalcWidth_m5_1431 ();
-extern "C" void GUIWordWrapSizer_CalcHeight_m5_1432 ();
-extern "C" void GUILayoutOption__ctor_m5_1433 ();
-extern "C" void GUISettings__ctor_m5_1434 ();
-extern "C" void SkinChangedDelegate__ctor_m5_1435 ();
-extern "C" void SkinChangedDelegate_Invoke_m5_1436 ();
-extern "C" void SkinChangedDelegate_BeginInvoke_m5_1437 ();
-extern "C" void SkinChangedDelegate_EndInvoke_m5_1438 ();
-extern "C" void GUISkin__ctor_m5_1439 ();
-extern "C" void GUISkin_OnEnable_m5_1440 ();
-extern "C" void GUISkin_get_font_m5_1441 ();
-extern "C" void GUISkin_set_font_m5_1442 ();
-extern "C" void GUISkin_get_box_m5_1443 ();
-extern "C" void GUISkin_set_box_m5_1444 ();
-extern "C" void GUISkin_get_label_m5_1445 ();
-extern "C" void GUISkin_set_label_m5_1446 ();
-extern "C" void GUISkin_get_textField_m5_1447 ();
-extern "C" void GUISkin_set_textField_m5_1448 ();
-extern "C" void GUISkin_get_textArea_m5_1449 ();
-extern "C" void GUISkin_set_textArea_m5_1450 ();
-extern "C" void GUISkin_get_button_m5_1451 ();
-extern "C" void GUISkin_set_button_m5_1452 ();
-extern "C" void GUISkin_get_toggle_m5_1453 ();
-extern "C" void GUISkin_set_toggle_m5_1454 ();
-extern "C" void GUISkin_get_window_m5_1455 ();
-extern "C" void GUISkin_set_window_m5_1456 ();
-extern "C" void GUISkin_get_horizontalSlider_m5_1457 ();
-extern "C" void GUISkin_set_horizontalSlider_m5_1458 ();
-extern "C" void GUISkin_get_horizontalSliderThumb_m5_1459 ();
-extern "C" void GUISkin_set_horizontalSliderThumb_m5_1460 ();
-extern "C" void GUISkin_get_verticalSlider_m5_1461 ();
-extern "C" void GUISkin_set_verticalSlider_m5_1462 ();
-extern "C" void GUISkin_get_verticalSliderThumb_m5_1463 ();
-extern "C" void GUISkin_set_verticalSliderThumb_m5_1464 ();
-extern "C" void GUISkin_get_horizontalScrollbar_m5_1465 ();
-extern "C" void GUISkin_set_horizontalScrollbar_m5_1466 ();
-extern "C" void GUISkin_get_horizontalScrollbarThumb_m5_1467 ();
-extern "C" void GUISkin_set_horizontalScrollbarThumb_m5_1468 ();
-extern "C" void GUISkin_get_horizontalScrollbarLeftButton_m5_1469 ();
-extern "C" void GUISkin_set_horizontalScrollbarLeftButton_m5_1470 ();
-extern "C" void GUISkin_get_horizontalScrollbarRightButton_m5_1471 ();
-extern "C" void GUISkin_set_horizontalScrollbarRightButton_m5_1472 ();
-extern "C" void GUISkin_get_verticalScrollbar_m5_1473 ();
-extern "C" void GUISkin_set_verticalScrollbar_m5_1474 ();
-extern "C" void GUISkin_get_verticalScrollbarThumb_m5_1475 ();
-extern "C" void GUISkin_set_verticalScrollbarThumb_m5_1476 ();
-extern "C" void GUISkin_get_verticalScrollbarUpButton_m5_1477 ();
-extern "C" void GUISkin_set_verticalScrollbarUpButton_m5_1478 ();
-extern "C" void GUISkin_get_verticalScrollbarDownButton_m5_1479 ();
-extern "C" void GUISkin_set_verticalScrollbarDownButton_m5_1480 ();
-extern "C" void GUISkin_get_scrollView_m5_1481 ();
-extern "C" void GUISkin_set_scrollView_m5_1482 ();
-extern "C" void GUISkin_get_customStyles_m5_1483 ();
-extern "C" void GUISkin_set_customStyles_m5_1484 ();
-extern "C" void GUISkin_get_settings_m5_1485 ();
-extern "C" void GUISkin_get_error_m5_1486 ();
-extern "C" void GUISkin_Apply_m5_1487 ();
-extern "C" void GUISkin_BuildStyleCache_m5_1488 ();
-extern "C" void GUISkin_GetStyle_m5_1489 ();
-extern "C" void GUISkin_FindStyle_m5_1490 ();
-extern "C" void GUISkin_MakeCurrent_m5_1491 ();
-extern "C" void GUISkin_GetEnumerator_m5_1492 ();
-extern "C" void GUIStyleState__ctor_m5_1493 ();
-extern "C" void GUIStyleState__ctor_m5_1494 ();
-extern "C" void GUIStyleState_Finalize_m5_1495 ();
-extern "C" void GUIStyleState_get_background_m5_1496 ();
-extern "C" void GUIStyleState_set_background_m5_1497 ();
-extern "C" void GUIStyleState_Init_m5_1498 ();
-extern "C" void GUIStyleState_Cleanup_m5_1499 ();
-extern "C" void GUIStyleState_SetBackgroundInternal_m5_1500 ();
-extern "C" void GUIStyleState_GetBackgroundInternal_m5_1501 ();
-extern "C" void GUIStyleState_set_textColor_m5_1502 ();
-extern "C" void GUIStyleState_INTERNAL_set_textColor_m5_1503 ();
-extern "C" void RectOffset__ctor_m5_1504 ();
-extern "C" void RectOffset__ctor_m5_1505 ();
-extern "C" void RectOffset_Finalize_m5_1506 ();
-extern "C" void RectOffset_ToString_m5_1507 ();
-extern "C" void RectOffset_Init_m5_1508 ();
-extern "C" void RectOffset_Cleanup_m5_1509 ();
-extern "C" void RectOffset_get_left_m5_1510 ();
-extern "C" void RectOffset_set_left_m5_1511 ();
-extern "C" void RectOffset_get_right_m5_1512 ();
-extern "C" void RectOffset_set_right_m5_1513 ();
-extern "C" void RectOffset_get_top_m5_1514 ();
-extern "C" void RectOffset_set_top_m5_1515 ();
-extern "C" void RectOffset_get_bottom_m5_1516 ();
-extern "C" void RectOffset_set_bottom_m5_1517 ();
-extern "C" void RectOffset_get_horizontal_m5_1518 ();
-extern "C" void RectOffset_get_vertical_m5_1519 ();
-extern "C" void GUIStyle__ctor_m5_1520 ();
-extern "C" void GUIStyle__cctor_m5_1521 ();
-extern "C" void GUIStyle_Finalize_m5_1522 ();
-extern "C" void GUIStyle_get_normal_m5_1523 ();
-extern "C" void GUIStyle_get_active_m5_1524 ();
-extern "C" void GUIStyle_get_onNormal_m5_1525 ();
-extern "C" void GUIStyle_get_margin_m5_1526 ();
-extern "C" void GUIStyle_get_padding_m5_1527 ();
-extern "C" void GUIStyle_set_font_m5_1528 ();
-extern "C" void GUIStyle_Internal_Draw_m5_1529 ();
-extern "C" void GUIStyle_Draw_m5_1530 ();
-extern "C" void GUIStyle_Draw_m5_1531 ();
-extern "C" void GUIStyle_Draw_m5_1532 ();
-extern "C" void GUIStyle_get_none_m5_1533 ();
-extern "C" void GUIStyle_CalcSize_m5_1534 ();
-extern "C" void GUIStyle_CalcHeight_m5_1535 ();
-extern "C" void GUIStyle_get_isHeightDependantOnWidth_m5_1536 ();
-extern "C" void GUIStyle_CalcMinMaxWidth_m5_1537 ();
-extern "C" void GUIStyle_ToString_m5_1538 ();
-extern "C" void GUIStyle_Init_m5_1539 ();
-extern "C" void GUIStyle_Cleanup_m5_1540 ();
-extern "C" void GUIStyle_get_name_m5_1541 ();
-extern "C" void GUIStyle_set_name_m5_1542 ();
-extern "C" void GUIStyle_GetStyleStatePtr_m5_1543 ();
-extern "C" void GUIStyle_GetRectOffsetPtr_m5_1544 ();
-extern "C" void GUIStyle_get_imagePosition_m5_1545 ();
-extern "C" void GUIStyle_set_alignment_m5_1546 ();
-extern "C" void GUIStyle_get_wordWrap_m5_1547 ();
-extern "C" void GUIStyle_set_wordWrap_m5_1548 ();
-extern "C" void GUIStyle_set_contentOffset_m5_1549 ();
-extern "C" void GUIStyle_INTERNAL_set_contentOffset_m5_1550 ();
-extern "C" void GUIStyle_get_fixedWidth_m5_1551 ();
-extern "C" void GUIStyle_get_fixedHeight_m5_1552 ();
-extern "C" void GUIStyle_get_stretchWidth_m5_1553 ();
-extern "C" void GUIStyle_set_stretchWidth_m5_1554 ();
-extern "C" void GUIStyle_get_stretchHeight_m5_1555 ();
-extern "C" void GUIStyle_set_stretchHeight_m5_1556 ();
-extern "C" void GUIStyle_SetFontInternal_m5_1557 ();
-extern "C" void GUIStyle_Internal_Draw_m5_1558 ();
-extern "C" void GUIStyle_Internal_Draw2_m5_1559 ();
-extern "C" void GUIStyle_INTERNAL_CALL_Internal_Draw2_m5_1560 ();
-extern "C" void GUIStyle_SetDefaultFont_m5_1561 ();
-extern "C" void GUIStyle_Internal_CalcSize_m5_1562 ();
-extern "C" void GUIStyle_Internal_CalcHeight_m5_1563 ();
-extern "C" void GUIStyle_Internal_CalcMinMaxWidth_m5_1564 ();
-extern "C" void GUIUtility__cctor_m5_1565 ();
-extern "C" void GUIUtility_get_pixelsPerPoint_m5_1566 ();
-extern "C" void GUIUtility_GetControlID_m5_1567 ();
-extern "C" void GUIUtility_GetStateObject_m5_1568 ();
-extern "C" void GUIUtility_get_hotControl_m5_1569 ();
-extern "C" void GUIUtility_set_hotControl_m5_1570 ();
-extern "C" void GUIUtility_GetDefaultSkin_m5_1571 ();
-extern "C" void GUIUtility_BeginGUI_m5_1572 ();
-extern "C" void GUIUtility_EndGUI_m5_1573 ();
-extern "C" void GUIUtility_EndGUIFromException_m5_1574 ();
-extern "C" void GUIUtility_CheckOnGUI_m5_1575 ();
-extern "C" void GUIUtility_ScaleAroundPivot_m5_1576 ();
-extern "C" void GUIUtility_Internal_GetPixelsPerPoint_m5_1577 ();
-extern "C" void GUIUtility_GetControlID_m5_1578 ();
-extern "C" void GUIUtility_Internal_GetNextControlID2_m5_1579 ();
-extern "C" void GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m5_1580 ();
-extern "C" void GUIUtility_Internal_GetHotControl_m5_1581 ();
-extern "C" void GUIUtility_Internal_SetHotControl_m5_1582 ();
-extern "C" void GUIUtility_get_systemCopyBuffer_m5_1583 ();
-extern "C" void GUIUtility_set_systemCopyBuffer_m5_1584 ();
-extern "C" void GUIUtility_Internal_GetDefaultSkin_m5_1585 ();
-extern "C" void GUIUtility_Internal_ExitGUI_m5_1586 ();
-extern "C" void GUIUtility_Internal_GetGUIDepth_m5_1587 ();
-extern "C" void GUIUtility_set_mouseUsed_m5_1588 ();
-extern "C" void GUIClip_Unclip_m5_1589 ();
-extern "C" void GUIClip_Push_m5_1590 ();
-extern "C" void GUIClip_INTERNAL_CALL_Push_m5_1591 ();
-extern "C" void GUIClip_Pop_m5_1592 ();
-extern "C" void GUIClip_Unclip_Vector2_m5_1593 ();
-extern "C" void GUIClip_INTERNAL_CALL_Unclip_Vector2_m5_1594 ();
-extern "C" void GUIClip_GetMatrix_m5_1595 ();
-extern "C" void GUIClip_SetMatrix_m5_1596 ();
-extern "C" void GUIClip_INTERNAL_CALL_SetMatrix_m5_1597 ();
-extern "C" void WrapperlessIcall__ctor_m5_1598 ();
-extern "C" void IL2CPPStructAlignmentAttribute__ctor_m5_1599 ();
-extern "C" void AttributeHelperEngine__cctor_m5_1600 ();
-extern "C" void AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m5_1601 ();
-extern "C" void AttributeHelperEngine_GetRequiredComponents_m5_1602 ();
-extern "C" void AttributeHelperEngine_CheckIsEditorScript_m5_1603 ();
-extern "C" void DisallowMultipleComponent__ctor_m5_1604 ();
-extern "C" void RequireComponent__ctor_m5_1605 ();
-extern "C" void AddComponentMenu__ctor_m5_1606 ();
-extern "C" void AddComponentMenu__ctor_m5_1607 ();
-extern "C" void ExecuteInEditMode__ctor_m5_1608 ();
-extern "C" void HideInInspector__ctor_m5_1609 ();
-extern "C" void SetupCoroutine__ctor_m5_1610 ();
-extern "C" void SetupCoroutine_InvokeMember_m5_1611 ();
-extern "C" void SetupCoroutine_InvokeStatic_m5_1612 ();
-extern "C" void WritableAttribute__ctor_m5_1613 ();
-extern "C" void AssemblyIsEditorAssembly__ctor_m5_1614 ();
-extern "C" void GcUserProfileData_ToUserProfile_m5_1615 ();
-extern "C" void GcUserProfileData_AddToArray_m5_1616 ();
-extern "C" void GcAchievementDescriptionData_ToAchievementDescription_m5_1617 ();
-extern "C" void GcAchievementData_ToAchievement_m5_1618 ();
-extern "C" void GcScoreData_ToScore_m5_1619 ();
-extern "C" void Resolution_get_width_m5_1620 ();
-extern "C" void Resolution_set_width_m5_1621 ();
-extern "C" void Resolution_get_height_m5_1622 ();
-extern "C" void Resolution_set_height_m5_1623 ();
-extern "C" void Resolution_get_refreshRate_m5_1624 ();
-extern "C" void Resolution_set_refreshRate_m5_1625 ();
-extern "C" void Resolution_ToString_m5_1626 ();
-extern "C" void GUIStateObjects__cctor_m5_1627 ();
-extern "C" void GUIStateObjects_GetStateObject_m5_1628 ();
-extern "C" void LocalUser__ctor_m5_1629 ();
-extern "C" void LocalUser_SetFriends_m5_1630 ();
-extern "C" void LocalUser_SetAuthenticated_m5_1631 ();
-extern "C" void LocalUser_SetUnderage_m5_1632 ();
-extern "C" void LocalUser_get_authenticated_m5_1633 ();
-extern "C" void UserProfile__ctor_m5_1634 ();
-extern "C" void UserProfile__ctor_m5_1635 ();
-extern "C" void UserProfile_ToString_m5_1636 ();
-extern "C" void UserProfile_SetUserName_m5_1637 ();
-extern "C" void UserProfile_SetUserID_m5_1638 ();
-extern "C" void UserProfile_SetImage_m5_1639 ();
-extern "C" void UserProfile_get_userName_m5_1640 ();
-extern "C" void UserProfile_get_id_m5_1641 ();
-extern "C" void UserProfile_get_isFriend_m5_1642 ();
-extern "C" void UserProfile_get_state_m5_1643 ();
-extern "C" void Achievement__ctor_m5_1644 ();
-extern "C" void Achievement__ctor_m5_1645 ();
-extern "C" void Achievement__ctor_m5_1646 ();
-extern "C" void Achievement_ToString_m5_1647 ();
-extern "C" void Achievement_get_id_m5_1648 ();
-extern "C" void Achievement_set_id_m5_1649 ();
-extern "C" void Achievement_get_percentCompleted_m5_1650 ();
-extern "C" void Achievement_set_percentCompleted_m5_1651 ();
-extern "C" void Achievement_get_completed_m5_1652 ();
-extern "C" void Achievement_get_hidden_m5_1653 ();
-extern "C" void Achievement_get_lastReportedDate_m5_1654 ();
-extern "C" void AchievementDescription__ctor_m5_1655 ();
-extern "C" void AchievementDescription_ToString_m5_1656 ();
-extern "C" void AchievementDescription_SetImage_m5_1657 ();
-extern "C" void AchievementDescription_get_id_m5_1658 ();
-extern "C" void AchievementDescription_set_id_m5_1659 ();
-extern "C" void AchievementDescription_get_title_m5_1660 ();
-extern "C" void AchievementDescription_get_achievedDescription_m5_1661 ();
-extern "C" void AchievementDescription_get_unachievedDescription_m5_1662 ();
-extern "C" void AchievementDescription_get_hidden_m5_1663 ();
-extern "C" void AchievementDescription_get_points_m5_1664 ();
-extern "C" void Score__ctor_m5_1665 ();
-extern "C" void Score__ctor_m5_1666 ();
-extern "C" void Score_ToString_m5_1667 ();
-extern "C" void Score_get_leaderboardID_m5_1668 ();
-extern "C" void Score_set_leaderboardID_m5_1669 ();
-extern "C" void Score_get_value_m5_1670 ();
-extern "C" void Score_set_value_m5_1671 ();
-extern "C" void Leaderboard__ctor_m5_1672 ();
-extern "C" void Leaderboard_ToString_m5_1673 ();
-extern "C" void Leaderboard_SetLocalUserScore_m5_1674 ();
-extern "C" void Leaderboard_SetMaxRange_m5_1675 ();
-extern "C" void Leaderboard_SetScores_m5_1676 ();
-extern "C" void Leaderboard_SetTitle_m5_1677 ();
-extern "C" void Leaderboard_GetUserFilter_m5_1678 ();
-extern "C" void Leaderboard_get_id_m5_1679 ();
-extern "C" void Leaderboard_set_id_m5_1680 ();
-extern "C" void Leaderboard_get_userScope_m5_1681 ();
-extern "C" void Leaderboard_set_userScope_m5_1682 ();
-extern "C" void Leaderboard_get_range_m5_1683 ();
-extern "C" void Leaderboard_set_range_m5_1684 ();
-extern "C" void Leaderboard_get_timeScope_m5_1685 ();
-extern "C" void Leaderboard_set_timeScope_m5_1686 ();
-extern "C" void HitInfo_SendMessage_m5_1687 ();
-extern "C" void HitInfo_Compare_m5_1688 ();
-extern "C" void HitInfo_op_Implicit_m5_1689 ();
-extern "C" void SendMouseEvents__cctor_m5_1690 ();
-extern "C" void SendMouseEvents_SetMouseMoved_m5_1691 ();
-extern "C" void SendMouseEvents_DoSendMouseEvents_m5_1692 ();
-extern "C" void SendMouseEvents_SendEvents_m5_1693 ();
-extern "C" void Range__ctor_m5_1694 ();
-extern "C" void PropertyAttribute__ctor_m5_1695 ();
-extern "C" void TooltipAttribute__ctor_m5_1696 ();
-extern "C" void SpaceAttribute__ctor_m5_1697 ();
-extern "C" void SpaceAttribute__ctor_m5_1698 ();
-extern "C" void RangeAttribute__ctor_m5_1699 ();
-extern "C" void TextAreaAttribute__ctor_m5_1700 ();
-extern "C" void SelectionBaseAttribute__ctor_m5_1701 ();
-extern "C" void SliderState__ctor_m5_1702 ();
-extern "C" void SliderHandler__ctor_m5_1703 ();
-extern "C" void SliderHandler_Handle_m5_1704 ();
-extern "C" void SliderHandler_OnMouseDown_m5_1705 ();
-extern "C" void SliderHandler_OnMouseDrag_m5_1706 ();
-extern "C" void SliderHandler_OnMouseUp_m5_1707 ();
-extern "C" void SliderHandler_OnRepaint_m5_1708 ();
-extern "C" void SliderHandler_CurrentEventType_m5_1709 ();
-extern "C" void SliderHandler_CurrentScrollTroughSide_m5_1710 ();
-extern "C" void SliderHandler_IsEmptySlider_m5_1711 ();
-extern "C" void SliderHandler_SupportsPageMovements_m5_1712 ();
-extern "C" void SliderHandler_PageMovementValue_m5_1713 ();
-extern "C" void SliderHandler_PageUpMovementBound_m5_1714 ();
-extern "C" void SliderHandler_CurrentEvent_m5_1715 ();
-extern "C" void SliderHandler_ValueForCurrentMousePosition_m5_1716 ();
-extern "C" void SliderHandler_Clamp_m5_1717 ();
-extern "C" void SliderHandler_ThumbSelectionRect_m5_1718 ();
-extern "C" void SliderHandler_StartDraggingWithValue_m5_1719 ();
-extern "C" void SliderHandler_SliderState_m5_1720 ();
-extern "C" void SliderHandler_ThumbRect_m5_1721 ();
-extern "C" void SliderHandler_VerticalThumbRect_m5_1722 ();
-extern "C" void SliderHandler_HorizontalThumbRect_m5_1723 ();
-extern "C" void SliderHandler_ClampedCurrentValue_m5_1724 ();
-extern "C" void SliderHandler_MousePosition_m5_1725 ();
-extern "C" void SliderHandler_ValuesPerPixel_m5_1726 ();
-extern "C" void SliderHandler_ThumbSize_m5_1727 ();
-extern "C" void SliderHandler_MaxValue_m5_1728 ();
-extern "C" void SliderHandler_MinValue_m5_1729 ();
-extern "C" void StackTraceUtility__ctor_m5_1730 ();
-extern "C" void StackTraceUtility__cctor_m5_1731 ();
-extern "C" void StackTraceUtility_SetProjectFolder_m5_1732 ();
-extern "C" void StackTraceUtility_ExtractStackTrace_m5_1733 ();
-extern "C" void StackTraceUtility_IsSystemStacktraceType_m5_1734 ();
-extern "C" void StackTraceUtility_ExtractStringFromException_m5_1735 ();
-extern "C" void StackTraceUtility_ExtractStringFromExceptionInternal_m5_1736 ();
-extern "C" void StackTraceUtility_PostprocessStacktrace_m5_1737 ();
-extern "C" void StackTraceUtility_ExtractFormattedStackTrace_m5_1738 ();
-extern "C" void UnityException__ctor_m5_1739 ();
-extern "C" void UnityException__ctor_m5_1740 ();
-extern "C" void UnityException__ctor_m5_1741 ();
-extern "C" void UnityException__ctor_m5_1742 ();
-extern "C" void SharedBetweenAnimatorsAttribute__ctor_m5_1743 ();
-extern "C" void StateMachineBehaviour__ctor_m5_1744 ();
-extern "C" void SystemClock__cctor_m5_1745 ();
-extern "C" void SystemClock_get_now_m5_1746 ();
-extern "C" void TextEditor__ctor_m5_1747 ();
-extern "C" void TextGenerationSettings_CompareColors_m5_1748 ();
-extern "C" void TextGenerationSettings_CompareVector2_m5_1749 ();
-extern "C" void TextGenerationSettings_Equals_m5_1750 ();
-extern "C" void TrackedReference_Equals_m5_1751 ();
-extern "C" void TrackedReference_GetHashCode_m5_1752 ();
-extern "C" void TrackedReference_op_Equality_m5_1753 ();
-extern "C" void ArgumentCache__ctor_m5_1754 ();
-extern "C" void ArgumentCache_get_unityObjectArgument_m5_1755 ();
-extern "C" void ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m5_1756 ();
-extern "C" void ArgumentCache_get_intArgument_m5_1757 ();
-extern "C" void ArgumentCache_get_floatArgument_m5_1758 ();
-extern "C" void ArgumentCache_get_stringArgument_m5_1759 ();
-extern "C" void ArgumentCache_get_boolArgument_m5_1760 ();
-extern "C" void ArgumentCache_TidyAssemblyTypeName_m5_1761 ();
-extern "C" void ArgumentCache_OnBeforeSerialize_m5_1762 ();
-extern "C" void ArgumentCache_OnAfterDeserialize_m5_1763 ();
-extern "C" void BaseInvokableCall__ctor_m5_1764 ();
-extern "C" void BaseInvokableCall__ctor_m5_1765 ();
-extern "C" void BaseInvokableCall_AllowInvoke_m5_1766 ();
-extern "C" void InvokableCall__ctor_m5_1767 ();
-extern "C" void InvokableCall__ctor_m5_1768 ();
-extern "C" void InvokableCall_Invoke_m5_1769 ();
-extern "C" void InvokableCall_Find_m5_1770 ();
-extern "C" void PersistentCall__ctor_m5_1771 ();
-extern "C" void PersistentCall_get_target_m5_1772 ();
-extern "C" void PersistentCall_get_methodName_m5_1773 ();
-extern "C" void PersistentCall_get_mode_m5_1774 ();
-extern "C" void PersistentCall_get_arguments_m5_1775 ();
-extern "C" void PersistentCall_IsValid_m5_1776 ();
-extern "C" void PersistentCall_GetRuntimeCall_m5_1777 ();
-extern "C" void PersistentCall_GetObjectCall_m5_1778 ();
-extern "C" void PersistentCallGroup__ctor_m5_1779 ();
-extern "C" void PersistentCallGroup_Initialize_m5_1780 ();
-extern "C" void InvokableCallList__ctor_m5_1781 ();
-extern "C" void InvokableCallList_AddPersistentInvokableCall_m5_1782 ();
-extern "C" void InvokableCallList_AddListener_m5_1783 ();
-extern "C" void InvokableCallList_RemoveListener_m5_1784 ();
-extern "C" void InvokableCallList_ClearPersistent_m5_1785 ();
-extern "C" void InvokableCallList_Invoke_m5_1786 ();
-extern "C" void UnityEventBase__ctor_m5_1787 ();
-extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m5_1788 ();
-extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m5_1789 ();
-extern "C" void UnityEventBase_FindMethod_m5_1790 ();
-extern "C" void UnityEventBase_FindMethod_m5_1791 ();
-extern "C" void UnityEventBase_DirtyPersistentCalls_m5_1792 ();
-extern "C" void UnityEventBase_RebuildPersistentCallsIfNeeded_m5_1793 ();
-extern "C" void UnityEventBase_AddCall_m5_1794 ();
-extern "C" void UnityEventBase_RemoveListener_m5_1795 ();
-extern "C" void UnityEventBase_Invoke_m5_1796 ();
-extern "C" void UnityEventBase_ToString_m5_1797 ();
-extern "C" void UnityEventBase_GetValidMethodInfo_m5_1798 ();
-extern "C" void UnityEvent__ctor_m5_1799 ();
-extern "C" void UnityEvent_AddListener_m5_1800 ();
-extern "C" void UnityEvent_FindMethod_Impl_m5_1801 ();
-extern "C" void UnityEvent_GetDelegate_m5_1802 ();
-extern "C" void UnityEvent_GetDelegate_m5_1803 ();
-extern "C" void UnityEvent_Invoke_m5_1804 ();
-extern "C" void DefaultValueAttribute__ctor_m5_1805 ();
-extern "C" void DefaultValueAttribute_get_Value_m5_1806 ();
-extern "C" void DefaultValueAttribute_Equals_m5_1807 ();
-extern "C" void DefaultValueAttribute_GetHashCode_m5_1808 ();
-extern "C" void ExcludeFromDocsAttribute__ctor_m5_1809 ();
-extern "C" void FormerlySerializedAsAttribute__ctor_m5_1810 ();
-extern "C" void TypeInferenceRuleAttribute__ctor_m5_1811 ();
-extern "C" void TypeInferenceRuleAttribute__ctor_m5_1812 ();
-extern "C" void TypeInferenceRuleAttribute_ToString_m5_1813 ();
-extern "C" void GenericStack__ctor_m5_1814 ();
-extern "C" void NetFxCoreExtensions_CreateDelegate_m5_1815 ();
-extern "C" void NetFxCoreExtensions_GetMethodInfo_m5_1816 ();
-extern "C" void UnityAdsDelegate__ctor_m5_1817 ();
-extern "C" void UnityAdsDelegate_Invoke_m5_1818 ();
-extern "C" void UnityAdsDelegate_BeginInvoke_m5_1819 ();
-extern "C" void UnityAdsDelegate_EndInvoke_m5_1820 ();
-extern "C" void UnityAction__ctor_m5_1821 ();
-extern "C" void UnityAction_Invoke_m5_1822 ();
-extern "C" void UnityAction_BeginInvoke_m5_1823 ();
-extern "C" void UnityAction_EndInvoke_m5_1824 ();
+extern "C" void WWW__ctor_m5_634 ();
+extern "C" void WWW_Dispose_m5_635 ();
+extern "C" void WWW_Finalize_m5_636 ();
+extern "C" void WWW_DestroyWWW_m5_637 ();
+extern "C" void WWW_InitWWW_m5_638 ();
+extern "C" void WWW_get_responseHeaders_m5_639 ();
+extern "C" void WWW_get_responseHeadersString_m5_640 ();
+extern "C" void WWW_get_text_m5_641 ();
+extern "C" void WWW_GetTextEncoder_m5_642 ();
+extern "C" void WWW_get_bytes_m5_643 ();
+extern "C" void WWW_get_error_m5_644 ();
+extern "C" void WWW_get_isDone_m5_645 ();
+extern "C" void WWW_ParseHTTPHeaderString_m5_646 ();
+extern "C" void UnityString_Format_m5_647 ();
+extern "C" void AsyncOperation__ctor_m5_648 ();
+extern "C" void AsyncOperation_InternalDestroy_m5_649 ();
+extern "C" void AsyncOperation_Finalize_m5_650 ();
+extern "C" void LogCallback__ctor_m5_651 ();
+extern "C" void LogCallback_Invoke_m5_652 ();
+extern "C" void LogCallback_BeginInvoke_m5_653 ();
+extern "C" void LogCallback_EndInvoke_m5_654 ();
+extern "C" void Application_Quit_m5_655 ();
+extern "C" void Application_LoadLevel_m5_656 ();
+extern "C" void Application_LoadLevelAsync_m5_657 ();
+extern "C" void Application_get_isPlaying_m5_658 ();
+extern "C" void Application_get_isEditor_m5_659 ();
+extern "C" void Application_get_platform_m5_660 ();
+extern "C" void Application_set_runInBackground_m5_661 ();
+extern "C" void Application_get_dataPath_m5_662 ();
+extern "C" void Application_get_unityVersion_m5_663 ();
+extern "C" void Application_CallLogCallback_m5_664 ();
+extern "C" void Behaviour__ctor_m5_665 ();
+extern "C" void Behaviour_get_enabled_m5_666 ();
+extern "C" void Behaviour_set_enabled_m5_667 ();
+extern "C" void Behaviour_get_isActiveAndEnabled_m5_668 ();
+extern "C" void CameraCallback__ctor_m5_669 ();
+extern "C" void CameraCallback_Invoke_m5_670 ();
+extern "C" void CameraCallback_BeginInvoke_m5_671 ();
+extern "C" void CameraCallback_EndInvoke_m5_672 ();
+extern "C" void Camera_get_fieldOfView_m5_673 ();
+extern "C" void Camera_get_nearClipPlane_m5_674 ();
+extern "C" void Camera_set_nearClipPlane_m5_675 ();
+extern "C" void Camera_get_farClipPlane_m5_676 ();
+extern "C" void Camera_set_farClipPlane_m5_677 ();
+extern "C" void Camera_set_orthographicSize_m5_678 ();
+extern "C" void Camera_set_orthographic_m5_679 ();
+extern "C" void Camera_get_depth_m5_680 ();
+extern "C" void Camera_set_aspect_m5_681 ();
+extern "C" void Camera_get_cullingMask_m5_682 ();
+extern "C" void Camera_set_cullingMask_m5_683 ();
+extern "C" void Camera_get_eventMask_m5_684 ();
+extern "C" void Camera_get_rect_m5_685 ();
+extern "C" void Camera_set_rect_m5_686 ();
+extern "C" void Camera_INTERNAL_get_rect_m5_687 ();
+extern "C" void Camera_INTERNAL_set_rect_m5_688 ();
+extern "C" void Camera_get_pixelRect_m5_689 ();
+extern "C" void Camera_INTERNAL_get_pixelRect_m5_690 ();
+extern "C" void Camera_get_targetTexture_m5_691 ();
+extern "C" void Camera_set_targetTexture_m5_692 ();
+extern "C" void Camera_get_projectionMatrix_m5_693 ();
+extern "C" void Camera_set_projectionMatrix_m5_694 ();
+extern "C" void Camera_INTERNAL_get_projectionMatrix_m5_695 ();
+extern "C" void Camera_INTERNAL_set_projectionMatrix_m5_696 ();
+extern "C" void Camera_get_clearFlags_m5_697 ();
+extern "C" void Camera_WorldToScreenPoint_m5_698 ();
+extern "C" void Camera_INTERNAL_CALL_WorldToScreenPoint_m5_699 ();
+extern "C" void Camera_ScreenToViewportPoint_m5_700 ();
+extern "C" void Camera_INTERNAL_CALL_ScreenToViewportPoint_m5_701 ();
+extern "C" void Camera_ScreenPointToRay_m5_702 ();
+extern "C" void Camera_INTERNAL_CALL_ScreenPointToRay_m5_703 ();
+extern "C" void Camera_get_main_m5_704 ();
+extern "C" void Camera_get_current_m5_705 ();
+extern "C" void Camera_get_allCamerasCount_m5_706 ();
+extern "C" void Camera_GetAllCameras_m5_707 ();
+extern "C" void Camera_FireOnPreCull_m5_708 ();
+extern "C" void Camera_FireOnPreRender_m5_709 ();
+extern "C" void Camera_FireOnPostRender_m5_710 ();
+extern "C" void Camera_Render_m5_711 ();
+extern "C" void Camera_RaycastTry_m5_712 ();
+extern "C" void Camera_INTERNAL_CALL_RaycastTry_m5_713 ();
+extern "C" void Camera_RaycastTry2D_m5_714 ();
+extern "C" void Camera_INTERNAL_CALL_RaycastTry2D_m5_715 ();
+extern "C" void Debug_Internal_Log_m5_716 ();
+extern "C" void Debug_Internal_LogException_m5_717 ();
+extern "C" void Debug_Log_m5_718 ();
+extern "C" void Debug_LogError_m5_719 ();
+extern "C" void Debug_LogError_m5_720 ();
+extern "C" void Debug_LogException_m5_721 ();
+extern "C" void Debug_LogException_m5_722 ();
+extern "C" void Debug_LogWarning_m5_723 ();
+extern "C" void Debug_LogWarning_m5_724 ();
+extern "C" void DisplaysUpdatedDelegate__ctor_m5_725 ();
+extern "C" void DisplaysUpdatedDelegate_Invoke_m5_726 ();
+extern "C" void DisplaysUpdatedDelegate_BeginInvoke_m5_727 ();
+extern "C" void DisplaysUpdatedDelegate_EndInvoke_m5_728 ();
+extern "C" void Display__ctor_m5_729 ();
+extern "C" void Display__ctor_m5_730 ();
+extern "C" void Display__cctor_m5_731 ();
+extern "C" void Display_add_onDisplaysUpdated_m5_732 ();
+extern "C" void Display_remove_onDisplaysUpdated_m5_733 ();
+extern "C" void Display_get_renderingWidth_m5_734 ();
+extern "C" void Display_get_renderingHeight_m5_735 ();
+extern "C" void Display_get_systemWidth_m5_736 ();
+extern "C" void Display_get_systemHeight_m5_737 ();
+extern "C" void Display_get_colorBuffer_m5_738 ();
+extern "C" void Display_get_depthBuffer_m5_739 ();
+extern "C" void Display_Activate_m5_740 ();
+extern "C" void Display_Activate_m5_741 ();
+extern "C" void Display_SetParams_m5_742 ();
+extern "C" void Display_SetRenderingResolution_m5_743 ();
+extern "C" void Display_MultiDisplayLicense_m5_744 ();
+extern "C" void Display_RelativeMouseAt_m5_745 ();
+extern "C" void Display_get_main_m5_746 ();
+extern "C" void Display_RecreateDisplayList_m5_747 ();
+extern "C" void Display_FireDisplaysUpdated_m5_748 ();
+extern "C" void Display_GetSystemExtImpl_m5_749 ();
+extern "C" void Display_GetRenderingExtImpl_m5_750 ();
+extern "C" void Display_GetRenderingBuffersImpl_m5_751 ();
+extern "C" void Display_SetRenderingResolutionImpl_m5_752 ();
+extern "C" void Display_ActivateDisplayImpl_m5_753 ();
+extern "C" void Display_SetParamsImpl_m5_754 ();
+extern "C" void Display_MultiDisplayLicenseImpl_m5_755 ();
+extern "C" void Display_RelativeMouseAtImpl_m5_756 ();
+extern "C" void MonoBehaviour__ctor_m5_757 ();
+extern "C" void MonoBehaviour_StartCoroutine_m5_758 ();
+extern "C" void MonoBehaviour_StartCoroutine_Auto_m5_759 ();
+extern "C" void MonoBehaviour_StopCoroutine_m5_760 ();
+extern "C" void MonoBehaviour_StopCoroutine_m5_761 ();
+extern "C" void MonoBehaviour_StopCoroutineViaEnumerator_Auto_m5_762 ();
+extern "C" void MonoBehaviour_StopCoroutine_Auto_m5_763 ();
+extern "C" void Touch_get_fingerId_m5_764 ();
+extern "C" void Touch_get_position_m5_765 ();
+extern "C" void Touch_get_phase_m5_766 ();
+extern "C" void Input__cctor_m5_767 ();
+extern "C" void Input_GetKeyInt_m5_768 ();
+extern "C" void Input_GetKeyDownInt_m5_769 ();
+extern "C" void Input_GetAxisRaw_m5_770 ();
+extern "C" void Input_GetButtonDown_m5_771 ();
+extern "C" void Input_GetKey_m5_772 ();
+extern "C" void Input_GetKeyDown_m5_773 ();
+extern "C" void Input_GetMouseButton_m5_774 ();
+extern "C" void Input_GetMouseButtonDown_m5_775 ();
+extern "C" void Input_GetMouseButtonUp_m5_776 ();
+extern "C" void Input_get_mousePosition_m5_777 ();
+extern "C" void Input_INTERNAL_get_mousePosition_m5_778 ();
+extern "C" void Input_get_mouseScrollDelta_m5_779 ();
+extern "C" void Input_INTERNAL_get_mouseScrollDelta_m5_780 ();
+extern "C" void Input_get_mousePresent_m5_781 ();
+extern "C" void Input_GetTouch_m5_782 ();
+extern "C" void Input_get_touchCount_m5_783 ();
+extern "C" void Input_get_touchSupported_m5_784 ();
+extern "C" void Input_set_imeCompositionMode_m5_785 ();
+extern "C" void Input_get_compositionString_m5_786 ();
+extern "C" void Input_set_compositionCursorPos_m5_787 ();
+extern "C" void Input_INTERNAL_set_compositionCursorPos_m5_788 ();
+extern "C" void Object__ctor_m5_789 ();
+extern "C" void Object_Internal_CloneSingle_m5_790 ();
+extern "C" void Object_Internal_InstantiateSingle_m5_791 ();
+extern "C" void Object_INTERNAL_CALL_Internal_InstantiateSingle_m5_792 ();
+extern "C" void Object_Destroy_m5_793 ();
+extern "C" void Object_Destroy_m5_794 ();
+extern "C" void Object_DestroyImmediate_m5_795 ();
+extern "C" void Object_DestroyImmediate_m5_796 ();
+extern "C" void Object_FindObjectsOfType_m5_797 ();
+extern "C" void Object_get_name_m5_798 ();
+extern "C" void Object_set_name_m5_799 ();
+extern "C" void Object_DontDestroyOnLoad_m5_800 ();
+extern "C" void Object_set_hideFlags_m5_801 ();
+extern "C" void Object_ToString_m5_802 ();
+extern "C" void Object_Equals_m5_803 ();
+extern "C" void Object_GetHashCode_m5_804 ();
+extern "C" void Object_CompareBaseObjects_m5_805 ();
+extern "C" void Object_IsNativeObjectAlive_m5_806 ();
+extern "C" void Object_GetInstanceID_m5_807 ();
+extern "C" void Object_GetCachedPtr_m5_808 ();
+extern "C" void Object_Instantiate_m5_809 ();
+extern "C" void Object_Instantiate_m5_810 ();
+extern "C" void Object_CheckNullArgument_m5_811 ();
+extern "C" void Object_FindObjectOfType_m5_812 ();
+extern "C" void Object_op_Implicit_m5_813 ();
+extern "C" void Object_op_Equality_m5_814 ();
+extern "C" void Object_op_Inequality_m5_815 ();
+extern "C" void Component__ctor_m5_816 ();
+extern "C" void Component_get_transform_m5_817 ();
+extern "C" void Component_get_gameObject_m5_818 ();
+extern "C" void Component_GetComponent_m5_819 ();
+extern "C" void Component_GetComponentFastPath_m5_820 ();
+extern "C" void Component_GetComponentInChildren_m5_821 ();
+extern "C" void Component_GetComponentInParent_m5_822 ();
+extern "C" void Component_GetComponentsForListInternal_m5_823 ();
+extern "C" void Component_GetComponents_m5_824 ();
+extern "C" void Component_SendMessage_m5_825 ();
+extern "C" void Component_SendMessage_m5_826 ();
+extern "C" void GameObject__ctor_m5_827 ();
+extern "C" void GameObject__ctor_m5_828 ();
+extern "C" void GameObject__ctor_m5_829 ();
+extern "C" void GameObject_CreatePrimitive_m5_830 ();
+extern "C" void GameObject_GetComponent_m5_831 ();
+extern "C" void GameObject_GetComponentFastPath_m5_832 ();
+extern "C" void GameObject_GetComponentInChildren_m5_833 ();
+extern "C" void GameObject_GetComponentInParent_m5_834 ();
+extern "C" void GameObject_GetComponentsInternal_m5_835 ();
+extern "C" void GameObject_get_transform_m5_836 ();
+extern "C" void GameObject_get_layer_m5_837 ();
+extern "C" void GameObject_set_layer_m5_838 ();
+extern "C" void GameObject_SetActive_m5_839 ();
+extern "C" void GameObject_get_activeSelf_m5_840 ();
+extern "C" void GameObject_get_activeInHierarchy_m5_841 ();
+extern "C" void GameObject_SendMessage_m5_842 ();
+extern "C" void GameObject_SendMessage_m5_843 ();
+extern "C" void GameObject_SendMessage_m5_844 ();
+extern "C" void GameObject_Internal_AddComponentWithType_m5_845 ();
+extern "C" void GameObject_AddComponent_m5_846 ();
+extern "C" void GameObject_Internal_CreateGameObject_m5_847 ();
+extern "C" void GameObject_Find_m5_848 ();
+extern "C" void Enumerator__ctor_m5_849 ();
+extern "C" void Enumerator_get_Current_m5_850 ();
+extern "C" void Enumerator_MoveNext_m5_851 ();
+extern "C" void Enumerator_Reset_m5_852 ();
+extern "C" void Transform_get_position_m5_853 ();
+extern "C" void Transform_set_position_m5_854 ();
+extern "C" void Transform_INTERNAL_get_position_m5_855 ();
+extern "C" void Transform_INTERNAL_set_position_m5_856 ();
+extern "C" void Transform_get_localPosition_m5_857 ();
+extern "C" void Transform_set_localPosition_m5_858 ();
+extern "C" void Transform_INTERNAL_get_localPosition_m5_859 ();
+extern "C" void Transform_INTERNAL_set_localPosition_m5_860 ();
+extern "C" void Transform_get_eulerAngles_m5_861 ();
+extern "C" void Transform_get_forward_m5_862 ();
+extern "C" void Transform_get_rotation_m5_863 ();
+extern "C" void Transform_set_rotation_m5_864 ();
+extern "C" void Transform_INTERNAL_get_rotation_m5_865 ();
+extern "C" void Transform_INTERNAL_set_rotation_m5_866 ();
+extern "C" void Transform_get_localRotation_m5_867 ();
+extern "C" void Transform_set_localRotation_m5_868 ();
+extern "C" void Transform_INTERNAL_get_localRotation_m5_869 ();
+extern "C" void Transform_INTERNAL_set_localRotation_m5_870 ();
+extern "C" void Transform_get_localScale_m5_871 ();
+extern "C" void Transform_set_localScale_m5_872 ();
+extern "C" void Transform_INTERNAL_get_localScale_m5_873 ();
+extern "C" void Transform_INTERNAL_set_localScale_m5_874 ();
+extern "C" void Transform_get_parent_m5_875 ();
+extern "C" void Transform_set_parent_m5_876 ();
+extern "C" void Transform_get_parentInternal_m5_877 ();
+extern "C" void Transform_set_parentInternal_m5_878 ();
+extern "C" void Transform_SetParent_m5_879 ();
+extern "C" void Transform_SetParent_m5_880 ();
+extern "C" void Transform_get_worldToLocalMatrix_m5_881 ();
+extern "C" void Transform_INTERNAL_get_worldToLocalMatrix_m5_882 ();
+extern "C" void Transform_get_localToWorldMatrix_m5_883 ();
+extern "C" void Transform_INTERNAL_get_localToWorldMatrix_m5_884 ();
+extern "C" void Transform_Rotate_m5_885 ();
+extern "C" void Transform_Rotate_m5_886 ();
+extern "C" void Transform_RotateAroundInternal_m5_887 ();
+extern "C" void Transform_INTERNAL_CALL_RotateAroundInternal_m5_888 ();
+extern "C" void Transform_RotateAround_m5_889 ();
+extern "C" void Transform_TransformPoint_m5_890 ();
+extern "C" void Transform_INTERNAL_CALL_TransformPoint_m5_891 ();
+extern "C" void Transform_InverseTransformPoint_m5_892 ();
+extern "C" void Transform_INTERNAL_CALL_InverseTransformPoint_m5_893 ();
+extern "C" void Transform_get_root_m5_894 ();
+extern "C" void Transform_get_childCount_m5_895 ();
+extern "C" void Transform_SetAsFirstSibling_m5_896 ();
+extern "C" void Transform_Find_m5_897 ();
+extern "C" void Transform_get_lossyScale_m5_898 ();
+extern "C" void Transform_INTERNAL_get_lossyScale_m5_899 ();
+extern "C" void Transform_IsChildOf_m5_900 ();
+extern "C" void Transform_FindChild_m5_901 ();
+extern "C" void Transform_GetEnumerator_m5_902 ();
+extern "C" void Transform_GetChild_m5_903 ();
+extern "C" void Time_get_time_m5_904 ();
+extern "C" void Time_get_deltaTime_m5_905 ();
+extern "C" void Time_get_unscaledTime_m5_906 ();
+extern "C" void Time_get_unscaledDeltaTime_m5_907 ();
+extern "C" void Time_get_frameCount_m5_908 ();
+extern "C" void YieldInstruction__ctor_m5_909 ();
+extern "C" void UnityAdsInternal__ctor_m5_910 ();
+extern "C" void UnityAdsInternal_add_onCampaignsAvailable_m5_911 ();
+extern "C" void UnityAdsInternal_remove_onCampaignsAvailable_m5_912 ();
+extern "C" void UnityAdsInternal_add_onCampaignsFetchFailed_m5_913 ();
+extern "C" void UnityAdsInternal_remove_onCampaignsFetchFailed_m5_914 ();
+extern "C" void UnityAdsInternal_add_onShow_m5_915 ();
+extern "C" void UnityAdsInternal_remove_onShow_m5_916 ();
+extern "C" void UnityAdsInternal_add_onHide_m5_917 ();
+extern "C" void UnityAdsInternal_remove_onHide_m5_918 ();
+extern "C" void UnityAdsInternal_add_onVideoCompleted_m5_919 ();
+extern "C" void UnityAdsInternal_remove_onVideoCompleted_m5_920 ();
+extern "C" void UnityAdsInternal_add_onVideoStarted_m5_921 ();
+extern "C" void UnityAdsInternal_remove_onVideoStarted_m5_922 ();
+extern "C" void UnityAdsInternal_RegisterNative_m5_923 ();
+extern "C" void UnityAdsInternal_Init_m5_924 ();
+extern "C" void UnityAdsInternal_Show_m5_925 ();
+extern "C" void UnityAdsInternal_CanShowAds_m5_926 ();
+extern "C" void UnityAdsInternal_SetLogLevel_m5_927 ();
+extern "C" void UnityAdsInternal_SetCampaignDataURL_m5_928 ();
+extern "C" void UnityAdsInternal_RemoveAllEventHandlers_m5_929 ();
+extern "C" void UnityAdsInternal_CallUnityAdsCampaignsAvailable_m5_930 ();
+extern "C" void UnityAdsInternal_CallUnityAdsCampaignsFetchFailed_m5_931 ();
+extern "C" void UnityAdsInternal_CallUnityAdsShow_m5_932 ();
+extern "C" void UnityAdsInternal_CallUnityAdsHide_m5_933 ();
+extern "C" void UnityAdsInternal_CallUnityAdsVideoCompleted_m5_934 ();
+extern "C" void UnityAdsInternal_CallUnityAdsVideoStarted_m5_935 ();
+extern "C" void Particle_get_position_m5_936 ();
+extern "C" void Particle_set_position_m5_937 ();
+extern "C" void Particle_get_velocity_m5_938 ();
+extern "C" void Particle_set_velocity_m5_939 ();
+extern "C" void Particle_get_energy_m5_940 ();
+extern "C" void Particle_set_energy_m5_941 ();
+extern "C" void Particle_get_startEnergy_m5_942 ();
+extern "C" void Particle_set_startEnergy_m5_943 ();
+extern "C" void Particle_get_size_m5_944 ();
+extern "C" void Particle_set_size_m5_945 ();
+extern "C" void Particle_get_rotation_m5_946 ();
+extern "C" void Particle_set_rotation_m5_947 ();
+extern "C" void Particle_get_angularVelocity_m5_948 ();
+extern "C" void Particle_set_angularVelocity_m5_949 ();
+extern "C" void Particle_get_color_m5_950 ();
+extern "C" void Particle_set_color_m5_951 ();
+extern "C" void Collision_get_relativeVelocity_m5_952 ();
+extern "C" void Physics_Raycast_m5_953 ();
+extern "C" void Physics_Raycast_m5_954 ();
+extern "C" void Physics_Raycast_m5_955 ();
+extern "C" void Physics_RaycastAll_m5_956 ();
+extern "C" void Physics_RaycastAll_m5_957 ();
+extern "C" void Physics_RaycastAll_m5_958 ();
+extern "C" void Physics_INTERNAL_CALL_RaycastAll_m5_959 ();
+extern "C" void Physics_Internal_Raycast_m5_960 ();
+extern "C" void Physics_INTERNAL_CALL_Internal_Raycast_m5_961 ();
+extern "C" void Rigidbody_AddForce_m5_962 ();
+extern "C" void Rigidbody_INTERNAL_CALL_AddForce_m5_963 ();
+extern "C" void Rigidbody_AddExplosionForce_m5_964 ();
+extern "C" void Rigidbody_INTERNAL_CALL_AddExplosionForce_m5_965 ();
+extern "C" void Collider_set_enabled_m5_966 ();
+extern "C" void MeshCollider_set_sharedMesh_m5_967 ();
+extern "C" void RaycastHit_get_point_m5_968 ();
+extern "C" void RaycastHit_get_normal_m5_969 ();
+extern "C" void RaycastHit_get_distance_m5_970 ();
+extern "C" void RaycastHit_get_collider_m5_971 ();
+extern "C" void Physics2D__cctor_m5_972 ();
+extern "C" void Physics2D_Internal_Raycast_m5_973 ();
+extern "C" void Physics2D_INTERNAL_CALL_Internal_Raycast_m5_974 ();
+extern "C" void Physics2D_Raycast_m5_975 ();
+extern "C" void Physics2D_Raycast_m5_976 ();
+extern "C" void Physics2D_RaycastAll_m5_977 ();
+extern "C" void Physics2D_INTERNAL_CALL_RaycastAll_m5_978 ();
+extern "C" void RaycastHit2D_get_point_m5_979 ();
+extern "C" void RaycastHit2D_get_normal_m5_980 ();
+extern "C" void RaycastHit2D_get_fraction_m5_981 ();
+extern "C" void RaycastHit2D_get_collider_m5_982 ();
+extern "C" void RaycastHit2D_get_rigidbody_m5_983 ();
+extern "C" void RaycastHit2D_get_transform_m5_984 ();
+extern "C" void Collider2D_get_attachedRigidbody_m5_985 ();
+extern "C" void AudioConfigurationChangeHandler__ctor_m5_986 ();
+extern "C" void AudioConfigurationChangeHandler_Invoke_m5_987 ();
+extern "C" void AudioConfigurationChangeHandler_BeginInvoke_m5_988 ();
+extern "C" void AudioConfigurationChangeHandler_EndInvoke_m5_989 ();
+extern "C" void AudioSettings_InvokeOnAudioConfigurationChanged_m5_990 ();
+extern "C" void PCMReaderCallback__ctor_m5_991 ();
+extern "C" void PCMReaderCallback_Invoke_m5_992 ();
+extern "C" void PCMReaderCallback_BeginInvoke_m5_993 ();
+extern "C" void PCMReaderCallback_EndInvoke_m5_994 ();
+extern "C" void PCMSetPositionCallback__ctor_m5_995 ();
+extern "C" void PCMSetPositionCallback_Invoke_m5_996 ();
+extern "C" void PCMSetPositionCallback_BeginInvoke_m5_997 ();
+extern "C" void PCMSetPositionCallback_EndInvoke_m5_998 ();
+extern "C" void AudioClip_InvokePCMReaderCallback_Internal_m5_999 ();
+extern "C" void AudioClip_InvokePCMSetPositionCallback_Internal_m5_1000 ();
+extern "C" void WebCamDevice_get_name_m5_1001 ();
+extern "C" void WebCamDevice_get_isFrontFacing_m5_1002 ();
+extern "C" void WebCamTexture__ctor_m5_1003 ();
+extern "C" void WebCamTexture_Internal_CreateWebCamTexture_m5_1004 ();
+extern "C" void WebCamTexture_Play_m5_1005 ();
+extern "C" void WebCamTexture_INTERNAL_CALL_Play_m5_1006 ();
+extern "C" void WebCamTexture_Stop_m5_1007 ();
+extern "C" void WebCamTexture_INTERNAL_CALL_Stop_m5_1008 ();
+extern "C" void WebCamTexture_get_isPlaying_m5_1009 ();
+extern "C" void WebCamTexture_set_deviceName_m5_1010 ();
+extern "C" void WebCamTexture_set_requestedFPS_m5_1011 ();
+extern "C" void WebCamTexture_set_requestedWidth_m5_1012 ();
+extern "C" void WebCamTexture_set_requestedHeight_m5_1013 ();
+extern "C" void WebCamTexture_get_devices_m5_1014 ();
+extern "C" void WebCamTexture_get_didUpdateThisFrame_m5_1015 ();
+extern "C" void AnimationEvent__ctor_m5_1016 ();
+extern "C" void AnimationEvent_get_data_m5_1017 ();
+extern "C" void AnimationEvent_set_data_m5_1018 ();
+extern "C" void AnimationEvent_get_stringParameter_m5_1019 ();
+extern "C" void AnimationEvent_set_stringParameter_m5_1020 ();
+extern "C" void AnimationEvent_get_floatParameter_m5_1021 ();
+extern "C" void AnimationEvent_set_floatParameter_m5_1022 ();
+extern "C" void AnimationEvent_get_intParameter_m5_1023 ();
+extern "C" void AnimationEvent_set_intParameter_m5_1024 ();
+extern "C" void AnimationEvent_get_objectReferenceParameter_m5_1025 ();
+extern "C" void AnimationEvent_set_objectReferenceParameter_m5_1026 ();
+extern "C" void AnimationEvent_get_functionName_m5_1027 ();
+extern "C" void AnimationEvent_set_functionName_m5_1028 ();
+extern "C" void AnimationEvent_get_time_m5_1029 ();
+extern "C" void AnimationEvent_set_time_m5_1030 ();
+extern "C" void AnimationEvent_get_messageOptions_m5_1031 ();
+extern "C" void AnimationEvent_set_messageOptions_m5_1032 ();
+extern "C" void AnimationEvent_get_isFiredByLegacy_m5_1033 ();
+extern "C" void AnimationEvent_get_isFiredByAnimator_m5_1034 ();
+extern "C" void AnimationEvent_get_animationState_m5_1035 ();
+extern "C" void AnimationEvent_get_animatorStateInfo_m5_1036 ();
+extern "C" void AnimationEvent_get_animatorClipInfo_m5_1037 ();
+extern "C" void AnimationEvent_GetHash_m5_1038 ();
+extern "C" void AnimationCurve__ctor_m5_1039 ();
+extern "C" void AnimationCurve__ctor_m5_1040 ();
+extern "C" void AnimationCurve_Cleanup_m5_1041 ();
+extern "C" void AnimationCurve_Finalize_m5_1042 ();
+extern "C" void AnimationCurve_Init_m5_1043 ();
+extern "C" void AnimatorStateInfo_IsName_m5_1044 ();
+extern "C" void AnimatorStateInfo_get_fullPathHash_m5_1045 ();
+extern "C" void AnimatorStateInfo_get_nameHash_m5_1046 ();
+extern "C" void AnimatorStateInfo_get_shortNameHash_m5_1047 ();
+extern "C" void AnimatorStateInfo_get_normalizedTime_m5_1048 ();
+extern "C" void AnimatorStateInfo_get_length_m5_1049 ();
+extern "C" void AnimatorStateInfo_get_speed_m5_1050 ();
+extern "C" void AnimatorStateInfo_get_speedMultiplier_m5_1051 ();
+extern "C" void AnimatorStateInfo_get_tagHash_m5_1052 ();
+extern "C" void AnimatorStateInfo_IsTag_m5_1053 ();
+extern "C" void AnimatorStateInfo_get_loop_m5_1054 ();
+extern "C" void AnimatorTransitionInfo_IsName_m5_1055 ();
+extern "C" void AnimatorTransitionInfo_IsUserName_m5_1056 ();
+extern "C" void AnimatorTransitionInfo_get_fullPathHash_m5_1057 ();
+extern "C" void AnimatorTransitionInfo_get_nameHash_m5_1058 ();
+extern "C" void AnimatorTransitionInfo_get_userNameHash_m5_1059 ();
+extern "C" void AnimatorTransitionInfo_get_normalizedTime_m5_1060 ();
+extern "C" void AnimatorTransitionInfo_get_anyState_m5_1061 ();
+extern "C" void AnimatorTransitionInfo_get_entry_m5_1062 ();
+extern "C" void AnimatorTransitionInfo_get_exit_m5_1063 ();
+extern "C" void Animator_SetTrigger_m5_1064 ();
+extern "C" void Animator_ResetTrigger_m5_1065 ();
+extern "C" void Animator_get_runtimeAnimatorController_m5_1066 ();
+extern "C" void Animator_StringToHash_m5_1067 ();
+extern "C" void Animator_SetTriggerString_m5_1068 ();
+extern "C" void Animator_ResetTriggerString_m5_1069 ();
+extern "C" void HumanBone_get_boneName_m5_1070 ();
+extern "C" void HumanBone_set_boneName_m5_1071 ();
+extern "C" void HumanBone_get_humanName_m5_1072 ();
+extern "C" void HumanBone_set_humanName_m5_1073 ();
+extern "C" void CharacterInfo_get_advance_m5_1074 ();
+extern "C" void CharacterInfo_set_advance_m5_1075 ();
+extern "C" void CharacterInfo_get_glyphWidth_m5_1076 ();
+extern "C" void CharacterInfo_set_glyphWidth_m5_1077 ();
+extern "C" void CharacterInfo_get_glyphHeight_m5_1078 ();
+extern "C" void CharacterInfo_set_glyphHeight_m5_1079 ();
+extern "C" void CharacterInfo_get_bearing_m5_1080 ();
+extern "C" void CharacterInfo_set_bearing_m5_1081 ();
+extern "C" void CharacterInfo_get_minY_m5_1082 ();
+extern "C" void CharacterInfo_set_minY_m5_1083 ();
+extern "C" void CharacterInfo_get_maxY_m5_1084 ();
+extern "C" void CharacterInfo_set_maxY_m5_1085 ();
+extern "C" void CharacterInfo_get_minX_m5_1086 ();
+extern "C" void CharacterInfo_set_minX_m5_1087 ();
+extern "C" void CharacterInfo_get_maxX_m5_1088 ();
+extern "C" void CharacterInfo_set_maxX_m5_1089 ();
+extern "C" void CharacterInfo_get_uvBottomLeftUnFlipped_m5_1090 ();
+extern "C" void CharacterInfo_set_uvBottomLeftUnFlipped_m5_1091 ();
+extern "C" void CharacterInfo_get_uvBottomRightUnFlipped_m5_1092 ();
+extern "C" void CharacterInfo_set_uvBottomRightUnFlipped_m5_1093 ();
+extern "C" void CharacterInfo_get_uvTopRightUnFlipped_m5_1094 ();
+extern "C" void CharacterInfo_set_uvTopRightUnFlipped_m5_1095 ();
+extern "C" void CharacterInfo_get_uvTopLeftUnFlipped_m5_1096 ();
+extern "C" void CharacterInfo_set_uvTopLeftUnFlipped_m5_1097 ();
+extern "C" void CharacterInfo_get_uvBottomLeft_m5_1098 ();
+extern "C" void CharacterInfo_set_uvBottomLeft_m5_1099 ();
+extern "C" void CharacterInfo_get_uvBottomRight_m5_1100 ();
+extern "C" void CharacterInfo_set_uvBottomRight_m5_1101 ();
+extern "C" void CharacterInfo_get_uvTopRight_m5_1102 ();
+extern "C" void CharacterInfo_set_uvTopRight_m5_1103 ();
+extern "C" void CharacterInfo_get_uvTopLeft_m5_1104 ();
+extern "C" void CharacterInfo_set_uvTopLeft_m5_1105 ();
+extern "C" void FontTextureRebuildCallback__ctor_m5_1106 ();
+extern "C" void FontTextureRebuildCallback_Invoke_m5_1107 ();
+extern "C" void FontTextureRebuildCallback_BeginInvoke_m5_1108 ();
+extern "C" void FontTextureRebuildCallback_EndInvoke_m5_1109 ();
+extern "C" void Font__ctor_m5_1110 ();
+extern "C" void Font__ctor_m5_1111 ();
+extern "C" void Font__ctor_m5_1112 ();
+extern "C" void Font_add_textureRebuilt_m5_1113 ();
+extern "C" void Font_remove_textureRebuilt_m5_1114 ();
+extern "C" void Font_add_m_FontTextureRebuildCallback_m5_1115 ();
+extern "C" void Font_remove_m_FontTextureRebuildCallback_m5_1116 ();
+extern "C" void Font_GetOSInstalledFontNames_m5_1117 ();
+extern "C" void Font_Internal_CreateFont_m5_1118 ();
+extern "C" void Font_Internal_CreateDynamicFont_m5_1119 ();
+extern "C" void Font_CreateDynamicFontFromOSFont_m5_1120 ();
+extern "C" void Font_CreateDynamicFontFromOSFont_m5_1121 ();
+extern "C" void Font_get_material_m5_1122 ();
+extern "C" void Font_set_material_m5_1123 ();
+extern "C" void Font_HasCharacter_m5_1124 ();
+extern "C" void Font_get_fontNames_m5_1125 ();
+extern "C" void Font_set_fontNames_m5_1126 ();
+extern "C" void Font_get_characterInfo_m5_1127 ();
+extern "C" void Font_set_characterInfo_m5_1128 ();
+extern "C" void Font_RequestCharactersInTexture_m5_1129 ();
+extern "C" void Font_RequestCharactersInTexture_m5_1130 ();
+extern "C" void Font_RequestCharactersInTexture_m5_1131 ();
+extern "C" void Font_InvokeTextureRebuilt_Internal_m5_1132 ();
+extern "C" void Font_get_textureRebuildCallback_m5_1133 ();
+extern "C" void Font_set_textureRebuildCallback_m5_1134 ();
+extern "C" void Font_GetMaxVertsForString_m5_1135 ();
+extern "C" void Font_GetCharacterInfo_m5_1136 ();
+extern "C" void Font_GetCharacterInfo_m5_1137 ();
+extern "C" void Font_GetCharacterInfo_m5_1138 ();
+extern "C" void Font_get_dynamic_m5_1139 ();
+extern "C" void Font_get_ascent_m5_1140 ();
+extern "C" void Font_get_lineHeight_m5_1141 ();
+extern "C" void Font_get_fontSize_m5_1142 ();
+extern "C" void TextGenerator__ctor_m5_1143 ();
+extern "C" void TextGenerator__ctor_m5_1144 ();
+extern "C" void TextGenerator_System_IDisposable_Dispose_m5_1145 ();
+extern "C" void TextGenerator_Init_m5_1146 ();
+extern "C" void TextGenerator_Dispose_cpp_m5_1147 ();
+extern "C" void TextGenerator_Populate_Internal_m5_1148 ();
+extern "C" void TextGenerator_Populate_Internal_cpp_m5_1149 ();
+extern "C" void TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m5_1150 ();
+extern "C" void TextGenerator_get_rectExtents_m5_1151 ();
+extern "C" void TextGenerator_INTERNAL_get_rectExtents_m5_1152 ();
+extern "C" void TextGenerator_get_vertexCount_m5_1153 ();
+extern "C" void TextGenerator_GetVerticesInternal_m5_1154 ();
+extern "C" void TextGenerator_GetVerticesArray_m5_1155 ();
+extern "C" void TextGenerator_get_characterCount_m5_1156 ();
+extern "C" void TextGenerator_get_characterCountVisible_m5_1157 ();
+extern "C" void TextGenerator_GetCharactersInternal_m5_1158 ();
+extern "C" void TextGenerator_GetCharactersArray_m5_1159 ();
+extern "C" void TextGenerator_get_lineCount_m5_1160 ();
+extern "C" void TextGenerator_GetLinesInternal_m5_1161 ();
+extern "C" void TextGenerator_GetLinesArray_m5_1162 ();
+extern "C" void TextGenerator_get_fontSizeUsedForBestFit_m5_1163 ();
+extern "C" void TextGenerator_Finalize_m5_1164 ();
+extern "C" void TextGenerator_ValidatedSettings_m5_1165 ();
+extern "C" void TextGenerator_Invalidate_m5_1166 ();
+extern "C" void TextGenerator_GetCharacters_m5_1167 ();
+extern "C" void TextGenerator_GetLines_m5_1168 ();
+extern "C" void TextGenerator_GetVertices_m5_1169 ();
+extern "C" void TextGenerator_GetPreferredWidth_m5_1170 ();
+extern "C" void TextGenerator_GetPreferredHeight_m5_1171 ();
+extern "C" void TextGenerator_Populate_m5_1172 ();
+extern "C" void TextGenerator_PopulateAlways_m5_1173 ();
+extern "C" void TextGenerator_get_verts_m5_1174 ();
+extern "C" void TextGenerator_get_characters_m5_1175 ();
+extern "C" void TextGenerator_get_lines_m5_1176 ();
+extern "C" void WillRenderCanvases__ctor_m5_1177 ();
+extern "C" void WillRenderCanvases_Invoke_m5_1178 ();
+extern "C" void WillRenderCanvases_BeginInvoke_m5_1179 ();
+extern "C" void WillRenderCanvases_EndInvoke_m5_1180 ();
+extern "C" void Canvas_add_willRenderCanvases_m5_1181 ();
+extern "C" void Canvas_remove_willRenderCanvases_m5_1182 ();
+extern "C" void Canvas_get_renderMode_m5_1183 ();
+extern "C" void Canvas_get_isRootCanvas_m5_1184 ();
+extern "C" void Canvas_get_worldCamera_m5_1185 ();
+extern "C" void Canvas_get_scaleFactor_m5_1186 ();
+extern "C" void Canvas_set_scaleFactor_m5_1187 ();
+extern "C" void Canvas_get_referencePixelsPerUnit_m5_1188 ();
+extern "C" void Canvas_set_referencePixelsPerUnit_m5_1189 ();
+extern "C" void Canvas_get_pixelPerfect_m5_1190 ();
+extern "C" void Canvas_get_renderOrder_m5_1191 ();
+extern "C" void Canvas_get_overrideSorting_m5_1192 ();
+extern "C" void Canvas_set_overrideSorting_m5_1193 ();
+extern "C" void Canvas_get_sortingOrder_m5_1194 ();
+extern "C" void Canvas_set_sortingOrder_m5_1195 ();
+extern "C" void Canvas_get_sortingLayerID_m5_1196 ();
+extern "C" void Canvas_set_sortingLayerID_m5_1197 ();
+extern "C" void Canvas_GetDefaultCanvasMaterial_m5_1198 ();
+extern "C" void Canvas_SendWillRenderCanvases_m5_1199 ();
+extern "C" void Canvas_ForceUpdateCanvases_m5_1200 ();
+extern "C" void CanvasGroup_get_alpha_m5_1201 ();
+extern "C" void CanvasGroup_set_alpha_m5_1202 ();
+extern "C" void CanvasGroup_get_interactable_m5_1203 ();
+extern "C" void CanvasGroup_get_blocksRaycasts_m5_1204 ();
+extern "C" void CanvasGroup_get_ignoreParentGroups_m5_1205 ();
+extern "C" void CanvasGroup_IsRaycastLocationValid_m5_1206 ();
+extern "C" void UIVertex__cctor_m5_1207 ();
+extern "C" void CanvasRenderer_SetColor_m5_1208 ();
+extern "C" void CanvasRenderer_INTERNAL_CALL_SetColor_m5_1209 ();
+extern "C" void CanvasRenderer_GetColor_m5_1210 ();
+extern "C" void CanvasRenderer_EnableRectClipping_m5_1211 ();
+extern "C" void CanvasRenderer_INTERNAL_CALL_EnableRectClipping_m5_1212 ();
+extern "C" void CanvasRenderer_DisableRectClipping_m5_1213 ();
+extern "C" void CanvasRenderer_set_hasPopInstruction_m5_1214 ();
+extern "C" void CanvasRenderer_get_materialCount_m5_1215 ();
+extern "C" void CanvasRenderer_set_materialCount_m5_1216 ();
+extern "C" void CanvasRenderer_SetMaterial_m5_1217 ();
+extern "C" void CanvasRenderer_SetMaterial_m5_1218 ();
+extern "C" void CanvasRenderer_set_popMaterialCount_m5_1219 ();
+extern "C" void CanvasRenderer_SetPopMaterial_m5_1220 ();
+extern "C" void CanvasRenderer_SetTexture_m5_1221 ();
+extern "C" void CanvasRenderer_SetMesh_m5_1222 ();
+extern "C" void CanvasRenderer_Clear_m5_1223 ();
+extern "C" void CanvasRenderer_SplitUIVertexStreams_m5_1224 ();
+extern "C" void CanvasRenderer_SplitUIVertexStreamsInternal_m5_1225 ();
+extern "C" void CanvasRenderer_SplitIndiciesStreamsInternal_m5_1226 ();
+extern "C" void CanvasRenderer_CreateUIVertexStream_m5_1227 ();
+extern "C" void CanvasRenderer_CreateUIVertexStreamInternal_m5_1228 ();
+extern "C" void CanvasRenderer_AddUIVertexStream_m5_1229 ();
+extern "C" void CanvasRenderer_get_cull_m5_1230 ();
+extern "C" void CanvasRenderer_set_cull_m5_1231 ();
+extern "C" void CanvasRenderer_get_absoluteDepth_m5_1232 ();
+extern "C" void CanvasRenderer_get_hasMoved_m5_1233 ();
+extern "C" void RectTransformUtility__cctor_m5_1234 ();
+extern "C" void RectTransformUtility_RectangleContainsScreenPoint_m5_1235 ();
+extern "C" void RectTransformUtility_INTERNAL_CALL_RectangleContainsScreenPoint_m5_1236 ();
+extern "C" void RectTransformUtility_PixelAdjustPoint_m5_1237 ();
+extern "C" void RectTransformUtility_PixelAdjustPoint_m5_1238 ();
+extern "C" void RectTransformUtility_INTERNAL_CALL_PixelAdjustPoint_m5_1239 ();
+extern "C" void RectTransformUtility_PixelAdjustRect_m5_1240 ();
+extern "C" void RectTransformUtility_ScreenPointToWorldPointInRectangle_m5_1241 ();
+extern "C" void RectTransformUtility_ScreenPointToLocalPointInRectangle_m5_1242 ();
+extern "C" void RectTransformUtility_ScreenPointToRay_m5_1243 ();
+extern "C" void RectTransformUtility_FlipLayoutOnAxis_m5_1244 ();
+extern "C" void RectTransformUtility_FlipLayoutAxes_m5_1245 ();
+extern "C" void RectTransformUtility_GetTransposed_m5_1246 ();
+extern "C" void Event__ctor_m5_1247 ();
+extern "C" void Event__ctor_m5_1248 ();
+extern "C" void Event__ctor_m5_1249 ();
+extern "C" void Event_Finalize_m5_1250 ();
+extern "C" void Event_get_mousePosition_m5_1251 ();
+extern "C" void Event_set_mousePosition_m5_1252 ();
+extern "C" void Event_get_delta_m5_1253 ();
+extern "C" void Event_set_delta_m5_1254 ();
+extern "C" void Event_get_mouseRay_m5_1255 ();
+extern "C" void Event_set_mouseRay_m5_1256 ();
+extern "C" void Event_get_shift_m5_1257 ();
+extern "C" void Event_set_shift_m5_1258 ();
+extern "C" void Event_get_control_m5_1259 ();
+extern "C" void Event_set_control_m5_1260 ();
+extern "C" void Event_get_alt_m5_1261 ();
+extern "C" void Event_set_alt_m5_1262 ();
+extern "C" void Event_get_command_m5_1263 ();
+extern "C" void Event_set_command_m5_1264 ();
+extern "C" void Event_get_capsLock_m5_1265 ();
+extern "C" void Event_set_capsLock_m5_1266 ();
+extern "C" void Event_get_numeric_m5_1267 ();
+extern "C" void Event_set_numeric_m5_1268 ();
+extern "C" void Event_get_functionKey_m5_1269 ();
+extern "C" void Event_get_current_m5_1270 ();
+extern "C" void Event_set_current_m5_1271 ();
+extern "C" void Event_Internal_MakeMasterEventCurrent_m5_1272 ();
+extern "C" void Event_get_isKey_m5_1273 ();
+extern "C" void Event_get_isMouse_m5_1274 ();
+extern "C" void Event_KeyboardEvent_m5_1275 ();
+extern "C" void Event_GetHashCode_m5_1276 ();
+extern "C" void Event_Equals_m5_1277 ();
+extern "C" void Event_ToString_m5_1278 ();
+extern "C" void Event_Init_m5_1279 ();
+extern "C" void Event_Cleanup_m5_1280 ();
+extern "C" void Event_InitCopy_m5_1281 ();
+extern "C" void Event_InitPtr_m5_1282 ();
+extern "C" void Event_get_rawType_m5_1283 ();
+extern "C" void Event_get_type_m5_1284 ();
+extern "C" void Event_set_type_m5_1285 ();
+extern "C" void Event_GetTypeForControl_m5_1286 ();
+extern "C" void Event_Internal_SetMousePosition_m5_1287 ();
+extern "C" void Event_INTERNAL_CALL_Internal_SetMousePosition_m5_1288 ();
+extern "C" void Event_Internal_GetMousePosition_m5_1289 ();
+extern "C" void Event_Internal_SetMouseDelta_m5_1290 ();
+extern "C" void Event_INTERNAL_CALL_Internal_SetMouseDelta_m5_1291 ();
+extern "C" void Event_Internal_GetMouseDelta_m5_1292 ();
+extern "C" void Event_get_button_m5_1293 ();
+extern "C" void Event_set_button_m5_1294 ();
+extern "C" void Event_get_modifiers_m5_1295 ();
+extern "C" void Event_set_modifiers_m5_1296 ();
+extern "C" void Event_get_pressure_m5_1297 ();
+extern "C" void Event_set_pressure_m5_1298 ();
+extern "C" void Event_get_clickCount_m5_1299 ();
+extern "C" void Event_set_clickCount_m5_1300 ();
+extern "C" void Event_get_character_m5_1301 ();
+extern "C" void Event_set_character_m5_1302 ();
+extern "C" void Event_get_commandName_m5_1303 ();
+extern "C" void Event_set_commandName_m5_1304 ();
+extern "C" void Event_get_keyCode_m5_1305 ();
+extern "C" void Event_set_keyCode_m5_1306 ();
+extern "C" void Event_Internal_SetNativeEvent_m5_1307 ();
+extern "C" void Event_Use_m5_1308 ();
+extern "C" void Event_PopEvent_m5_1309 ();
+extern "C" void Event_GetEventCount_m5_1310 ();
+extern "C" void ScrollViewState__ctor_m5_1311 ();
+extern "C" void WindowFunction__ctor_m5_1312 ();
+extern "C" void WindowFunction_Invoke_m5_1313 ();
+extern "C" void WindowFunction_BeginInvoke_m5_1314 ();
+extern "C" void WindowFunction_EndInvoke_m5_1315 ();
+extern "C" void GUI__cctor_m5_1316 ();
+extern "C" void GUI_get_nextScrollStepTime_m5_1317 ();
+extern "C" void GUI_set_nextScrollStepTime_m5_1318 ();
+extern "C" void GUI_get_scrollTroughSide_m5_1319 ();
+extern "C" void GUI_set_scrollTroughSide_m5_1320 ();
+extern "C" void GUI_set_skin_m5_1321 ();
+extern "C" void GUI_get_skin_m5_1322 ();
+extern "C" void GUI_DoSetSkin_m5_1323 ();
+extern "C" void GUI_get_matrix_m5_1324 ();
+extern "C" void GUI_set_matrix_m5_1325 ();
+extern "C" void GUI_Label_m5_1326 ();
+extern "C" void GUI_Label_m5_1327 ();
+extern "C" void GUI_Label_m5_1328 ();
+extern "C" void GUI_DrawTexture_m5_1329 ();
+extern "C" void GUI_DrawTexture_m5_1330 ();
+extern "C" void GUI_DrawTexture_m5_1331 ();
+extern "C" void GUI_DrawTexture_m5_1332 ();
+extern "C" void GUI_Box_m5_1333 ();
+extern "C" void GUI_Box_m5_1334 ();
+extern "C" void GUI_Button_m5_1335 ();
+extern "C" void GUI_Button_m5_1336 ();
+extern "C" void GUI_Button_m5_1337 ();
+extern "C" void GUI_DoRepeatButton_m5_1338 ();
+extern "C" void GUI_Toggle_m5_1339 ();
+extern "C" void GUI_Toggle_m5_1340 ();
+extern "C" void GUI_Slider_m5_1341 ();
+extern "C" void GUI_HorizontalScrollbar_m5_1342 ();
+extern "C" void GUI_ScrollerRepeatButton_m5_1343 ();
+extern "C" void GUI_VerticalScrollbar_m5_1344 ();
+extern "C" void GUI_Scroller_m5_1345 ();
+extern "C" void GUI_BeginGroup_m5_1346 ();
+extern "C" void GUI_EndGroup_m5_1347 ();
+extern "C" void GUI_BeginScrollView_m5_1348 ();
+extern "C" void GUI_EndScrollView_m5_1349 ();
+extern "C" void GUI_Window_m5_1350 ();
+extern "C" void GUI_CallWindowDelegate_m5_1351 ();
+extern "C" void GUI_get_color_m5_1352 ();
+extern "C" void GUI_INTERNAL_get_color_m5_1353 ();
+extern "C" void GUI_set_changed_m5_1354 ();
+extern "C" void GUI_DoLabel_m5_1355 ();
+extern "C" void GUI_INTERNAL_CALL_DoLabel_m5_1356 ();
+extern "C" void GUI_get_blendMaterial_m5_1357 ();
+extern "C" void GUI_get_blitMaterial_m5_1358 ();
+extern "C" void GUI_DoButton_m5_1359 ();
+extern "C" void GUI_INTERNAL_CALL_DoButton_m5_1360 ();
+extern "C" void GUI_DoToggle_m5_1361 ();
+extern "C" void GUI_INTERNAL_CALL_DoToggle_m5_1362 ();
+extern "C" void GUI_get_usePageScrollbars_m5_1363 ();
+extern "C" void GUI_InternalRepaintEditorWindow_m5_1364 ();
+extern "C" void GUI_DoWindow_m5_1365 ();
+extern "C" void GUI_INTERNAL_CALL_DoWindow_m5_1366 ();
+extern "C" void GUIContent__ctor_m5_1367 ();
+extern "C" void GUIContent__ctor_m5_1368 ();
+extern "C" void GUIContent__ctor_m5_1369 ();
+extern "C" void GUIContent__cctor_m5_1370 ();
+extern "C" void GUIContent_Temp_m5_1371 ();
+extern "C" void GUIContent_Temp_m5_1372 ();
+extern "C" void GUIContent_ClearStaticCache_m5_1373 ();
+extern "C" void GUILayout_Label_m5_1374 ();
+extern "C" void GUILayout_DoLabel_m5_1375 ();
+extern "C" void GUILayout_FlexibleSpace_m5_1376 ();
+extern "C" void GUILayout_BeginHorizontal_m5_1377 ();
+extern "C" void GUILayout_BeginHorizontal_m5_1378 ();
+extern "C" void GUILayout_EndHorizontal_m5_1379 ();
+extern "C" void GUILayout_BeginArea_m5_1380 ();
+extern "C" void GUILayout_BeginArea_m5_1381 ();
+extern "C" void GUILayout_EndArea_m5_1382 ();
+extern "C" void GUILayout_BeginScrollView_m5_1383 ();
+extern "C" void GUILayout_BeginScrollView_m5_1384 ();
+extern "C" void GUILayout_EndScrollView_m5_1385 ();
+extern "C" void GUILayout_EndScrollView_m5_1386 ();
+extern "C" void GUILayout_Width_m5_1387 ();
+extern "C" void GUILayout_Height_m5_1388 ();
+extern "C" void GUILayout_ExpandWidth_m5_1389 ();
+extern "C" void GUILayout_ExpandHeight_m5_1390 ();
+extern "C" void LayoutCache__ctor_m5_1391 ();
+extern "C" void GUILayoutUtility__cctor_m5_1392 ();
+extern "C" void GUILayoutUtility_SelectIDList_m5_1393 ();
+extern "C" void GUILayoutUtility_Begin_m5_1394 ();
+extern "C" void GUILayoutUtility_BeginWindow_m5_1395 ();
+extern "C" void GUILayoutUtility_EndGroup_m5_1396 ();
+extern "C" void GUILayoutUtility_Layout_m5_1397 ();
+extern "C" void GUILayoutUtility_LayoutFromEditorWindow_m5_1398 ();
+extern "C" void GUILayoutUtility_LayoutFreeGroup_m5_1399 ();
+extern "C" void GUILayoutUtility_LayoutSingleGroup_m5_1400 ();
+extern "C" void GUILayoutUtility_CreateGUILayoutGroupInstanceOfType_m5_1401 ();
+extern "C" void GUILayoutUtility_BeginLayoutGroup_m5_1402 ();
+extern "C" void GUILayoutUtility_EndLayoutGroup_m5_1403 ();
+extern "C" void GUILayoutUtility_BeginLayoutArea_m5_1404 ();
+extern "C" void GUILayoutUtility_GetRect_m5_1405 ();
+extern "C" void GUILayoutUtility_DoGetRect_m5_1406 ();
+extern "C" void GUILayoutUtility_GetRect_m5_1407 ();
+extern "C" void GUILayoutUtility_DoGetRect_m5_1408 ();
+extern "C" void GUILayoutUtility_get_spaceStyle_m5_1409 ();
+extern "C" void GUILayoutUtility_Internal_GetWindowRect_m5_1410 ();
+extern "C" void GUILayoutUtility_Internal_MoveWindow_m5_1411 ();
+extern "C" void GUILayoutUtility_INTERNAL_CALL_Internal_MoveWindow_m5_1412 ();
+extern "C" void GUILayoutEntry__ctor_m5_1413 ();
+extern "C" void GUILayoutEntry__ctor_m5_1414 ();
+extern "C" void GUILayoutEntry__cctor_m5_1415 ();
+extern "C" void GUILayoutEntry_get_style_m5_1416 ();
+extern "C" void GUILayoutEntry_set_style_m5_1417 ();
+extern "C" void GUILayoutEntry_get_margin_m5_1418 ();
+extern "C" void GUILayoutEntry_CalcWidth_m5_1419 ();
+extern "C" void GUILayoutEntry_CalcHeight_m5_1420 ();
+extern "C" void GUILayoutEntry_SetHorizontal_m5_1421 ();
+extern "C" void GUILayoutEntry_SetVertical_m5_1422 ();
+extern "C" void GUILayoutEntry_ApplyStyleSettings_m5_1423 ();
+extern "C" void GUILayoutEntry_ApplyOptions_m5_1424 ();
+extern "C" void GUILayoutEntry_ToString_m5_1425 ();
+extern "C" void GUILayoutGroup__ctor_m5_1426 ();
+extern "C" void GUILayoutGroup_get_margin_m5_1427 ();
+extern "C" void GUILayoutGroup_ApplyOptions_m5_1428 ();
+extern "C" void GUILayoutGroup_ApplyStyleSettings_m5_1429 ();
+extern "C" void GUILayoutGroup_ResetCursor_m5_1430 ();
+extern "C" void GUILayoutGroup_GetNext_m5_1431 ();
+extern "C" void GUILayoutGroup_Add_m5_1432 ();
+extern "C" void GUILayoutGroup_CalcWidth_m5_1433 ();
+extern "C" void GUILayoutGroup_SetHorizontal_m5_1434 ();
+extern "C" void GUILayoutGroup_CalcHeight_m5_1435 ();
+extern "C" void GUILayoutGroup_SetVertical_m5_1436 ();
+extern "C" void GUILayoutGroup_ToString_m5_1437 ();
+extern "C" void GUIScrollGroup__ctor_m5_1438 ();
+extern "C" void GUIScrollGroup_CalcWidth_m5_1439 ();
+extern "C" void GUIScrollGroup_SetHorizontal_m5_1440 ();
+extern "C" void GUIScrollGroup_CalcHeight_m5_1441 ();
+extern "C" void GUIScrollGroup_SetVertical_m5_1442 ();
+extern "C" void GUIWordWrapSizer__ctor_m5_1443 ();
+extern "C" void GUIWordWrapSizer_CalcWidth_m5_1444 ();
+extern "C" void GUIWordWrapSizer_CalcHeight_m5_1445 ();
+extern "C" void GUILayoutOption__ctor_m5_1446 ();
+extern "C" void GUISettings__ctor_m5_1447 ();
+extern "C" void SkinChangedDelegate__ctor_m5_1448 ();
+extern "C" void SkinChangedDelegate_Invoke_m5_1449 ();
+extern "C" void SkinChangedDelegate_BeginInvoke_m5_1450 ();
+extern "C" void SkinChangedDelegate_EndInvoke_m5_1451 ();
+extern "C" void GUISkin__ctor_m5_1452 ();
+extern "C" void GUISkin_OnEnable_m5_1453 ();
+extern "C" void GUISkin_get_font_m5_1454 ();
+extern "C" void GUISkin_set_font_m5_1455 ();
+extern "C" void GUISkin_get_box_m5_1456 ();
+extern "C" void GUISkin_set_box_m5_1457 ();
+extern "C" void GUISkin_get_label_m5_1458 ();
+extern "C" void GUISkin_set_label_m5_1459 ();
+extern "C" void GUISkin_get_textField_m5_1460 ();
+extern "C" void GUISkin_set_textField_m5_1461 ();
+extern "C" void GUISkin_get_textArea_m5_1462 ();
+extern "C" void GUISkin_set_textArea_m5_1463 ();
+extern "C" void GUISkin_get_button_m5_1464 ();
+extern "C" void GUISkin_set_button_m5_1465 ();
+extern "C" void GUISkin_get_toggle_m5_1466 ();
+extern "C" void GUISkin_set_toggle_m5_1467 ();
+extern "C" void GUISkin_get_window_m5_1468 ();
+extern "C" void GUISkin_set_window_m5_1469 ();
+extern "C" void GUISkin_get_horizontalSlider_m5_1470 ();
+extern "C" void GUISkin_set_horizontalSlider_m5_1471 ();
+extern "C" void GUISkin_get_horizontalSliderThumb_m5_1472 ();
+extern "C" void GUISkin_set_horizontalSliderThumb_m5_1473 ();
+extern "C" void GUISkin_get_verticalSlider_m5_1474 ();
+extern "C" void GUISkin_set_verticalSlider_m5_1475 ();
+extern "C" void GUISkin_get_verticalSliderThumb_m5_1476 ();
+extern "C" void GUISkin_set_verticalSliderThumb_m5_1477 ();
+extern "C" void GUISkin_get_horizontalScrollbar_m5_1478 ();
+extern "C" void GUISkin_set_horizontalScrollbar_m5_1479 ();
+extern "C" void GUISkin_get_horizontalScrollbarThumb_m5_1480 ();
+extern "C" void GUISkin_set_horizontalScrollbarThumb_m5_1481 ();
+extern "C" void GUISkin_get_horizontalScrollbarLeftButton_m5_1482 ();
+extern "C" void GUISkin_set_horizontalScrollbarLeftButton_m5_1483 ();
+extern "C" void GUISkin_get_horizontalScrollbarRightButton_m5_1484 ();
+extern "C" void GUISkin_set_horizontalScrollbarRightButton_m5_1485 ();
+extern "C" void GUISkin_get_verticalScrollbar_m5_1486 ();
+extern "C" void GUISkin_set_verticalScrollbar_m5_1487 ();
+extern "C" void GUISkin_get_verticalScrollbarThumb_m5_1488 ();
+extern "C" void GUISkin_set_verticalScrollbarThumb_m5_1489 ();
+extern "C" void GUISkin_get_verticalScrollbarUpButton_m5_1490 ();
+extern "C" void GUISkin_set_verticalScrollbarUpButton_m5_1491 ();
+extern "C" void GUISkin_get_verticalScrollbarDownButton_m5_1492 ();
+extern "C" void GUISkin_set_verticalScrollbarDownButton_m5_1493 ();
+extern "C" void GUISkin_get_scrollView_m5_1494 ();
+extern "C" void GUISkin_set_scrollView_m5_1495 ();
+extern "C" void GUISkin_get_customStyles_m5_1496 ();
+extern "C" void GUISkin_set_customStyles_m5_1497 ();
+extern "C" void GUISkin_get_settings_m5_1498 ();
+extern "C" void GUISkin_get_error_m5_1499 ();
+extern "C" void GUISkin_Apply_m5_1500 ();
+extern "C" void GUISkin_BuildStyleCache_m5_1501 ();
+extern "C" void GUISkin_GetStyle_m5_1502 ();
+extern "C" void GUISkin_FindStyle_m5_1503 ();
+extern "C" void GUISkin_MakeCurrent_m5_1504 ();
+extern "C" void GUISkin_GetEnumerator_m5_1505 ();
+extern "C" void GUIStyleState__ctor_m5_1506 ();
+extern "C" void GUIStyleState__ctor_m5_1507 ();
+extern "C" void GUIStyleState_Finalize_m5_1508 ();
+extern "C" void GUIStyleState_get_background_m5_1509 ();
+extern "C" void GUIStyleState_set_background_m5_1510 ();
+extern "C" void GUIStyleState_Init_m5_1511 ();
+extern "C" void GUIStyleState_Cleanup_m5_1512 ();
+extern "C" void GUIStyleState_SetBackgroundInternal_m5_1513 ();
+extern "C" void GUIStyleState_GetBackgroundInternal_m5_1514 ();
+extern "C" void GUIStyleState_set_textColor_m5_1515 ();
+extern "C" void GUIStyleState_INTERNAL_set_textColor_m5_1516 ();
+extern "C" void RectOffset__ctor_m5_1517 ();
+extern "C" void RectOffset__ctor_m5_1518 ();
+extern "C" void RectOffset_Finalize_m5_1519 ();
+extern "C" void RectOffset_ToString_m5_1520 ();
+extern "C" void RectOffset_Init_m5_1521 ();
+extern "C" void RectOffset_Cleanup_m5_1522 ();
+extern "C" void RectOffset_get_left_m5_1523 ();
+extern "C" void RectOffset_set_left_m5_1524 ();
+extern "C" void RectOffset_get_right_m5_1525 ();
+extern "C" void RectOffset_set_right_m5_1526 ();
+extern "C" void RectOffset_get_top_m5_1527 ();
+extern "C" void RectOffset_set_top_m5_1528 ();
+extern "C" void RectOffset_get_bottom_m5_1529 ();
+extern "C" void RectOffset_set_bottom_m5_1530 ();
+extern "C" void RectOffset_get_horizontal_m5_1531 ();
+extern "C" void RectOffset_get_vertical_m5_1532 ();
+extern "C" void GUIStyle__ctor_m5_1533 ();
+extern "C" void GUIStyle__cctor_m5_1534 ();
+extern "C" void GUIStyle_Finalize_m5_1535 ();
+extern "C" void GUIStyle_get_normal_m5_1536 ();
+extern "C" void GUIStyle_get_active_m5_1537 ();
+extern "C" void GUIStyle_get_onNormal_m5_1538 ();
+extern "C" void GUIStyle_get_margin_m5_1539 ();
+extern "C" void GUIStyle_get_padding_m5_1540 ();
+extern "C" void GUIStyle_set_font_m5_1541 ();
+extern "C" void GUIStyle_Internal_Draw_m5_1542 ();
+extern "C" void GUIStyle_Draw_m5_1543 ();
+extern "C" void GUIStyle_Draw_m5_1544 ();
+extern "C" void GUIStyle_Draw_m5_1545 ();
+extern "C" void GUIStyle_get_none_m5_1546 ();
+extern "C" void GUIStyle_CalcSize_m5_1547 ();
+extern "C" void GUIStyle_CalcHeight_m5_1548 ();
+extern "C" void GUIStyle_get_isHeightDependantOnWidth_m5_1549 ();
+extern "C" void GUIStyle_CalcMinMaxWidth_m5_1550 ();
+extern "C" void GUIStyle_ToString_m5_1551 ();
+extern "C" void GUIStyle_Init_m5_1552 ();
+extern "C" void GUIStyle_Cleanup_m5_1553 ();
+extern "C" void GUIStyle_get_name_m5_1554 ();
+extern "C" void GUIStyle_set_name_m5_1555 ();
+extern "C" void GUIStyle_GetStyleStatePtr_m5_1556 ();
+extern "C" void GUIStyle_GetRectOffsetPtr_m5_1557 ();
+extern "C" void GUIStyle_get_imagePosition_m5_1558 ();
+extern "C" void GUIStyle_set_alignment_m5_1559 ();
+extern "C" void GUIStyle_get_wordWrap_m5_1560 ();
+extern "C" void GUIStyle_set_wordWrap_m5_1561 ();
+extern "C" void GUIStyle_set_contentOffset_m5_1562 ();
+extern "C" void GUIStyle_INTERNAL_set_contentOffset_m5_1563 ();
+extern "C" void GUIStyle_get_fixedWidth_m5_1564 ();
+extern "C" void GUIStyle_get_fixedHeight_m5_1565 ();
+extern "C" void GUIStyle_get_stretchWidth_m5_1566 ();
+extern "C" void GUIStyle_set_stretchWidth_m5_1567 ();
+extern "C" void GUIStyle_get_stretchHeight_m5_1568 ();
+extern "C" void GUIStyle_set_stretchHeight_m5_1569 ();
+extern "C" void GUIStyle_SetFontInternal_m5_1570 ();
+extern "C" void GUIStyle_Internal_Draw_m5_1571 ();
+extern "C" void GUIStyle_Internal_Draw2_m5_1572 ();
+extern "C" void GUIStyle_INTERNAL_CALL_Internal_Draw2_m5_1573 ();
+extern "C" void GUIStyle_SetDefaultFont_m5_1574 ();
+extern "C" void GUIStyle_Internal_CalcSize_m5_1575 ();
+extern "C" void GUIStyle_Internal_CalcHeight_m5_1576 ();
+extern "C" void GUIStyle_Internal_CalcMinMaxWidth_m5_1577 ();
+extern "C" void GUIUtility__cctor_m5_1578 ();
+extern "C" void GUIUtility_get_pixelsPerPoint_m5_1579 ();
+extern "C" void GUIUtility_GetControlID_m5_1580 ();
+extern "C" void GUIUtility_GetStateObject_m5_1581 ();
+extern "C" void GUIUtility_get_hotControl_m5_1582 ();
+extern "C" void GUIUtility_set_hotControl_m5_1583 ();
+extern "C" void GUIUtility_GetDefaultSkin_m5_1584 ();
+extern "C" void GUIUtility_BeginGUI_m5_1585 ();
+extern "C" void GUIUtility_EndGUI_m5_1586 ();
+extern "C" void GUIUtility_EndGUIFromException_m5_1587 ();
+extern "C" void GUIUtility_CheckOnGUI_m5_1588 ();
+extern "C" void GUIUtility_ScaleAroundPivot_m5_1589 ();
+extern "C" void GUIUtility_Internal_GetPixelsPerPoint_m5_1590 ();
+extern "C" void GUIUtility_GetControlID_m5_1591 ();
+extern "C" void GUIUtility_Internal_GetNextControlID2_m5_1592 ();
+extern "C" void GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m5_1593 ();
+extern "C" void GUIUtility_Internal_GetHotControl_m5_1594 ();
+extern "C" void GUIUtility_Internal_SetHotControl_m5_1595 ();
+extern "C" void GUIUtility_get_systemCopyBuffer_m5_1596 ();
+extern "C" void GUIUtility_set_systemCopyBuffer_m5_1597 ();
+extern "C" void GUIUtility_Internal_GetDefaultSkin_m5_1598 ();
+extern "C" void GUIUtility_Internal_ExitGUI_m5_1599 ();
+extern "C" void GUIUtility_Internal_GetGUIDepth_m5_1600 ();
+extern "C" void GUIUtility_set_mouseUsed_m5_1601 ();
+extern "C" void GUIClip_Unclip_m5_1602 ();
+extern "C" void GUIClip_Push_m5_1603 ();
+extern "C" void GUIClip_INTERNAL_CALL_Push_m5_1604 ();
+extern "C" void GUIClip_Pop_m5_1605 ();
+extern "C" void GUIClip_Unclip_Vector2_m5_1606 ();
+extern "C" void GUIClip_INTERNAL_CALL_Unclip_Vector2_m5_1607 ();
+extern "C" void GUIClip_GetMatrix_m5_1608 ();
+extern "C" void GUIClip_SetMatrix_m5_1609 ();
+extern "C" void GUIClip_INTERNAL_CALL_SetMatrix_m5_1610 ();
+extern "C" void WrapperlessIcall__ctor_m5_1611 ();
+extern "C" void IL2CPPStructAlignmentAttribute__ctor_m5_1612 ();
+extern "C" void AttributeHelperEngine__cctor_m5_1613 ();
+extern "C" void AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m5_1614 ();
+extern "C" void AttributeHelperEngine_GetRequiredComponents_m5_1615 ();
+extern "C" void AttributeHelperEngine_CheckIsEditorScript_m5_1616 ();
+extern "C" void DisallowMultipleComponent__ctor_m5_1617 ();
+extern "C" void RequireComponent__ctor_m5_1618 ();
+extern "C" void AddComponentMenu__ctor_m5_1619 ();
+extern "C" void AddComponentMenu__ctor_m5_1620 ();
+extern "C" void ExecuteInEditMode__ctor_m5_1621 ();
+extern "C" void HideInInspector__ctor_m5_1622 ();
+extern "C" void SetupCoroutine__ctor_m5_1623 ();
+extern "C" void SetupCoroutine_InvokeMember_m5_1624 ();
+extern "C" void SetupCoroutine_InvokeStatic_m5_1625 ();
+extern "C" void WritableAttribute__ctor_m5_1626 ();
+extern "C" void AssemblyIsEditorAssembly__ctor_m5_1627 ();
+extern "C" void GcUserProfileData_ToUserProfile_m5_1628 ();
+extern "C" void GcUserProfileData_AddToArray_m5_1629 ();
+extern "C" void GcAchievementDescriptionData_ToAchievementDescription_m5_1630 ();
+extern "C" void GcAchievementData_ToAchievement_m5_1631 ();
+extern "C" void GcScoreData_ToScore_m5_1632 ();
+extern "C" void Resolution_get_width_m5_1633 ();
+extern "C" void Resolution_set_width_m5_1634 ();
+extern "C" void Resolution_get_height_m5_1635 ();
+extern "C" void Resolution_set_height_m5_1636 ();
+extern "C" void Resolution_get_refreshRate_m5_1637 ();
+extern "C" void Resolution_set_refreshRate_m5_1638 ();
+extern "C" void Resolution_ToString_m5_1639 ();
+extern "C" void GUIStateObjects__cctor_m5_1640 ();
+extern "C" void GUIStateObjects_GetStateObject_m5_1641 ();
+extern "C" void LocalUser__ctor_m5_1642 ();
+extern "C" void LocalUser_SetFriends_m5_1643 ();
+extern "C" void LocalUser_SetAuthenticated_m5_1644 ();
+extern "C" void LocalUser_SetUnderage_m5_1645 ();
+extern "C" void LocalUser_get_authenticated_m5_1646 ();
+extern "C" void UserProfile__ctor_m5_1647 ();
+extern "C" void UserProfile__ctor_m5_1648 ();
+extern "C" void UserProfile_ToString_m5_1649 ();
+extern "C" void UserProfile_SetUserName_m5_1650 ();
+extern "C" void UserProfile_SetUserID_m5_1651 ();
+extern "C" void UserProfile_SetImage_m5_1652 ();
+extern "C" void UserProfile_get_userName_m5_1653 ();
+extern "C" void UserProfile_get_id_m5_1654 ();
+extern "C" void UserProfile_get_isFriend_m5_1655 ();
+extern "C" void UserProfile_get_state_m5_1656 ();
+extern "C" void Achievement__ctor_m5_1657 ();
+extern "C" void Achievement__ctor_m5_1658 ();
+extern "C" void Achievement__ctor_m5_1659 ();
+extern "C" void Achievement_ToString_m5_1660 ();
+extern "C" void Achievement_get_id_m5_1661 ();
+extern "C" void Achievement_set_id_m5_1662 ();
+extern "C" void Achievement_get_percentCompleted_m5_1663 ();
+extern "C" void Achievement_set_percentCompleted_m5_1664 ();
+extern "C" void Achievement_get_completed_m5_1665 ();
+extern "C" void Achievement_get_hidden_m5_1666 ();
+extern "C" void Achievement_get_lastReportedDate_m5_1667 ();
+extern "C" void AchievementDescription__ctor_m5_1668 ();
+extern "C" void AchievementDescription_ToString_m5_1669 ();
+extern "C" void AchievementDescription_SetImage_m5_1670 ();
+extern "C" void AchievementDescription_get_id_m5_1671 ();
+extern "C" void AchievementDescription_set_id_m5_1672 ();
+extern "C" void AchievementDescription_get_title_m5_1673 ();
+extern "C" void AchievementDescription_get_achievedDescription_m5_1674 ();
+extern "C" void AchievementDescription_get_unachievedDescription_m5_1675 ();
+extern "C" void AchievementDescription_get_hidden_m5_1676 ();
+extern "C" void AchievementDescription_get_points_m5_1677 ();
+extern "C" void Score__ctor_m5_1678 ();
+extern "C" void Score__ctor_m5_1679 ();
+extern "C" void Score_ToString_m5_1680 ();
+extern "C" void Score_get_leaderboardID_m5_1681 ();
+extern "C" void Score_set_leaderboardID_m5_1682 ();
+extern "C" void Score_get_value_m5_1683 ();
+extern "C" void Score_set_value_m5_1684 ();
+extern "C" void Leaderboard__ctor_m5_1685 ();
+extern "C" void Leaderboard_ToString_m5_1686 ();
+extern "C" void Leaderboard_SetLocalUserScore_m5_1687 ();
+extern "C" void Leaderboard_SetMaxRange_m5_1688 ();
+extern "C" void Leaderboard_SetScores_m5_1689 ();
+extern "C" void Leaderboard_SetTitle_m5_1690 ();
+extern "C" void Leaderboard_GetUserFilter_m5_1691 ();
+extern "C" void Leaderboard_get_id_m5_1692 ();
+extern "C" void Leaderboard_set_id_m5_1693 ();
+extern "C" void Leaderboard_get_userScope_m5_1694 ();
+extern "C" void Leaderboard_set_userScope_m5_1695 ();
+extern "C" void Leaderboard_get_range_m5_1696 ();
+extern "C" void Leaderboard_set_range_m5_1697 ();
+extern "C" void Leaderboard_get_timeScope_m5_1698 ();
+extern "C" void Leaderboard_set_timeScope_m5_1699 ();
+extern "C" void HitInfo_SendMessage_m5_1700 ();
+extern "C" void HitInfo_Compare_m5_1701 ();
+extern "C" void HitInfo_op_Implicit_m5_1702 ();
+extern "C" void SendMouseEvents__cctor_m5_1703 ();
+extern "C" void SendMouseEvents_SetMouseMoved_m5_1704 ();
+extern "C" void SendMouseEvents_DoSendMouseEvents_m5_1705 ();
+extern "C" void SendMouseEvents_SendEvents_m5_1706 ();
+extern "C" void Range__ctor_m5_1707 ();
+extern "C" void PropertyAttribute__ctor_m5_1708 ();
+extern "C" void TooltipAttribute__ctor_m5_1709 ();
+extern "C" void SpaceAttribute__ctor_m5_1710 ();
+extern "C" void SpaceAttribute__ctor_m5_1711 ();
+extern "C" void RangeAttribute__ctor_m5_1712 ();
+extern "C" void TextAreaAttribute__ctor_m5_1713 ();
+extern "C" void SelectionBaseAttribute__ctor_m5_1714 ();
+extern "C" void SliderState__ctor_m5_1715 ();
+extern "C" void SliderHandler__ctor_m5_1716 ();
+extern "C" void SliderHandler_Handle_m5_1717 ();
+extern "C" void SliderHandler_OnMouseDown_m5_1718 ();
+extern "C" void SliderHandler_OnMouseDrag_m5_1719 ();
+extern "C" void SliderHandler_OnMouseUp_m5_1720 ();
+extern "C" void SliderHandler_OnRepaint_m5_1721 ();
+extern "C" void SliderHandler_CurrentEventType_m5_1722 ();
+extern "C" void SliderHandler_CurrentScrollTroughSide_m5_1723 ();
+extern "C" void SliderHandler_IsEmptySlider_m5_1724 ();
+extern "C" void SliderHandler_SupportsPageMovements_m5_1725 ();
+extern "C" void SliderHandler_PageMovementValue_m5_1726 ();
+extern "C" void SliderHandler_PageUpMovementBound_m5_1727 ();
+extern "C" void SliderHandler_CurrentEvent_m5_1728 ();
+extern "C" void SliderHandler_ValueForCurrentMousePosition_m5_1729 ();
+extern "C" void SliderHandler_Clamp_m5_1730 ();
+extern "C" void SliderHandler_ThumbSelectionRect_m5_1731 ();
+extern "C" void SliderHandler_StartDraggingWithValue_m5_1732 ();
+extern "C" void SliderHandler_SliderState_m5_1733 ();
+extern "C" void SliderHandler_ThumbRect_m5_1734 ();
+extern "C" void SliderHandler_VerticalThumbRect_m5_1735 ();
+extern "C" void SliderHandler_HorizontalThumbRect_m5_1736 ();
+extern "C" void SliderHandler_ClampedCurrentValue_m5_1737 ();
+extern "C" void SliderHandler_MousePosition_m5_1738 ();
+extern "C" void SliderHandler_ValuesPerPixel_m5_1739 ();
+extern "C" void SliderHandler_ThumbSize_m5_1740 ();
+extern "C" void SliderHandler_MaxValue_m5_1741 ();
+extern "C" void SliderHandler_MinValue_m5_1742 ();
+extern "C" void StackTraceUtility__ctor_m5_1743 ();
+extern "C" void StackTraceUtility__cctor_m5_1744 ();
+extern "C" void StackTraceUtility_SetProjectFolder_m5_1745 ();
+extern "C" void StackTraceUtility_ExtractStackTrace_m5_1746 ();
+extern "C" void StackTraceUtility_IsSystemStacktraceType_m5_1747 ();
+extern "C" void StackTraceUtility_ExtractStringFromException_m5_1748 ();
+extern "C" void StackTraceUtility_ExtractStringFromExceptionInternal_m5_1749 ();
+extern "C" void StackTraceUtility_PostprocessStacktrace_m5_1750 ();
+extern "C" void StackTraceUtility_ExtractFormattedStackTrace_m5_1751 ();
+extern "C" void UnityException__ctor_m5_1752 ();
+extern "C" void UnityException__ctor_m5_1753 ();
+extern "C" void UnityException__ctor_m5_1754 ();
+extern "C" void UnityException__ctor_m5_1755 ();
+extern "C" void SharedBetweenAnimatorsAttribute__ctor_m5_1756 ();
+extern "C" void StateMachineBehaviour__ctor_m5_1757 ();
+extern "C" void SystemClock__cctor_m5_1758 ();
+extern "C" void SystemClock_get_now_m5_1759 ();
+extern "C" void TextEditor__ctor_m5_1760 ();
+extern "C" void TextGenerationSettings_CompareColors_m5_1761 ();
+extern "C" void TextGenerationSettings_CompareVector2_m5_1762 ();
+extern "C" void TextGenerationSettings_Equals_m5_1763 ();
+extern "C" void TrackedReference_Equals_m5_1764 ();
+extern "C" void TrackedReference_GetHashCode_m5_1765 ();
+extern "C" void TrackedReference_op_Equality_m5_1766 ();
+extern "C" void ArgumentCache__ctor_m5_1767 ();
+extern "C" void ArgumentCache_get_unityObjectArgument_m5_1768 ();
+extern "C" void ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m5_1769 ();
+extern "C" void ArgumentCache_get_intArgument_m5_1770 ();
+extern "C" void ArgumentCache_get_floatArgument_m5_1771 ();
+extern "C" void ArgumentCache_get_stringArgument_m5_1772 ();
+extern "C" void ArgumentCache_get_boolArgument_m5_1773 ();
+extern "C" void ArgumentCache_TidyAssemblyTypeName_m5_1774 ();
+extern "C" void ArgumentCache_OnBeforeSerialize_m5_1775 ();
+extern "C" void ArgumentCache_OnAfterDeserialize_m5_1776 ();
+extern "C" void BaseInvokableCall__ctor_m5_1777 ();
+extern "C" void BaseInvokableCall__ctor_m5_1778 ();
+extern "C" void BaseInvokableCall_AllowInvoke_m5_1779 ();
+extern "C" void InvokableCall__ctor_m5_1780 ();
+extern "C" void InvokableCall__ctor_m5_1781 ();
+extern "C" void InvokableCall_Invoke_m5_1782 ();
+extern "C" void InvokableCall_Find_m5_1783 ();
+extern "C" void PersistentCall__ctor_m5_1784 ();
+extern "C" void PersistentCall_get_target_m5_1785 ();
+extern "C" void PersistentCall_get_methodName_m5_1786 ();
+extern "C" void PersistentCall_get_mode_m5_1787 ();
+extern "C" void PersistentCall_get_arguments_m5_1788 ();
+extern "C" void PersistentCall_IsValid_m5_1789 ();
+extern "C" void PersistentCall_GetRuntimeCall_m5_1790 ();
+extern "C" void PersistentCall_GetObjectCall_m5_1791 ();
+extern "C" void PersistentCallGroup__ctor_m5_1792 ();
+extern "C" void PersistentCallGroup_Initialize_m5_1793 ();
+extern "C" void InvokableCallList__ctor_m5_1794 ();
+extern "C" void InvokableCallList_AddPersistentInvokableCall_m5_1795 ();
+extern "C" void InvokableCallList_AddListener_m5_1796 ();
+extern "C" void InvokableCallList_RemoveListener_m5_1797 ();
+extern "C" void InvokableCallList_ClearPersistent_m5_1798 ();
+extern "C" void InvokableCallList_Invoke_m5_1799 ();
+extern "C" void UnityEventBase__ctor_m5_1800 ();
+extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m5_1801 ();
+extern "C" void UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m5_1802 ();
+extern "C" void UnityEventBase_FindMethod_m5_1803 ();
+extern "C" void UnityEventBase_FindMethod_m5_1804 ();
+extern "C" void UnityEventBase_DirtyPersistentCalls_m5_1805 ();
+extern "C" void UnityEventBase_RebuildPersistentCallsIfNeeded_m5_1806 ();
+extern "C" void UnityEventBase_AddCall_m5_1807 ();
+extern "C" void UnityEventBase_RemoveListener_m5_1808 ();
+extern "C" void UnityEventBase_Invoke_m5_1809 ();
+extern "C" void UnityEventBase_ToString_m5_1810 ();
+extern "C" void UnityEventBase_GetValidMethodInfo_m5_1811 ();
+extern "C" void UnityEvent__ctor_m5_1812 ();
+extern "C" void UnityEvent_AddListener_m5_1813 ();
+extern "C" void UnityEvent_FindMethod_Impl_m5_1814 ();
+extern "C" void UnityEvent_GetDelegate_m5_1815 ();
+extern "C" void UnityEvent_GetDelegate_m5_1816 ();
+extern "C" void UnityEvent_Invoke_m5_1817 ();
+extern "C" void DefaultValueAttribute__ctor_m5_1818 ();
+extern "C" void DefaultValueAttribute_get_Value_m5_1819 ();
+extern "C" void DefaultValueAttribute_Equals_m5_1820 ();
+extern "C" void DefaultValueAttribute_GetHashCode_m5_1821 ();
+extern "C" void ExcludeFromDocsAttribute__ctor_m5_1822 ();
+extern "C" void FormerlySerializedAsAttribute__ctor_m5_1823 ();
+extern "C" void TypeInferenceRuleAttribute__ctor_m5_1824 ();
+extern "C" void TypeInferenceRuleAttribute__ctor_m5_1825 ();
+extern "C" void TypeInferenceRuleAttribute_ToString_m5_1826 ();
+extern "C" void GenericStack__ctor_m5_1827 ();
+extern "C" void NetFxCoreExtensions_CreateDelegate_m5_1828 ();
+extern "C" void NetFxCoreExtensions_GetMethodInfo_m5_1829 ();
+extern "C" void UnityAdsDelegate__ctor_m5_1830 ();
+extern "C" void UnityAdsDelegate_Invoke_m5_1831 ();
+extern "C" void UnityAdsDelegate_BeginInvoke_m5_1832 ();
+extern "C" void UnityAdsDelegate_EndInvoke_m5_1833 ();
+extern "C" void UnityAction__ctor_m5_1834 ();
+extern "C" void UnityAction_Invoke_m5_1835 ();
+extern "C" void UnityAction_BeginInvoke_m5_1836 ();
+extern "C" void UnityAction_EndInvoke_m5_1837 ();
 extern "C" void FactorySetter__ctor_m6_0 ();
 extern "C" void EyewearCalibrationProfileManager__ctor_m6_1 ();
 extern "C" void EyewearCalibrationProfileManagerImpl_getMaxCount_m6_2 ();
@@ -19024,270 +19037,285 @@ extern "C" void CanTable_nextStage_m8_25 ();
 extern "C" void CanTable_NextStageWorker_m8_26 ();
 extern "C" void CanTable_Put_m8_27 ();
 extern "C" void CanTable_Explode_m8_28 ();
-extern "C" void AboutScreenView__ctor_m8_29 ();
-extern "C" void AboutScreenView_get_DeviceDependentScale_m8_30 ();
-extern "C" void AboutScreenView_SetTitle_m8_31 ();
-extern "C" void AboutScreenView_LoadView_m8_32 ();
-extern "C" void AboutScreenView_UpdateUI_m8_33 ();
-extern "C" void AboutScreenView_UnLoadView_m8_34 ();
-extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1__ctor_m8_35 ();
-extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_36 ();
-extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m8_37 ();
-extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_MoveNext_m8_38 ();
-extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Dispose_m8_39 ();
-extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Reset_m8_40 ();
-extern "C" void AppManager__ctor_m8_41 ();
-extern "C" void AppManager_InitManager_m8_42 ();
-extern "C" void AppManager_DeInitManager_m8_43 ();
-extern "C" void AppManager_UpdateManager_m8_44 ();
-extern "C" void AppManager_Draw_m8_45 ();
-extern "C" void AppManager_OnSingleTapped_m8_46 ();
-extern "C" void AppManager_OnDoubleTapped_m8_47 ();
-extern "C" void AppManager_OnTappedOnGoToAboutPage_m8_48 ();
-extern "C" void AppManager_OnBackButtonTapped_m8_49 ();
-extern "C" void AppManager_OnTappedOnCloseButton_m8_50 ();
-extern "C" void AppManager_OnAboutStartButtonTapped_m8_51 ();
-extern "C" void AppManager_LoadAboutPageForFirstTime_m8_52 ();
-extern "C" void ISampleAppUIElement__ctor_m8_53 ();
-extern "C" void ISampleAppUIElement_Draw_m8_54 ();
-extern "C" void ISampleAppUIElement_get_font_m8_55 ();
-extern "C" void ISampleAppUIElement_get_Height_m8_56 ();
-extern "C" void ISampleAppUIElement_set_Height_m8_57 ();
-extern "C" void ISampleAppUIElement_get_Width_m8_58 ();
-extern "C" void ISampleAppUIElement_set_Width_m8_59 ();
-extern "C" void ISampleAppUIEventHandler__ctor_m8_60 ();
-extern "C" void InputController__ctor_m8_61 ();
-extern "C" void InputController__cctor_m8_62 ();
-extern "C" void InputController_UpdateInput_m8_63 ();
-extern "C" void SampleAppUIBox__ctor_m8_64 ();
-extern "C" void SampleAppUIBox_Draw_m8_65 ();
-extern "C" void SampleAppUIButton__ctor_m8_66 ();
+extern "C" void CanTable_GameReset_m8_29 ();
+extern "C" void AboutScreenView__ctor_m8_30 ();
+extern "C" void AboutScreenView_get_DeviceDependentScale_m8_31 ();
+extern "C" void AboutScreenView_SetTitle_m8_32 ();
+extern "C" void AboutScreenView_LoadView_m8_33 ();
+extern "C" void AboutScreenView_UpdateUI_m8_34 ();
+extern "C" void AboutScreenView_UnLoadView_m8_35 ();
+extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1__ctor_m8_36 ();
+extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_37 ();
+extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m8_38 ();
+extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_MoveNext_m8_39 ();
+extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Dispose_m8_40 ();
+extern "C" void U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Reset_m8_41 ();
+extern "C" void AppManager__ctor_m8_42 ();
+extern "C" void AppManager_InitManager_m8_43 ();
+extern "C" void AppManager_DeInitManager_m8_44 ();
+extern "C" void AppManager_UpdateManager_m8_45 ();
+extern "C" void AppManager_Draw_m8_46 ();
+extern "C" void AppManager_OnSingleTapped_m8_47 ();
+extern "C" void AppManager_OnDoubleTapped_m8_48 ();
+extern "C" void AppManager_OnTappedOnGoToAboutPage_m8_49 ();
+extern "C" void AppManager_OnBackButtonTapped_m8_50 ();
+extern "C" void AppManager_OnTappedOnCloseButton_m8_51 ();
+extern "C" void AppManager_OnAboutStartButtonTapped_m8_52 ();
+extern "C" void AppManager_LoadAboutPageForFirstTime_m8_53 ();
+extern "C" void ISampleAppUIElement__ctor_m8_54 ();
+extern "C" void ISampleAppUIElement_Draw_m8_55 ();
+extern "C" void ISampleAppUIElement_get_font_m8_56 ();
+extern "C" void ISampleAppUIElement_get_Height_m8_57 ();
+extern "C" void ISampleAppUIElement_set_Height_m8_58 ();
+extern "C" void ISampleAppUIElement_get_Width_m8_59 ();
+extern "C" void ISampleAppUIElement_set_Width_m8_60 ();
+extern "C" void ISampleAppUIEventHandler__ctor_m8_61 ();
+extern "C" void InputController__ctor_m8_62 ();
+extern "C" void InputController__cctor_m8_63 ();
+extern "C" void InputController_UpdateInput_m8_64 ();
+extern "C" void SampleAppUIBox__ctor_m8_65 ();
+extern "C" void SampleAppUIBox_Draw_m8_66 ();
 extern "C" void SampleAppUIButton__ctor_m8_67 ();
-extern "C" void SampleAppUIButton_add_TappedOn_m8_68 ();
-extern "C" void SampleAppUIButton_remove_TappedOn_m8_69 ();
-extern "C" void SampleAppUIButton_Draw_m8_70 ();
-extern "C" void SampleAppUICheckButton__ctor_m8_71 ();
-extern "C" void SampleAppUICheckButton_add_TappedOn_m8_72 ();
-extern "C" void SampleAppUICheckButton_remove_TappedOn_m8_73 ();
-extern "C" void SampleAppUICheckButton_get_Title_m8_74 ();
-extern "C" void SampleAppUICheckButton_set_Title_m8_75 ();
-extern "C" void SampleAppUICheckButton_get_Width_m8_76 ();
-extern "C" void SampleAppUICheckButton_get_Height_m8_77 ();
-extern "C" void SampleAppUICheckButton_Enable_m8_78 ();
-extern "C" void SampleAppUICheckButton_get_IsEnabled_m8_79 ();
-extern "C" void SampleAppUICheckButton_Draw_m8_80 ();
-extern "C" void SampleAppUIConstants__ctor_m8_81 ();
-extern "C" void SampleAppUIConstants__cctor_m8_82 ();
-extern "C" void SampleAppUILabel__ctor_m8_83 ();
-extern "C" void SampleAppUILabel_Draw_m8_84 ();
-extern "C" void SampleAppUILabel_get_Width_m8_85 ();
-extern "C" void SampleAppUILabel_get_Height_m8_86 ();
-extern "C" void SampleAppsUILayout__ctor_m8_87 ();
-extern "C" void SampleAppsUILayout_get_StyleFont_m8_88 ();
-extern "C" void SampleAppsUILayout_Draw_m8_89 ();
-extern "C" void SampleAppsUILayout_AddLabel_m8_90 ();
-extern "C" void SampleAppsUILayout_AddGroupLabel_m8_91 ();
-extern "C" void SampleAppsUILayout_AddSimpleButton_m8_92 ();
-extern "C" void SampleAppsUILayout_AddSlider_m8_93 ();
-extern "C" void SampleAppsUILayout_AddSlider_Type2_m8_94 ();
-extern "C" void SampleAppsUILayout_AddToggleOptions_m8_95 ();
-extern "C" void SampleAppsUILayout_AddButton_m8_96 ();
+extern "C" void SampleAppUIButton__ctor_m8_68 ();
+extern "C" void SampleAppUIButton_add_TappedOn_m8_69 ();
+extern "C" void SampleAppUIButton_remove_TappedOn_m8_70 ();
+extern "C" void SampleAppUIButton_Draw_m8_71 ();
+extern "C" void SampleAppUICheckButton__ctor_m8_72 ();
+extern "C" void SampleAppUICheckButton_add_TappedOn_m8_73 ();
+extern "C" void SampleAppUICheckButton_remove_TappedOn_m8_74 ();
+extern "C" void SampleAppUICheckButton_get_Title_m8_75 ();
+extern "C" void SampleAppUICheckButton_set_Title_m8_76 ();
+extern "C" void SampleAppUICheckButton_get_Width_m8_77 ();
+extern "C" void SampleAppUICheckButton_get_Height_m8_78 ();
+extern "C" void SampleAppUICheckButton_Enable_m8_79 ();
+extern "C" void SampleAppUICheckButton_get_IsEnabled_m8_80 ();
+extern "C" void SampleAppUICheckButton_Draw_m8_81 ();
+extern "C" void SampleAppUIConstants__ctor_m8_82 ();
+extern "C" void SampleAppUIConstants__cctor_m8_83 ();
+extern "C" void SampleAppUILabel__ctor_m8_84 ();
+extern "C" void SampleAppUILabel_Draw_m8_85 ();
+extern "C" void SampleAppUILabel_get_Width_m8_86 ();
+extern "C" void SampleAppUILabel_get_Height_m8_87 ();
+extern "C" void SampleAppsUILayout__ctor_m8_88 ();
+extern "C" void SampleAppsUILayout_get_StyleFont_m8_89 ();
+extern "C" void SampleAppsUILayout_Draw_m8_90 ();
+extern "C" void SampleAppsUILayout_AddLabel_m8_91 ();
+extern "C" void SampleAppsUILayout_AddGroupLabel_m8_92 ();
+extern "C" void SampleAppsUILayout_AddSimpleButton_m8_93 ();
+extern "C" void SampleAppsUILayout_AddSlider_m8_94 ();
+extern "C" void SampleAppsUILayout_AddSlider_Type2_m8_95 ();
+extern "C" void SampleAppsUILayout_AddToggleOptions_m8_96 ();
 extern "C" void SampleAppsUILayout_AddButton_m8_97 ();
-extern "C" void SampleAppsUILayout_AddGap_m8_98 ();
-extern "C" void SampleAppUIRadioButton__ctor_m8_99 ();
-extern "C" void SampleAppUIRadioButton_add_TappedOnOption_m8_100 ();
-extern "C" void SampleAppUIRadioButton_remove_TappedOnOption_m8_101 ();
-extern "C" void SampleAppUIRadioButton_get_Width_m8_102 ();
-extern "C" void SampleAppUIRadioButton_get_Height_m8_103 ();
-extern "C" void SampleAppUIRadioButton_EnableIndex_m8_104 ();
-extern "C" void SampleAppUIRadioButton_SetToTrue_m8_105 ();
-extern "C" void SampleAppUIRadioButton_Draw_m8_106 ();
-extern "C" void SampleAppUIRect__ctor_m8_107 ();
-extern "C" void SampleAppUIRect_get_rect_m8_108 ();
-extern "C" void SampleInitErrorHandler__ctor_m8_109 ();
-extern "C" void SampleInitErrorHandler_InitPopUp_m8_110 ();
-extern "C" void SampleInitErrorHandler_Draw_m8_111 ();
-extern "C" void SampleInitErrorHandler_DrawPopUp_m8_112 ();
-extern "C" void SampleInitErrorHandler_SetErrorCode_m8_113 ();
-extern "C" void SceneViewManager__ctor_m8_114 ();
-extern "C" void SceneViewManager_Awake_m8_115 ();
-extern "C" void SceneViewManager_Start_m8_116 ();
-extern "C" void SceneViewManager_Update_m8_117 ();
-extern "C" void SceneViewManager_OnDestroy_m8_118 ();
-extern "C" void SceneViewManager_OnGUI_m8_119 ();
-extern "C" void SceneViewManager_OnVuforiaInitializationError_m8_120 ();
-extern "C" void SplashScreenView__ctor_m8_121 ();
-extern "C" void SplashScreenView_LoadView_m8_122 ();
-extern "C" void SplashScreenView_UnLoadView_m8_123 ();
-extern "C" void SplashScreenView_UpdateUI_m8_124 ();
-extern "C" void SplashScreenView_PickImageWithBestAspect_m8_125 ();
-extern "C" void ExplosiveCan__ctor_m8_126 ();
-extern "C" void ExplosiveCan_Start_m8_127 ();
-extern "C" void ExplosiveCan_OnCollisionEnter_m8_128 ();
-extern "C" void ExplosiveCan_Update_m8_129 ();
-extern "C" void GameManager__ctor_m8_130 ();
-extern "C" void GameManager_Start_m8_131 ();
-extern "C" void GameManager_Update_m8_132 ();
-extern "C" void GameManager_UpdateDisplay_m8_133 ();
-extern "C" void GameManager_AddScore_m8_134 ();
-extern "C" void GameManager_RequestAmmo_m8_135 ();
-extern "C" void ScoreNotificator__ctor_m8_136 ();
-extern "C" void ScoreNotificator_Start_m8_137 ();
-extern "C" void ScoreNotificator_Update_m8_138 ();
-extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2__ctor_m8_139 ();
-extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_140 ();
-extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m8_141 ();
-extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_MoveNext_m8_142 ();
-extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_Dispose_m8_143 ();
-extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_Reset_m8_144 ();
-extern "C" void MultiTargetUIEventHandler__ctor_m8_145 ();
-extern "C" void MultiTargetUIEventHandler_add_CloseView_m8_146 ();
-extern "C" void MultiTargetUIEventHandler_remove_CloseView_m8_147 ();
-extern "C" void MultiTargetUIEventHandler_add_GoToAboutPage_m8_148 ();
-extern "C" void MultiTargetUIEventHandler_remove_GoToAboutPage_m8_149 ();
-extern "C" void MultiTargetUIEventHandler_get_View_m8_150 ();
-extern "C" void MultiTargetUIEventHandler_get_ExtendedTrackingIsEnabled_m8_151 ();
-extern "C" void MultiTargetUIEventHandler_UpdateView_m8_152 ();
-extern "C" void MultiTargetUIEventHandler_Bind_m8_153 ();
-extern "C" void MultiTargetUIEventHandler_UnBind_m8_154 ();
-extern "C" void MultiTargetUIEventHandler_TriggerAutoFocus_m8_155 ();
-extern "C" void MultiTargetUIEventHandler_TriggerAutoFocusAndEnableContinuousFocusIfSet_m8_156 ();
-extern "C" void MultiTargetUIEventHandler_OnPause_m8_157 ();
-extern "C" void MultiTargetUIEventHandler_OnTappedOnAboutButton_m8_158 ();
-extern "C" void MultiTargetUIEventHandler_EnableContinuousAutoFocus_m8_159 ();
-extern "C" void MultiTargetUIEventHandler_stopRunningObjectTracker_m8_160 ();
-extern "C" void MultiTargetUIEventHandler_restartRunningObjectTracker_m8_161 ();
-extern "C" void MultiTargetUIEventHandler_ResetCameraFacingToBack_m8_162 ();
-extern "C" void MultiTargetUIEventHandler_ChangeCameraDirection_m8_163 ();
-extern "C" void MultiTargetUIEventHandler_OnTappedToClose_m8_164 ();
-extern "C" void MultiTargetUIEventHandler_OnTappedOnCloseButton_m8_165 ();
-extern "C" void MultiTargetUIEventHandler_ExtendedTracking_m8_166 ();
-extern "C" void MultiTargetUIView__ctor_m8_167 ();
-extern "C" void MultiTargetUIView_add_TappedToClose_m8_168 ();
-extern "C" void MultiTargetUIView_remove_TappedToClose_m8_169 ();
-extern "C" void MultiTargetUIView_get_FocusMode_m8_170 ();
-extern "C" void MultiTargetUIView_set_FocusMode_m8_171 ();
-extern "C" void MultiTargetUIView_LoadView_m8_172 ();
-extern "C" void MultiTargetUIView_UnLoadView_m8_173 ();
-extern "C" void MultiTargetUIView_UpdateUI_m8_174 ();
-extern "C" void MultiTargetUIView_OnTappedToClose_m8_175 ();
-extern "C" void RotateAround__ctor_m8_176 ();
-extern "C" void RotateAround_Update_m8_177 ();
-extern "C" void aDefaultTrackableEventHandler__ctor_m8_178 ();
-extern "C" void aDefaultTrackableEventHandler_Start_m8_179 ();
-extern "C" void aDefaultTrackableEventHandler_OnTrackableStateChanged_m8_180 ();
-extern "C" void aDefaultTrackableEventHandler_OnTrackingFound_m8_181 ();
-extern "C" void aDefaultTrackableEventHandler_OnTrackingLost_m8_182 ();
-extern "C" void BackgroundPlaneBehaviour__ctor_m8_183 ();
-extern "C" void CloudRecoBehaviour__ctor_m8_184 ();
-extern "C" void CylinderTargetBehaviour__ctor_m8_185 ();
-extern "C" void DatabaseLoadBehaviour__ctor_m8_186 ();
-extern "C" void DatabaseLoadBehaviour_AddOSSpecificExternalDatasetSearchDirs_m8_187 ();
-extern "C" void DefaultInitializationErrorHandler__ctor_m8_188 ();
-extern "C" void DefaultInitializationErrorHandler_Awake_m8_189 ();
-extern "C" void DefaultInitializationErrorHandler_OnGUI_m8_190 ();
-extern "C" void DefaultInitializationErrorHandler_OnDestroy_m8_191 ();
-extern "C" void DefaultInitializationErrorHandler_DrawWindowContent_m8_192 ();
-extern "C" void DefaultInitializationErrorHandler_SetErrorCode_m8_193 ();
-extern "C" void DefaultInitializationErrorHandler_SetErrorOccurred_m8_194 ();
-extern "C" void DefaultInitializationErrorHandler_OnVuforiaInitializationError_m8_195 ();
-extern "C" void DefaultSmartTerrainEventHandler__ctor_m8_196 ();
-extern "C" void DefaultSmartTerrainEventHandler_Start_m8_197 ();
-extern "C" void DefaultSmartTerrainEventHandler_OnDestroy_m8_198 ();
-extern "C" void DefaultSmartTerrainEventHandler_OnPropCreated_m8_199 ();
-extern "C" void DefaultSmartTerrainEventHandler_OnSurfaceCreated_m8_200 ();
-extern "C" void DefaultTrackableEventHandler__ctor_m8_201 ();
-extern "C" void DefaultTrackableEventHandler_Start_m8_202 ();
-extern "C" void DefaultTrackableEventHandler_OnTrackableStateChanged_m8_203 ();
-extern "C" void DefaultTrackableEventHandler_OnTrackingFound_m8_204 ();
-extern "C" void DefaultTrackableEventHandler_OnTrackingLost_m8_205 ();
-extern "C" void GLErrorHandler__ctor_m8_206 ();
-extern "C" void GLErrorHandler__cctor_m8_207 ();
-extern "C" void GLErrorHandler_SetError_m8_208 ();
-extern "C" void GLErrorHandler_OnGUI_m8_209 ();
-extern "C" void GLErrorHandler_DrawWindowContent_m8_210 ();
-extern "C" void HideExcessAreaBehaviour__ctor_m8_211 ();
-extern "C" void ImageTargetBehaviour__ctor_m8_212 ();
-extern "C" void AndroidUnityPlayer__ctor_m8_213 ();
-extern "C" void AndroidUnityPlayer_LoadNativeLibraries_m8_214 ();
-extern "C" void AndroidUnityPlayer_InitializePlatform_m8_215 ();
-extern "C" void AndroidUnityPlayer_Start_m8_216 ();
-extern "C" void AndroidUnityPlayer_Update_m8_217 ();
-extern "C" void AndroidUnityPlayer_OnPause_m8_218 ();
-extern "C" void AndroidUnityPlayer_OnResume_m8_219 ();
-extern "C" void AndroidUnityPlayer_OnDestroy_m8_220 ();
-extern "C" void AndroidUnityPlayer_Dispose_m8_221 ();
-extern "C" void AndroidUnityPlayer_LoadNativeLibrariesFromJava_m8_222 ();
-extern "C" void AndroidUnityPlayer_InitAndroidPlatform_m8_223 ();
-extern "C" void AndroidUnityPlayer_InitVuforia_m8_224 ();
-extern "C" void AndroidUnityPlayer_InitializeSurface_m8_225 ();
-extern "C" void AndroidUnityPlayer_ResetUnityScreenOrientation_m8_226 ();
-extern "C" void AndroidUnityPlayer_CheckOrientation_m8_227 ();
-extern "C" void ComponentFactoryStarterBehaviour__ctor_m8_228 ();
-extern "C" void ComponentFactoryStarterBehaviour_Awake_m8_229 ();
-extern "C" void ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m8_230 ();
-extern "C" void IOSUnityPlayer__ctor_m8_231 ();
-extern "C" void IOSUnityPlayer_LoadNativeLibraries_m8_232 ();
-extern "C" void IOSUnityPlayer_InitializePlatform_m8_233 ();
-extern "C" void IOSUnityPlayer_Start_m8_234 ();
-extern "C" void IOSUnityPlayer_Update_m8_235 ();
-extern "C" void IOSUnityPlayer_Dispose_m8_236 ();
-extern "C" void IOSUnityPlayer_OnPause_m8_237 ();
-extern "C" void IOSUnityPlayer_OnResume_m8_238 ();
-extern "C" void IOSUnityPlayer_OnDestroy_m8_239 ();
-extern "C" void IOSUnityPlayer_InitializeSurface_m8_240 ();
-extern "C" void IOSUnityPlayer_SetUnityScreenOrientation_m8_241 ();
-extern "C" void IOSUnityPlayer_setPlatFormNative_m8_242 ();
-extern "C" void IOSUnityPlayer_initQCARiOS_m8_243 ();
-extern "C" void IOSUnityPlayer_setSurfaceOrientationiOS_m8_244 ();
-extern "C" void VuforiaBehaviourComponentFactory__ctor_m8_245 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m8_246 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m8_247 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m8_248 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m8_249 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m8_250 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m8_251 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m8_252 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddWordBehaviour_m8_253 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m8_254 ();
-extern "C" void VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m8_255 ();
-extern "C" void KeepAliveBehaviour__ctor_m8_256 ();
-extern "C" void MarkerBehaviour__ctor_m8_257 ();
-extern "C" void MaskOutBehaviour__ctor_m8_258 ();
-extern "C" void MaskOutBehaviour_Start_m8_259 ();
-extern "C" void MultiTargetBehaviour__ctor_m8_260 ();
-extern "C" void ObjectTargetBehaviour__ctor_m8_261 ();
-extern "C" void PropBehaviour__ctor_m8_262 ();
-extern "C" void ReconstructionBehaviour__ctor_m8_263 ();
-extern "C" void ReconstructionFromTargetBehaviour__ctor_m8_264 ();
-extern "C" void SmartTerrainTrackerBehaviour__ctor_m8_265 ();
-extern "C" void SurfaceBehaviour__ctor_m8_266 ();
-extern "C" void TextRecoBehaviour__ctor_m8_267 ();
-extern "C" void TurnOffBehaviour__ctor_m8_268 ();
-extern "C" void TurnOffBehaviour_Awake_m8_269 ();
-extern "C" void TurnOffWordBehaviour__ctor_m8_270 ();
-extern "C" void TurnOffWordBehaviour_Awake_m8_271 ();
-extern "C" void UserDefinedTargetBuildingBehaviour__ctor_m8_272 ();
-extern "C" void VideoBackgroundBehaviour__ctor_m8_273 ();
-extern "C" void VideoTextureRenderer__ctor_m8_274 ();
-extern "C" void VirtualButtonBehaviour__ctor_m8_275 ();
-extern "C" void VuforiaBehaviour__ctor_m8_276 ();
-extern "C" void VuforiaBehaviour__cctor_m8_277 ();
-extern "C" void VuforiaBehaviour_Awake_m8_278 ();
-extern "C" void VuforiaBehaviour_get_Instance_m8_279 ();
-extern "C" void WebCamBehaviour__ctor_m8_280 ();
-extern "C" void WireframeBehaviour__ctor_m8_281 ();
-extern "C" void WireframeBehaviour_CreateLineMaterial_m8_282 ();
-extern "C" void WireframeBehaviour_OnRenderObject_m8_283 ();
-extern "C" void WireframeBehaviour_OnDrawGizmos_m8_284 ();
-extern "C" void WireframeTrackableEventHandler__ctor_m8_285 ();
-extern "C" void WireframeTrackableEventHandler_Start_m8_286 ();
-extern "C" void WireframeTrackableEventHandler_OnTrackableStateChanged_m8_287 ();
-extern "C" void WireframeTrackableEventHandler_OnTrackingFound_m8_288 ();
-extern "C" void WireframeTrackableEventHandler_OnTrackingLost_m8_289 ();
-extern "C" void WordBehaviour__ctor_m8_290 ();
-extern "C" void U3CPrivateImplementationDetailsU3E__ctor_m8_291 ();
-extern const methodPointerType g_MethodPointers[19276] = 
+extern "C" void SampleAppsUILayout_AddButton_m8_98 ();
+extern "C" void SampleAppsUILayout_AddGap_m8_99 ();
+extern "C" void SampleAppUIRadioButton__ctor_m8_100 ();
+extern "C" void SampleAppUIRadioButton_add_TappedOnOption_m8_101 ();
+extern "C" void SampleAppUIRadioButton_remove_TappedOnOption_m8_102 ();
+extern "C" void SampleAppUIRadioButton_get_Width_m8_103 ();
+extern "C" void SampleAppUIRadioButton_get_Height_m8_104 ();
+extern "C" void SampleAppUIRadioButton_EnableIndex_m8_105 ();
+extern "C" void SampleAppUIRadioButton_SetToTrue_m8_106 ();
+extern "C" void SampleAppUIRadioButton_Draw_m8_107 ();
+extern "C" void SampleAppUIRect__ctor_m8_108 ();
+extern "C" void SampleAppUIRect_get_rect_m8_109 ();
+extern "C" void SampleInitErrorHandler__ctor_m8_110 ();
+extern "C" void SampleInitErrorHandler_InitPopUp_m8_111 ();
+extern "C" void SampleInitErrorHandler_Draw_m8_112 ();
+extern "C" void SampleInitErrorHandler_DrawPopUp_m8_113 ();
+extern "C" void SampleInitErrorHandler_SetErrorCode_m8_114 ();
+extern "C" void SceneViewManager__ctor_m8_115 ();
+extern "C" void SceneViewManager_Awake_m8_116 ();
+extern "C" void SceneViewManager_Start_m8_117 ();
+extern "C" void SceneViewManager_Update_m8_118 ();
+extern "C" void SceneViewManager_OnDestroy_m8_119 ();
+extern "C" void SceneViewManager_OnGUI_m8_120 ();
+extern "C" void SceneViewManager_OnVuforiaInitializationError_m8_121 ();
+extern "C" void SplashScreenView__ctor_m8_122 ();
+extern "C" void SplashScreenView_LoadView_m8_123 ();
+extern "C" void SplashScreenView_UnLoadView_m8_124 ();
+extern "C" void SplashScreenView_UpdateUI_m8_125 ();
+extern "C" void SplashScreenView_PickImageWithBestAspect_m8_126 ();
+extern "C" void ExplosiveCan__ctor_m8_127 ();
+extern "C" void ExplosiveCan_Start_m8_128 ();
+extern "C" void ExplosiveCan_OnCollisionEnter_m8_129 ();
+extern "C" void ExplosiveCan_Update_m8_130 ();
+extern "C" void U3CGetScoreBoardU3Ec__Iterator2__ctor_m8_131 ();
+extern "C" void U3CGetScoreBoardU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_132 ();
+extern "C" void U3CGetScoreBoardU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m8_133 ();
+extern "C" void U3CGetScoreBoardU3Ec__Iterator2_MoveNext_m8_134 ();
+extern "C" void U3CGetScoreBoardU3Ec__Iterator2_Dispose_m8_135 ();
+extern "C" void U3CGetScoreBoardU3Ec__Iterator2_Reset_m8_136 ();
+extern "C" void GameManager__ctor_m8_137 ();
+extern "C" void GameManager_Start_m8_138 ();
+extern "C" void GameManager_Update_m8_139 ();
+extern "C" void GameManager_UpdateDisplay_m8_140 ();
+extern "C" void GameManager_AddScore_m8_141 ();
+extern "C" void GameManager_RequestAmmo_m8_142 ();
+extern "C" void GameManager_ResetGame_m8_143 ();
+extern "C" void GameManager_ShowScoreBoard_m8_144 ();
+extern "C" void GameManager_GetScoreBoard_m8_145 ();
+extern "C" void GameManager_U3CStartU3Em__0_m8_146 ();
+extern "C" void ScoreNotificator__ctor_m8_147 ();
+extern "C" void ScoreNotificator_Start_m8_148 ();
+extern "C" void ScoreNotificator_Update_m8_149 ();
+extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3__ctor_m8_150 ();
+extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_151 ();
+extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m8_152 ();
+extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_MoveNext_m8_153 ();
+extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_Dispose_m8_154 ();
+extern "C" void U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_Reset_m8_155 ();
+extern "C" void MultiTargetUIEventHandler__ctor_m8_156 ();
+extern "C" void MultiTargetUIEventHandler_add_CloseView_m8_157 ();
+extern "C" void MultiTargetUIEventHandler_remove_CloseView_m8_158 ();
+extern "C" void MultiTargetUIEventHandler_add_GoToAboutPage_m8_159 ();
+extern "C" void MultiTargetUIEventHandler_remove_GoToAboutPage_m8_160 ();
+extern "C" void MultiTargetUIEventHandler_get_View_m8_161 ();
+extern "C" void MultiTargetUIEventHandler_get_ExtendedTrackingIsEnabled_m8_162 ();
+extern "C" void MultiTargetUIEventHandler_UpdateView_m8_163 ();
+extern "C" void MultiTargetUIEventHandler_Bind_m8_164 ();
+extern "C" void MultiTargetUIEventHandler_UnBind_m8_165 ();
+extern "C" void MultiTargetUIEventHandler_TriggerAutoFocus_m8_166 ();
+extern "C" void MultiTargetUIEventHandler_TriggerAutoFocusAndEnableContinuousFocusIfSet_m8_167 ();
+extern "C" void MultiTargetUIEventHandler_OnPause_m8_168 ();
+extern "C" void MultiTargetUIEventHandler_OnTappedOnAboutButton_m8_169 ();
+extern "C" void MultiTargetUIEventHandler_EnableContinuousAutoFocus_m8_170 ();
+extern "C" void MultiTargetUIEventHandler_stopRunningObjectTracker_m8_171 ();
+extern "C" void MultiTargetUIEventHandler_restartRunningObjectTracker_m8_172 ();
+extern "C" void MultiTargetUIEventHandler_ResetCameraFacingToBack_m8_173 ();
+extern "C" void MultiTargetUIEventHandler_ChangeCameraDirection_m8_174 ();
+extern "C" void MultiTargetUIEventHandler_OnTappedToClose_m8_175 ();
+extern "C" void MultiTargetUIEventHandler_OnTappedOnCloseButton_m8_176 ();
+extern "C" void MultiTargetUIEventHandler_ExtendedTracking_m8_177 ();
+extern "C" void MultiTargetUIView__ctor_m8_178 ();
+extern "C" void MultiTargetUIView_add_TappedToClose_m8_179 ();
+extern "C" void MultiTargetUIView_remove_TappedToClose_m8_180 ();
+extern "C" void MultiTargetUIView_get_FocusMode_m8_181 ();
+extern "C" void MultiTargetUIView_set_FocusMode_m8_182 ();
+extern "C" void MultiTargetUIView_LoadView_m8_183 ();
+extern "C" void MultiTargetUIView_UnLoadView_m8_184 ();
+extern "C" void MultiTargetUIView_UpdateUI_m8_185 ();
+extern "C" void MultiTargetUIView_OnTappedToClose_m8_186 ();
+extern "C" void RotateAround__ctor_m8_187 ();
+extern "C" void RotateAround_Update_m8_188 ();
+extern "C" void TestButton__ctor_m8_189 ();
+extern "C" void TestButton_Start_m8_190 ();
+extern "C" void TestButton_Update_m8_191 ();
+extern "C" void TestButton_ClickTest_m8_192 ();
+extern "C" void aDefaultTrackableEventHandler__ctor_m8_193 ();
+extern "C" void aDefaultTrackableEventHandler_Start_m8_194 ();
+extern "C" void aDefaultTrackableEventHandler_OnTrackableStateChanged_m8_195 ();
+extern "C" void aDefaultTrackableEventHandler_OnTrackingFound_m8_196 ();
+extern "C" void aDefaultTrackableEventHandler_OnTrackingLost_m8_197 ();
+extern "C" void BackgroundPlaneBehaviour__ctor_m8_198 ();
+extern "C" void CloudRecoBehaviour__ctor_m8_199 ();
+extern "C" void CylinderTargetBehaviour__ctor_m8_200 ();
+extern "C" void DatabaseLoadBehaviour__ctor_m8_201 ();
+extern "C" void DatabaseLoadBehaviour_AddOSSpecificExternalDatasetSearchDirs_m8_202 ();
+extern "C" void DefaultInitializationErrorHandler__ctor_m8_203 ();
+extern "C" void DefaultInitializationErrorHandler_Awake_m8_204 ();
+extern "C" void DefaultInitializationErrorHandler_OnGUI_m8_205 ();
+extern "C" void DefaultInitializationErrorHandler_OnDestroy_m8_206 ();
+extern "C" void DefaultInitializationErrorHandler_DrawWindowContent_m8_207 ();
+extern "C" void DefaultInitializationErrorHandler_SetErrorCode_m8_208 ();
+extern "C" void DefaultInitializationErrorHandler_SetErrorOccurred_m8_209 ();
+extern "C" void DefaultInitializationErrorHandler_OnVuforiaInitializationError_m8_210 ();
+extern "C" void DefaultSmartTerrainEventHandler__ctor_m8_211 ();
+extern "C" void DefaultSmartTerrainEventHandler_Start_m8_212 ();
+extern "C" void DefaultSmartTerrainEventHandler_OnDestroy_m8_213 ();
+extern "C" void DefaultSmartTerrainEventHandler_OnPropCreated_m8_214 ();
+extern "C" void DefaultSmartTerrainEventHandler_OnSurfaceCreated_m8_215 ();
+extern "C" void DefaultTrackableEventHandler__ctor_m8_216 ();
+extern "C" void DefaultTrackableEventHandler_Start_m8_217 ();
+extern "C" void DefaultTrackableEventHandler_OnTrackableStateChanged_m8_218 ();
+extern "C" void DefaultTrackableEventHandler_OnTrackingFound_m8_219 ();
+extern "C" void DefaultTrackableEventHandler_OnTrackingLost_m8_220 ();
+extern "C" void GLErrorHandler__ctor_m8_221 ();
+extern "C" void GLErrorHandler__cctor_m8_222 ();
+extern "C" void GLErrorHandler_SetError_m8_223 ();
+extern "C" void GLErrorHandler_OnGUI_m8_224 ();
+extern "C" void GLErrorHandler_DrawWindowContent_m8_225 ();
+extern "C" void HideExcessAreaBehaviour__ctor_m8_226 ();
+extern "C" void ImageTargetBehaviour__ctor_m8_227 ();
+extern "C" void AndroidUnityPlayer__ctor_m8_228 ();
+extern "C" void AndroidUnityPlayer_LoadNativeLibraries_m8_229 ();
+extern "C" void AndroidUnityPlayer_InitializePlatform_m8_230 ();
+extern "C" void AndroidUnityPlayer_Start_m8_231 ();
+extern "C" void AndroidUnityPlayer_Update_m8_232 ();
+extern "C" void AndroidUnityPlayer_OnPause_m8_233 ();
+extern "C" void AndroidUnityPlayer_OnResume_m8_234 ();
+extern "C" void AndroidUnityPlayer_OnDestroy_m8_235 ();
+extern "C" void AndroidUnityPlayer_Dispose_m8_236 ();
+extern "C" void AndroidUnityPlayer_LoadNativeLibrariesFromJava_m8_237 ();
+extern "C" void AndroidUnityPlayer_InitAndroidPlatform_m8_238 ();
+extern "C" void AndroidUnityPlayer_InitVuforia_m8_239 ();
+extern "C" void AndroidUnityPlayer_InitializeSurface_m8_240 ();
+extern "C" void AndroidUnityPlayer_ResetUnityScreenOrientation_m8_241 ();
+extern "C" void AndroidUnityPlayer_CheckOrientation_m8_242 ();
+extern "C" void ComponentFactoryStarterBehaviour__ctor_m8_243 ();
+extern "C" void ComponentFactoryStarterBehaviour_Awake_m8_244 ();
+extern "C" void ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m8_245 ();
+extern "C" void IOSUnityPlayer__ctor_m8_246 ();
+extern "C" void IOSUnityPlayer_LoadNativeLibraries_m8_247 ();
+extern "C" void IOSUnityPlayer_InitializePlatform_m8_248 ();
+extern "C" void IOSUnityPlayer_Start_m8_249 ();
+extern "C" void IOSUnityPlayer_Update_m8_250 ();
+extern "C" void IOSUnityPlayer_Dispose_m8_251 ();
+extern "C" void IOSUnityPlayer_OnPause_m8_252 ();
+extern "C" void IOSUnityPlayer_OnResume_m8_253 ();
+extern "C" void IOSUnityPlayer_OnDestroy_m8_254 ();
+extern "C" void IOSUnityPlayer_InitializeSurface_m8_255 ();
+extern "C" void IOSUnityPlayer_SetUnityScreenOrientation_m8_256 ();
+extern "C" void IOSUnityPlayer_setPlatFormNative_m8_257 ();
+extern "C" void IOSUnityPlayer_initQCARiOS_m8_258 ();
+extern "C" void IOSUnityPlayer_setSurfaceOrientationiOS_m8_259 ();
+extern "C" void VuforiaBehaviourComponentFactory__ctor_m8_260 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m8_261 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m8_262 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m8_263 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m8_264 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m8_265 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m8_266 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m8_267 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddWordBehaviour_m8_268 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m8_269 ();
+extern "C" void VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m8_270 ();
+extern "C" void KeepAliveBehaviour__ctor_m8_271 ();
+extern "C" void MarkerBehaviour__ctor_m8_272 ();
+extern "C" void MaskOutBehaviour__ctor_m8_273 ();
+extern "C" void MaskOutBehaviour_Start_m8_274 ();
+extern "C" void MultiTargetBehaviour__ctor_m8_275 ();
+extern "C" void ObjectTargetBehaviour__ctor_m8_276 ();
+extern "C" void PropBehaviour__ctor_m8_277 ();
+extern "C" void ReconstructionBehaviour__ctor_m8_278 ();
+extern "C" void ReconstructionFromTargetBehaviour__ctor_m8_279 ();
+extern "C" void SmartTerrainTrackerBehaviour__ctor_m8_280 ();
+extern "C" void SurfaceBehaviour__ctor_m8_281 ();
+extern "C" void TextRecoBehaviour__ctor_m8_282 ();
+extern "C" void TurnOffBehaviour__ctor_m8_283 ();
+extern "C" void TurnOffBehaviour_Awake_m8_284 ();
+extern "C" void TurnOffWordBehaviour__ctor_m8_285 ();
+extern "C" void TurnOffWordBehaviour_Awake_m8_286 ();
+extern "C" void UserDefinedTargetBuildingBehaviour__ctor_m8_287 ();
+extern "C" void VideoBackgroundBehaviour__ctor_m8_288 ();
+extern "C" void VideoTextureRenderer__ctor_m8_289 ();
+extern "C" void VirtualButtonBehaviour__ctor_m8_290 ();
+extern "C" void VuforiaBehaviour__ctor_m8_291 ();
+extern "C" void VuforiaBehaviour__cctor_m8_292 ();
+extern "C" void VuforiaBehaviour_Awake_m8_293 ();
+extern "C" void VuforiaBehaviour_get_Instance_m8_294 ();
+extern "C" void WebCamBehaviour__ctor_m8_295 ();
+extern "C" void WireframeBehaviour__ctor_m8_296 ();
+extern "C" void WireframeBehaviour_CreateLineMaterial_m8_297 ();
+extern "C" void WireframeBehaviour_OnRenderObject_m8_298 ();
+extern "C" void WireframeBehaviour_OnDrawGizmos_m8_299 ();
+extern "C" void WireframeTrackableEventHandler__ctor_m8_300 ();
+extern "C" void WireframeTrackableEventHandler_Start_m8_301 ();
+extern "C" void WireframeTrackableEventHandler_OnTrackableStateChanged_m8_302 ();
+extern "C" void WireframeTrackableEventHandler_OnTrackingFound_m8_303 ();
+extern "C" void WireframeTrackableEventHandler_OnTrackingLost_m8_304 ();
+extern "C" void WordBehaviour__ctor_m8_305 ();
+extern "C" void U3CPrivateImplementationDetailsU3E__ctor_m8_306 ();
+extern const methodPointerType g_MethodPointers[19304] = 
 {
 	Object__ctor_m1_0,
 	Object_Equals_m1_1,
@@ -33649,1197 +33677,1210 @@ extern const methodPointerType g_MethodPointers[19276] =
 	DataUtility_GetPadding_m5_631,
 	DataUtility_GetMinSize_m5_632,
 	DataUtility_Internal_GetMinSize_m5_633,
-	UnityString_Format_m5_634,
-	AsyncOperation__ctor_m5_635,
-	AsyncOperation_InternalDestroy_m5_636,
-	AsyncOperation_Finalize_m5_637,
-	LogCallback__ctor_m5_638,
-	LogCallback_Invoke_m5_639,
-	LogCallback_BeginInvoke_m5_640,
-	LogCallback_EndInvoke_m5_641,
-	Application_Quit_m5_642,
-	Application_LoadLevel_m5_643,
-	Application_LoadLevelAsync_m5_644,
-	Application_get_isPlaying_m5_645,
-	Application_get_isEditor_m5_646,
-	Application_get_platform_m5_647,
-	Application_set_runInBackground_m5_648,
-	Application_get_dataPath_m5_649,
-	Application_get_unityVersion_m5_650,
-	Application_CallLogCallback_m5_651,
-	Behaviour__ctor_m5_652,
-	Behaviour_get_enabled_m5_653,
-	Behaviour_set_enabled_m5_654,
-	Behaviour_get_isActiveAndEnabled_m5_655,
-	CameraCallback__ctor_m5_656,
-	CameraCallback_Invoke_m5_657,
-	CameraCallback_BeginInvoke_m5_658,
-	CameraCallback_EndInvoke_m5_659,
-	Camera_get_fieldOfView_m5_660,
-	Camera_get_nearClipPlane_m5_661,
-	Camera_set_nearClipPlane_m5_662,
-	Camera_get_farClipPlane_m5_663,
-	Camera_set_farClipPlane_m5_664,
-	Camera_set_orthographicSize_m5_665,
-	Camera_set_orthographic_m5_666,
-	Camera_get_depth_m5_667,
-	Camera_set_aspect_m5_668,
-	Camera_get_cullingMask_m5_669,
-	Camera_set_cullingMask_m5_670,
-	Camera_get_eventMask_m5_671,
-	Camera_get_rect_m5_672,
-	Camera_set_rect_m5_673,
-	Camera_INTERNAL_get_rect_m5_674,
-	Camera_INTERNAL_set_rect_m5_675,
-	Camera_get_pixelRect_m5_676,
-	Camera_INTERNAL_get_pixelRect_m5_677,
-	Camera_get_targetTexture_m5_678,
-	Camera_set_targetTexture_m5_679,
-	Camera_get_projectionMatrix_m5_680,
-	Camera_set_projectionMatrix_m5_681,
-	Camera_INTERNAL_get_projectionMatrix_m5_682,
-	Camera_INTERNAL_set_projectionMatrix_m5_683,
-	Camera_get_clearFlags_m5_684,
-	Camera_WorldToScreenPoint_m5_685,
-	Camera_INTERNAL_CALL_WorldToScreenPoint_m5_686,
-	Camera_ScreenToViewportPoint_m5_687,
-	Camera_INTERNAL_CALL_ScreenToViewportPoint_m5_688,
-	Camera_ScreenPointToRay_m5_689,
-	Camera_INTERNAL_CALL_ScreenPointToRay_m5_690,
-	Camera_get_main_m5_691,
-	Camera_get_current_m5_692,
-	Camera_get_allCamerasCount_m5_693,
-	Camera_GetAllCameras_m5_694,
-	Camera_FireOnPreCull_m5_695,
-	Camera_FireOnPreRender_m5_696,
-	Camera_FireOnPostRender_m5_697,
-	Camera_Render_m5_698,
-	Camera_RaycastTry_m5_699,
-	Camera_INTERNAL_CALL_RaycastTry_m5_700,
-	Camera_RaycastTry2D_m5_701,
-	Camera_INTERNAL_CALL_RaycastTry2D_m5_702,
-	Debug_Internal_Log_m5_703,
-	Debug_Internal_LogException_m5_704,
-	Debug_Log_m5_705,
-	Debug_LogError_m5_706,
-	Debug_LogError_m5_707,
-	Debug_LogException_m5_708,
-	Debug_LogException_m5_709,
-	Debug_LogWarning_m5_710,
-	Debug_LogWarning_m5_711,
-	DisplaysUpdatedDelegate__ctor_m5_712,
-	DisplaysUpdatedDelegate_Invoke_m5_713,
-	DisplaysUpdatedDelegate_BeginInvoke_m5_714,
-	DisplaysUpdatedDelegate_EndInvoke_m5_715,
-	Display__ctor_m5_716,
-	Display__ctor_m5_717,
-	Display__cctor_m5_718,
-	Display_add_onDisplaysUpdated_m5_719,
-	Display_remove_onDisplaysUpdated_m5_720,
-	Display_get_renderingWidth_m5_721,
-	Display_get_renderingHeight_m5_722,
-	Display_get_systemWidth_m5_723,
-	Display_get_systemHeight_m5_724,
-	Display_get_colorBuffer_m5_725,
-	Display_get_depthBuffer_m5_726,
-	Display_Activate_m5_727,
-	Display_Activate_m5_728,
-	Display_SetParams_m5_729,
-	Display_SetRenderingResolution_m5_730,
-	Display_MultiDisplayLicense_m5_731,
-	Display_RelativeMouseAt_m5_732,
-	Display_get_main_m5_733,
-	Display_RecreateDisplayList_m5_734,
-	Display_FireDisplaysUpdated_m5_735,
-	Display_GetSystemExtImpl_m5_736,
-	Display_GetRenderingExtImpl_m5_737,
-	Display_GetRenderingBuffersImpl_m5_738,
-	Display_SetRenderingResolutionImpl_m5_739,
-	Display_ActivateDisplayImpl_m5_740,
-	Display_SetParamsImpl_m5_741,
-	Display_MultiDisplayLicenseImpl_m5_742,
-	Display_RelativeMouseAtImpl_m5_743,
-	MonoBehaviour__ctor_m5_744,
-	MonoBehaviour_StartCoroutine_m5_745,
-	MonoBehaviour_StartCoroutine_Auto_m5_746,
-	MonoBehaviour_StopCoroutine_m5_747,
-	MonoBehaviour_StopCoroutine_m5_748,
-	MonoBehaviour_StopCoroutineViaEnumerator_Auto_m5_749,
-	MonoBehaviour_StopCoroutine_Auto_m5_750,
-	Touch_get_fingerId_m5_751,
-	Touch_get_position_m5_752,
-	Touch_get_phase_m5_753,
-	Input__cctor_m5_754,
-	Input_GetKeyInt_m5_755,
-	Input_GetKeyDownInt_m5_756,
-	Input_GetAxisRaw_m5_757,
-	Input_GetButtonDown_m5_758,
-	Input_GetKey_m5_759,
-	Input_GetKeyDown_m5_760,
-	Input_GetMouseButton_m5_761,
-	Input_GetMouseButtonDown_m5_762,
-	Input_GetMouseButtonUp_m5_763,
-	Input_get_mousePosition_m5_764,
-	Input_INTERNAL_get_mousePosition_m5_765,
-	Input_get_mouseScrollDelta_m5_766,
-	Input_INTERNAL_get_mouseScrollDelta_m5_767,
-	Input_get_mousePresent_m5_768,
-	Input_GetTouch_m5_769,
-	Input_get_touchCount_m5_770,
-	Input_get_touchSupported_m5_771,
-	Input_set_imeCompositionMode_m5_772,
-	Input_get_compositionString_m5_773,
-	Input_set_compositionCursorPos_m5_774,
-	Input_INTERNAL_set_compositionCursorPos_m5_775,
-	Object__ctor_m5_776,
-	Object_Internal_CloneSingle_m5_777,
-	Object_Internal_InstantiateSingle_m5_778,
-	Object_INTERNAL_CALL_Internal_InstantiateSingle_m5_779,
-	Object_Destroy_m5_780,
-	Object_Destroy_m5_781,
-	Object_DestroyImmediate_m5_782,
-	Object_DestroyImmediate_m5_783,
-	Object_FindObjectsOfType_m5_784,
-	Object_get_name_m5_785,
-	Object_set_name_m5_786,
-	Object_DontDestroyOnLoad_m5_787,
-	Object_set_hideFlags_m5_788,
-	Object_ToString_m5_789,
-	Object_Equals_m5_790,
-	Object_GetHashCode_m5_791,
-	Object_CompareBaseObjects_m5_792,
-	Object_IsNativeObjectAlive_m5_793,
-	Object_GetInstanceID_m5_794,
-	Object_GetCachedPtr_m5_795,
-	Object_Instantiate_m5_796,
-	Object_Instantiate_m5_797,
-	Object_CheckNullArgument_m5_798,
-	Object_FindObjectOfType_m5_799,
-	Object_op_Implicit_m5_800,
-	Object_op_Equality_m5_801,
-	Object_op_Inequality_m5_802,
-	Component__ctor_m5_803,
-	Component_get_transform_m5_804,
-	Component_get_gameObject_m5_805,
-	Component_GetComponent_m5_806,
-	Component_GetComponentFastPath_m5_807,
-	Component_GetComponentInChildren_m5_808,
-	Component_GetComponentInParent_m5_809,
-	Component_GetComponentsForListInternal_m5_810,
-	Component_GetComponents_m5_811,
-	Component_SendMessage_m5_812,
-	Component_SendMessage_m5_813,
-	GameObject__ctor_m5_814,
-	GameObject__ctor_m5_815,
-	GameObject__ctor_m5_816,
-	GameObject_CreatePrimitive_m5_817,
-	GameObject_GetComponent_m5_818,
-	GameObject_GetComponentFastPath_m5_819,
-	GameObject_GetComponentInChildren_m5_820,
-	GameObject_GetComponentInParent_m5_821,
-	GameObject_GetComponentsInternal_m5_822,
-	GameObject_get_transform_m5_823,
-	GameObject_get_layer_m5_824,
-	GameObject_set_layer_m5_825,
-	GameObject_SetActive_m5_826,
-	GameObject_get_activeSelf_m5_827,
-	GameObject_get_activeInHierarchy_m5_828,
-	GameObject_SendMessage_m5_829,
-	GameObject_SendMessage_m5_830,
-	GameObject_SendMessage_m5_831,
-	GameObject_Internal_AddComponentWithType_m5_832,
-	GameObject_AddComponent_m5_833,
-	GameObject_Internal_CreateGameObject_m5_834,
-	GameObject_Find_m5_835,
-	Enumerator__ctor_m5_836,
-	Enumerator_get_Current_m5_837,
-	Enumerator_MoveNext_m5_838,
-	Enumerator_Reset_m5_839,
-	Transform_get_position_m5_840,
-	Transform_set_position_m5_841,
-	Transform_INTERNAL_get_position_m5_842,
-	Transform_INTERNAL_set_position_m5_843,
-	Transform_get_localPosition_m5_844,
-	Transform_set_localPosition_m5_845,
-	Transform_INTERNAL_get_localPosition_m5_846,
-	Transform_INTERNAL_set_localPosition_m5_847,
-	Transform_get_eulerAngles_m5_848,
-	Transform_get_forward_m5_849,
-	Transform_get_rotation_m5_850,
-	Transform_set_rotation_m5_851,
-	Transform_INTERNAL_get_rotation_m5_852,
-	Transform_INTERNAL_set_rotation_m5_853,
-	Transform_get_localRotation_m5_854,
-	Transform_set_localRotation_m5_855,
-	Transform_INTERNAL_get_localRotation_m5_856,
-	Transform_INTERNAL_set_localRotation_m5_857,
-	Transform_get_localScale_m5_858,
-	Transform_set_localScale_m5_859,
-	Transform_INTERNAL_get_localScale_m5_860,
-	Transform_INTERNAL_set_localScale_m5_861,
-	Transform_get_parent_m5_862,
-	Transform_set_parent_m5_863,
-	Transform_get_parentInternal_m5_864,
-	Transform_set_parentInternal_m5_865,
-	Transform_SetParent_m5_866,
-	Transform_SetParent_m5_867,
-	Transform_get_worldToLocalMatrix_m5_868,
-	Transform_INTERNAL_get_worldToLocalMatrix_m5_869,
-	Transform_get_localToWorldMatrix_m5_870,
-	Transform_INTERNAL_get_localToWorldMatrix_m5_871,
-	Transform_Rotate_m5_872,
-	Transform_Rotate_m5_873,
-	Transform_RotateAroundInternal_m5_874,
-	Transform_INTERNAL_CALL_RotateAroundInternal_m5_875,
-	Transform_RotateAround_m5_876,
-	Transform_TransformPoint_m5_877,
-	Transform_INTERNAL_CALL_TransformPoint_m5_878,
-	Transform_InverseTransformPoint_m5_879,
-	Transform_INTERNAL_CALL_InverseTransformPoint_m5_880,
-	Transform_get_root_m5_881,
-	Transform_get_childCount_m5_882,
-	Transform_SetAsFirstSibling_m5_883,
-	Transform_Find_m5_884,
-	Transform_get_lossyScale_m5_885,
-	Transform_INTERNAL_get_lossyScale_m5_886,
-	Transform_IsChildOf_m5_887,
-	Transform_FindChild_m5_888,
-	Transform_GetEnumerator_m5_889,
-	Transform_GetChild_m5_890,
-	Time_get_time_m5_891,
-	Time_get_deltaTime_m5_892,
-	Time_get_unscaledTime_m5_893,
-	Time_get_unscaledDeltaTime_m5_894,
-	Time_get_frameCount_m5_895,
-	YieldInstruction__ctor_m5_896,
-	UnityAdsInternal__ctor_m5_897,
-	UnityAdsInternal_add_onCampaignsAvailable_m5_898,
-	UnityAdsInternal_remove_onCampaignsAvailable_m5_899,
-	UnityAdsInternal_add_onCampaignsFetchFailed_m5_900,
-	UnityAdsInternal_remove_onCampaignsFetchFailed_m5_901,
-	UnityAdsInternal_add_onShow_m5_902,
-	UnityAdsInternal_remove_onShow_m5_903,
-	UnityAdsInternal_add_onHide_m5_904,
-	UnityAdsInternal_remove_onHide_m5_905,
-	UnityAdsInternal_add_onVideoCompleted_m5_906,
-	UnityAdsInternal_remove_onVideoCompleted_m5_907,
-	UnityAdsInternal_add_onVideoStarted_m5_908,
-	UnityAdsInternal_remove_onVideoStarted_m5_909,
-	UnityAdsInternal_RegisterNative_m5_910,
-	UnityAdsInternal_Init_m5_911,
-	UnityAdsInternal_Show_m5_912,
-	UnityAdsInternal_CanShowAds_m5_913,
-	UnityAdsInternal_SetLogLevel_m5_914,
-	UnityAdsInternal_SetCampaignDataURL_m5_915,
-	UnityAdsInternal_RemoveAllEventHandlers_m5_916,
-	UnityAdsInternal_CallUnityAdsCampaignsAvailable_m5_917,
-	UnityAdsInternal_CallUnityAdsCampaignsFetchFailed_m5_918,
-	UnityAdsInternal_CallUnityAdsShow_m5_919,
-	UnityAdsInternal_CallUnityAdsHide_m5_920,
-	UnityAdsInternal_CallUnityAdsVideoCompleted_m5_921,
-	UnityAdsInternal_CallUnityAdsVideoStarted_m5_922,
-	Particle_get_position_m5_923,
-	Particle_set_position_m5_924,
-	Particle_get_velocity_m5_925,
-	Particle_set_velocity_m5_926,
-	Particle_get_energy_m5_927,
-	Particle_set_energy_m5_928,
-	Particle_get_startEnergy_m5_929,
-	Particle_set_startEnergy_m5_930,
-	Particle_get_size_m5_931,
-	Particle_set_size_m5_932,
-	Particle_get_rotation_m5_933,
-	Particle_set_rotation_m5_934,
-	Particle_get_angularVelocity_m5_935,
-	Particle_set_angularVelocity_m5_936,
-	Particle_get_color_m5_937,
-	Particle_set_color_m5_938,
-	Collision_get_relativeVelocity_m5_939,
-	Physics_Raycast_m5_940,
-	Physics_Raycast_m5_941,
-	Physics_Raycast_m5_942,
-	Physics_RaycastAll_m5_943,
-	Physics_RaycastAll_m5_944,
-	Physics_RaycastAll_m5_945,
-	Physics_INTERNAL_CALL_RaycastAll_m5_946,
-	Physics_Internal_Raycast_m5_947,
-	Physics_INTERNAL_CALL_Internal_Raycast_m5_948,
-	Rigidbody_AddForce_m5_949,
-	Rigidbody_INTERNAL_CALL_AddForce_m5_950,
-	Rigidbody_AddExplosionForce_m5_951,
-	Rigidbody_INTERNAL_CALL_AddExplosionForce_m5_952,
-	Collider_set_enabled_m5_953,
-	MeshCollider_set_sharedMesh_m5_954,
-	RaycastHit_get_point_m5_955,
-	RaycastHit_get_normal_m5_956,
-	RaycastHit_get_distance_m5_957,
-	RaycastHit_get_collider_m5_958,
-	Physics2D__cctor_m5_959,
-	Physics2D_Internal_Raycast_m5_960,
-	Physics2D_INTERNAL_CALL_Internal_Raycast_m5_961,
-	Physics2D_Raycast_m5_962,
-	Physics2D_Raycast_m5_963,
-	Physics2D_RaycastAll_m5_964,
-	Physics2D_INTERNAL_CALL_RaycastAll_m5_965,
-	RaycastHit2D_get_point_m5_966,
-	RaycastHit2D_get_normal_m5_967,
-	RaycastHit2D_get_fraction_m5_968,
-	RaycastHit2D_get_collider_m5_969,
-	RaycastHit2D_get_rigidbody_m5_970,
-	RaycastHit2D_get_transform_m5_971,
-	Collider2D_get_attachedRigidbody_m5_972,
-	AudioConfigurationChangeHandler__ctor_m5_973,
-	AudioConfigurationChangeHandler_Invoke_m5_974,
-	AudioConfigurationChangeHandler_BeginInvoke_m5_975,
-	AudioConfigurationChangeHandler_EndInvoke_m5_976,
-	AudioSettings_InvokeOnAudioConfigurationChanged_m5_977,
-	PCMReaderCallback__ctor_m5_978,
-	PCMReaderCallback_Invoke_m5_979,
-	PCMReaderCallback_BeginInvoke_m5_980,
-	PCMReaderCallback_EndInvoke_m5_981,
-	PCMSetPositionCallback__ctor_m5_982,
-	PCMSetPositionCallback_Invoke_m5_983,
-	PCMSetPositionCallback_BeginInvoke_m5_984,
-	PCMSetPositionCallback_EndInvoke_m5_985,
-	AudioClip_InvokePCMReaderCallback_Internal_m5_986,
-	AudioClip_InvokePCMSetPositionCallback_Internal_m5_987,
-	WebCamDevice_get_name_m5_988,
-	WebCamDevice_get_isFrontFacing_m5_989,
-	WebCamTexture__ctor_m5_990,
-	WebCamTexture_Internal_CreateWebCamTexture_m5_991,
-	WebCamTexture_Play_m5_992,
-	WebCamTexture_INTERNAL_CALL_Play_m5_993,
-	WebCamTexture_Stop_m5_994,
-	WebCamTexture_INTERNAL_CALL_Stop_m5_995,
-	WebCamTexture_get_isPlaying_m5_996,
-	WebCamTexture_set_deviceName_m5_997,
-	WebCamTexture_set_requestedFPS_m5_998,
-	WebCamTexture_set_requestedWidth_m5_999,
-	WebCamTexture_set_requestedHeight_m5_1000,
-	WebCamTexture_get_devices_m5_1001,
-	WebCamTexture_get_didUpdateThisFrame_m5_1002,
-	AnimationEvent__ctor_m5_1003,
-	AnimationEvent_get_data_m5_1004,
-	AnimationEvent_set_data_m5_1005,
-	AnimationEvent_get_stringParameter_m5_1006,
-	AnimationEvent_set_stringParameter_m5_1007,
-	AnimationEvent_get_floatParameter_m5_1008,
-	AnimationEvent_set_floatParameter_m5_1009,
-	AnimationEvent_get_intParameter_m5_1010,
-	AnimationEvent_set_intParameter_m5_1011,
-	AnimationEvent_get_objectReferenceParameter_m5_1012,
-	AnimationEvent_set_objectReferenceParameter_m5_1013,
-	AnimationEvent_get_functionName_m5_1014,
-	AnimationEvent_set_functionName_m5_1015,
-	AnimationEvent_get_time_m5_1016,
-	AnimationEvent_set_time_m5_1017,
-	AnimationEvent_get_messageOptions_m5_1018,
-	AnimationEvent_set_messageOptions_m5_1019,
-	AnimationEvent_get_isFiredByLegacy_m5_1020,
-	AnimationEvent_get_isFiredByAnimator_m5_1021,
-	AnimationEvent_get_animationState_m5_1022,
-	AnimationEvent_get_animatorStateInfo_m5_1023,
-	AnimationEvent_get_animatorClipInfo_m5_1024,
-	AnimationEvent_GetHash_m5_1025,
-	AnimationCurve__ctor_m5_1026,
-	AnimationCurve__ctor_m5_1027,
-	AnimationCurve_Cleanup_m5_1028,
-	AnimationCurve_Finalize_m5_1029,
-	AnimationCurve_Init_m5_1030,
-	AnimatorStateInfo_IsName_m5_1031,
-	AnimatorStateInfo_get_fullPathHash_m5_1032,
-	AnimatorStateInfo_get_nameHash_m5_1033,
-	AnimatorStateInfo_get_shortNameHash_m5_1034,
-	AnimatorStateInfo_get_normalizedTime_m5_1035,
-	AnimatorStateInfo_get_length_m5_1036,
-	AnimatorStateInfo_get_speed_m5_1037,
-	AnimatorStateInfo_get_speedMultiplier_m5_1038,
-	AnimatorStateInfo_get_tagHash_m5_1039,
-	AnimatorStateInfo_IsTag_m5_1040,
-	AnimatorStateInfo_get_loop_m5_1041,
-	AnimatorTransitionInfo_IsName_m5_1042,
-	AnimatorTransitionInfo_IsUserName_m5_1043,
-	AnimatorTransitionInfo_get_fullPathHash_m5_1044,
-	AnimatorTransitionInfo_get_nameHash_m5_1045,
-	AnimatorTransitionInfo_get_userNameHash_m5_1046,
-	AnimatorTransitionInfo_get_normalizedTime_m5_1047,
-	AnimatorTransitionInfo_get_anyState_m5_1048,
-	AnimatorTransitionInfo_get_entry_m5_1049,
-	AnimatorTransitionInfo_get_exit_m5_1050,
-	Animator_SetTrigger_m5_1051,
-	Animator_ResetTrigger_m5_1052,
-	Animator_get_runtimeAnimatorController_m5_1053,
-	Animator_StringToHash_m5_1054,
-	Animator_SetTriggerString_m5_1055,
-	Animator_ResetTriggerString_m5_1056,
-	HumanBone_get_boneName_m5_1057,
-	HumanBone_set_boneName_m5_1058,
-	HumanBone_get_humanName_m5_1059,
-	HumanBone_set_humanName_m5_1060,
-	CharacterInfo_get_advance_m5_1061,
-	CharacterInfo_set_advance_m5_1062,
-	CharacterInfo_get_glyphWidth_m5_1063,
-	CharacterInfo_set_glyphWidth_m5_1064,
-	CharacterInfo_get_glyphHeight_m5_1065,
-	CharacterInfo_set_glyphHeight_m5_1066,
-	CharacterInfo_get_bearing_m5_1067,
-	CharacterInfo_set_bearing_m5_1068,
-	CharacterInfo_get_minY_m5_1069,
-	CharacterInfo_set_minY_m5_1070,
-	CharacterInfo_get_maxY_m5_1071,
-	CharacterInfo_set_maxY_m5_1072,
-	CharacterInfo_get_minX_m5_1073,
-	CharacterInfo_set_minX_m5_1074,
-	CharacterInfo_get_maxX_m5_1075,
-	CharacterInfo_set_maxX_m5_1076,
-	CharacterInfo_get_uvBottomLeftUnFlipped_m5_1077,
-	CharacterInfo_set_uvBottomLeftUnFlipped_m5_1078,
-	CharacterInfo_get_uvBottomRightUnFlipped_m5_1079,
-	CharacterInfo_set_uvBottomRightUnFlipped_m5_1080,
-	CharacterInfo_get_uvTopRightUnFlipped_m5_1081,
-	CharacterInfo_set_uvTopRightUnFlipped_m5_1082,
-	CharacterInfo_get_uvTopLeftUnFlipped_m5_1083,
-	CharacterInfo_set_uvTopLeftUnFlipped_m5_1084,
-	CharacterInfo_get_uvBottomLeft_m5_1085,
-	CharacterInfo_set_uvBottomLeft_m5_1086,
-	CharacterInfo_get_uvBottomRight_m5_1087,
-	CharacterInfo_set_uvBottomRight_m5_1088,
-	CharacterInfo_get_uvTopRight_m5_1089,
-	CharacterInfo_set_uvTopRight_m5_1090,
-	CharacterInfo_get_uvTopLeft_m5_1091,
-	CharacterInfo_set_uvTopLeft_m5_1092,
-	FontTextureRebuildCallback__ctor_m5_1093,
-	FontTextureRebuildCallback_Invoke_m5_1094,
-	FontTextureRebuildCallback_BeginInvoke_m5_1095,
-	FontTextureRebuildCallback_EndInvoke_m5_1096,
-	Font__ctor_m5_1097,
-	Font__ctor_m5_1098,
-	Font__ctor_m5_1099,
-	Font_add_textureRebuilt_m5_1100,
-	Font_remove_textureRebuilt_m5_1101,
-	Font_add_m_FontTextureRebuildCallback_m5_1102,
-	Font_remove_m_FontTextureRebuildCallback_m5_1103,
-	Font_GetOSInstalledFontNames_m5_1104,
-	Font_Internal_CreateFont_m5_1105,
-	Font_Internal_CreateDynamicFont_m5_1106,
-	Font_CreateDynamicFontFromOSFont_m5_1107,
-	Font_CreateDynamicFontFromOSFont_m5_1108,
-	Font_get_material_m5_1109,
-	Font_set_material_m5_1110,
-	Font_HasCharacter_m5_1111,
-	Font_get_fontNames_m5_1112,
-	Font_set_fontNames_m5_1113,
-	Font_get_characterInfo_m5_1114,
-	Font_set_characterInfo_m5_1115,
-	Font_RequestCharactersInTexture_m5_1116,
-	Font_RequestCharactersInTexture_m5_1117,
-	Font_RequestCharactersInTexture_m5_1118,
-	Font_InvokeTextureRebuilt_Internal_m5_1119,
-	Font_get_textureRebuildCallback_m5_1120,
-	Font_set_textureRebuildCallback_m5_1121,
-	Font_GetMaxVertsForString_m5_1122,
-	Font_GetCharacterInfo_m5_1123,
-	Font_GetCharacterInfo_m5_1124,
-	Font_GetCharacterInfo_m5_1125,
-	Font_get_dynamic_m5_1126,
-	Font_get_ascent_m5_1127,
-	Font_get_lineHeight_m5_1128,
-	Font_get_fontSize_m5_1129,
-	TextGenerator__ctor_m5_1130,
-	TextGenerator__ctor_m5_1131,
-	TextGenerator_System_IDisposable_Dispose_m5_1132,
-	TextGenerator_Init_m5_1133,
-	TextGenerator_Dispose_cpp_m5_1134,
-	TextGenerator_Populate_Internal_m5_1135,
-	TextGenerator_Populate_Internal_cpp_m5_1136,
-	TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m5_1137,
-	TextGenerator_get_rectExtents_m5_1138,
-	TextGenerator_INTERNAL_get_rectExtents_m5_1139,
-	TextGenerator_get_vertexCount_m5_1140,
-	TextGenerator_GetVerticesInternal_m5_1141,
-	TextGenerator_GetVerticesArray_m5_1142,
-	TextGenerator_get_characterCount_m5_1143,
-	TextGenerator_get_characterCountVisible_m5_1144,
-	TextGenerator_GetCharactersInternal_m5_1145,
-	TextGenerator_GetCharactersArray_m5_1146,
-	TextGenerator_get_lineCount_m5_1147,
-	TextGenerator_GetLinesInternal_m5_1148,
-	TextGenerator_GetLinesArray_m5_1149,
-	TextGenerator_get_fontSizeUsedForBestFit_m5_1150,
-	TextGenerator_Finalize_m5_1151,
-	TextGenerator_ValidatedSettings_m5_1152,
-	TextGenerator_Invalidate_m5_1153,
-	TextGenerator_GetCharacters_m5_1154,
-	TextGenerator_GetLines_m5_1155,
-	TextGenerator_GetVertices_m5_1156,
-	TextGenerator_GetPreferredWidth_m5_1157,
-	TextGenerator_GetPreferredHeight_m5_1158,
-	TextGenerator_Populate_m5_1159,
-	TextGenerator_PopulateAlways_m5_1160,
-	TextGenerator_get_verts_m5_1161,
-	TextGenerator_get_characters_m5_1162,
-	TextGenerator_get_lines_m5_1163,
-	WillRenderCanvases__ctor_m5_1164,
-	WillRenderCanvases_Invoke_m5_1165,
-	WillRenderCanvases_BeginInvoke_m5_1166,
-	WillRenderCanvases_EndInvoke_m5_1167,
-	Canvas_add_willRenderCanvases_m5_1168,
-	Canvas_remove_willRenderCanvases_m5_1169,
-	Canvas_get_renderMode_m5_1170,
-	Canvas_get_isRootCanvas_m5_1171,
-	Canvas_get_worldCamera_m5_1172,
-	Canvas_get_scaleFactor_m5_1173,
-	Canvas_set_scaleFactor_m5_1174,
-	Canvas_get_referencePixelsPerUnit_m5_1175,
-	Canvas_set_referencePixelsPerUnit_m5_1176,
-	Canvas_get_pixelPerfect_m5_1177,
-	Canvas_get_renderOrder_m5_1178,
-	Canvas_get_overrideSorting_m5_1179,
-	Canvas_set_overrideSorting_m5_1180,
-	Canvas_get_sortingOrder_m5_1181,
-	Canvas_set_sortingOrder_m5_1182,
-	Canvas_get_sortingLayerID_m5_1183,
-	Canvas_set_sortingLayerID_m5_1184,
-	Canvas_GetDefaultCanvasMaterial_m5_1185,
-	Canvas_SendWillRenderCanvases_m5_1186,
-	Canvas_ForceUpdateCanvases_m5_1187,
-	CanvasGroup_get_alpha_m5_1188,
-	CanvasGroup_set_alpha_m5_1189,
-	CanvasGroup_get_interactable_m5_1190,
-	CanvasGroup_get_blocksRaycasts_m5_1191,
-	CanvasGroup_get_ignoreParentGroups_m5_1192,
-	CanvasGroup_IsRaycastLocationValid_m5_1193,
-	UIVertex__cctor_m5_1194,
-	CanvasRenderer_SetColor_m5_1195,
-	CanvasRenderer_INTERNAL_CALL_SetColor_m5_1196,
-	CanvasRenderer_GetColor_m5_1197,
-	CanvasRenderer_EnableRectClipping_m5_1198,
-	CanvasRenderer_INTERNAL_CALL_EnableRectClipping_m5_1199,
-	CanvasRenderer_DisableRectClipping_m5_1200,
-	CanvasRenderer_set_hasPopInstruction_m5_1201,
-	CanvasRenderer_get_materialCount_m5_1202,
-	CanvasRenderer_set_materialCount_m5_1203,
-	CanvasRenderer_SetMaterial_m5_1204,
-	CanvasRenderer_SetMaterial_m5_1205,
-	CanvasRenderer_set_popMaterialCount_m5_1206,
-	CanvasRenderer_SetPopMaterial_m5_1207,
-	CanvasRenderer_SetTexture_m5_1208,
-	CanvasRenderer_SetMesh_m5_1209,
-	CanvasRenderer_Clear_m5_1210,
-	CanvasRenderer_SplitUIVertexStreams_m5_1211,
-	CanvasRenderer_SplitUIVertexStreamsInternal_m5_1212,
-	CanvasRenderer_SplitIndiciesStreamsInternal_m5_1213,
-	CanvasRenderer_CreateUIVertexStream_m5_1214,
-	CanvasRenderer_CreateUIVertexStreamInternal_m5_1215,
-	CanvasRenderer_AddUIVertexStream_m5_1216,
-	CanvasRenderer_get_cull_m5_1217,
-	CanvasRenderer_set_cull_m5_1218,
-	CanvasRenderer_get_absoluteDepth_m5_1219,
-	CanvasRenderer_get_hasMoved_m5_1220,
-	RectTransformUtility__cctor_m5_1221,
-	RectTransformUtility_RectangleContainsScreenPoint_m5_1222,
-	RectTransformUtility_INTERNAL_CALL_RectangleContainsScreenPoint_m5_1223,
-	RectTransformUtility_PixelAdjustPoint_m5_1224,
-	RectTransformUtility_PixelAdjustPoint_m5_1225,
-	RectTransformUtility_INTERNAL_CALL_PixelAdjustPoint_m5_1226,
-	RectTransformUtility_PixelAdjustRect_m5_1227,
-	RectTransformUtility_ScreenPointToWorldPointInRectangle_m5_1228,
-	RectTransformUtility_ScreenPointToLocalPointInRectangle_m5_1229,
-	RectTransformUtility_ScreenPointToRay_m5_1230,
-	RectTransformUtility_FlipLayoutOnAxis_m5_1231,
-	RectTransformUtility_FlipLayoutAxes_m5_1232,
-	RectTransformUtility_GetTransposed_m5_1233,
-	Event__ctor_m5_1234,
-	Event__ctor_m5_1235,
-	Event__ctor_m5_1236,
-	Event_Finalize_m5_1237,
-	Event_get_mousePosition_m5_1238,
-	Event_set_mousePosition_m5_1239,
-	Event_get_delta_m5_1240,
-	Event_set_delta_m5_1241,
-	Event_get_mouseRay_m5_1242,
-	Event_set_mouseRay_m5_1243,
-	Event_get_shift_m5_1244,
-	Event_set_shift_m5_1245,
-	Event_get_control_m5_1246,
-	Event_set_control_m5_1247,
-	Event_get_alt_m5_1248,
-	Event_set_alt_m5_1249,
-	Event_get_command_m5_1250,
-	Event_set_command_m5_1251,
-	Event_get_capsLock_m5_1252,
-	Event_set_capsLock_m5_1253,
-	Event_get_numeric_m5_1254,
-	Event_set_numeric_m5_1255,
-	Event_get_functionKey_m5_1256,
-	Event_get_current_m5_1257,
-	Event_set_current_m5_1258,
-	Event_Internal_MakeMasterEventCurrent_m5_1259,
-	Event_get_isKey_m5_1260,
-	Event_get_isMouse_m5_1261,
-	Event_KeyboardEvent_m5_1262,
-	Event_GetHashCode_m5_1263,
-	Event_Equals_m5_1264,
-	Event_ToString_m5_1265,
-	Event_Init_m5_1266,
-	Event_Cleanup_m5_1267,
-	Event_InitCopy_m5_1268,
-	Event_InitPtr_m5_1269,
-	Event_get_rawType_m5_1270,
-	Event_get_type_m5_1271,
-	Event_set_type_m5_1272,
-	Event_GetTypeForControl_m5_1273,
-	Event_Internal_SetMousePosition_m5_1274,
-	Event_INTERNAL_CALL_Internal_SetMousePosition_m5_1275,
-	Event_Internal_GetMousePosition_m5_1276,
-	Event_Internal_SetMouseDelta_m5_1277,
-	Event_INTERNAL_CALL_Internal_SetMouseDelta_m5_1278,
-	Event_Internal_GetMouseDelta_m5_1279,
-	Event_get_button_m5_1280,
-	Event_set_button_m5_1281,
-	Event_get_modifiers_m5_1282,
-	Event_set_modifiers_m5_1283,
-	Event_get_pressure_m5_1284,
-	Event_set_pressure_m5_1285,
-	Event_get_clickCount_m5_1286,
-	Event_set_clickCount_m5_1287,
-	Event_get_character_m5_1288,
-	Event_set_character_m5_1289,
-	Event_get_commandName_m5_1290,
-	Event_set_commandName_m5_1291,
-	Event_get_keyCode_m5_1292,
-	Event_set_keyCode_m5_1293,
-	Event_Internal_SetNativeEvent_m5_1294,
-	Event_Use_m5_1295,
-	Event_PopEvent_m5_1296,
-	Event_GetEventCount_m5_1297,
-	ScrollViewState__ctor_m5_1298,
-	WindowFunction__ctor_m5_1299,
-	WindowFunction_Invoke_m5_1300,
-	WindowFunction_BeginInvoke_m5_1301,
-	WindowFunction_EndInvoke_m5_1302,
-	GUI__cctor_m5_1303,
-	GUI_get_nextScrollStepTime_m5_1304,
-	GUI_set_nextScrollStepTime_m5_1305,
-	GUI_get_scrollTroughSide_m5_1306,
-	GUI_set_scrollTroughSide_m5_1307,
-	GUI_set_skin_m5_1308,
-	GUI_get_skin_m5_1309,
-	GUI_DoSetSkin_m5_1310,
-	GUI_get_matrix_m5_1311,
-	GUI_set_matrix_m5_1312,
-	GUI_Label_m5_1313,
-	GUI_Label_m5_1314,
-	GUI_Label_m5_1315,
-	GUI_DrawTexture_m5_1316,
-	GUI_DrawTexture_m5_1317,
-	GUI_DrawTexture_m5_1318,
-	GUI_DrawTexture_m5_1319,
-	GUI_Box_m5_1320,
-	GUI_Box_m5_1321,
-	GUI_Button_m5_1322,
-	GUI_Button_m5_1323,
-	GUI_Button_m5_1324,
-	GUI_DoRepeatButton_m5_1325,
-	GUI_Toggle_m5_1326,
-	GUI_Toggle_m5_1327,
-	GUI_Slider_m5_1328,
-	GUI_HorizontalScrollbar_m5_1329,
-	GUI_ScrollerRepeatButton_m5_1330,
-	GUI_VerticalScrollbar_m5_1331,
-	GUI_Scroller_m5_1332,
-	GUI_BeginGroup_m5_1333,
-	GUI_EndGroup_m5_1334,
-	GUI_BeginScrollView_m5_1335,
-	GUI_EndScrollView_m5_1336,
-	GUI_Window_m5_1337,
-	GUI_CallWindowDelegate_m5_1338,
-	GUI_get_color_m5_1339,
-	GUI_INTERNAL_get_color_m5_1340,
-	GUI_set_changed_m5_1341,
-	GUI_DoLabel_m5_1342,
-	GUI_INTERNAL_CALL_DoLabel_m5_1343,
-	GUI_get_blendMaterial_m5_1344,
-	GUI_get_blitMaterial_m5_1345,
-	GUI_DoButton_m5_1346,
-	GUI_INTERNAL_CALL_DoButton_m5_1347,
-	GUI_DoToggle_m5_1348,
-	GUI_INTERNAL_CALL_DoToggle_m5_1349,
-	GUI_get_usePageScrollbars_m5_1350,
-	GUI_InternalRepaintEditorWindow_m5_1351,
-	GUI_DoWindow_m5_1352,
-	GUI_INTERNAL_CALL_DoWindow_m5_1353,
-	GUIContent__ctor_m5_1354,
-	GUIContent__ctor_m5_1355,
-	GUIContent__ctor_m5_1356,
-	GUIContent__cctor_m5_1357,
-	GUIContent_Temp_m5_1358,
-	GUIContent_Temp_m5_1359,
-	GUIContent_ClearStaticCache_m5_1360,
-	GUILayout_Label_m5_1361,
-	GUILayout_DoLabel_m5_1362,
-	GUILayout_FlexibleSpace_m5_1363,
-	GUILayout_BeginHorizontal_m5_1364,
-	GUILayout_BeginHorizontal_m5_1365,
-	GUILayout_EndHorizontal_m5_1366,
-	GUILayout_BeginArea_m5_1367,
-	GUILayout_BeginArea_m5_1368,
-	GUILayout_EndArea_m5_1369,
-	GUILayout_BeginScrollView_m5_1370,
-	GUILayout_BeginScrollView_m5_1371,
-	GUILayout_EndScrollView_m5_1372,
-	GUILayout_EndScrollView_m5_1373,
-	GUILayout_Width_m5_1374,
-	GUILayout_Height_m5_1375,
-	GUILayout_ExpandWidth_m5_1376,
-	GUILayout_ExpandHeight_m5_1377,
-	LayoutCache__ctor_m5_1378,
-	GUILayoutUtility__cctor_m5_1379,
-	GUILayoutUtility_SelectIDList_m5_1380,
-	GUILayoutUtility_Begin_m5_1381,
-	GUILayoutUtility_BeginWindow_m5_1382,
-	GUILayoutUtility_EndGroup_m5_1383,
-	GUILayoutUtility_Layout_m5_1384,
-	GUILayoutUtility_LayoutFromEditorWindow_m5_1385,
-	GUILayoutUtility_LayoutFreeGroup_m5_1386,
-	GUILayoutUtility_LayoutSingleGroup_m5_1387,
-	GUILayoutUtility_CreateGUILayoutGroupInstanceOfType_m5_1388,
-	GUILayoutUtility_BeginLayoutGroup_m5_1389,
-	GUILayoutUtility_EndLayoutGroup_m5_1390,
-	GUILayoutUtility_BeginLayoutArea_m5_1391,
-	GUILayoutUtility_GetRect_m5_1392,
-	GUILayoutUtility_DoGetRect_m5_1393,
-	GUILayoutUtility_GetRect_m5_1394,
-	GUILayoutUtility_DoGetRect_m5_1395,
-	GUILayoutUtility_get_spaceStyle_m5_1396,
-	GUILayoutUtility_Internal_GetWindowRect_m5_1397,
-	GUILayoutUtility_Internal_MoveWindow_m5_1398,
-	GUILayoutUtility_INTERNAL_CALL_Internal_MoveWindow_m5_1399,
-	GUILayoutEntry__ctor_m5_1400,
-	GUILayoutEntry__ctor_m5_1401,
-	GUILayoutEntry__cctor_m5_1402,
-	GUILayoutEntry_get_style_m5_1403,
-	GUILayoutEntry_set_style_m5_1404,
-	GUILayoutEntry_get_margin_m5_1405,
-	GUILayoutEntry_CalcWidth_m5_1406,
-	GUILayoutEntry_CalcHeight_m5_1407,
-	GUILayoutEntry_SetHorizontal_m5_1408,
-	GUILayoutEntry_SetVertical_m5_1409,
-	GUILayoutEntry_ApplyStyleSettings_m5_1410,
-	GUILayoutEntry_ApplyOptions_m5_1411,
-	GUILayoutEntry_ToString_m5_1412,
-	GUILayoutGroup__ctor_m5_1413,
-	GUILayoutGroup_get_margin_m5_1414,
-	GUILayoutGroup_ApplyOptions_m5_1415,
-	GUILayoutGroup_ApplyStyleSettings_m5_1416,
-	GUILayoutGroup_ResetCursor_m5_1417,
-	GUILayoutGroup_GetNext_m5_1418,
-	GUILayoutGroup_Add_m5_1419,
-	GUILayoutGroup_CalcWidth_m5_1420,
-	GUILayoutGroup_SetHorizontal_m5_1421,
-	GUILayoutGroup_CalcHeight_m5_1422,
-	GUILayoutGroup_SetVertical_m5_1423,
-	GUILayoutGroup_ToString_m5_1424,
-	GUIScrollGroup__ctor_m5_1425,
-	GUIScrollGroup_CalcWidth_m5_1426,
-	GUIScrollGroup_SetHorizontal_m5_1427,
-	GUIScrollGroup_CalcHeight_m5_1428,
-	GUIScrollGroup_SetVertical_m5_1429,
-	GUIWordWrapSizer__ctor_m5_1430,
-	GUIWordWrapSizer_CalcWidth_m5_1431,
-	GUIWordWrapSizer_CalcHeight_m5_1432,
-	GUILayoutOption__ctor_m5_1433,
-	GUISettings__ctor_m5_1434,
-	SkinChangedDelegate__ctor_m5_1435,
-	SkinChangedDelegate_Invoke_m5_1436,
-	SkinChangedDelegate_BeginInvoke_m5_1437,
-	SkinChangedDelegate_EndInvoke_m5_1438,
-	GUISkin__ctor_m5_1439,
-	GUISkin_OnEnable_m5_1440,
-	GUISkin_get_font_m5_1441,
-	GUISkin_set_font_m5_1442,
-	GUISkin_get_box_m5_1443,
-	GUISkin_set_box_m5_1444,
-	GUISkin_get_label_m5_1445,
-	GUISkin_set_label_m5_1446,
-	GUISkin_get_textField_m5_1447,
-	GUISkin_set_textField_m5_1448,
-	GUISkin_get_textArea_m5_1449,
-	GUISkin_set_textArea_m5_1450,
-	GUISkin_get_button_m5_1451,
-	GUISkin_set_button_m5_1452,
-	GUISkin_get_toggle_m5_1453,
-	GUISkin_set_toggle_m5_1454,
-	GUISkin_get_window_m5_1455,
-	GUISkin_set_window_m5_1456,
-	GUISkin_get_horizontalSlider_m5_1457,
-	GUISkin_set_horizontalSlider_m5_1458,
-	GUISkin_get_horizontalSliderThumb_m5_1459,
-	GUISkin_set_horizontalSliderThumb_m5_1460,
-	GUISkin_get_verticalSlider_m5_1461,
-	GUISkin_set_verticalSlider_m5_1462,
-	GUISkin_get_verticalSliderThumb_m5_1463,
-	GUISkin_set_verticalSliderThumb_m5_1464,
-	GUISkin_get_horizontalScrollbar_m5_1465,
-	GUISkin_set_horizontalScrollbar_m5_1466,
-	GUISkin_get_horizontalScrollbarThumb_m5_1467,
-	GUISkin_set_horizontalScrollbarThumb_m5_1468,
-	GUISkin_get_horizontalScrollbarLeftButton_m5_1469,
-	GUISkin_set_horizontalScrollbarLeftButton_m5_1470,
-	GUISkin_get_horizontalScrollbarRightButton_m5_1471,
-	GUISkin_set_horizontalScrollbarRightButton_m5_1472,
-	GUISkin_get_verticalScrollbar_m5_1473,
-	GUISkin_set_verticalScrollbar_m5_1474,
-	GUISkin_get_verticalScrollbarThumb_m5_1475,
-	GUISkin_set_verticalScrollbarThumb_m5_1476,
-	GUISkin_get_verticalScrollbarUpButton_m5_1477,
-	GUISkin_set_verticalScrollbarUpButton_m5_1478,
-	GUISkin_get_verticalScrollbarDownButton_m5_1479,
-	GUISkin_set_verticalScrollbarDownButton_m5_1480,
-	GUISkin_get_scrollView_m5_1481,
-	GUISkin_set_scrollView_m5_1482,
-	GUISkin_get_customStyles_m5_1483,
-	GUISkin_set_customStyles_m5_1484,
-	GUISkin_get_settings_m5_1485,
-	GUISkin_get_error_m5_1486,
-	GUISkin_Apply_m5_1487,
-	GUISkin_BuildStyleCache_m5_1488,
-	GUISkin_GetStyle_m5_1489,
-	GUISkin_FindStyle_m5_1490,
-	GUISkin_MakeCurrent_m5_1491,
-	GUISkin_GetEnumerator_m5_1492,
-	GUIStyleState__ctor_m5_1493,
-	GUIStyleState__ctor_m5_1494,
-	GUIStyleState_Finalize_m5_1495,
-	GUIStyleState_get_background_m5_1496,
-	GUIStyleState_set_background_m5_1497,
-	GUIStyleState_Init_m5_1498,
-	GUIStyleState_Cleanup_m5_1499,
-	GUIStyleState_SetBackgroundInternal_m5_1500,
-	GUIStyleState_GetBackgroundInternal_m5_1501,
-	GUIStyleState_set_textColor_m5_1502,
-	GUIStyleState_INTERNAL_set_textColor_m5_1503,
-	RectOffset__ctor_m5_1504,
-	RectOffset__ctor_m5_1505,
-	RectOffset_Finalize_m5_1506,
-	RectOffset_ToString_m5_1507,
-	RectOffset_Init_m5_1508,
-	RectOffset_Cleanup_m5_1509,
-	RectOffset_get_left_m5_1510,
-	RectOffset_set_left_m5_1511,
-	RectOffset_get_right_m5_1512,
-	RectOffset_set_right_m5_1513,
-	RectOffset_get_top_m5_1514,
-	RectOffset_set_top_m5_1515,
-	RectOffset_get_bottom_m5_1516,
-	RectOffset_set_bottom_m5_1517,
-	RectOffset_get_horizontal_m5_1518,
-	RectOffset_get_vertical_m5_1519,
-	GUIStyle__ctor_m5_1520,
-	GUIStyle__cctor_m5_1521,
-	GUIStyle_Finalize_m5_1522,
-	GUIStyle_get_normal_m5_1523,
-	GUIStyle_get_active_m5_1524,
-	GUIStyle_get_onNormal_m5_1525,
-	GUIStyle_get_margin_m5_1526,
-	GUIStyle_get_padding_m5_1527,
-	GUIStyle_set_font_m5_1528,
-	GUIStyle_Internal_Draw_m5_1529,
-	GUIStyle_Draw_m5_1530,
-	GUIStyle_Draw_m5_1531,
-	GUIStyle_Draw_m5_1532,
-	GUIStyle_get_none_m5_1533,
-	GUIStyle_CalcSize_m5_1534,
-	GUIStyle_CalcHeight_m5_1535,
-	GUIStyle_get_isHeightDependantOnWidth_m5_1536,
-	GUIStyle_CalcMinMaxWidth_m5_1537,
-	GUIStyle_ToString_m5_1538,
-	GUIStyle_Init_m5_1539,
-	GUIStyle_Cleanup_m5_1540,
-	GUIStyle_get_name_m5_1541,
-	GUIStyle_set_name_m5_1542,
-	GUIStyle_GetStyleStatePtr_m5_1543,
-	GUIStyle_GetRectOffsetPtr_m5_1544,
-	GUIStyle_get_imagePosition_m5_1545,
-	GUIStyle_set_alignment_m5_1546,
-	GUIStyle_get_wordWrap_m5_1547,
-	GUIStyle_set_wordWrap_m5_1548,
-	GUIStyle_set_contentOffset_m5_1549,
-	GUIStyle_INTERNAL_set_contentOffset_m5_1550,
-	GUIStyle_get_fixedWidth_m5_1551,
-	GUIStyle_get_fixedHeight_m5_1552,
-	GUIStyle_get_stretchWidth_m5_1553,
-	GUIStyle_set_stretchWidth_m5_1554,
-	GUIStyle_get_stretchHeight_m5_1555,
-	GUIStyle_set_stretchHeight_m5_1556,
-	GUIStyle_SetFontInternal_m5_1557,
-	GUIStyle_Internal_Draw_m5_1558,
-	GUIStyle_Internal_Draw2_m5_1559,
-	GUIStyle_INTERNAL_CALL_Internal_Draw2_m5_1560,
-	GUIStyle_SetDefaultFont_m5_1561,
-	GUIStyle_Internal_CalcSize_m5_1562,
-	GUIStyle_Internal_CalcHeight_m5_1563,
-	GUIStyle_Internal_CalcMinMaxWidth_m5_1564,
-	GUIUtility__cctor_m5_1565,
-	GUIUtility_get_pixelsPerPoint_m5_1566,
-	GUIUtility_GetControlID_m5_1567,
-	GUIUtility_GetStateObject_m5_1568,
-	GUIUtility_get_hotControl_m5_1569,
-	GUIUtility_set_hotControl_m5_1570,
-	GUIUtility_GetDefaultSkin_m5_1571,
-	GUIUtility_BeginGUI_m5_1572,
-	GUIUtility_EndGUI_m5_1573,
-	GUIUtility_EndGUIFromException_m5_1574,
-	GUIUtility_CheckOnGUI_m5_1575,
-	GUIUtility_ScaleAroundPivot_m5_1576,
-	GUIUtility_Internal_GetPixelsPerPoint_m5_1577,
-	GUIUtility_GetControlID_m5_1578,
-	GUIUtility_Internal_GetNextControlID2_m5_1579,
-	GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m5_1580,
-	GUIUtility_Internal_GetHotControl_m5_1581,
-	GUIUtility_Internal_SetHotControl_m5_1582,
-	GUIUtility_get_systemCopyBuffer_m5_1583,
-	GUIUtility_set_systemCopyBuffer_m5_1584,
-	GUIUtility_Internal_GetDefaultSkin_m5_1585,
-	GUIUtility_Internal_ExitGUI_m5_1586,
-	GUIUtility_Internal_GetGUIDepth_m5_1587,
-	GUIUtility_set_mouseUsed_m5_1588,
-	GUIClip_Unclip_m5_1589,
-	GUIClip_Push_m5_1590,
-	GUIClip_INTERNAL_CALL_Push_m5_1591,
-	GUIClip_Pop_m5_1592,
-	GUIClip_Unclip_Vector2_m5_1593,
-	GUIClip_INTERNAL_CALL_Unclip_Vector2_m5_1594,
-	GUIClip_GetMatrix_m5_1595,
-	GUIClip_SetMatrix_m5_1596,
-	GUIClip_INTERNAL_CALL_SetMatrix_m5_1597,
-	WrapperlessIcall__ctor_m5_1598,
-	IL2CPPStructAlignmentAttribute__ctor_m5_1599,
-	AttributeHelperEngine__cctor_m5_1600,
-	AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m5_1601,
-	AttributeHelperEngine_GetRequiredComponents_m5_1602,
-	AttributeHelperEngine_CheckIsEditorScript_m5_1603,
-	DisallowMultipleComponent__ctor_m5_1604,
-	RequireComponent__ctor_m5_1605,
-	AddComponentMenu__ctor_m5_1606,
-	AddComponentMenu__ctor_m5_1607,
-	ExecuteInEditMode__ctor_m5_1608,
-	HideInInspector__ctor_m5_1609,
-	SetupCoroutine__ctor_m5_1610,
-	SetupCoroutine_InvokeMember_m5_1611,
-	SetupCoroutine_InvokeStatic_m5_1612,
-	WritableAttribute__ctor_m5_1613,
-	AssemblyIsEditorAssembly__ctor_m5_1614,
-	GcUserProfileData_ToUserProfile_m5_1615,
-	GcUserProfileData_AddToArray_m5_1616,
-	GcAchievementDescriptionData_ToAchievementDescription_m5_1617,
-	GcAchievementData_ToAchievement_m5_1618,
-	GcScoreData_ToScore_m5_1619,
-	Resolution_get_width_m5_1620,
-	Resolution_set_width_m5_1621,
-	Resolution_get_height_m5_1622,
-	Resolution_set_height_m5_1623,
-	Resolution_get_refreshRate_m5_1624,
-	Resolution_set_refreshRate_m5_1625,
-	Resolution_ToString_m5_1626,
-	GUIStateObjects__cctor_m5_1627,
-	GUIStateObjects_GetStateObject_m5_1628,
-	LocalUser__ctor_m5_1629,
-	LocalUser_SetFriends_m5_1630,
-	LocalUser_SetAuthenticated_m5_1631,
-	LocalUser_SetUnderage_m5_1632,
-	LocalUser_get_authenticated_m5_1633,
-	UserProfile__ctor_m5_1634,
-	UserProfile__ctor_m5_1635,
-	UserProfile_ToString_m5_1636,
-	UserProfile_SetUserName_m5_1637,
-	UserProfile_SetUserID_m5_1638,
-	UserProfile_SetImage_m5_1639,
-	UserProfile_get_userName_m5_1640,
-	UserProfile_get_id_m5_1641,
-	UserProfile_get_isFriend_m5_1642,
-	UserProfile_get_state_m5_1643,
-	Achievement__ctor_m5_1644,
-	Achievement__ctor_m5_1645,
-	Achievement__ctor_m5_1646,
-	Achievement_ToString_m5_1647,
-	Achievement_get_id_m5_1648,
-	Achievement_set_id_m5_1649,
-	Achievement_get_percentCompleted_m5_1650,
-	Achievement_set_percentCompleted_m5_1651,
-	Achievement_get_completed_m5_1652,
-	Achievement_get_hidden_m5_1653,
-	Achievement_get_lastReportedDate_m5_1654,
-	AchievementDescription__ctor_m5_1655,
-	AchievementDescription_ToString_m5_1656,
-	AchievementDescription_SetImage_m5_1657,
-	AchievementDescription_get_id_m5_1658,
-	AchievementDescription_set_id_m5_1659,
-	AchievementDescription_get_title_m5_1660,
-	AchievementDescription_get_achievedDescription_m5_1661,
-	AchievementDescription_get_unachievedDescription_m5_1662,
-	AchievementDescription_get_hidden_m5_1663,
-	AchievementDescription_get_points_m5_1664,
-	Score__ctor_m5_1665,
-	Score__ctor_m5_1666,
-	Score_ToString_m5_1667,
-	Score_get_leaderboardID_m5_1668,
-	Score_set_leaderboardID_m5_1669,
-	Score_get_value_m5_1670,
-	Score_set_value_m5_1671,
-	Leaderboard__ctor_m5_1672,
-	Leaderboard_ToString_m5_1673,
-	Leaderboard_SetLocalUserScore_m5_1674,
-	Leaderboard_SetMaxRange_m5_1675,
-	Leaderboard_SetScores_m5_1676,
-	Leaderboard_SetTitle_m5_1677,
-	Leaderboard_GetUserFilter_m5_1678,
-	Leaderboard_get_id_m5_1679,
-	Leaderboard_set_id_m5_1680,
-	Leaderboard_get_userScope_m5_1681,
-	Leaderboard_set_userScope_m5_1682,
-	Leaderboard_get_range_m5_1683,
-	Leaderboard_set_range_m5_1684,
-	Leaderboard_get_timeScope_m5_1685,
-	Leaderboard_set_timeScope_m5_1686,
-	HitInfo_SendMessage_m5_1687,
-	HitInfo_Compare_m5_1688,
-	HitInfo_op_Implicit_m5_1689,
-	SendMouseEvents__cctor_m5_1690,
-	SendMouseEvents_SetMouseMoved_m5_1691,
-	SendMouseEvents_DoSendMouseEvents_m5_1692,
-	SendMouseEvents_SendEvents_m5_1693,
-	Range__ctor_m5_1694,
-	PropertyAttribute__ctor_m5_1695,
-	TooltipAttribute__ctor_m5_1696,
-	SpaceAttribute__ctor_m5_1697,
-	SpaceAttribute__ctor_m5_1698,
-	RangeAttribute__ctor_m5_1699,
-	TextAreaAttribute__ctor_m5_1700,
-	SelectionBaseAttribute__ctor_m5_1701,
-	SliderState__ctor_m5_1702,
-	SliderHandler__ctor_m5_1703,
-	SliderHandler_Handle_m5_1704,
-	SliderHandler_OnMouseDown_m5_1705,
-	SliderHandler_OnMouseDrag_m5_1706,
-	SliderHandler_OnMouseUp_m5_1707,
-	SliderHandler_OnRepaint_m5_1708,
-	SliderHandler_CurrentEventType_m5_1709,
-	SliderHandler_CurrentScrollTroughSide_m5_1710,
-	SliderHandler_IsEmptySlider_m5_1711,
-	SliderHandler_SupportsPageMovements_m5_1712,
-	SliderHandler_PageMovementValue_m5_1713,
-	SliderHandler_PageUpMovementBound_m5_1714,
-	SliderHandler_CurrentEvent_m5_1715,
-	SliderHandler_ValueForCurrentMousePosition_m5_1716,
-	SliderHandler_Clamp_m5_1717,
-	SliderHandler_ThumbSelectionRect_m5_1718,
-	SliderHandler_StartDraggingWithValue_m5_1719,
-	SliderHandler_SliderState_m5_1720,
-	SliderHandler_ThumbRect_m5_1721,
-	SliderHandler_VerticalThumbRect_m5_1722,
-	SliderHandler_HorizontalThumbRect_m5_1723,
-	SliderHandler_ClampedCurrentValue_m5_1724,
-	SliderHandler_MousePosition_m5_1725,
-	SliderHandler_ValuesPerPixel_m5_1726,
-	SliderHandler_ThumbSize_m5_1727,
-	SliderHandler_MaxValue_m5_1728,
-	SliderHandler_MinValue_m5_1729,
-	StackTraceUtility__ctor_m5_1730,
-	StackTraceUtility__cctor_m5_1731,
-	StackTraceUtility_SetProjectFolder_m5_1732,
-	StackTraceUtility_ExtractStackTrace_m5_1733,
-	StackTraceUtility_IsSystemStacktraceType_m5_1734,
-	StackTraceUtility_ExtractStringFromException_m5_1735,
-	StackTraceUtility_ExtractStringFromExceptionInternal_m5_1736,
-	StackTraceUtility_PostprocessStacktrace_m5_1737,
-	StackTraceUtility_ExtractFormattedStackTrace_m5_1738,
-	UnityException__ctor_m5_1739,
-	UnityException__ctor_m5_1740,
-	UnityException__ctor_m5_1741,
-	UnityException__ctor_m5_1742,
-	SharedBetweenAnimatorsAttribute__ctor_m5_1743,
-	StateMachineBehaviour__ctor_m5_1744,
-	SystemClock__cctor_m5_1745,
-	SystemClock_get_now_m5_1746,
-	TextEditor__ctor_m5_1747,
-	TextGenerationSettings_CompareColors_m5_1748,
-	TextGenerationSettings_CompareVector2_m5_1749,
-	TextGenerationSettings_Equals_m5_1750,
-	TrackedReference_Equals_m5_1751,
-	TrackedReference_GetHashCode_m5_1752,
-	TrackedReference_op_Equality_m5_1753,
-	ArgumentCache__ctor_m5_1754,
-	ArgumentCache_get_unityObjectArgument_m5_1755,
-	ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m5_1756,
-	ArgumentCache_get_intArgument_m5_1757,
-	ArgumentCache_get_floatArgument_m5_1758,
-	ArgumentCache_get_stringArgument_m5_1759,
-	ArgumentCache_get_boolArgument_m5_1760,
-	ArgumentCache_TidyAssemblyTypeName_m5_1761,
-	ArgumentCache_OnBeforeSerialize_m5_1762,
-	ArgumentCache_OnAfterDeserialize_m5_1763,
-	BaseInvokableCall__ctor_m5_1764,
-	BaseInvokableCall__ctor_m5_1765,
-	BaseInvokableCall_AllowInvoke_m5_1766,
-	InvokableCall__ctor_m5_1767,
-	InvokableCall__ctor_m5_1768,
-	InvokableCall_Invoke_m5_1769,
-	InvokableCall_Find_m5_1770,
-	PersistentCall__ctor_m5_1771,
-	PersistentCall_get_target_m5_1772,
-	PersistentCall_get_methodName_m5_1773,
-	PersistentCall_get_mode_m5_1774,
-	PersistentCall_get_arguments_m5_1775,
-	PersistentCall_IsValid_m5_1776,
-	PersistentCall_GetRuntimeCall_m5_1777,
-	PersistentCall_GetObjectCall_m5_1778,
-	PersistentCallGroup__ctor_m5_1779,
-	PersistentCallGroup_Initialize_m5_1780,
-	InvokableCallList__ctor_m5_1781,
-	InvokableCallList_AddPersistentInvokableCall_m5_1782,
-	InvokableCallList_AddListener_m5_1783,
-	InvokableCallList_RemoveListener_m5_1784,
-	InvokableCallList_ClearPersistent_m5_1785,
-	InvokableCallList_Invoke_m5_1786,
-	UnityEventBase__ctor_m5_1787,
-	UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m5_1788,
-	UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m5_1789,
-	UnityEventBase_FindMethod_m5_1790,
-	UnityEventBase_FindMethod_m5_1791,
-	UnityEventBase_DirtyPersistentCalls_m5_1792,
-	UnityEventBase_RebuildPersistentCallsIfNeeded_m5_1793,
-	UnityEventBase_AddCall_m5_1794,
-	UnityEventBase_RemoveListener_m5_1795,
-	UnityEventBase_Invoke_m5_1796,
-	UnityEventBase_ToString_m5_1797,
-	UnityEventBase_GetValidMethodInfo_m5_1798,
-	UnityEvent__ctor_m5_1799,
-	UnityEvent_AddListener_m5_1800,
-	UnityEvent_FindMethod_Impl_m5_1801,
-	UnityEvent_GetDelegate_m5_1802,
-	UnityEvent_GetDelegate_m5_1803,
-	UnityEvent_Invoke_m5_1804,
-	DefaultValueAttribute__ctor_m5_1805,
-	DefaultValueAttribute_get_Value_m5_1806,
-	DefaultValueAttribute_Equals_m5_1807,
-	DefaultValueAttribute_GetHashCode_m5_1808,
-	ExcludeFromDocsAttribute__ctor_m5_1809,
-	FormerlySerializedAsAttribute__ctor_m5_1810,
-	TypeInferenceRuleAttribute__ctor_m5_1811,
-	TypeInferenceRuleAttribute__ctor_m5_1812,
-	TypeInferenceRuleAttribute_ToString_m5_1813,
-	GenericStack__ctor_m5_1814,
-	NetFxCoreExtensions_CreateDelegate_m5_1815,
-	NetFxCoreExtensions_GetMethodInfo_m5_1816,
-	UnityAdsDelegate__ctor_m5_1817,
-	UnityAdsDelegate_Invoke_m5_1818,
-	UnityAdsDelegate_BeginInvoke_m5_1819,
-	UnityAdsDelegate_EndInvoke_m5_1820,
-	UnityAction__ctor_m5_1821,
-	UnityAction_Invoke_m5_1822,
-	UnityAction_BeginInvoke_m5_1823,
-	UnityAction_EndInvoke_m5_1824,
+	WWW__ctor_m5_634,
+	WWW_Dispose_m5_635,
+	WWW_Finalize_m5_636,
+	WWW_DestroyWWW_m5_637,
+	WWW_InitWWW_m5_638,
+	WWW_get_responseHeaders_m5_639,
+	WWW_get_responseHeadersString_m5_640,
+	WWW_get_text_m5_641,
+	WWW_GetTextEncoder_m5_642,
+	WWW_get_bytes_m5_643,
+	WWW_get_error_m5_644,
+	WWW_get_isDone_m5_645,
+	WWW_ParseHTTPHeaderString_m5_646,
+	UnityString_Format_m5_647,
+	AsyncOperation__ctor_m5_648,
+	AsyncOperation_InternalDestroy_m5_649,
+	AsyncOperation_Finalize_m5_650,
+	LogCallback__ctor_m5_651,
+	LogCallback_Invoke_m5_652,
+	LogCallback_BeginInvoke_m5_653,
+	LogCallback_EndInvoke_m5_654,
+	Application_Quit_m5_655,
+	Application_LoadLevel_m5_656,
+	Application_LoadLevelAsync_m5_657,
+	Application_get_isPlaying_m5_658,
+	Application_get_isEditor_m5_659,
+	Application_get_platform_m5_660,
+	Application_set_runInBackground_m5_661,
+	Application_get_dataPath_m5_662,
+	Application_get_unityVersion_m5_663,
+	Application_CallLogCallback_m5_664,
+	Behaviour__ctor_m5_665,
+	Behaviour_get_enabled_m5_666,
+	Behaviour_set_enabled_m5_667,
+	Behaviour_get_isActiveAndEnabled_m5_668,
+	CameraCallback__ctor_m5_669,
+	CameraCallback_Invoke_m5_670,
+	CameraCallback_BeginInvoke_m5_671,
+	CameraCallback_EndInvoke_m5_672,
+	Camera_get_fieldOfView_m5_673,
+	Camera_get_nearClipPlane_m5_674,
+	Camera_set_nearClipPlane_m5_675,
+	Camera_get_farClipPlane_m5_676,
+	Camera_set_farClipPlane_m5_677,
+	Camera_set_orthographicSize_m5_678,
+	Camera_set_orthographic_m5_679,
+	Camera_get_depth_m5_680,
+	Camera_set_aspect_m5_681,
+	Camera_get_cullingMask_m5_682,
+	Camera_set_cullingMask_m5_683,
+	Camera_get_eventMask_m5_684,
+	Camera_get_rect_m5_685,
+	Camera_set_rect_m5_686,
+	Camera_INTERNAL_get_rect_m5_687,
+	Camera_INTERNAL_set_rect_m5_688,
+	Camera_get_pixelRect_m5_689,
+	Camera_INTERNAL_get_pixelRect_m5_690,
+	Camera_get_targetTexture_m5_691,
+	Camera_set_targetTexture_m5_692,
+	Camera_get_projectionMatrix_m5_693,
+	Camera_set_projectionMatrix_m5_694,
+	Camera_INTERNAL_get_projectionMatrix_m5_695,
+	Camera_INTERNAL_set_projectionMatrix_m5_696,
+	Camera_get_clearFlags_m5_697,
+	Camera_WorldToScreenPoint_m5_698,
+	Camera_INTERNAL_CALL_WorldToScreenPoint_m5_699,
+	Camera_ScreenToViewportPoint_m5_700,
+	Camera_INTERNAL_CALL_ScreenToViewportPoint_m5_701,
+	Camera_ScreenPointToRay_m5_702,
+	Camera_INTERNAL_CALL_ScreenPointToRay_m5_703,
+	Camera_get_main_m5_704,
+	Camera_get_current_m5_705,
+	Camera_get_allCamerasCount_m5_706,
+	Camera_GetAllCameras_m5_707,
+	Camera_FireOnPreCull_m5_708,
+	Camera_FireOnPreRender_m5_709,
+	Camera_FireOnPostRender_m5_710,
+	Camera_Render_m5_711,
+	Camera_RaycastTry_m5_712,
+	Camera_INTERNAL_CALL_RaycastTry_m5_713,
+	Camera_RaycastTry2D_m5_714,
+	Camera_INTERNAL_CALL_RaycastTry2D_m5_715,
+	Debug_Internal_Log_m5_716,
+	Debug_Internal_LogException_m5_717,
+	Debug_Log_m5_718,
+	Debug_LogError_m5_719,
+	Debug_LogError_m5_720,
+	Debug_LogException_m5_721,
+	Debug_LogException_m5_722,
+	Debug_LogWarning_m5_723,
+	Debug_LogWarning_m5_724,
+	DisplaysUpdatedDelegate__ctor_m5_725,
+	DisplaysUpdatedDelegate_Invoke_m5_726,
+	DisplaysUpdatedDelegate_BeginInvoke_m5_727,
+	DisplaysUpdatedDelegate_EndInvoke_m5_728,
+	Display__ctor_m5_729,
+	Display__ctor_m5_730,
+	Display__cctor_m5_731,
+	Display_add_onDisplaysUpdated_m5_732,
+	Display_remove_onDisplaysUpdated_m5_733,
+	Display_get_renderingWidth_m5_734,
+	Display_get_renderingHeight_m5_735,
+	Display_get_systemWidth_m5_736,
+	Display_get_systemHeight_m5_737,
+	Display_get_colorBuffer_m5_738,
+	Display_get_depthBuffer_m5_739,
+	Display_Activate_m5_740,
+	Display_Activate_m5_741,
+	Display_SetParams_m5_742,
+	Display_SetRenderingResolution_m5_743,
+	Display_MultiDisplayLicense_m5_744,
+	Display_RelativeMouseAt_m5_745,
+	Display_get_main_m5_746,
+	Display_RecreateDisplayList_m5_747,
+	Display_FireDisplaysUpdated_m5_748,
+	Display_GetSystemExtImpl_m5_749,
+	Display_GetRenderingExtImpl_m5_750,
+	Display_GetRenderingBuffersImpl_m5_751,
+	Display_SetRenderingResolutionImpl_m5_752,
+	Display_ActivateDisplayImpl_m5_753,
+	Display_SetParamsImpl_m5_754,
+	Display_MultiDisplayLicenseImpl_m5_755,
+	Display_RelativeMouseAtImpl_m5_756,
+	MonoBehaviour__ctor_m5_757,
+	MonoBehaviour_StartCoroutine_m5_758,
+	MonoBehaviour_StartCoroutine_Auto_m5_759,
+	MonoBehaviour_StopCoroutine_m5_760,
+	MonoBehaviour_StopCoroutine_m5_761,
+	MonoBehaviour_StopCoroutineViaEnumerator_Auto_m5_762,
+	MonoBehaviour_StopCoroutine_Auto_m5_763,
+	Touch_get_fingerId_m5_764,
+	Touch_get_position_m5_765,
+	Touch_get_phase_m5_766,
+	Input__cctor_m5_767,
+	Input_GetKeyInt_m5_768,
+	Input_GetKeyDownInt_m5_769,
+	Input_GetAxisRaw_m5_770,
+	Input_GetButtonDown_m5_771,
+	Input_GetKey_m5_772,
+	Input_GetKeyDown_m5_773,
+	Input_GetMouseButton_m5_774,
+	Input_GetMouseButtonDown_m5_775,
+	Input_GetMouseButtonUp_m5_776,
+	Input_get_mousePosition_m5_777,
+	Input_INTERNAL_get_mousePosition_m5_778,
+	Input_get_mouseScrollDelta_m5_779,
+	Input_INTERNAL_get_mouseScrollDelta_m5_780,
+	Input_get_mousePresent_m5_781,
+	Input_GetTouch_m5_782,
+	Input_get_touchCount_m5_783,
+	Input_get_touchSupported_m5_784,
+	Input_set_imeCompositionMode_m5_785,
+	Input_get_compositionString_m5_786,
+	Input_set_compositionCursorPos_m5_787,
+	Input_INTERNAL_set_compositionCursorPos_m5_788,
+	Object__ctor_m5_789,
+	Object_Internal_CloneSingle_m5_790,
+	Object_Internal_InstantiateSingle_m5_791,
+	Object_INTERNAL_CALL_Internal_InstantiateSingle_m5_792,
+	Object_Destroy_m5_793,
+	Object_Destroy_m5_794,
+	Object_DestroyImmediate_m5_795,
+	Object_DestroyImmediate_m5_796,
+	Object_FindObjectsOfType_m5_797,
+	Object_get_name_m5_798,
+	Object_set_name_m5_799,
+	Object_DontDestroyOnLoad_m5_800,
+	Object_set_hideFlags_m5_801,
+	Object_ToString_m5_802,
+	Object_Equals_m5_803,
+	Object_GetHashCode_m5_804,
+	Object_CompareBaseObjects_m5_805,
+	Object_IsNativeObjectAlive_m5_806,
+	Object_GetInstanceID_m5_807,
+	Object_GetCachedPtr_m5_808,
+	Object_Instantiate_m5_809,
+	Object_Instantiate_m5_810,
+	Object_CheckNullArgument_m5_811,
+	Object_FindObjectOfType_m5_812,
+	Object_op_Implicit_m5_813,
+	Object_op_Equality_m5_814,
+	Object_op_Inequality_m5_815,
+	Component__ctor_m5_816,
+	Component_get_transform_m5_817,
+	Component_get_gameObject_m5_818,
+	Component_GetComponent_m5_819,
+	Component_GetComponentFastPath_m5_820,
+	Component_GetComponentInChildren_m5_821,
+	Component_GetComponentInParent_m5_822,
+	Component_GetComponentsForListInternal_m5_823,
+	Component_GetComponents_m5_824,
+	Component_SendMessage_m5_825,
+	Component_SendMessage_m5_826,
+	GameObject__ctor_m5_827,
+	GameObject__ctor_m5_828,
+	GameObject__ctor_m5_829,
+	GameObject_CreatePrimitive_m5_830,
+	GameObject_GetComponent_m5_831,
+	GameObject_GetComponentFastPath_m5_832,
+	GameObject_GetComponentInChildren_m5_833,
+	GameObject_GetComponentInParent_m5_834,
+	GameObject_GetComponentsInternal_m5_835,
+	GameObject_get_transform_m5_836,
+	GameObject_get_layer_m5_837,
+	GameObject_set_layer_m5_838,
+	GameObject_SetActive_m5_839,
+	GameObject_get_activeSelf_m5_840,
+	GameObject_get_activeInHierarchy_m5_841,
+	GameObject_SendMessage_m5_842,
+	GameObject_SendMessage_m5_843,
+	GameObject_SendMessage_m5_844,
+	GameObject_Internal_AddComponentWithType_m5_845,
+	GameObject_AddComponent_m5_846,
+	GameObject_Internal_CreateGameObject_m5_847,
+	GameObject_Find_m5_848,
+	Enumerator__ctor_m5_849,
+	Enumerator_get_Current_m5_850,
+	Enumerator_MoveNext_m5_851,
+	Enumerator_Reset_m5_852,
+	Transform_get_position_m5_853,
+	Transform_set_position_m5_854,
+	Transform_INTERNAL_get_position_m5_855,
+	Transform_INTERNAL_set_position_m5_856,
+	Transform_get_localPosition_m5_857,
+	Transform_set_localPosition_m5_858,
+	Transform_INTERNAL_get_localPosition_m5_859,
+	Transform_INTERNAL_set_localPosition_m5_860,
+	Transform_get_eulerAngles_m5_861,
+	Transform_get_forward_m5_862,
+	Transform_get_rotation_m5_863,
+	Transform_set_rotation_m5_864,
+	Transform_INTERNAL_get_rotation_m5_865,
+	Transform_INTERNAL_set_rotation_m5_866,
+	Transform_get_localRotation_m5_867,
+	Transform_set_localRotation_m5_868,
+	Transform_INTERNAL_get_localRotation_m5_869,
+	Transform_INTERNAL_set_localRotation_m5_870,
+	Transform_get_localScale_m5_871,
+	Transform_set_localScale_m5_872,
+	Transform_INTERNAL_get_localScale_m5_873,
+	Transform_INTERNAL_set_localScale_m5_874,
+	Transform_get_parent_m5_875,
+	Transform_set_parent_m5_876,
+	Transform_get_parentInternal_m5_877,
+	Transform_set_parentInternal_m5_878,
+	Transform_SetParent_m5_879,
+	Transform_SetParent_m5_880,
+	Transform_get_worldToLocalMatrix_m5_881,
+	Transform_INTERNAL_get_worldToLocalMatrix_m5_882,
+	Transform_get_localToWorldMatrix_m5_883,
+	Transform_INTERNAL_get_localToWorldMatrix_m5_884,
+	Transform_Rotate_m5_885,
+	Transform_Rotate_m5_886,
+	Transform_RotateAroundInternal_m5_887,
+	Transform_INTERNAL_CALL_RotateAroundInternal_m5_888,
+	Transform_RotateAround_m5_889,
+	Transform_TransformPoint_m5_890,
+	Transform_INTERNAL_CALL_TransformPoint_m5_891,
+	Transform_InverseTransformPoint_m5_892,
+	Transform_INTERNAL_CALL_InverseTransformPoint_m5_893,
+	Transform_get_root_m5_894,
+	Transform_get_childCount_m5_895,
+	Transform_SetAsFirstSibling_m5_896,
+	Transform_Find_m5_897,
+	Transform_get_lossyScale_m5_898,
+	Transform_INTERNAL_get_lossyScale_m5_899,
+	Transform_IsChildOf_m5_900,
+	Transform_FindChild_m5_901,
+	Transform_GetEnumerator_m5_902,
+	Transform_GetChild_m5_903,
+	Time_get_time_m5_904,
+	Time_get_deltaTime_m5_905,
+	Time_get_unscaledTime_m5_906,
+	Time_get_unscaledDeltaTime_m5_907,
+	Time_get_frameCount_m5_908,
+	YieldInstruction__ctor_m5_909,
+	UnityAdsInternal__ctor_m5_910,
+	UnityAdsInternal_add_onCampaignsAvailable_m5_911,
+	UnityAdsInternal_remove_onCampaignsAvailable_m5_912,
+	UnityAdsInternal_add_onCampaignsFetchFailed_m5_913,
+	UnityAdsInternal_remove_onCampaignsFetchFailed_m5_914,
+	UnityAdsInternal_add_onShow_m5_915,
+	UnityAdsInternal_remove_onShow_m5_916,
+	UnityAdsInternal_add_onHide_m5_917,
+	UnityAdsInternal_remove_onHide_m5_918,
+	UnityAdsInternal_add_onVideoCompleted_m5_919,
+	UnityAdsInternal_remove_onVideoCompleted_m5_920,
+	UnityAdsInternal_add_onVideoStarted_m5_921,
+	UnityAdsInternal_remove_onVideoStarted_m5_922,
+	UnityAdsInternal_RegisterNative_m5_923,
+	UnityAdsInternal_Init_m5_924,
+	UnityAdsInternal_Show_m5_925,
+	UnityAdsInternal_CanShowAds_m5_926,
+	UnityAdsInternal_SetLogLevel_m5_927,
+	UnityAdsInternal_SetCampaignDataURL_m5_928,
+	UnityAdsInternal_RemoveAllEventHandlers_m5_929,
+	UnityAdsInternal_CallUnityAdsCampaignsAvailable_m5_930,
+	UnityAdsInternal_CallUnityAdsCampaignsFetchFailed_m5_931,
+	UnityAdsInternal_CallUnityAdsShow_m5_932,
+	UnityAdsInternal_CallUnityAdsHide_m5_933,
+	UnityAdsInternal_CallUnityAdsVideoCompleted_m5_934,
+	UnityAdsInternal_CallUnityAdsVideoStarted_m5_935,
+	Particle_get_position_m5_936,
+	Particle_set_position_m5_937,
+	Particle_get_velocity_m5_938,
+	Particle_set_velocity_m5_939,
+	Particle_get_energy_m5_940,
+	Particle_set_energy_m5_941,
+	Particle_get_startEnergy_m5_942,
+	Particle_set_startEnergy_m5_943,
+	Particle_get_size_m5_944,
+	Particle_set_size_m5_945,
+	Particle_get_rotation_m5_946,
+	Particle_set_rotation_m5_947,
+	Particle_get_angularVelocity_m5_948,
+	Particle_set_angularVelocity_m5_949,
+	Particle_get_color_m5_950,
+	Particle_set_color_m5_951,
+	Collision_get_relativeVelocity_m5_952,
+	Physics_Raycast_m5_953,
+	Physics_Raycast_m5_954,
+	Physics_Raycast_m5_955,
+	Physics_RaycastAll_m5_956,
+	Physics_RaycastAll_m5_957,
+	Physics_RaycastAll_m5_958,
+	Physics_INTERNAL_CALL_RaycastAll_m5_959,
+	Physics_Internal_Raycast_m5_960,
+	Physics_INTERNAL_CALL_Internal_Raycast_m5_961,
+	Rigidbody_AddForce_m5_962,
+	Rigidbody_INTERNAL_CALL_AddForce_m5_963,
+	Rigidbody_AddExplosionForce_m5_964,
+	Rigidbody_INTERNAL_CALL_AddExplosionForce_m5_965,
+	Collider_set_enabled_m5_966,
+	MeshCollider_set_sharedMesh_m5_967,
+	RaycastHit_get_point_m5_968,
+	RaycastHit_get_normal_m5_969,
+	RaycastHit_get_distance_m5_970,
+	RaycastHit_get_collider_m5_971,
+	Physics2D__cctor_m5_972,
+	Physics2D_Internal_Raycast_m5_973,
+	Physics2D_INTERNAL_CALL_Internal_Raycast_m5_974,
+	Physics2D_Raycast_m5_975,
+	Physics2D_Raycast_m5_976,
+	Physics2D_RaycastAll_m5_977,
+	Physics2D_INTERNAL_CALL_RaycastAll_m5_978,
+	RaycastHit2D_get_point_m5_979,
+	RaycastHit2D_get_normal_m5_980,
+	RaycastHit2D_get_fraction_m5_981,
+	RaycastHit2D_get_collider_m5_982,
+	RaycastHit2D_get_rigidbody_m5_983,
+	RaycastHit2D_get_transform_m5_984,
+	Collider2D_get_attachedRigidbody_m5_985,
+	AudioConfigurationChangeHandler__ctor_m5_986,
+	AudioConfigurationChangeHandler_Invoke_m5_987,
+	AudioConfigurationChangeHandler_BeginInvoke_m5_988,
+	AudioConfigurationChangeHandler_EndInvoke_m5_989,
+	AudioSettings_InvokeOnAudioConfigurationChanged_m5_990,
+	PCMReaderCallback__ctor_m5_991,
+	PCMReaderCallback_Invoke_m5_992,
+	PCMReaderCallback_BeginInvoke_m5_993,
+	PCMReaderCallback_EndInvoke_m5_994,
+	PCMSetPositionCallback__ctor_m5_995,
+	PCMSetPositionCallback_Invoke_m5_996,
+	PCMSetPositionCallback_BeginInvoke_m5_997,
+	PCMSetPositionCallback_EndInvoke_m5_998,
+	AudioClip_InvokePCMReaderCallback_Internal_m5_999,
+	AudioClip_InvokePCMSetPositionCallback_Internal_m5_1000,
+	WebCamDevice_get_name_m5_1001,
+	WebCamDevice_get_isFrontFacing_m5_1002,
+	WebCamTexture__ctor_m5_1003,
+	WebCamTexture_Internal_CreateWebCamTexture_m5_1004,
+	WebCamTexture_Play_m5_1005,
+	WebCamTexture_INTERNAL_CALL_Play_m5_1006,
+	WebCamTexture_Stop_m5_1007,
+	WebCamTexture_INTERNAL_CALL_Stop_m5_1008,
+	WebCamTexture_get_isPlaying_m5_1009,
+	WebCamTexture_set_deviceName_m5_1010,
+	WebCamTexture_set_requestedFPS_m5_1011,
+	WebCamTexture_set_requestedWidth_m5_1012,
+	WebCamTexture_set_requestedHeight_m5_1013,
+	WebCamTexture_get_devices_m5_1014,
+	WebCamTexture_get_didUpdateThisFrame_m5_1015,
+	AnimationEvent__ctor_m5_1016,
+	AnimationEvent_get_data_m5_1017,
+	AnimationEvent_set_data_m5_1018,
+	AnimationEvent_get_stringParameter_m5_1019,
+	AnimationEvent_set_stringParameter_m5_1020,
+	AnimationEvent_get_floatParameter_m5_1021,
+	AnimationEvent_set_floatParameter_m5_1022,
+	AnimationEvent_get_intParameter_m5_1023,
+	AnimationEvent_set_intParameter_m5_1024,
+	AnimationEvent_get_objectReferenceParameter_m5_1025,
+	AnimationEvent_set_objectReferenceParameter_m5_1026,
+	AnimationEvent_get_functionName_m5_1027,
+	AnimationEvent_set_functionName_m5_1028,
+	AnimationEvent_get_time_m5_1029,
+	AnimationEvent_set_time_m5_1030,
+	AnimationEvent_get_messageOptions_m5_1031,
+	AnimationEvent_set_messageOptions_m5_1032,
+	AnimationEvent_get_isFiredByLegacy_m5_1033,
+	AnimationEvent_get_isFiredByAnimator_m5_1034,
+	AnimationEvent_get_animationState_m5_1035,
+	AnimationEvent_get_animatorStateInfo_m5_1036,
+	AnimationEvent_get_animatorClipInfo_m5_1037,
+	AnimationEvent_GetHash_m5_1038,
+	AnimationCurve__ctor_m5_1039,
+	AnimationCurve__ctor_m5_1040,
+	AnimationCurve_Cleanup_m5_1041,
+	AnimationCurve_Finalize_m5_1042,
+	AnimationCurve_Init_m5_1043,
+	AnimatorStateInfo_IsName_m5_1044,
+	AnimatorStateInfo_get_fullPathHash_m5_1045,
+	AnimatorStateInfo_get_nameHash_m5_1046,
+	AnimatorStateInfo_get_shortNameHash_m5_1047,
+	AnimatorStateInfo_get_normalizedTime_m5_1048,
+	AnimatorStateInfo_get_length_m5_1049,
+	AnimatorStateInfo_get_speed_m5_1050,
+	AnimatorStateInfo_get_speedMultiplier_m5_1051,
+	AnimatorStateInfo_get_tagHash_m5_1052,
+	AnimatorStateInfo_IsTag_m5_1053,
+	AnimatorStateInfo_get_loop_m5_1054,
+	AnimatorTransitionInfo_IsName_m5_1055,
+	AnimatorTransitionInfo_IsUserName_m5_1056,
+	AnimatorTransitionInfo_get_fullPathHash_m5_1057,
+	AnimatorTransitionInfo_get_nameHash_m5_1058,
+	AnimatorTransitionInfo_get_userNameHash_m5_1059,
+	AnimatorTransitionInfo_get_normalizedTime_m5_1060,
+	AnimatorTransitionInfo_get_anyState_m5_1061,
+	AnimatorTransitionInfo_get_entry_m5_1062,
+	AnimatorTransitionInfo_get_exit_m5_1063,
+	Animator_SetTrigger_m5_1064,
+	Animator_ResetTrigger_m5_1065,
+	Animator_get_runtimeAnimatorController_m5_1066,
+	Animator_StringToHash_m5_1067,
+	Animator_SetTriggerString_m5_1068,
+	Animator_ResetTriggerString_m5_1069,
+	HumanBone_get_boneName_m5_1070,
+	HumanBone_set_boneName_m5_1071,
+	HumanBone_get_humanName_m5_1072,
+	HumanBone_set_humanName_m5_1073,
+	CharacterInfo_get_advance_m5_1074,
+	CharacterInfo_set_advance_m5_1075,
+	CharacterInfo_get_glyphWidth_m5_1076,
+	CharacterInfo_set_glyphWidth_m5_1077,
+	CharacterInfo_get_glyphHeight_m5_1078,
+	CharacterInfo_set_glyphHeight_m5_1079,
+	CharacterInfo_get_bearing_m5_1080,
+	CharacterInfo_set_bearing_m5_1081,
+	CharacterInfo_get_minY_m5_1082,
+	CharacterInfo_set_minY_m5_1083,
+	CharacterInfo_get_maxY_m5_1084,
+	CharacterInfo_set_maxY_m5_1085,
+	CharacterInfo_get_minX_m5_1086,
+	CharacterInfo_set_minX_m5_1087,
+	CharacterInfo_get_maxX_m5_1088,
+	CharacterInfo_set_maxX_m5_1089,
+	CharacterInfo_get_uvBottomLeftUnFlipped_m5_1090,
+	CharacterInfo_set_uvBottomLeftUnFlipped_m5_1091,
+	CharacterInfo_get_uvBottomRightUnFlipped_m5_1092,
+	CharacterInfo_set_uvBottomRightUnFlipped_m5_1093,
+	CharacterInfo_get_uvTopRightUnFlipped_m5_1094,
+	CharacterInfo_set_uvTopRightUnFlipped_m5_1095,
+	CharacterInfo_get_uvTopLeftUnFlipped_m5_1096,
+	CharacterInfo_set_uvTopLeftUnFlipped_m5_1097,
+	CharacterInfo_get_uvBottomLeft_m5_1098,
+	CharacterInfo_set_uvBottomLeft_m5_1099,
+	CharacterInfo_get_uvBottomRight_m5_1100,
+	CharacterInfo_set_uvBottomRight_m5_1101,
+	CharacterInfo_get_uvTopRight_m5_1102,
+	CharacterInfo_set_uvTopRight_m5_1103,
+	CharacterInfo_get_uvTopLeft_m5_1104,
+	CharacterInfo_set_uvTopLeft_m5_1105,
+	FontTextureRebuildCallback__ctor_m5_1106,
+	FontTextureRebuildCallback_Invoke_m5_1107,
+	FontTextureRebuildCallback_BeginInvoke_m5_1108,
+	FontTextureRebuildCallback_EndInvoke_m5_1109,
+	Font__ctor_m5_1110,
+	Font__ctor_m5_1111,
+	Font__ctor_m5_1112,
+	Font_add_textureRebuilt_m5_1113,
+	Font_remove_textureRebuilt_m5_1114,
+	Font_add_m_FontTextureRebuildCallback_m5_1115,
+	Font_remove_m_FontTextureRebuildCallback_m5_1116,
+	Font_GetOSInstalledFontNames_m5_1117,
+	Font_Internal_CreateFont_m5_1118,
+	Font_Internal_CreateDynamicFont_m5_1119,
+	Font_CreateDynamicFontFromOSFont_m5_1120,
+	Font_CreateDynamicFontFromOSFont_m5_1121,
+	Font_get_material_m5_1122,
+	Font_set_material_m5_1123,
+	Font_HasCharacter_m5_1124,
+	Font_get_fontNames_m5_1125,
+	Font_set_fontNames_m5_1126,
+	Font_get_characterInfo_m5_1127,
+	Font_set_characterInfo_m5_1128,
+	Font_RequestCharactersInTexture_m5_1129,
+	Font_RequestCharactersInTexture_m5_1130,
+	Font_RequestCharactersInTexture_m5_1131,
+	Font_InvokeTextureRebuilt_Internal_m5_1132,
+	Font_get_textureRebuildCallback_m5_1133,
+	Font_set_textureRebuildCallback_m5_1134,
+	Font_GetMaxVertsForString_m5_1135,
+	Font_GetCharacterInfo_m5_1136,
+	Font_GetCharacterInfo_m5_1137,
+	Font_GetCharacterInfo_m5_1138,
+	Font_get_dynamic_m5_1139,
+	Font_get_ascent_m5_1140,
+	Font_get_lineHeight_m5_1141,
+	Font_get_fontSize_m5_1142,
+	TextGenerator__ctor_m5_1143,
+	TextGenerator__ctor_m5_1144,
+	TextGenerator_System_IDisposable_Dispose_m5_1145,
+	TextGenerator_Init_m5_1146,
+	TextGenerator_Dispose_cpp_m5_1147,
+	TextGenerator_Populate_Internal_m5_1148,
+	TextGenerator_Populate_Internal_cpp_m5_1149,
+	TextGenerator_INTERNAL_CALL_Populate_Internal_cpp_m5_1150,
+	TextGenerator_get_rectExtents_m5_1151,
+	TextGenerator_INTERNAL_get_rectExtents_m5_1152,
+	TextGenerator_get_vertexCount_m5_1153,
+	TextGenerator_GetVerticesInternal_m5_1154,
+	TextGenerator_GetVerticesArray_m5_1155,
+	TextGenerator_get_characterCount_m5_1156,
+	TextGenerator_get_characterCountVisible_m5_1157,
+	TextGenerator_GetCharactersInternal_m5_1158,
+	TextGenerator_GetCharactersArray_m5_1159,
+	TextGenerator_get_lineCount_m5_1160,
+	TextGenerator_GetLinesInternal_m5_1161,
+	TextGenerator_GetLinesArray_m5_1162,
+	TextGenerator_get_fontSizeUsedForBestFit_m5_1163,
+	TextGenerator_Finalize_m5_1164,
+	TextGenerator_ValidatedSettings_m5_1165,
+	TextGenerator_Invalidate_m5_1166,
+	TextGenerator_GetCharacters_m5_1167,
+	TextGenerator_GetLines_m5_1168,
+	TextGenerator_GetVertices_m5_1169,
+	TextGenerator_GetPreferredWidth_m5_1170,
+	TextGenerator_GetPreferredHeight_m5_1171,
+	TextGenerator_Populate_m5_1172,
+	TextGenerator_PopulateAlways_m5_1173,
+	TextGenerator_get_verts_m5_1174,
+	TextGenerator_get_characters_m5_1175,
+	TextGenerator_get_lines_m5_1176,
+	WillRenderCanvases__ctor_m5_1177,
+	WillRenderCanvases_Invoke_m5_1178,
+	WillRenderCanvases_BeginInvoke_m5_1179,
+	WillRenderCanvases_EndInvoke_m5_1180,
+	Canvas_add_willRenderCanvases_m5_1181,
+	Canvas_remove_willRenderCanvases_m5_1182,
+	Canvas_get_renderMode_m5_1183,
+	Canvas_get_isRootCanvas_m5_1184,
+	Canvas_get_worldCamera_m5_1185,
+	Canvas_get_scaleFactor_m5_1186,
+	Canvas_set_scaleFactor_m5_1187,
+	Canvas_get_referencePixelsPerUnit_m5_1188,
+	Canvas_set_referencePixelsPerUnit_m5_1189,
+	Canvas_get_pixelPerfect_m5_1190,
+	Canvas_get_renderOrder_m5_1191,
+	Canvas_get_overrideSorting_m5_1192,
+	Canvas_set_overrideSorting_m5_1193,
+	Canvas_get_sortingOrder_m5_1194,
+	Canvas_set_sortingOrder_m5_1195,
+	Canvas_get_sortingLayerID_m5_1196,
+	Canvas_set_sortingLayerID_m5_1197,
+	Canvas_GetDefaultCanvasMaterial_m5_1198,
+	Canvas_SendWillRenderCanvases_m5_1199,
+	Canvas_ForceUpdateCanvases_m5_1200,
+	CanvasGroup_get_alpha_m5_1201,
+	CanvasGroup_set_alpha_m5_1202,
+	CanvasGroup_get_interactable_m5_1203,
+	CanvasGroup_get_blocksRaycasts_m5_1204,
+	CanvasGroup_get_ignoreParentGroups_m5_1205,
+	CanvasGroup_IsRaycastLocationValid_m5_1206,
+	UIVertex__cctor_m5_1207,
+	CanvasRenderer_SetColor_m5_1208,
+	CanvasRenderer_INTERNAL_CALL_SetColor_m5_1209,
+	CanvasRenderer_GetColor_m5_1210,
+	CanvasRenderer_EnableRectClipping_m5_1211,
+	CanvasRenderer_INTERNAL_CALL_EnableRectClipping_m5_1212,
+	CanvasRenderer_DisableRectClipping_m5_1213,
+	CanvasRenderer_set_hasPopInstruction_m5_1214,
+	CanvasRenderer_get_materialCount_m5_1215,
+	CanvasRenderer_set_materialCount_m5_1216,
+	CanvasRenderer_SetMaterial_m5_1217,
+	CanvasRenderer_SetMaterial_m5_1218,
+	CanvasRenderer_set_popMaterialCount_m5_1219,
+	CanvasRenderer_SetPopMaterial_m5_1220,
+	CanvasRenderer_SetTexture_m5_1221,
+	CanvasRenderer_SetMesh_m5_1222,
+	CanvasRenderer_Clear_m5_1223,
+	CanvasRenderer_SplitUIVertexStreams_m5_1224,
+	CanvasRenderer_SplitUIVertexStreamsInternal_m5_1225,
+	CanvasRenderer_SplitIndiciesStreamsInternal_m5_1226,
+	CanvasRenderer_CreateUIVertexStream_m5_1227,
+	CanvasRenderer_CreateUIVertexStreamInternal_m5_1228,
+	CanvasRenderer_AddUIVertexStream_m5_1229,
+	CanvasRenderer_get_cull_m5_1230,
+	CanvasRenderer_set_cull_m5_1231,
+	CanvasRenderer_get_absoluteDepth_m5_1232,
+	CanvasRenderer_get_hasMoved_m5_1233,
+	RectTransformUtility__cctor_m5_1234,
+	RectTransformUtility_RectangleContainsScreenPoint_m5_1235,
+	RectTransformUtility_INTERNAL_CALL_RectangleContainsScreenPoint_m5_1236,
+	RectTransformUtility_PixelAdjustPoint_m5_1237,
+	RectTransformUtility_PixelAdjustPoint_m5_1238,
+	RectTransformUtility_INTERNAL_CALL_PixelAdjustPoint_m5_1239,
+	RectTransformUtility_PixelAdjustRect_m5_1240,
+	RectTransformUtility_ScreenPointToWorldPointInRectangle_m5_1241,
+	RectTransformUtility_ScreenPointToLocalPointInRectangle_m5_1242,
+	RectTransformUtility_ScreenPointToRay_m5_1243,
+	RectTransformUtility_FlipLayoutOnAxis_m5_1244,
+	RectTransformUtility_FlipLayoutAxes_m5_1245,
+	RectTransformUtility_GetTransposed_m5_1246,
+	Event__ctor_m5_1247,
+	Event__ctor_m5_1248,
+	Event__ctor_m5_1249,
+	Event_Finalize_m5_1250,
+	Event_get_mousePosition_m5_1251,
+	Event_set_mousePosition_m5_1252,
+	Event_get_delta_m5_1253,
+	Event_set_delta_m5_1254,
+	Event_get_mouseRay_m5_1255,
+	Event_set_mouseRay_m5_1256,
+	Event_get_shift_m5_1257,
+	Event_set_shift_m5_1258,
+	Event_get_control_m5_1259,
+	Event_set_control_m5_1260,
+	Event_get_alt_m5_1261,
+	Event_set_alt_m5_1262,
+	Event_get_command_m5_1263,
+	Event_set_command_m5_1264,
+	Event_get_capsLock_m5_1265,
+	Event_set_capsLock_m5_1266,
+	Event_get_numeric_m5_1267,
+	Event_set_numeric_m5_1268,
+	Event_get_functionKey_m5_1269,
+	Event_get_current_m5_1270,
+	Event_set_current_m5_1271,
+	Event_Internal_MakeMasterEventCurrent_m5_1272,
+	Event_get_isKey_m5_1273,
+	Event_get_isMouse_m5_1274,
+	Event_KeyboardEvent_m5_1275,
+	Event_GetHashCode_m5_1276,
+	Event_Equals_m5_1277,
+	Event_ToString_m5_1278,
+	Event_Init_m5_1279,
+	Event_Cleanup_m5_1280,
+	Event_InitCopy_m5_1281,
+	Event_InitPtr_m5_1282,
+	Event_get_rawType_m5_1283,
+	Event_get_type_m5_1284,
+	Event_set_type_m5_1285,
+	Event_GetTypeForControl_m5_1286,
+	Event_Internal_SetMousePosition_m5_1287,
+	Event_INTERNAL_CALL_Internal_SetMousePosition_m5_1288,
+	Event_Internal_GetMousePosition_m5_1289,
+	Event_Internal_SetMouseDelta_m5_1290,
+	Event_INTERNAL_CALL_Internal_SetMouseDelta_m5_1291,
+	Event_Internal_GetMouseDelta_m5_1292,
+	Event_get_button_m5_1293,
+	Event_set_button_m5_1294,
+	Event_get_modifiers_m5_1295,
+	Event_set_modifiers_m5_1296,
+	Event_get_pressure_m5_1297,
+	Event_set_pressure_m5_1298,
+	Event_get_clickCount_m5_1299,
+	Event_set_clickCount_m5_1300,
+	Event_get_character_m5_1301,
+	Event_set_character_m5_1302,
+	Event_get_commandName_m5_1303,
+	Event_set_commandName_m5_1304,
+	Event_get_keyCode_m5_1305,
+	Event_set_keyCode_m5_1306,
+	Event_Internal_SetNativeEvent_m5_1307,
+	Event_Use_m5_1308,
+	Event_PopEvent_m5_1309,
+	Event_GetEventCount_m5_1310,
+	ScrollViewState__ctor_m5_1311,
+	WindowFunction__ctor_m5_1312,
+	WindowFunction_Invoke_m5_1313,
+	WindowFunction_BeginInvoke_m5_1314,
+	WindowFunction_EndInvoke_m5_1315,
+	GUI__cctor_m5_1316,
+	GUI_get_nextScrollStepTime_m5_1317,
+	GUI_set_nextScrollStepTime_m5_1318,
+	GUI_get_scrollTroughSide_m5_1319,
+	GUI_set_scrollTroughSide_m5_1320,
+	GUI_set_skin_m5_1321,
+	GUI_get_skin_m5_1322,
+	GUI_DoSetSkin_m5_1323,
+	GUI_get_matrix_m5_1324,
+	GUI_set_matrix_m5_1325,
+	GUI_Label_m5_1326,
+	GUI_Label_m5_1327,
+	GUI_Label_m5_1328,
+	GUI_DrawTexture_m5_1329,
+	GUI_DrawTexture_m5_1330,
+	GUI_DrawTexture_m5_1331,
+	GUI_DrawTexture_m5_1332,
+	GUI_Box_m5_1333,
+	GUI_Box_m5_1334,
+	GUI_Button_m5_1335,
+	GUI_Button_m5_1336,
+	GUI_Button_m5_1337,
+	GUI_DoRepeatButton_m5_1338,
+	GUI_Toggle_m5_1339,
+	GUI_Toggle_m5_1340,
+	GUI_Slider_m5_1341,
+	GUI_HorizontalScrollbar_m5_1342,
+	GUI_ScrollerRepeatButton_m5_1343,
+	GUI_VerticalScrollbar_m5_1344,
+	GUI_Scroller_m5_1345,
+	GUI_BeginGroup_m5_1346,
+	GUI_EndGroup_m5_1347,
+	GUI_BeginScrollView_m5_1348,
+	GUI_EndScrollView_m5_1349,
+	GUI_Window_m5_1350,
+	GUI_CallWindowDelegate_m5_1351,
+	GUI_get_color_m5_1352,
+	GUI_INTERNAL_get_color_m5_1353,
+	GUI_set_changed_m5_1354,
+	GUI_DoLabel_m5_1355,
+	GUI_INTERNAL_CALL_DoLabel_m5_1356,
+	GUI_get_blendMaterial_m5_1357,
+	GUI_get_blitMaterial_m5_1358,
+	GUI_DoButton_m5_1359,
+	GUI_INTERNAL_CALL_DoButton_m5_1360,
+	GUI_DoToggle_m5_1361,
+	GUI_INTERNAL_CALL_DoToggle_m5_1362,
+	GUI_get_usePageScrollbars_m5_1363,
+	GUI_InternalRepaintEditorWindow_m5_1364,
+	GUI_DoWindow_m5_1365,
+	GUI_INTERNAL_CALL_DoWindow_m5_1366,
+	GUIContent__ctor_m5_1367,
+	GUIContent__ctor_m5_1368,
+	GUIContent__ctor_m5_1369,
+	GUIContent__cctor_m5_1370,
+	GUIContent_Temp_m5_1371,
+	GUIContent_Temp_m5_1372,
+	GUIContent_ClearStaticCache_m5_1373,
+	GUILayout_Label_m5_1374,
+	GUILayout_DoLabel_m5_1375,
+	GUILayout_FlexibleSpace_m5_1376,
+	GUILayout_BeginHorizontal_m5_1377,
+	GUILayout_BeginHorizontal_m5_1378,
+	GUILayout_EndHorizontal_m5_1379,
+	GUILayout_BeginArea_m5_1380,
+	GUILayout_BeginArea_m5_1381,
+	GUILayout_EndArea_m5_1382,
+	GUILayout_BeginScrollView_m5_1383,
+	GUILayout_BeginScrollView_m5_1384,
+	GUILayout_EndScrollView_m5_1385,
+	GUILayout_EndScrollView_m5_1386,
+	GUILayout_Width_m5_1387,
+	GUILayout_Height_m5_1388,
+	GUILayout_ExpandWidth_m5_1389,
+	GUILayout_ExpandHeight_m5_1390,
+	LayoutCache__ctor_m5_1391,
+	GUILayoutUtility__cctor_m5_1392,
+	GUILayoutUtility_SelectIDList_m5_1393,
+	GUILayoutUtility_Begin_m5_1394,
+	GUILayoutUtility_BeginWindow_m5_1395,
+	GUILayoutUtility_EndGroup_m5_1396,
+	GUILayoutUtility_Layout_m5_1397,
+	GUILayoutUtility_LayoutFromEditorWindow_m5_1398,
+	GUILayoutUtility_LayoutFreeGroup_m5_1399,
+	GUILayoutUtility_LayoutSingleGroup_m5_1400,
+	GUILayoutUtility_CreateGUILayoutGroupInstanceOfType_m5_1401,
+	GUILayoutUtility_BeginLayoutGroup_m5_1402,
+	GUILayoutUtility_EndLayoutGroup_m5_1403,
+	GUILayoutUtility_BeginLayoutArea_m5_1404,
+	GUILayoutUtility_GetRect_m5_1405,
+	GUILayoutUtility_DoGetRect_m5_1406,
+	GUILayoutUtility_GetRect_m5_1407,
+	GUILayoutUtility_DoGetRect_m5_1408,
+	GUILayoutUtility_get_spaceStyle_m5_1409,
+	GUILayoutUtility_Internal_GetWindowRect_m5_1410,
+	GUILayoutUtility_Internal_MoveWindow_m5_1411,
+	GUILayoutUtility_INTERNAL_CALL_Internal_MoveWindow_m5_1412,
+	GUILayoutEntry__ctor_m5_1413,
+	GUILayoutEntry__ctor_m5_1414,
+	GUILayoutEntry__cctor_m5_1415,
+	GUILayoutEntry_get_style_m5_1416,
+	GUILayoutEntry_set_style_m5_1417,
+	GUILayoutEntry_get_margin_m5_1418,
+	GUILayoutEntry_CalcWidth_m5_1419,
+	GUILayoutEntry_CalcHeight_m5_1420,
+	GUILayoutEntry_SetHorizontal_m5_1421,
+	GUILayoutEntry_SetVertical_m5_1422,
+	GUILayoutEntry_ApplyStyleSettings_m5_1423,
+	GUILayoutEntry_ApplyOptions_m5_1424,
+	GUILayoutEntry_ToString_m5_1425,
+	GUILayoutGroup__ctor_m5_1426,
+	GUILayoutGroup_get_margin_m5_1427,
+	GUILayoutGroup_ApplyOptions_m5_1428,
+	GUILayoutGroup_ApplyStyleSettings_m5_1429,
+	GUILayoutGroup_ResetCursor_m5_1430,
+	GUILayoutGroup_GetNext_m5_1431,
+	GUILayoutGroup_Add_m5_1432,
+	GUILayoutGroup_CalcWidth_m5_1433,
+	GUILayoutGroup_SetHorizontal_m5_1434,
+	GUILayoutGroup_CalcHeight_m5_1435,
+	GUILayoutGroup_SetVertical_m5_1436,
+	GUILayoutGroup_ToString_m5_1437,
+	GUIScrollGroup__ctor_m5_1438,
+	GUIScrollGroup_CalcWidth_m5_1439,
+	GUIScrollGroup_SetHorizontal_m5_1440,
+	GUIScrollGroup_CalcHeight_m5_1441,
+	GUIScrollGroup_SetVertical_m5_1442,
+	GUIWordWrapSizer__ctor_m5_1443,
+	GUIWordWrapSizer_CalcWidth_m5_1444,
+	GUIWordWrapSizer_CalcHeight_m5_1445,
+	GUILayoutOption__ctor_m5_1446,
+	GUISettings__ctor_m5_1447,
+	SkinChangedDelegate__ctor_m5_1448,
+	SkinChangedDelegate_Invoke_m5_1449,
+	SkinChangedDelegate_BeginInvoke_m5_1450,
+	SkinChangedDelegate_EndInvoke_m5_1451,
+	GUISkin__ctor_m5_1452,
+	GUISkin_OnEnable_m5_1453,
+	GUISkin_get_font_m5_1454,
+	GUISkin_set_font_m5_1455,
+	GUISkin_get_box_m5_1456,
+	GUISkin_set_box_m5_1457,
+	GUISkin_get_label_m5_1458,
+	GUISkin_set_label_m5_1459,
+	GUISkin_get_textField_m5_1460,
+	GUISkin_set_textField_m5_1461,
+	GUISkin_get_textArea_m5_1462,
+	GUISkin_set_textArea_m5_1463,
+	GUISkin_get_button_m5_1464,
+	GUISkin_set_button_m5_1465,
+	GUISkin_get_toggle_m5_1466,
+	GUISkin_set_toggle_m5_1467,
+	GUISkin_get_window_m5_1468,
+	GUISkin_set_window_m5_1469,
+	GUISkin_get_horizontalSlider_m5_1470,
+	GUISkin_set_horizontalSlider_m5_1471,
+	GUISkin_get_horizontalSliderThumb_m5_1472,
+	GUISkin_set_horizontalSliderThumb_m5_1473,
+	GUISkin_get_verticalSlider_m5_1474,
+	GUISkin_set_verticalSlider_m5_1475,
+	GUISkin_get_verticalSliderThumb_m5_1476,
+	GUISkin_set_verticalSliderThumb_m5_1477,
+	GUISkin_get_horizontalScrollbar_m5_1478,
+	GUISkin_set_horizontalScrollbar_m5_1479,
+	GUISkin_get_horizontalScrollbarThumb_m5_1480,
+	GUISkin_set_horizontalScrollbarThumb_m5_1481,
+	GUISkin_get_horizontalScrollbarLeftButton_m5_1482,
+	GUISkin_set_horizontalScrollbarLeftButton_m5_1483,
+	GUISkin_get_horizontalScrollbarRightButton_m5_1484,
+	GUISkin_set_horizontalScrollbarRightButton_m5_1485,
+	GUISkin_get_verticalScrollbar_m5_1486,
+	GUISkin_set_verticalScrollbar_m5_1487,
+	GUISkin_get_verticalScrollbarThumb_m5_1488,
+	GUISkin_set_verticalScrollbarThumb_m5_1489,
+	GUISkin_get_verticalScrollbarUpButton_m5_1490,
+	GUISkin_set_verticalScrollbarUpButton_m5_1491,
+	GUISkin_get_verticalScrollbarDownButton_m5_1492,
+	GUISkin_set_verticalScrollbarDownButton_m5_1493,
+	GUISkin_get_scrollView_m5_1494,
+	GUISkin_set_scrollView_m5_1495,
+	GUISkin_get_customStyles_m5_1496,
+	GUISkin_set_customStyles_m5_1497,
+	GUISkin_get_settings_m5_1498,
+	GUISkin_get_error_m5_1499,
+	GUISkin_Apply_m5_1500,
+	GUISkin_BuildStyleCache_m5_1501,
+	GUISkin_GetStyle_m5_1502,
+	GUISkin_FindStyle_m5_1503,
+	GUISkin_MakeCurrent_m5_1504,
+	GUISkin_GetEnumerator_m5_1505,
+	GUIStyleState__ctor_m5_1506,
+	GUIStyleState__ctor_m5_1507,
+	GUIStyleState_Finalize_m5_1508,
+	GUIStyleState_get_background_m5_1509,
+	GUIStyleState_set_background_m5_1510,
+	GUIStyleState_Init_m5_1511,
+	GUIStyleState_Cleanup_m5_1512,
+	GUIStyleState_SetBackgroundInternal_m5_1513,
+	GUIStyleState_GetBackgroundInternal_m5_1514,
+	GUIStyleState_set_textColor_m5_1515,
+	GUIStyleState_INTERNAL_set_textColor_m5_1516,
+	RectOffset__ctor_m5_1517,
+	RectOffset__ctor_m5_1518,
+	RectOffset_Finalize_m5_1519,
+	RectOffset_ToString_m5_1520,
+	RectOffset_Init_m5_1521,
+	RectOffset_Cleanup_m5_1522,
+	RectOffset_get_left_m5_1523,
+	RectOffset_set_left_m5_1524,
+	RectOffset_get_right_m5_1525,
+	RectOffset_set_right_m5_1526,
+	RectOffset_get_top_m5_1527,
+	RectOffset_set_top_m5_1528,
+	RectOffset_get_bottom_m5_1529,
+	RectOffset_set_bottom_m5_1530,
+	RectOffset_get_horizontal_m5_1531,
+	RectOffset_get_vertical_m5_1532,
+	GUIStyle__ctor_m5_1533,
+	GUIStyle__cctor_m5_1534,
+	GUIStyle_Finalize_m5_1535,
+	GUIStyle_get_normal_m5_1536,
+	GUIStyle_get_active_m5_1537,
+	GUIStyle_get_onNormal_m5_1538,
+	GUIStyle_get_margin_m5_1539,
+	GUIStyle_get_padding_m5_1540,
+	GUIStyle_set_font_m5_1541,
+	GUIStyle_Internal_Draw_m5_1542,
+	GUIStyle_Draw_m5_1543,
+	GUIStyle_Draw_m5_1544,
+	GUIStyle_Draw_m5_1545,
+	GUIStyle_get_none_m5_1546,
+	GUIStyle_CalcSize_m5_1547,
+	GUIStyle_CalcHeight_m5_1548,
+	GUIStyle_get_isHeightDependantOnWidth_m5_1549,
+	GUIStyle_CalcMinMaxWidth_m5_1550,
+	GUIStyle_ToString_m5_1551,
+	GUIStyle_Init_m5_1552,
+	GUIStyle_Cleanup_m5_1553,
+	GUIStyle_get_name_m5_1554,
+	GUIStyle_set_name_m5_1555,
+	GUIStyle_GetStyleStatePtr_m5_1556,
+	GUIStyle_GetRectOffsetPtr_m5_1557,
+	GUIStyle_get_imagePosition_m5_1558,
+	GUIStyle_set_alignment_m5_1559,
+	GUIStyle_get_wordWrap_m5_1560,
+	GUIStyle_set_wordWrap_m5_1561,
+	GUIStyle_set_contentOffset_m5_1562,
+	GUIStyle_INTERNAL_set_contentOffset_m5_1563,
+	GUIStyle_get_fixedWidth_m5_1564,
+	GUIStyle_get_fixedHeight_m5_1565,
+	GUIStyle_get_stretchWidth_m5_1566,
+	GUIStyle_set_stretchWidth_m5_1567,
+	GUIStyle_get_stretchHeight_m5_1568,
+	GUIStyle_set_stretchHeight_m5_1569,
+	GUIStyle_SetFontInternal_m5_1570,
+	GUIStyle_Internal_Draw_m5_1571,
+	GUIStyle_Internal_Draw2_m5_1572,
+	GUIStyle_INTERNAL_CALL_Internal_Draw2_m5_1573,
+	GUIStyle_SetDefaultFont_m5_1574,
+	GUIStyle_Internal_CalcSize_m5_1575,
+	GUIStyle_Internal_CalcHeight_m5_1576,
+	GUIStyle_Internal_CalcMinMaxWidth_m5_1577,
+	GUIUtility__cctor_m5_1578,
+	GUIUtility_get_pixelsPerPoint_m5_1579,
+	GUIUtility_GetControlID_m5_1580,
+	GUIUtility_GetStateObject_m5_1581,
+	GUIUtility_get_hotControl_m5_1582,
+	GUIUtility_set_hotControl_m5_1583,
+	GUIUtility_GetDefaultSkin_m5_1584,
+	GUIUtility_BeginGUI_m5_1585,
+	GUIUtility_EndGUI_m5_1586,
+	GUIUtility_EndGUIFromException_m5_1587,
+	GUIUtility_CheckOnGUI_m5_1588,
+	GUIUtility_ScaleAroundPivot_m5_1589,
+	GUIUtility_Internal_GetPixelsPerPoint_m5_1590,
+	GUIUtility_GetControlID_m5_1591,
+	GUIUtility_Internal_GetNextControlID2_m5_1592,
+	GUIUtility_INTERNAL_CALL_Internal_GetNextControlID2_m5_1593,
+	GUIUtility_Internal_GetHotControl_m5_1594,
+	GUIUtility_Internal_SetHotControl_m5_1595,
+	GUIUtility_get_systemCopyBuffer_m5_1596,
+	GUIUtility_set_systemCopyBuffer_m5_1597,
+	GUIUtility_Internal_GetDefaultSkin_m5_1598,
+	GUIUtility_Internal_ExitGUI_m5_1599,
+	GUIUtility_Internal_GetGUIDepth_m5_1600,
+	GUIUtility_set_mouseUsed_m5_1601,
+	GUIClip_Unclip_m5_1602,
+	GUIClip_Push_m5_1603,
+	GUIClip_INTERNAL_CALL_Push_m5_1604,
+	GUIClip_Pop_m5_1605,
+	GUIClip_Unclip_Vector2_m5_1606,
+	GUIClip_INTERNAL_CALL_Unclip_Vector2_m5_1607,
+	GUIClip_GetMatrix_m5_1608,
+	GUIClip_SetMatrix_m5_1609,
+	GUIClip_INTERNAL_CALL_SetMatrix_m5_1610,
+	WrapperlessIcall__ctor_m5_1611,
+	IL2CPPStructAlignmentAttribute__ctor_m5_1612,
+	AttributeHelperEngine__cctor_m5_1613,
+	AttributeHelperEngine_GetParentTypeDisallowingMultipleInclusion_m5_1614,
+	AttributeHelperEngine_GetRequiredComponents_m5_1615,
+	AttributeHelperEngine_CheckIsEditorScript_m5_1616,
+	DisallowMultipleComponent__ctor_m5_1617,
+	RequireComponent__ctor_m5_1618,
+	AddComponentMenu__ctor_m5_1619,
+	AddComponentMenu__ctor_m5_1620,
+	ExecuteInEditMode__ctor_m5_1621,
+	HideInInspector__ctor_m5_1622,
+	SetupCoroutine__ctor_m5_1623,
+	SetupCoroutine_InvokeMember_m5_1624,
+	SetupCoroutine_InvokeStatic_m5_1625,
+	WritableAttribute__ctor_m5_1626,
+	AssemblyIsEditorAssembly__ctor_m5_1627,
+	GcUserProfileData_ToUserProfile_m5_1628,
+	GcUserProfileData_AddToArray_m5_1629,
+	GcAchievementDescriptionData_ToAchievementDescription_m5_1630,
+	GcAchievementData_ToAchievement_m5_1631,
+	GcScoreData_ToScore_m5_1632,
+	Resolution_get_width_m5_1633,
+	Resolution_set_width_m5_1634,
+	Resolution_get_height_m5_1635,
+	Resolution_set_height_m5_1636,
+	Resolution_get_refreshRate_m5_1637,
+	Resolution_set_refreshRate_m5_1638,
+	Resolution_ToString_m5_1639,
+	GUIStateObjects__cctor_m5_1640,
+	GUIStateObjects_GetStateObject_m5_1641,
+	LocalUser__ctor_m5_1642,
+	LocalUser_SetFriends_m5_1643,
+	LocalUser_SetAuthenticated_m5_1644,
+	LocalUser_SetUnderage_m5_1645,
+	LocalUser_get_authenticated_m5_1646,
+	UserProfile__ctor_m5_1647,
+	UserProfile__ctor_m5_1648,
+	UserProfile_ToString_m5_1649,
+	UserProfile_SetUserName_m5_1650,
+	UserProfile_SetUserID_m5_1651,
+	UserProfile_SetImage_m5_1652,
+	UserProfile_get_userName_m5_1653,
+	UserProfile_get_id_m5_1654,
+	UserProfile_get_isFriend_m5_1655,
+	UserProfile_get_state_m5_1656,
+	Achievement__ctor_m5_1657,
+	Achievement__ctor_m5_1658,
+	Achievement__ctor_m5_1659,
+	Achievement_ToString_m5_1660,
+	Achievement_get_id_m5_1661,
+	Achievement_set_id_m5_1662,
+	Achievement_get_percentCompleted_m5_1663,
+	Achievement_set_percentCompleted_m5_1664,
+	Achievement_get_completed_m5_1665,
+	Achievement_get_hidden_m5_1666,
+	Achievement_get_lastReportedDate_m5_1667,
+	AchievementDescription__ctor_m5_1668,
+	AchievementDescription_ToString_m5_1669,
+	AchievementDescription_SetImage_m5_1670,
+	AchievementDescription_get_id_m5_1671,
+	AchievementDescription_set_id_m5_1672,
+	AchievementDescription_get_title_m5_1673,
+	AchievementDescription_get_achievedDescription_m5_1674,
+	AchievementDescription_get_unachievedDescription_m5_1675,
+	AchievementDescription_get_hidden_m5_1676,
+	AchievementDescription_get_points_m5_1677,
+	Score__ctor_m5_1678,
+	Score__ctor_m5_1679,
+	Score_ToString_m5_1680,
+	Score_get_leaderboardID_m5_1681,
+	Score_set_leaderboardID_m5_1682,
+	Score_get_value_m5_1683,
+	Score_set_value_m5_1684,
+	Leaderboard__ctor_m5_1685,
+	Leaderboard_ToString_m5_1686,
+	Leaderboard_SetLocalUserScore_m5_1687,
+	Leaderboard_SetMaxRange_m5_1688,
+	Leaderboard_SetScores_m5_1689,
+	Leaderboard_SetTitle_m5_1690,
+	Leaderboard_GetUserFilter_m5_1691,
+	Leaderboard_get_id_m5_1692,
+	Leaderboard_set_id_m5_1693,
+	Leaderboard_get_userScope_m5_1694,
+	Leaderboard_set_userScope_m5_1695,
+	Leaderboard_get_range_m5_1696,
+	Leaderboard_set_range_m5_1697,
+	Leaderboard_get_timeScope_m5_1698,
+	Leaderboard_set_timeScope_m5_1699,
+	HitInfo_SendMessage_m5_1700,
+	HitInfo_Compare_m5_1701,
+	HitInfo_op_Implicit_m5_1702,
+	SendMouseEvents__cctor_m5_1703,
+	SendMouseEvents_SetMouseMoved_m5_1704,
+	SendMouseEvents_DoSendMouseEvents_m5_1705,
+	SendMouseEvents_SendEvents_m5_1706,
+	Range__ctor_m5_1707,
+	PropertyAttribute__ctor_m5_1708,
+	TooltipAttribute__ctor_m5_1709,
+	SpaceAttribute__ctor_m5_1710,
+	SpaceAttribute__ctor_m5_1711,
+	RangeAttribute__ctor_m5_1712,
+	TextAreaAttribute__ctor_m5_1713,
+	SelectionBaseAttribute__ctor_m5_1714,
+	SliderState__ctor_m5_1715,
+	SliderHandler__ctor_m5_1716,
+	SliderHandler_Handle_m5_1717,
+	SliderHandler_OnMouseDown_m5_1718,
+	SliderHandler_OnMouseDrag_m5_1719,
+	SliderHandler_OnMouseUp_m5_1720,
+	SliderHandler_OnRepaint_m5_1721,
+	SliderHandler_CurrentEventType_m5_1722,
+	SliderHandler_CurrentScrollTroughSide_m5_1723,
+	SliderHandler_IsEmptySlider_m5_1724,
+	SliderHandler_SupportsPageMovements_m5_1725,
+	SliderHandler_PageMovementValue_m5_1726,
+	SliderHandler_PageUpMovementBound_m5_1727,
+	SliderHandler_CurrentEvent_m5_1728,
+	SliderHandler_ValueForCurrentMousePosition_m5_1729,
+	SliderHandler_Clamp_m5_1730,
+	SliderHandler_ThumbSelectionRect_m5_1731,
+	SliderHandler_StartDraggingWithValue_m5_1732,
+	SliderHandler_SliderState_m5_1733,
+	SliderHandler_ThumbRect_m5_1734,
+	SliderHandler_VerticalThumbRect_m5_1735,
+	SliderHandler_HorizontalThumbRect_m5_1736,
+	SliderHandler_ClampedCurrentValue_m5_1737,
+	SliderHandler_MousePosition_m5_1738,
+	SliderHandler_ValuesPerPixel_m5_1739,
+	SliderHandler_ThumbSize_m5_1740,
+	SliderHandler_MaxValue_m5_1741,
+	SliderHandler_MinValue_m5_1742,
+	StackTraceUtility__ctor_m5_1743,
+	StackTraceUtility__cctor_m5_1744,
+	StackTraceUtility_SetProjectFolder_m5_1745,
+	StackTraceUtility_ExtractStackTrace_m5_1746,
+	StackTraceUtility_IsSystemStacktraceType_m5_1747,
+	StackTraceUtility_ExtractStringFromException_m5_1748,
+	StackTraceUtility_ExtractStringFromExceptionInternal_m5_1749,
+	StackTraceUtility_PostprocessStacktrace_m5_1750,
+	StackTraceUtility_ExtractFormattedStackTrace_m5_1751,
+	UnityException__ctor_m5_1752,
+	UnityException__ctor_m5_1753,
+	UnityException__ctor_m5_1754,
+	UnityException__ctor_m5_1755,
+	SharedBetweenAnimatorsAttribute__ctor_m5_1756,
+	StateMachineBehaviour__ctor_m5_1757,
+	SystemClock__cctor_m5_1758,
+	SystemClock_get_now_m5_1759,
+	TextEditor__ctor_m5_1760,
+	TextGenerationSettings_CompareColors_m5_1761,
+	TextGenerationSettings_CompareVector2_m5_1762,
+	TextGenerationSettings_Equals_m5_1763,
+	TrackedReference_Equals_m5_1764,
+	TrackedReference_GetHashCode_m5_1765,
+	TrackedReference_op_Equality_m5_1766,
+	ArgumentCache__ctor_m5_1767,
+	ArgumentCache_get_unityObjectArgument_m5_1768,
+	ArgumentCache_get_unityObjectArgumentAssemblyTypeName_m5_1769,
+	ArgumentCache_get_intArgument_m5_1770,
+	ArgumentCache_get_floatArgument_m5_1771,
+	ArgumentCache_get_stringArgument_m5_1772,
+	ArgumentCache_get_boolArgument_m5_1773,
+	ArgumentCache_TidyAssemblyTypeName_m5_1774,
+	ArgumentCache_OnBeforeSerialize_m5_1775,
+	ArgumentCache_OnAfterDeserialize_m5_1776,
+	BaseInvokableCall__ctor_m5_1777,
+	BaseInvokableCall__ctor_m5_1778,
+	BaseInvokableCall_AllowInvoke_m5_1779,
+	InvokableCall__ctor_m5_1780,
+	InvokableCall__ctor_m5_1781,
+	InvokableCall_Invoke_m5_1782,
+	InvokableCall_Find_m5_1783,
+	PersistentCall__ctor_m5_1784,
+	PersistentCall_get_target_m5_1785,
+	PersistentCall_get_methodName_m5_1786,
+	PersistentCall_get_mode_m5_1787,
+	PersistentCall_get_arguments_m5_1788,
+	PersistentCall_IsValid_m5_1789,
+	PersistentCall_GetRuntimeCall_m5_1790,
+	PersistentCall_GetObjectCall_m5_1791,
+	PersistentCallGroup__ctor_m5_1792,
+	PersistentCallGroup_Initialize_m5_1793,
+	InvokableCallList__ctor_m5_1794,
+	InvokableCallList_AddPersistentInvokableCall_m5_1795,
+	InvokableCallList_AddListener_m5_1796,
+	InvokableCallList_RemoveListener_m5_1797,
+	InvokableCallList_ClearPersistent_m5_1798,
+	InvokableCallList_Invoke_m5_1799,
+	UnityEventBase__ctor_m5_1800,
+	UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize_m5_1801,
+	UnityEventBase_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_m5_1802,
+	UnityEventBase_FindMethod_m5_1803,
+	UnityEventBase_FindMethod_m5_1804,
+	UnityEventBase_DirtyPersistentCalls_m5_1805,
+	UnityEventBase_RebuildPersistentCallsIfNeeded_m5_1806,
+	UnityEventBase_AddCall_m5_1807,
+	UnityEventBase_RemoveListener_m5_1808,
+	UnityEventBase_Invoke_m5_1809,
+	UnityEventBase_ToString_m5_1810,
+	UnityEventBase_GetValidMethodInfo_m5_1811,
+	UnityEvent__ctor_m5_1812,
+	UnityEvent_AddListener_m5_1813,
+	UnityEvent_FindMethod_Impl_m5_1814,
+	UnityEvent_GetDelegate_m5_1815,
+	UnityEvent_GetDelegate_m5_1816,
+	UnityEvent_Invoke_m5_1817,
+	DefaultValueAttribute__ctor_m5_1818,
+	DefaultValueAttribute_get_Value_m5_1819,
+	DefaultValueAttribute_Equals_m5_1820,
+	DefaultValueAttribute_GetHashCode_m5_1821,
+	ExcludeFromDocsAttribute__ctor_m5_1822,
+	FormerlySerializedAsAttribute__ctor_m5_1823,
+	TypeInferenceRuleAttribute__ctor_m5_1824,
+	TypeInferenceRuleAttribute__ctor_m5_1825,
+	TypeInferenceRuleAttribute_ToString_m5_1826,
+	GenericStack__ctor_m5_1827,
+	NetFxCoreExtensions_CreateDelegate_m5_1828,
+	NetFxCoreExtensions_GetMethodInfo_m5_1829,
+	UnityAdsDelegate__ctor_m5_1830,
+	UnityAdsDelegate_Invoke_m5_1831,
+	UnityAdsDelegate_BeginInvoke_m5_1832,
+	UnityAdsDelegate_EndInvoke_m5_1833,
+	UnityAction__ctor_m5_1834,
+	UnityAction_Invoke_m5_1835,
+	UnityAction_BeginInvoke_m5_1836,
+	UnityAction_EndInvoke_m5_1837,
 	FactorySetter__ctor_m6_0,
 	EyewearCalibrationProfileManager__ctor_m6_1,
 	EyewearCalibrationProfileManagerImpl_getMaxCount_m6_2,
@@ -38302,267 +38343,282 @@ extern const methodPointerType g_MethodPointers[19276] =
 	CanTable_NextStageWorker_m8_26,
 	CanTable_Put_m8_27,
 	CanTable_Explode_m8_28,
-	AboutScreenView__ctor_m8_29,
-	AboutScreenView_get_DeviceDependentScale_m8_30,
-	AboutScreenView_SetTitle_m8_31,
-	AboutScreenView_LoadView_m8_32,
-	AboutScreenView_UpdateUI_m8_33,
-	AboutScreenView_UnLoadView_m8_34,
-	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1__ctor_m8_35,
-	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_36,
-	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m8_37,
-	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_MoveNext_m8_38,
-	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Dispose_m8_39,
-	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Reset_m8_40,
-	AppManager__ctor_m8_41,
-	AppManager_InitManager_m8_42,
-	AppManager_DeInitManager_m8_43,
-	AppManager_UpdateManager_m8_44,
-	AppManager_Draw_m8_45,
-	AppManager_OnSingleTapped_m8_46,
-	AppManager_OnDoubleTapped_m8_47,
-	AppManager_OnTappedOnGoToAboutPage_m8_48,
-	AppManager_OnBackButtonTapped_m8_49,
-	AppManager_OnTappedOnCloseButton_m8_50,
-	AppManager_OnAboutStartButtonTapped_m8_51,
-	AppManager_LoadAboutPageForFirstTime_m8_52,
-	ISampleAppUIElement__ctor_m8_53,
-	ISampleAppUIElement_Draw_m8_54,
-	ISampleAppUIElement_get_font_m8_55,
-	ISampleAppUIElement_get_Height_m8_56,
-	ISampleAppUIElement_set_Height_m8_57,
-	ISampleAppUIElement_get_Width_m8_58,
-	ISampleAppUIElement_set_Width_m8_59,
-	ISampleAppUIEventHandler__ctor_m8_60,
-	InputController__ctor_m8_61,
-	InputController__cctor_m8_62,
-	InputController_UpdateInput_m8_63,
-	SampleAppUIBox__ctor_m8_64,
-	SampleAppUIBox_Draw_m8_65,
-	SampleAppUIButton__ctor_m8_66,
+	CanTable_GameReset_m8_29,
+	AboutScreenView__ctor_m8_30,
+	AboutScreenView_get_DeviceDependentScale_m8_31,
+	AboutScreenView_SetTitle_m8_32,
+	AboutScreenView_LoadView_m8_33,
+	AboutScreenView_UpdateUI_m8_34,
+	AboutScreenView_UnLoadView_m8_35,
+	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1__ctor_m8_36,
+	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_37,
+	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_System_Collections_IEnumerator_get_Current_m8_38,
+	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_MoveNext_m8_39,
+	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Dispose_m8_40,
+	U3CLoadAboutPageForFirstTimeU3Ec__Iterator1_Reset_m8_41,
+	AppManager__ctor_m8_42,
+	AppManager_InitManager_m8_43,
+	AppManager_DeInitManager_m8_44,
+	AppManager_UpdateManager_m8_45,
+	AppManager_Draw_m8_46,
+	AppManager_OnSingleTapped_m8_47,
+	AppManager_OnDoubleTapped_m8_48,
+	AppManager_OnTappedOnGoToAboutPage_m8_49,
+	AppManager_OnBackButtonTapped_m8_50,
+	AppManager_OnTappedOnCloseButton_m8_51,
+	AppManager_OnAboutStartButtonTapped_m8_52,
+	AppManager_LoadAboutPageForFirstTime_m8_53,
+	ISampleAppUIElement__ctor_m8_54,
+	ISampleAppUIElement_Draw_m8_55,
+	ISampleAppUIElement_get_font_m8_56,
+	ISampleAppUIElement_get_Height_m8_57,
+	ISampleAppUIElement_set_Height_m8_58,
+	ISampleAppUIElement_get_Width_m8_59,
+	ISampleAppUIElement_set_Width_m8_60,
+	ISampleAppUIEventHandler__ctor_m8_61,
+	InputController__ctor_m8_62,
+	InputController__cctor_m8_63,
+	InputController_UpdateInput_m8_64,
+	SampleAppUIBox__ctor_m8_65,
+	SampleAppUIBox_Draw_m8_66,
 	SampleAppUIButton__ctor_m8_67,
-	SampleAppUIButton_add_TappedOn_m8_68,
-	SampleAppUIButton_remove_TappedOn_m8_69,
-	SampleAppUIButton_Draw_m8_70,
-	SampleAppUICheckButton__ctor_m8_71,
-	SampleAppUICheckButton_add_TappedOn_m8_72,
-	SampleAppUICheckButton_remove_TappedOn_m8_73,
-	SampleAppUICheckButton_get_Title_m8_74,
-	SampleAppUICheckButton_set_Title_m8_75,
-	SampleAppUICheckButton_get_Width_m8_76,
-	SampleAppUICheckButton_get_Height_m8_77,
-	SampleAppUICheckButton_Enable_m8_78,
-	SampleAppUICheckButton_get_IsEnabled_m8_79,
-	SampleAppUICheckButton_Draw_m8_80,
-	SampleAppUIConstants__ctor_m8_81,
-	SampleAppUIConstants__cctor_m8_82,
-	SampleAppUILabel__ctor_m8_83,
-	SampleAppUILabel_Draw_m8_84,
-	SampleAppUILabel_get_Width_m8_85,
-	SampleAppUILabel_get_Height_m8_86,
-	SampleAppsUILayout__ctor_m8_87,
-	SampleAppsUILayout_get_StyleFont_m8_88,
-	SampleAppsUILayout_Draw_m8_89,
-	SampleAppsUILayout_AddLabel_m8_90,
-	SampleAppsUILayout_AddGroupLabel_m8_91,
-	SampleAppsUILayout_AddSimpleButton_m8_92,
-	SampleAppsUILayout_AddSlider_m8_93,
-	SampleAppsUILayout_AddSlider_Type2_m8_94,
-	SampleAppsUILayout_AddToggleOptions_m8_95,
-	SampleAppsUILayout_AddButton_m8_96,
+	SampleAppUIButton__ctor_m8_68,
+	SampleAppUIButton_add_TappedOn_m8_69,
+	SampleAppUIButton_remove_TappedOn_m8_70,
+	SampleAppUIButton_Draw_m8_71,
+	SampleAppUICheckButton__ctor_m8_72,
+	SampleAppUICheckButton_add_TappedOn_m8_73,
+	SampleAppUICheckButton_remove_TappedOn_m8_74,
+	SampleAppUICheckButton_get_Title_m8_75,
+	SampleAppUICheckButton_set_Title_m8_76,
+	SampleAppUICheckButton_get_Width_m8_77,
+	SampleAppUICheckButton_get_Height_m8_78,
+	SampleAppUICheckButton_Enable_m8_79,
+	SampleAppUICheckButton_get_IsEnabled_m8_80,
+	SampleAppUICheckButton_Draw_m8_81,
+	SampleAppUIConstants__ctor_m8_82,
+	SampleAppUIConstants__cctor_m8_83,
+	SampleAppUILabel__ctor_m8_84,
+	SampleAppUILabel_Draw_m8_85,
+	SampleAppUILabel_get_Width_m8_86,
+	SampleAppUILabel_get_Height_m8_87,
+	SampleAppsUILayout__ctor_m8_88,
+	SampleAppsUILayout_get_StyleFont_m8_89,
+	SampleAppsUILayout_Draw_m8_90,
+	SampleAppsUILayout_AddLabel_m8_91,
+	SampleAppsUILayout_AddGroupLabel_m8_92,
+	SampleAppsUILayout_AddSimpleButton_m8_93,
+	SampleAppsUILayout_AddSlider_m8_94,
+	SampleAppsUILayout_AddSlider_Type2_m8_95,
+	SampleAppsUILayout_AddToggleOptions_m8_96,
 	SampleAppsUILayout_AddButton_m8_97,
-	SampleAppsUILayout_AddGap_m8_98,
-	SampleAppUIRadioButton__ctor_m8_99,
-	SampleAppUIRadioButton_add_TappedOnOption_m8_100,
-	SampleAppUIRadioButton_remove_TappedOnOption_m8_101,
-	SampleAppUIRadioButton_get_Width_m8_102,
-	SampleAppUIRadioButton_get_Height_m8_103,
-	SampleAppUIRadioButton_EnableIndex_m8_104,
-	SampleAppUIRadioButton_SetToTrue_m8_105,
-	SampleAppUIRadioButton_Draw_m8_106,
-	SampleAppUIRect__ctor_m8_107,
-	SampleAppUIRect_get_rect_m8_108,
-	SampleInitErrorHandler__ctor_m8_109,
-	SampleInitErrorHandler_InitPopUp_m8_110,
-	SampleInitErrorHandler_Draw_m8_111,
-	SampleInitErrorHandler_DrawPopUp_m8_112,
-	SampleInitErrorHandler_SetErrorCode_m8_113,
-	SceneViewManager__ctor_m8_114,
-	SceneViewManager_Awake_m8_115,
-	SceneViewManager_Start_m8_116,
-	SceneViewManager_Update_m8_117,
-	SceneViewManager_OnDestroy_m8_118,
-	SceneViewManager_OnGUI_m8_119,
-	SceneViewManager_OnVuforiaInitializationError_m8_120,
-	SplashScreenView__ctor_m8_121,
-	SplashScreenView_LoadView_m8_122,
-	SplashScreenView_UnLoadView_m8_123,
-	SplashScreenView_UpdateUI_m8_124,
-	SplashScreenView_PickImageWithBestAspect_m8_125,
-	ExplosiveCan__ctor_m8_126,
-	ExplosiveCan_Start_m8_127,
-	ExplosiveCan_OnCollisionEnter_m8_128,
-	ExplosiveCan_Update_m8_129,
-	GameManager__ctor_m8_130,
-	GameManager_Start_m8_131,
-	GameManager_Update_m8_132,
-	GameManager_UpdateDisplay_m8_133,
-	GameManager_AddScore_m8_134,
-	GameManager_RequestAmmo_m8_135,
-	ScoreNotificator__ctor_m8_136,
-	ScoreNotificator_Start_m8_137,
-	ScoreNotificator_Update_m8_138,
-	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2__ctor_m8_139,
-	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_140,
-	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m8_141,
-	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_MoveNext_m8_142,
-	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_Dispose_m8_143,
-	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator2_Reset_m8_144,
-	MultiTargetUIEventHandler__ctor_m8_145,
-	MultiTargetUIEventHandler_add_CloseView_m8_146,
-	MultiTargetUIEventHandler_remove_CloseView_m8_147,
-	MultiTargetUIEventHandler_add_GoToAboutPage_m8_148,
-	MultiTargetUIEventHandler_remove_GoToAboutPage_m8_149,
-	MultiTargetUIEventHandler_get_View_m8_150,
-	MultiTargetUIEventHandler_get_ExtendedTrackingIsEnabled_m8_151,
-	MultiTargetUIEventHandler_UpdateView_m8_152,
-	MultiTargetUIEventHandler_Bind_m8_153,
-	MultiTargetUIEventHandler_UnBind_m8_154,
-	MultiTargetUIEventHandler_TriggerAutoFocus_m8_155,
-	MultiTargetUIEventHandler_TriggerAutoFocusAndEnableContinuousFocusIfSet_m8_156,
-	MultiTargetUIEventHandler_OnPause_m8_157,
-	MultiTargetUIEventHandler_OnTappedOnAboutButton_m8_158,
-	MultiTargetUIEventHandler_EnableContinuousAutoFocus_m8_159,
-	MultiTargetUIEventHandler_stopRunningObjectTracker_m8_160,
-	MultiTargetUIEventHandler_restartRunningObjectTracker_m8_161,
-	MultiTargetUIEventHandler_ResetCameraFacingToBack_m8_162,
-	MultiTargetUIEventHandler_ChangeCameraDirection_m8_163,
-	MultiTargetUIEventHandler_OnTappedToClose_m8_164,
-	MultiTargetUIEventHandler_OnTappedOnCloseButton_m8_165,
-	MultiTargetUIEventHandler_ExtendedTracking_m8_166,
-	MultiTargetUIView__ctor_m8_167,
-	MultiTargetUIView_add_TappedToClose_m8_168,
-	MultiTargetUIView_remove_TappedToClose_m8_169,
-	MultiTargetUIView_get_FocusMode_m8_170,
-	MultiTargetUIView_set_FocusMode_m8_171,
-	MultiTargetUIView_LoadView_m8_172,
-	MultiTargetUIView_UnLoadView_m8_173,
-	MultiTargetUIView_UpdateUI_m8_174,
-	MultiTargetUIView_OnTappedToClose_m8_175,
-	RotateAround__ctor_m8_176,
-	RotateAround_Update_m8_177,
-	aDefaultTrackableEventHandler__ctor_m8_178,
-	aDefaultTrackableEventHandler_Start_m8_179,
-	aDefaultTrackableEventHandler_OnTrackableStateChanged_m8_180,
-	aDefaultTrackableEventHandler_OnTrackingFound_m8_181,
-	aDefaultTrackableEventHandler_OnTrackingLost_m8_182,
-	BackgroundPlaneBehaviour__ctor_m8_183,
-	CloudRecoBehaviour__ctor_m8_184,
-	CylinderTargetBehaviour__ctor_m8_185,
-	DatabaseLoadBehaviour__ctor_m8_186,
-	DatabaseLoadBehaviour_AddOSSpecificExternalDatasetSearchDirs_m8_187,
-	DefaultInitializationErrorHandler__ctor_m8_188,
-	DefaultInitializationErrorHandler_Awake_m8_189,
-	DefaultInitializationErrorHandler_OnGUI_m8_190,
-	DefaultInitializationErrorHandler_OnDestroy_m8_191,
-	DefaultInitializationErrorHandler_DrawWindowContent_m8_192,
-	DefaultInitializationErrorHandler_SetErrorCode_m8_193,
-	DefaultInitializationErrorHandler_SetErrorOccurred_m8_194,
-	DefaultInitializationErrorHandler_OnVuforiaInitializationError_m8_195,
-	DefaultSmartTerrainEventHandler__ctor_m8_196,
-	DefaultSmartTerrainEventHandler_Start_m8_197,
-	DefaultSmartTerrainEventHandler_OnDestroy_m8_198,
-	DefaultSmartTerrainEventHandler_OnPropCreated_m8_199,
-	DefaultSmartTerrainEventHandler_OnSurfaceCreated_m8_200,
-	DefaultTrackableEventHandler__ctor_m8_201,
-	DefaultTrackableEventHandler_Start_m8_202,
-	DefaultTrackableEventHandler_OnTrackableStateChanged_m8_203,
-	DefaultTrackableEventHandler_OnTrackingFound_m8_204,
-	DefaultTrackableEventHandler_OnTrackingLost_m8_205,
-	GLErrorHandler__ctor_m8_206,
-	GLErrorHandler__cctor_m8_207,
-	GLErrorHandler_SetError_m8_208,
-	GLErrorHandler_OnGUI_m8_209,
-	GLErrorHandler_DrawWindowContent_m8_210,
-	HideExcessAreaBehaviour__ctor_m8_211,
-	ImageTargetBehaviour__ctor_m8_212,
-	AndroidUnityPlayer__ctor_m8_213,
-	AndroidUnityPlayer_LoadNativeLibraries_m8_214,
-	AndroidUnityPlayer_InitializePlatform_m8_215,
-	AndroidUnityPlayer_Start_m8_216,
-	AndroidUnityPlayer_Update_m8_217,
-	AndroidUnityPlayer_OnPause_m8_218,
-	AndroidUnityPlayer_OnResume_m8_219,
-	AndroidUnityPlayer_OnDestroy_m8_220,
-	AndroidUnityPlayer_Dispose_m8_221,
-	AndroidUnityPlayer_LoadNativeLibrariesFromJava_m8_222,
-	AndroidUnityPlayer_InitAndroidPlatform_m8_223,
-	AndroidUnityPlayer_InitVuforia_m8_224,
-	AndroidUnityPlayer_InitializeSurface_m8_225,
-	AndroidUnityPlayer_ResetUnityScreenOrientation_m8_226,
-	AndroidUnityPlayer_CheckOrientation_m8_227,
-	ComponentFactoryStarterBehaviour__ctor_m8_228,
-	ComponentFactoryStarterBehaviour_Awake_m8_229,
-	ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m8_230,
-	IOSUnityPlayer__ctor_m8_231,
-	IOSUnityPlayer_LoadNativeLibraries_m8_232,
-	IOSUnityPlayer_InitializePlatform_m8_233,
-	IOSUnityPlayer_Start_m8_234,
-	IOSUnityPlayer_Update_m8_235,
-	IOSUnityPlayer_Dispose_m8_236,
-	IOSUnityPlayer_OnPause_m8_237,
-	IOSUnityPlayer_OnResume_m8_238,
-	IOSUnityPlayer_OnDestroy_m8_239,
-	IOSUnityPlayer_InitializeSurface_m8_240,
-	IOSUnityPlayer_SetUnityScreenOrientation_m8_241,
-	IOSUnityPlayer_setPlatFormNative_m8_242,
-	IOSUnityPlayer_initQCARiOS_m8_243,
-	IOSUnityPlayer_setSurfaceOrientationiOS_m8_244,
-	VuforiaBehaviourComponentFactory__ctor_m8_245,
-	VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m8_246,
-	VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m8_247,
-	VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m8_248,
-	VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m8_249,
-	VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m8_250,
-	VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m8_251,
-	VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m8_252,
-	VuforiaBehaviourComponentFactory_AddWordBehaviour_m8_253,
-	VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m8_254,
-	VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m8_255,
-	KeepAliveBehaviour__ctor_m8_256,
-	MarkerBehaviour__ctor_m8_257,
-	MaskOutBehaviour__ctor_m8_258,
-	MaskOutBehaviour_Start_m8_259,
-	MultiTargetBehaviour__ctor_m8_260,
-	ObjectTargetBehaviour__ctor_m8_261,
-	PropBehaviour__ctor_m8_262,
-	ReconstructionBehaviour__ctor_m8_263,
-	ReconstructionFromTargetBehaviour__ctor_m8_264,
-	SmartTerrainTrackerBehaviour__ctor_m8_265,
-	SurfaceBehaviour__ctor_m8_266,
-	TextRecoBehaviour__ctor_m8_267,
-	TurnOffBehaviour__ctor_m8_268,
-	TurnOffBehaviour_Awake_m8_269,
-	TurnOffWordBehaviour__ctor_m8_270,
-	TurnOffWordBehaviour_Awake_m8_271,
-	UserDefinedTargetBuildingBehaviour__ctor_m8_272,
-	VideoBackgroundBehaviour__ctor_m8_273,
-	VideoTextureRenderer__ctor_m8_274,
-	VirtualButtonBehaviour__ctor_m8_275,
-	VuforiaBehaviour__ctor_m8_276,
-	VuforiaBehaviour__cctor_m8_277,
-	VuforiaBehaviour_Awake_m8_278,
-	VuforiaBehaviour_get_Instance_m8_279,
-	WebCamBehaviour__ctor_m8_280,
-	WireframeBehaviour__ctor_m8_281,
-	WireframeBehaviour_CreateLineMaterial_m8_282,
-	WireframeBehaviour_OnRenderObject_m8_283,
-	WireframeBehaviour_OnDrawGizmos_m8_284,
-	WireframeTrackableEventHandler__ctor_m8_285,
-	WireframeTrackableEventHandler_Start_m8_286,
-	WireframeTrackableEventHandler_OnTrackableStateChanged_m8_287,
-	WireframeTrackableEventHandler_OnTrackingFound_m8_288,
-	WireframeTrackableEventHandler_OnTrackingLost_m8_289,
-	WordBehaviour__ctor_m8_290,
-	U3CPrivateImplementationDetailsU3E__ctor_m8_291,
+	SampleAppsUILayout_AddButton_m8_98,
+	SampleAppsUILayout_AddGap_m8_99,
+	SampleAppUIRadioButton__ctor_m8_100,
+	SampleAppUIRadioButton_add_TappedOnOption_m8_101,
+	SampleAppUIRadioButton_remove_TappedOnOption_m8_102,
+	SampleAppUIRadioButton_get_Width_m8_103,
+	SampleAppUIRadioButton_get_Height_m8_104,
+	SampleAppUIRadioButton_EnableIndex_m8_105,
+	SampleAppUIRadioButton_SetToTrue_m8_106,
+	SampleAppUIRadioButton_Draw_m8_107,
+	SampleAppUIRect__ctor_m8_108,
+	SampleAppUIRect_get_rect_m8_109,
+	SampleInitErrorHandler__ctor_m8_110,
+	SampleInitErrorHandler_InitPopUp_m8_111,
+	SampleInitErrorHandler_Draw_m8_112,
+	SampleInitErrorHandler_DrawPopUp_m8_113,
+	SampleInitErrorHandler_SetErrorCode_m8_114,
+	SceneViewManager__ctor_m8_115,
+	SceneViewManager_Awake_m8_116,
+	SceneViewManager_Start_m8_117,
+	SceneViewManager_Update_m8_118,
+	SceneViewManager_OnDestroy_m8_119,
+	SceneViewManager_OnGUI_m8_120,
+	SceneViewManager_OnVuforiaInitializationError_m8_121,
+	SplashScreenView__ctor_m8_122,
+	SplashScreenView_LoadView_m8_123,
+	SplashScreenView_UnLoadView_m8_124,
+	SplashScreenView_UpdateUI_m8_125,
+	SplashScreenView_PickImageWithBestAspect_m8_126,
+	ExplosiveCan__ctor_m8_127,
+	ExplosiveCan_Start_m8_128,
+	ExplosiveCan_OnCollisionEnter_m8_129,
+	ExplosiveCan_Update_m8_130,
+	U3CGetScoreBoardU3Ec__Iterator2__ctor_m8_131,
+	U3CGetScoreBoardU3Ec__Iterator2_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_132,
+	U3CGetScoreBoardU3Ec__Iterator2_System_Collections_IEnumerator_get_Current_m8_133,
+	U3CGetScoreBoardU3Ec__Iterator2_MoveNext_m8_134,
+	U3CGetScoreBoardU3Ec__Iterator2_Dispose_m8_135,
+	U3CGetScoreBoardU3Ec__Iterator2_Reset_m8_136,
+	GameManager__ctor_m8_137,
+	GameManager_Start_m8_138,
+	GameManager_Update_m8_139,
+	GameManager_UpdateDisplay_m8_140,
+	GameManager_AddScore_m8_141,
+	GameManager_RequestAmmo_m8_142,
+	GameManager_ResetGame_m8_143,
+	GameManager_ShowScoreBoard_m8_144,
+	GameManager_GetScoreBoard_m8_145,
+	GameManager_U3CStartU3Em__0_m8_146,
+	ScoreNotificator__ctor_m8_147,
+	ScoreNotificator_Start_m8_148,
+	ScoreNotificator_Update_m8_149,
+	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3__ctor_m8_150,
+	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_System_Collections_Generic_IEnumeratorU3CobjectU3E_get_Current_m8_151,
+	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_System_Collections_IEnumerator_get_Current_m8_152,
+	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_MoveNext_m8_153,
+	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_Dispose_m8_154,
+	U3CTriggerAutoFocusAndEnableContinuousFocusIfSetU3Ec__Iterator3_Reset_m8_155,
+	MultiTargetUIEventHandler__ctor_m8_156,
+	MultiTargetUIEventHandler_add_CloseView_m8_157,
+	MultiTargetUIEventHandler_remove_CloseView_m8_158,
+	MultiTargetUIEventHandler_add_GoToAboutPage_m8_159,
+	MultiTargetUIEventHandler_remove_GoToAboutPage_m8_160,
+	MultiTargetUIEventHandler_get_View_m8_161,
+	MultiTargetUIEventHandler_get_ExtendedTrackingIsEnabled_m8_162,
+	MultiTargetUIEventHandler_UpdateView_m8_163,
+	MultiTargetUIEventHandler_Bind_m8_164,
+	MultiTargetUIEventHandler_UnBind_m8_165,
+	MultiTargetUIEventHandler_TriggerAutoFocus_m8_166,
+	MultiTargetUIEventHandler_TriggerAutoFocusAndEnableContinuousFocusIfSet_m8_167,
+	MultiTargetUIEventHandler_OnPause_m8_168,
+	MultiTargetUIEventHandler_OnTappedOnAboutButton_m8_169,
+	MultiTargetUIEventHandler_EnableContinuousAutoFocus_m8_170,
+	MultiTargetUIEventHandler_stopRunningObjectTracker_m8_171,
+	MultiTargetUIEventHandler_restartRunningObjectTracker_m8_172,
+	MultiTargetUIEventHandler_ResetCameraFacingToBack_m8_173,
+	MultiTargetUIEventHandler_ChangeCameraDirection_m8_174,
+	MultiTargetUIEventHandler_OnTappedToClose_m8_175,
+	MultiTargetUIEventHandler_OnTappedOnCloseButton_m8_176,
+	MultiTargetUIEventHandler_ExtendedTracking_m8_177,
+	MultiTargetUIView__ctor_m8_178,
+	MultiTargetUIView_add_TappedToClose_m8_179,
+	MultiTargetUIView_remove_TappedToClose_m8_180,
+	MultiTargetUIView_get_FocusMode_m8_181,
+	MultiTargetUIView_set_FocusMode_m8_182,
+	MultiTargetUIView_LoadView_m8_183,
+	MultiTargetUIView_UnLoadView_m8_184,
+	MultiTargetUIView_UpdateUI_m8_185,
+	MultiTargetUIView_OnTappedToClose_m8_186,
+	RotateAround__ctor_m8_187,
+	RotateAround_Update_m8_188,
+	TestButton__ctor_m8_189,
+	TestButton_Start_m8_190,
+	TestButton_Update_m8_191,
+	TestButton_ClickTest_m8_192,
+	aDefaultTrackableEventHandler__ctor_m8_193,
+	aDefaultTrackableEventHandler_Start_m8_194,
+	aDefaultTrackableEventHandler_OnTrackableStateChanged_m8_195,
+	aDefaultTrackableEventHandler_OnTrackingFound_m8_196,
+	aDefaultTrackableEventHandler_OnTrackingLost_m8_197,
+	BackgroundPlaneBehaviour__ctor_m8_198,
+	CloudRecoBehaviour__ctor_m8_199,
+	CylinderTargetBehaviour__ctor_m8_200,
+	DatabaseLoadBehaviour__ctor_m8_201,
+	DatabaseLoadBehaviour_AddOSSpecificExternalDatasetSearchDirs_m8_202,
+	DefaultInitializationErrorHandler__ctor_m8_203,
+	DefaultInitializationErrorHandler_Awake_m8_204,
+	DefaultInitializationErrorHandler_OnGUI_m8_205,
+	DefaultInitializationErrorHandler_OnDestroy_m8_206,
+	DefaultInitializationErrorHandler_DrawWindowContent_m8_207,
+	DefaultInitializationErrorHandler_SetErrorCode_m8_208,
+	DefaultInitializationErrorHandler_SetErrorOccurred_m8_209,
+	DefaultInitializationErrorHandler_OnVuforiaInitializationError_m8_210,
+	DefaultSmartTerrainEventHandler__ctor_m8_211,
+	DefaultSmartTerrainEventHandler_Start_m8_212,
+	DefaultSmartTerrainEventHandler_OnDestroy_m8_213,
+	DefaultSmartTerrainEventHandler_OnPropCreated_m8_214,
+	DefaultSmartTerrainEventHandler_OnSurfaceCreated_m8_215,
+	DefaultTrackableEventHandler__ctor_m8_216,
+	DefaultTrackableEventHandler_Start_m8_217,
+	DefaultTrackableEventHandler_OnTrackableStateChanged_m8_218,
+	DefaultTrackableEventHandler_OnTrackingFound_m8_219,
+	DefaultTrackableEventHandler_OnTrackingLost_m8_220,
+	GLErrorHandler__ctor_m8_221,
+	GLErrorHandler__cctor_m8_222,
+	GLErrorHandler_SetError_m8_223,
+	GLErrorHandler_OnGUI_m8_224,
+	GLErrorHandler_DrawWindowContent_m8_225,
+	HideExcessAreaBehaviour__ctor_m8_226,
+	ImageTargetBehaviour__ctor_m8_227,
+	AndroidUnityPlayer__ctor_m8_228,
+	AndroidUnityPlayer_LoadNativeLibraries_m8_229,
+	AndroidUnityPlayer_InitializePlatform_m8_230,
+	AndroidUnityPlayer_Start_m8_231,
+	AndroidUnityPlayer_Update_m8_232,
+	AndroidUnityPlayer_OnPause_m8_233,
+	AndroidUnityPlayer_OnResume_m8_234,
+	AndroidUnityPlayer_OnDestroy_m8_235,
+	AndroidUnityPlayer_Dispose_m8_236,
+	AndroidUnityPlayer_LoadNativeLibrariesFromJava_m8_237,
+	AndroidUnityPlayer_InitAndroidPlatform_m8_238,
+	AndroidUnityPlayer_InitVuforia_m8_239,
+	AndroidUnityPlayer_InitializeSurface_m8_240,
+	AndroidUnityPlayer_ResetUnityScreenOrientation_m8_241,
+	AndroidUnityPlayer_CheckOrientation_m8_242,
+	ComponentFactoryStarterBehaviour__ctor_m8_243,
+	ComponentFactoryStarterBehaviour_Awake_m8_244,
+	ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m8_245,
+	IOSUnityPlayer__ctor_m8_246,
+	IOSUnityPlayer_LoadNativeLibraries_m8_247,
+	IOSUnityPlayer_InitializePlatform_m8_248,
+	IOSUnityPlayer_Start_m8_249,
+	IOSUnityPlayer_Update_m8_250,
+	IOSUnityPlayer_Dispose_m8_251,
+	IOSUnityPlayer_OnPause_m8_252,
+	IOSUnityPlayer_OnResume_m8_253,
+	IOSUnityPlayer_OnDestroy_m8_254,
+	IOSUnityPlayer_InitializeSurface_m8_255,
+	IOSUnityPlayer_SetUnityScreenOrientation_m8_256,
+	IOSUnityPlayer_setPlatFormNative_m8_257,
+	IOSUnityPlayer_initQCARiOS_m8_258,
+	IOSUnityPlayer_setSurfaceOrientationiOS_m8_259,
+	VuforiaBehaviourComponentFactory__ctor_m8_260,
+	VuforiaBehaviourComponentFactory_AddMaskOutBehaviour_m8_261,
+	VuforiaBehaviourComponentFactory_AddVirtualButtonBehaviour_m8_262,
+	VuforiaBehaviourComponentFactory_AddTurnOffBehaviour_m8_263,
+	VuforiaBehaviourComponentFactory_AddImageTargetBehaviour_m8_264,
+	VuforiaBehaviourComponentFactory_AddMarkerBehaviour_m8_265,
+	VuforiaBehaviourComponentFactory_AddMultiTargetBehaviour_m8_266,
+	VuforiaBehaviourComponentFactory_AddCylinderTargetBehaviour_m8_267,
+	VuforiaBehaviourComponentFactory_AddWordBehaviour_m8_268,
+	VuforiaBehaviourComponentFactory_AddTextRecoBehaviour_m8_269,
+	VuforiaBehaviourComponentFactory_AddObjectTargetBehaviour_m8_270,
+	KeepAliveBehaviour__ctor_m8_271,
+	MarkerBehaviour__ctor_m8_272,
+	MaskOutBehaviour__ctor_m8_273,
+	MaskOutBehaviour_Start_m8_274,
+	MultiTargetBehaviour__ctor_m8_275,
+	ObjectTargetBehaviour__ctor_m8_276,
+	PropBehaviour__ctor_m8_277,
+	ReconstructionBehaviour__ctor_m8_278,
+	ReconstructionFromTargetBehaviour__ctor_m8_279,
+	SmartTerrainTrackerBehaviour__ctor_m8_280,
+	SurfaceBehaviour__ctor_m8_281,
+	TextRecoBehaviour__ctor_m8_282,
+	TurnOffBehaviour__ctor_m8_283,
+	TurnOffBehaviour_Awake_m8_284,
+	TurnOffWordBehaviour__ctor_m8_285,
+	TurnOffWordBehaviour_Awake_m8_286,
+	UserDefinedTargetBuildingBehaviour__ctor_m8_287,
+	VideoBackgroundBehaviour__ctor_m8_288,
+	VideoTextureRenderer__ctor_m8_289,
+	VirtualButtonBehaviour__ctor_m8_290,
+	VuforiaBehaviour__ctor_m8_291,
+	VuforiaBehaviour__cctor_m8_292,
+	VuforiaBehaviour_Awake_m8_293,
+	VuforiaBehaviour_get_Instance_m8_294,
+	WebCamBehaviour__ctor_m8_295,
+	WireframeBehaviour__ctor_m8_296,
+	WireframeBehaviour_CreateLineMaterial_m8_297,
+	WireframeBehaviour_OnRenderObject_m8_298,
+	WireframeBehaviour_OnDrawGizmos_m8_299,
+	WireframeTrackableEventHandler__ctor_m8_300,
+	WireframeTrackableEventHandler_Start_m8_301,
+	WireframeTrackableEventHandler_OnTrackableStateChanged_m8_302,
+	WireframeTrackableEventHandler_OnTrackingFound_m8_303,
+	WireframeTrackableEventHandler_OnTrackingLost_m8_304,
+	WordBehaviour__ctor_m8_305,
+	U3CPrivateImplementationDetailsU3E__ctor_m8_306,
 };

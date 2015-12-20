@@ -15,11 +15,11 @@ struct TextAsset_t5_75;
 // System.Action
 struct Action_t4_11;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // System.String
 struct String_t;
 // UnityEngine.GUISkin
-struct GUISkin_t5_173;
+struct GUISkin_t5_174;
 // System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle>
 struct Dictionary_2_t1_1019;
 // SampleAppUIBox
@@ -36,13 +36,13 @@ struct  AboutScreenView_t8_6  : public Object_t
 	// System.Action AboutScreenView::OnStartButtonTapped
 	Action_t4_11 * ___OnStartButtonTapped_3;
 	// UnityEngine.GUIStyle AboutScreenView::mAboutTitleBgStyle
-	GUIStyle_t5_180 * ___mAboutTitleBgStyle_4;
+	GUIStyle_t5_181 * ___mAboutTitleBgStyle_4;
 	// UnityEngine.GUIStyle AboutScreenView::mOKButtonBgStyle
-	GUIStyle_t5_180 * ___mOKButtonBgStyle_5;
+	GUIStyle_t5_181 * ___mOKButtonBgStyle_5;
 	// System.String AboutScreenView::mTitle
 	String_t* ___mTitle_6;
 	// UnityEngine.GUISkin AboutScreenView::mUISkin
-	GUISkin_t5_173 * ___mUISkin_7;
+	GUISkin_t5_174 * ___mUISkin_7;
 	// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle> AboutScreenView::mButtonGUIStyles
 	Dictionary_2_t1_1019 * ___mButtonGUIStyles_8;
 	// UnityEngine.Vector2 AboutScreenView::mScrollPosition

@@ -15,7 +15,7 @@
 // System.Collections.Generic.SortedDictionary`2/NodeHelper<System.Object,System.Object>
 struct NodeHelper_t2_861;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t1_1420;
+struct IComparer_1_t1_1421;
 // System.Object
 struct Object_t;
 // System.Collections.Generic.RBTree/Node

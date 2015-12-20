@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Advertisements.UnityAdsDelegate
-struct  UnityAdsDelegate_t5_105  : public MulticastDelegate_t1_21
+struct  UnityAdsDelegate_t5_106  : public MulticastDelegate_t1_21
 {
 };

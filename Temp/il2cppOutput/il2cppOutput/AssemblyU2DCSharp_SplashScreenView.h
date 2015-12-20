@@ -13,9 +13,9 @@
 // UnityEngine.Texture2D
 struct Texture2D_t5_41;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // UnityEngine.Texture2D[]
-struct Texture2DU5BU5D_t5_324;
+struct Texture2DU5BU5D_t5_325;
 
 #include "mscorlib_System_Object.h"
 
@@ -27,7 +27,7 @@ struct  SplashScreenView_t8_12  : public Object_t
 	// UnityEngine.Texture2D SplashScreenView::mWindowsPlayModeTexture
 	Texture2D_t5_41 * ___mWindowsPlayModeTexture_1;
 	// UnityEngine.GUIStyle SplashScreenView::m_SplashStyle
-	GUIStyle_t5_180 * ___m_SplashStyle_2;
+	GUIStyle_t5_181 * ___m_SplashStyle_2;
 	// UnityEngine.Texture2D[] SplashScreenView::iPhoneImages
-	Texture2DU5BU5D_t5_324* ___iPhoneImages_3;
+	Texture2DU5BU5D_t5_325* ___iPhoneImages_3;
 };

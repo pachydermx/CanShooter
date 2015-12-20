@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct List_1_t1_1190;
+struct List_1_t1_1191;
 
 #include "mscorlib_System_ValueType.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.EventSystems.RaycastResult>
-struct  Enumerator_t1_2060 
+struct  Enumerator_t1_2066 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1190 * ___l_0;
+	List_1_t1_1191 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

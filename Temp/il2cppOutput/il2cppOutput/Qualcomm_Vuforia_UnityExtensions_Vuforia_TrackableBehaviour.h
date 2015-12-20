@@ -15,14 +15,14 @@ struct String_t;
 // Vuforia.Trackable
 struct Trackable_t6_16;
 // System.Collections.Generic.List`1<Vuforia.ITrackableEventHandler>
-struct List_1_t1_1041;
+struct List_1_t1_1042;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TrackableBehaviour_.h"
 
 // Vuforia.TrackableBehaviour
-struct  TrackableBehaviour_t6_15  : public MonoBehaviour_t5_94
+struct  TrackableBehaviour_t6_15  : public MonoBehaviour_t5_95
 {
 	// System.String Vuforia.TrackableBehaviour::mTrackableName
 	String_t* ___mTrackableName_2;
@@ -37,5 +37,5 @@ struct  TrackableBehaviour_t6_15  : public MonoBehaviour_t5_94
 	// Vuforia.Trackable Vuforia.TrackableBehaviour::mTrackable
 	Object_t * ___mTrackable_7;
 	// System.Collections.Generic.List`1<Vuforia.ITrackableEventHandler> Vuforia.TrackableBehaviour::mTrackableEventHandlers
-	List_1_t1_1041 * ___mTrackableEventHandlers_8;
+	List_1_t1_1042 * ___mTrackableEventHandlers_8;
 };

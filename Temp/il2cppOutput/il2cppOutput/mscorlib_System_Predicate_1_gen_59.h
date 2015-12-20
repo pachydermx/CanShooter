@@ -21,6 +21,6 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TargetFinder_Target.h"
 
 // System.Predicate`1<Vuforia.TargetFinder/TargetSearchResult>
-struct  Predicate_1_t1_1992  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1998  : public MulticastDelegate_t1_21
 {
 };

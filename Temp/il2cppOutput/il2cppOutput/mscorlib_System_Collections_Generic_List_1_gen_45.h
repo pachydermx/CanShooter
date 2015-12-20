@@ -16,7 +16,7 @@ struct WordResultU5BU5D_t6_248;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<Vuforia.WordResult>
-struct  List_1_t1_1055  : public Object_t
+struct  List_1_t1_1056  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	WordResultU5BU5D_t6_248* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1055  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1055_StaticFields{
+struct List_1_t1_1056_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	WordResultU5BU5D_t6_248* ___EmptyArray_4;
 };

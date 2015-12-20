@@ -16,7 +16,7 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.Particle
-struct  Particle_t5_107 
+struct  Particle_t5_108 
 {
 	// UnityEngine.Vector3 UnityEngine.Particle::m_Position
 	Vector3_t5_57  ___m_Position_0;

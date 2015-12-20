@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.WordBehaviour
-struct WordBehaviour_t8_69;
+struct WordBehaviour_t8_71;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.WordBehaviour::.ctor()
-extern "C" void WordBehaviour__ctor_m8_290 (WordBehaviour_t8_69 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WordBehaviour__ctor_m8_305 (WordBehaviour_t8_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

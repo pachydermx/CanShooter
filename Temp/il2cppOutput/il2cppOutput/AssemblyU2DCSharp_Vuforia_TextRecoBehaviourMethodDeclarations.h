@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.TextRecoBehaviour
-struct TextRecoBehaviour_t8_58;
+struct TextRecoBehaviour_t8_60;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.TextRecoBehaviour::.ctor()
-extern "C" void TextRecoBehaviour__ctor_m8_267 (TextRecoBehaviour_t8_58 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextRecoBehaviour__ctor_m8_282 (TextRecoBehaviour_t8_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

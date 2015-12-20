@@ -16,7 +16,7 @@ struct TargetSearchResultU5BU5D_t6_256;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<Vuforia.TargetFinder/TargetSearchResult>
-struct  List_1_t1_1071  : public Object_t
+struct  List_1_t1_1072  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	TargetSearchResultU5BU5D_t6_256* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1071  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1071_StaticFields{
+struct List_1_t1_1072_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	TargetSearchResultU5BU5D_t6_256* ___EmptyArray_4;
 };

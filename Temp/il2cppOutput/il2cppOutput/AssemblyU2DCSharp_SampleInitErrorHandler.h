@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // AppManager
 struct AppManager_t8_10;
 
@@ -20,14 +20,14 @@ struct AppManager_t8_10;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitEr.h"
 
 // SampleInitErrorHandler
-struct  SampleInitErrorHandler_t8_24  : public MonoBehaviour_t5_94
+struct  SampleInitErrorHandler_t8_24  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.GUIStyle SampleInitErrorHandler::mErrorTitleMessage
-	GUIStyle_t5_180 * ___mErrorTitleMessage_2;
+	GUIStyle_t5_181 * ___mErrorTitleMessage_2;
 	// UnityEngine.GUIStyle SampleInitErrorHandler::mErrorBodyMessage
-	GUIStyle_t5_180 * ___mErrorBodyMessage_3;
+	GUIStyle_t5_181 * ___mErrorBodyMessage_3;
 	// UnityEngine.GUIStyle SampleInitErrorHandler::mErrorOkButton
-	GUIStyle_t5_180 * ___mErrorOkButton_4;
+	GUIStyle_t5_181 * ___mErrorOkButton_4;
 	// SampleInitErrorHandler/ErrorData SampleInitErrorHandler::mCurrentError
 	ErrorData_t8_23  ___mCurrentError_5;
 	// AppManager SampleInitErrorHandler::mManager

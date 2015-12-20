@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct Dictionary_2_t1_1741;
+// System.Collections.Generic.Dictionary`2<System.String,UnityEngine.GUIStyle>
+struct Dictionary_2_t1_1019;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_16.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct  Enumerator_t1_1748 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,UnityEngine.GUIStyle>
+struct  Enumerator_t1_1736 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
-	Dictionary_2_t1_1741 * ___dictionary_0;
+	Dictionary_2_t1_1019 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
-	KeyValuePair_2_t1_1743  ___current_3;
+	KeyValuePair_2_t1_1734  ___current_3;
 };

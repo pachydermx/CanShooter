@@ -31,14 +31,14 @@ extern "C" bool Nullable_1_get_HasValue_m1_6018_gshared (Nullable_1_t1_879 * __t
 extern "C" TimeSpan_t1_218  Nullable_1_get_Value_m1_6019_gshared (Nullable_1_t1_879 * __this, const MethodInfo* method);
 #define Nullable_1_get_Value_m1_6019(__this, method) (( TimeSpan_t1_218  (*) (Nullable_1_t1_879 *, const MethodInfo*))Nullable_1_get_Value_m1_6019_gshared)(__this, method)
 // System.Boolean System.Nullable`1<System.TimeSpan>::Equals(System.Object)
-extern "C" bool Nullable_1_Equals_m1_8153_gshared (Nullable_1_t1_879 * __this, Object_t * ___other, const MethodInfo* method);
-#define Nullable_1_Equals_m1_8153(__this, ___other, method) (( bool (*) (Nullable_1_t1_879 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m1_8153_gshared)(__this, ___other, method)
+extern "C" bool Nullable_1_Equals_m1_8154_gshared (Nullable_1_t1_879 * __this, Object_t * ___other, const MethodInfo* method);
+#define Nullable_1_Equals_m1_8154(__this, ___other, method) (( bool (*) (Nullable_1_t1_879 *, Object_t *, const MethodInfo*))Nullable_1_Equals_m1_8154_gshared)(__this, ___other, method)
 // System.Boolean System.Nullable`1<System.TimeSpan>::Equals(System.Nullable`1<T>)
-extern "C" bool Nullable_1_Equals_m1_8154_gshared (Nullable_1_t1_879 * __this, Nullable_1_t1_879  ___other, const MethodInfo* method);
-#define Nullable_1_Equals_m1_8154(__this, ___other, method) (( bool (*) (Nullable_1_t1_879 *, Nullable_1_t1_879 , const MethodInfo*))Nullable_1_Equals_m1_8154_gshared)(__this, ___other, method)
+extern "C" bool Nullable_1_Equals_m1_8155_gshared (Nullable_1_t1_879 * __this, Nullable_1_t1_879  ___other, const MethodInfo* method);
+#define Nullable_1_Equals_m1_8155(__this, ___other, method) (( bool (*) (Nullable_1_t1_879 *, Nullable_1_t1_879 , const MethodInfo*))Nullable_1_Equals_m1_8155_gshared)(__this, ___other, method)
 // System.Int32 System.Nullable`1<System.TimeSpan>::GetHashCode()
-extern "C" int32_t Nullable_1_GetHashCode_m1_8155_gshared (Nullable_1_t1_879 * __this, const MethodInfo* method);
-#define Nullable_1_GetHashCode_m1_8155(__this, method) (( int32_t (*) (Nullable_1_t1_879 *, const MethodInfo*))Nullable_1_GetHashCode_m1_8155_gshared)(__this, method)
+extern "C" int32_t Nullable_1_GetHashCode_m1_8156_gshared (Nullable_1_t1_879 * __this, const MethodInfo* method);
+#define Nullable_1_GetHashCode_m1_8156(__this, method) (( int32_t (*) (Nullable_1_t1_879 *, const MethodInfo*))Nullable_1_GetHashCode_m1_8156_gshared)(__this, method)
 // System.String System.Nullable`1<System.TimeSpan>::ToString()
-extern "C" String_t* Nullable_1_ToString_m1_8156_gshared (Nullable_1_t1_879 * __this, const MethodInfo* method);
-#define Nullable_1_ToString_m1_8156(__this, method) (( String_t* (*) (Nullable_1_t1_879 *, const MethodInfo*))Nullable_1_ToString_m1_8156_gshared)(__this, method)
+extern "C" String_t* Nullable_1_ToString_m1_8157_gshared (Nullable_1_t1_879 * __this, const MethodInfo* method);
+#define Nullable_1_ToString_m1_8157(__this, method) (( String_t* (*) (Nullable_1_t1_879 *, const MethodInfo*))Nullable_1_ToString_m1_8157_gshared)(__this, method)

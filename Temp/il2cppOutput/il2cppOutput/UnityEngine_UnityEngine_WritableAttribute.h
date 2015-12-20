@@ -14,6 +14,6 @@
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngine.WritableAttribute
-struct  WritableAttribute_t5_210  : public Attribute_t1_2
+struct  WritableAttribute_t5_211  : public Attribute_t1_2
 {
 };

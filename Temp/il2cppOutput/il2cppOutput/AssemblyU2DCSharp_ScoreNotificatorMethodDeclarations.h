@@ -13,13 +13,13 @@
 #include <exception>
 
 // ScoreNotificator
-struct ScoreNotificator_t8_28;
+struct ScoreNotificator_t8_29;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void ScoreNotificator::.ctor()
-extern "C" void ScoreNotificator__ctor_m8_136 (ScoreNotificator_t8_28 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScoreNotificator__ctor_m8_147 (ScoreNotificator_t8_29 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScoreNotificator::Start()
-extern "C" void ScoreNotificator_Start_m8_137 (ScoreNotificator_t8_28 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScoreNotificator_Start_m8_148 (ScoreNotificator_t8_29 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void ScoreNotificator::Update()
-extern "C" void ScoreNotificator_Update_m8_138 (ScoreNotificator_t8_28 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ScoreNotificator_Update_m8_149 (ScoreNotificator_t8_29 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

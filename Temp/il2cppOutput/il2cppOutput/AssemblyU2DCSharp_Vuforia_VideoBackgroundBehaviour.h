@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VideoBackgroundAbst.h"
 
 // Vuforia.VideoBackgroundBehaviour
-struct  VideoBackgroundBehaviour_t8_62  : public VideoBackgroundAbstractBehaviour_t6_193
+struct  VideoBackgroundBehaviour_t8_64  : public VideoBackgroundAbstractBehaviour_t6_193
 {
 };

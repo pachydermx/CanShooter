@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VideoTextureRendere.h"
 
 // Vuforia.VideoTextureRenderer
-struct  VideoTextureRenderer_t8_63  : public VideoTextureRendererAbstractBehaviour_t6_194
+struct  VideoTextureRenderer_t8_65  : public VideoTextureRendererAbstractBehaviour_t6_194
 {
 };

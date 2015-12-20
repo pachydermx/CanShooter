@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<System.Net.Mail.SmtpFailedRecipientException>
-struct  Comparison_1_t1_1465  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1466  : public MulticastDelegate_t1_21
 {
 };

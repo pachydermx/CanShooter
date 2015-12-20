@@ -10,17 +10,17 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Object,Vuforia.WebCamProfile/ProfileData>
-struct Dictionary_2_t1_2001;
+// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.ImageTarget>
+struct Dictionary_2_t1_1073;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_34.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Object,Vuforia.WebCamProfile/ProfileData>
-struct  Enumerator_t1_2008 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.ImageTarget>
+struct  Enumerator_t1_2005 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
-	Dictionary_2_t1_2001 * ___dictionary_0;
+	Dictionary_2_t1_1073 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp

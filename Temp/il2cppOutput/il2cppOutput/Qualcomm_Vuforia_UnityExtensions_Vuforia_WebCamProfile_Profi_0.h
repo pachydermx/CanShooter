@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.String,Vuforia.WebCamProfile/ProfileData>
-struct Dictionary_2_t1_1073;
+struct Dictionary_2_t1_1074;
 
 #include "mscorlib_System_ValueType.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
@@ -22,5 +22,5 @@ struct  ProfileCollection_t6_171
 	// Vuforia.WebCamProfile/ProfileData Vuforia.WebCamProfile/ProfileCollection::DefaultProfile
 	ProfileData_t6_170  ___DefaultProfile_0;
 	// System.Collections.Generic.Dictionary`2<System.String,Vuforia.WebCamProfile/ProfileData> Vuforia.WebCamProfile/ProfileCollection::Profiles
-	Dictionary_2_t1_1073 * ___Profiles_1;
+	Dictionary_2_t1_1074 * ___Profiles_1;
 };

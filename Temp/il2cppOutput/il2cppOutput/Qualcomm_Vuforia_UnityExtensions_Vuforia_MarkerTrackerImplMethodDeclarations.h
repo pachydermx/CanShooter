@@ -21,7 +21,7 @@ struct String_t;
 // Vuforia.Marker
 struct Marker_t6_175;
 // System.Collections.Generic.IEnumerable`1<Vuforia.Marker>
-struct IEnumerable_1_t1_1084;
+struct IEnumerable_1_t1_1085;
 
 #include "codegen/il2cpp-codegen.h"
 

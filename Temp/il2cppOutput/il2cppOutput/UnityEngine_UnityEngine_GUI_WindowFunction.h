@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // UnityEngine.GUI/WindowFunction
-struct  WindowFunction_t5_171  : public MulticastDelegate_t1_21
+struct  WindowFunction_t5_172  : public MulticastDelegate_t1_21
 {
 };

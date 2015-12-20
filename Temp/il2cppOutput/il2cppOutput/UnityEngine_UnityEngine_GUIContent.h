@@ -15,12 +15,12 @@ struct String_t;
 // UnityEngine.Texture
 struct Texture_t5_31;
 // UnityEngine.GUIContent
-struct GUIContent_t5_175;
+struct GUIContent_t5_176;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.GUIContent
-struct  GUIContent_t5_175  : public Object_t
+struct  GUIContent_t5_176  : public Object_t
 {
 	// System.String UnityEngine.GUIContent::m_Text
 	String_t* ___m_Text_0;
@@ -29,13 +29,13 @@ struct  GUIContent_t5_175  : public Object_t
 	// System.String UnityEngine.GUIContent::m_Tooltip
 	String_t* ___m_Tooltip_2;
 };
-struct GUIContent_t5_175_StaticFields{
+struct GUIContent_t5_176_StaticFields{
 	// UnityEngine.GUIContent UnityEngine.GUIContent::s_Text
-	GUIContent_t5_175 * ___s_Text_3;
+	GUIContent_t5_176 * ___s_Text_3;
 	// UnityEngine.GUIContent UnityEngine.GUIContent::s_Image
-	GUIContent_t5_175 * ___s_Image_4;
+	GUIContent_t5_176 * ___s_Image_4;
 	// UnityEngine.GUIContent UnityEngine.GUIContent::s_TextImage
-	GUIContent_t5_175 * ___s_TextImage_5;
+	GUIContent_t5_176 * ___s_TextImage_5;
 	// UnityEngine.GUIContent UnityEngine.GUIContent::none
-	GUIContent_t5_175 * ___none_6;
+	GUIContent_t5_176 * ___none_6;
 };

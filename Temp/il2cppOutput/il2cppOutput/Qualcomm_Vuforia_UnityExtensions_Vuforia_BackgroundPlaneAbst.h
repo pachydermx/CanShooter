@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // Vuforia.VuforiaAbstractBehaviour
 struct VuforiaAbstractBehaviour_t6_6;
 // UnityEngine.Mesh
@@ -21,7 +21,7 @@ struct Mesh_t5_26;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaRenderer_Vid.h"
 
 // Vuforia.BackgroundPlaneAbstractBehaviour
-struct  BackgroundPlaneAbstractBehaviour_t6_4  : public MonoBehaviour_t5_94
+struct  BackgroundPlaneAbstractBehaviour_t6_4  : public MonoBehaviour_t5_95
 {
 	// Vuforia.VuforiaRenderer/VideoTextureInfo Vuforia.BackgroundPlaneAbstractBehaviour::mTextureInfo
 	VideoTextureInfo_t6_5  ___mTextureInfo_2;
@@ -32,7 +32,7 @@ struct  BackgroundPlaneAbstractBehaviour_t6_4  : public MonoBehaviour_t5_94
 	// System.Boolean Vuforia.BackgroundPlaneAbstractBehaviour::mVideoBgConfigChanged
 	bool ___mVideoBgConfigChanged_5;
 	// UnityEngine.Camera Vuforia.BackgroundPlaneAbstractBehaviour::mCamera
-	Camera_t5_89 * ___mCamera_6;
+	Camera_t5_90 * ___mCamera_6;
 	// Vuforia.VuforiaAbstractBehaviour Vuforia.BackgroundPlaneAbstractBehaviour::mQBehaviour
 	VuforiaAbstractBehaviour_t6_6 * ___mQBehaviour_7;
 	// System.Int32 Vuforia.BackgroundPlaneAbstractBehaviour::defaultNumDivisions

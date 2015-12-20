@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_RenderTextureReadWrite.h"
 
 // UnityEngine.RenderTextureReadWrite
-struct  RenderTextureReadWrite_t5_224 
+struct  RenderTextureReadWrite_t5_225 
 {
 	// System.Int32 UnityEngine.RenderTextureReadWrite::value__
 	int32_t ___value___1;

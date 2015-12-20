@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// Vuforia.SurfaceAbstractBehaviour
-struct SurfaceAbstractBehaviour_t6_50;
+// Vuforia.Surface
+struct Surface_t6_51;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,7 +23,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.SurfaceAbstractBehaviour,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1927  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.Surface,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1932  : public MulticastDelegate_t1_21
 {
 };

@@ -19,7 +19,7 @@ struct Marker_t6_175;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -44,4 +44,4 @@ extern "C" void MarkerAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_set_en
 // UnityEngine.Transform Vuforia.MarkerAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * MarkerAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_1767 (MarkerAbstractBehaviour_t6_174 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.MarkerAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * MarkerAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1768 (MarkerAbstractBehaviour_t6_174 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * MarkerAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1768 (MarkerAbstractBehaviour_t6_174 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

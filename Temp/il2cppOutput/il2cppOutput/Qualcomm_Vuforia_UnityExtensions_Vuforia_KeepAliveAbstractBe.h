@@ -13,12 +13,12 @@
 // Vuforia.KeepAliveAbstractBehaviour
 struct KeepAliveAbstractBehaviour_t6_149;
 // System.Collections.Generic.List`1<Vuforia.ILoadLevelEventHandler>
-struct List_1_t1_1060;
+struct List_1_t1_1061;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.KeepAliveAbstractBehaviour
-struct  KeepAliveAbstractBehaviour_t6_149  : public MonoBehaviour_t5_94
+struct  KeepAliveAbstractBehaviour_t6_149  : public MonoBehaviour_t5_95
 {
 	// System.Boolean Vuforia.KeepAliveAbstractBehaviour::mKeepARCameraAlive
 	bool ___mKeepARCameraAlive_2;
@@ -33,7 +33,7 @@ struct  KeepAliveAbstractBehaviour_t6_149  : public MonoBehaviour_t5_94
 	// System.Boolean Vuforia.KeepAliveAbstractBehaviour::mKeepSmartTerrainAlive
 	bool ___mKeepSmartTerrainAlive_7;
 	// System.Collections.Generic.List`1<Vuforia.ILoadLevelEventHandler> Vuforia.KeepAliveAbstractBehaviour::mHandlers
-	List_1_t1_1060 * ___mHandlers_9;
+	List_1_t1_1061 * ___mHandlers_9;
 };
 struct KeepAliveAbstractBehaviour_t6_149_StaticFields{
 	// Vuforia.KeepAliveAbstractBehaviour Vuforia.KeepAliveAbstractBehaviour::sKeepAliveBehaviour

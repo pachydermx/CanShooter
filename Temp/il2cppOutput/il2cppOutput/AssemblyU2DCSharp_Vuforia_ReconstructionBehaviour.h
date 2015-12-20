@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ReconstructionAbstr.h"
 
 // Vuforia.ReconstructionBehaviour
-struct  ReconstructionBehaviour_t8_40  : public ReconstructionAbstractBehaviour_t6_39
+struct  ReconstructionBehaviour_t8_42  : public ReconstructionAbstractBehaviour_t6_39
 {
 };

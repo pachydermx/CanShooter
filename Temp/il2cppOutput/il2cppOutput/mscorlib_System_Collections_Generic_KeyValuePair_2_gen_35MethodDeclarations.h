@@ -12,19 +12,30 @@
 #include <assert.h>
 #include <exception>
 
+// System.Object
+struct Object_t;
+// System.String
+struct String_t;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_34MethodDeclarations.h"
+#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_35.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>::.ctor(TKey,TValue)
-#define KeyValuePair_2__ctor_m1_18029(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_2017 *, String_t*, ProfileData_t6_170 , const MethodInfo*))KeyValuePair_2__ctor_m1_17928_gshared)(__this, ___key, ___value, method)
-// TKey System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>::get_Key()
-#define KeyValuePair_2_get_Key_m1_18030(__this, method) (( String_t* (*) (KeyValuePair_2_t1_2017 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_17929_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>::set_Key(TKey)
-#define KeyValuePair_2_set_Key_m1_18031(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_2017 *, String_t*, const MethodInfo*))KeyValuePair_2_set_Key_m1_17930_gshared)(__this, ___value, method)
-// TValue System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>::get_Value()
-#define KeyValuePair_2_get_Value_m1_18032(__this, method) (( ProfileData_t6_170  (*) (KeyValuePair_2_t1_2017 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_17931_gshared)(__this, method)
-// System.Void System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>::set_Value(TValue)
-#define KeyValuePair_2_set_Value_m1_18033(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_2017 *, ProfileData_t6_170 , const MethodInfo*))KeyValuePair_2_set_Value_m1_17932_gshared)(__this, ___value, method)
-// System.String System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>::ToString()
-#define KeyValuePair_2_ToString_m1_18034(__this, method) (( String_t* (*) (KeyValuePair_2_t1_2017 *, const MethodInfo*))KeyValuePair_2_ToString_m1_17933_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>::.ctor(TKey,TValue)
+extern "C" void KeyValuePair_2__ctor_m1_18032_gshared (KeyValuePair_2_t1_2009 * __this, Object_t * ___key, ProfileData_t6_170  ___value, const MethodInfo* method);
+#define KeyValuePair_2__ctor_m1_18032(__this, ___key, ___value, method) (( void (*) (KeyValuePair_2_t1_2009 *, Object_t *, ProfileData_t6_170 , const MethodInfo*))KeyValuePair_2__ctor_m1_18032_gshared)(__this, ___key, ___value, method)
+// TKey System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Key()
+extern "C" Object_t * KeyValuePair_2_get_Key_m1_18033_gshared (KeyValuePair_2_t1_2009 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Key_m1_18033(__this, method) (( Object_t * (*) (KeyValuePair_2_t1_2009 *, const MethodInfo*))KeyValuePair_2_get_Key_m1_18033_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>::set_Key(TKey)
+extern "C" void KeyValuePair_2_set_Key_m1_18034_gshared (KeyValuePair_2_t1_2009 * __this, Object_t * ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Key_m1_18034(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_2009 *, Object_t *, const MethodInfo*))KeyValuePair_2_set_Key_m1_18034_gshared)(__this, ___value, method)
+// TValue System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Value()
+extern "C" ProfileData_t6_170  KeyValuePair_2_get_Value_m1_18035_gshared (KeyValuePair_2_t1_2009 * __this, const MethodInfo* method);
+#define KeyValuePair_2_get_Value_m1_18035(__this, method) (( ProfileData_t6_170  (*) (KeyValuePair_2_t1_2009 *, const MethodInfo*))KeyValuePair_2_get_Value_m1_18035_gshared)(__this, method)
+// System.Void System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>::set_Value(TValue)
+extern "C" void KeyValuePair_2_set_Value_m1_18036_gshared (KeyValuePair_2_t1_2009 * __this, ProfileData_t6_170  ___value, const MethodInfo* method);
+#define KeyValuePair_2_set_Value_m1_18036(__this, ___value, method) (( void (*) (KeyValuePair_2_t1_2009 *, ProfileData_t6_170 , const MethodInfo*))KeyValuePair_2_set_Value_m1_18036_gshared)(__this, ___value, method)
+// System.String System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>::ToString()
+extern "C" String_t* KeyValuePair_2_ToString_m1_18037_gshared (KeyValuePair_2_t1_2009 * __this, const MethodInfo* method);
+#define KeyValuePair_2_ToString_m1_18037(__this, method) (( String_t* (*) (KeyValuePair_2_t1_2009 *, const MethodInfo*))KeyValuePair_2_ToString_m1_18037_gshared)(__this, method)

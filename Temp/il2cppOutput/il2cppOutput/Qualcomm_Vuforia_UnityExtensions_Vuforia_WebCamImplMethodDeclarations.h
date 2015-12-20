@@ -15,11 +15,11 @@
 // Vuforia.WebCamImpl
 struct WebCamImpl_t6_71;
 // UnityEngine.Camera[]
-struct CameraU5BU5D_t5_241;
+struct CameraU5BU5D_t5_242;
 // System.String
 struct String_t;
 // UnityEngine.Color32[]
-struct Color32U5BU5D_t5_286;
+struct Color32U5BU5D_t5_287;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaRenderer_Vec.h"
@@ -45,7 +45,7 @@ extern "C" Vec2I_t6_118  WebCamImpl_get_ResampledTextureSize_m6_1713 (WebCamImpl
 // System.Void Vuforia.WebCamImpl::ComputeResampledTextureSize()
 extern "C" void WebCamImpl_ComputeResampledTextureSize_m6_1714 (WebCamImpl_t6_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.WebCamImpl::.ctor(UnityEngine.Camera[],System.Int32,System.String,System.Boolean)
-extern "C" void WebCamImpl__ctor_m6_1715 (WebCamImpl_t6_71 * __this, CameraU5BU5D_t5_241* ___arCameras, int32_t ___renderTextureLayer, String_t* ___webcamDeviceName, bool ___flipHorizontally, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebCamImpl__ctor_m6_1715 (WebCamImpl_t6_71 * __this, CameraU5BU5D_t5_242* ___arCameras, int32_t ___renderTextureLayer, String_t* ___webcamDeviceName, bool ___flipHorizontally, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.WebCamImpl::StartCamera()
 extern "C" void WebCamImpl_StartCamera_m6_1716 (WebCamImpl_t6_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.WebCamImpl::StopCamera()
@@ -53,7 +53,7 @@ extern "C" void WebCamImpl_StopCamera_m6_1717 (WebCamImpl_t6_71 * __this, const 
 // System.Void Vuforia.WebCamImpl::ResetPlaying()
 extern "C" void WebCamImpl_ResetPlaying_m6_1718 (WebCamImpl_t6_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color32[] Vuforia.WebCamImpl::GetPixels32AndBufferFrame()
-extern "C" Color32U5BU5D_t5_286* WebCamImpl_GetPixels32AndBufferFrame_m6_1719 (WebCamImpl_t6_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color32U5BU5D_t5_287* WebCamImpl_GetPixels32AndBufferFrame_m6_1719 (WebCamImpl_t6_71 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.WebCamImpl::RenderFrame(System.Int32)
 extern "C" void WebCamImpl_RenderFrame_m6_1720 (WebCamImpl_t6_71 * __this, int32_t ___frameIndex, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.CameraDevice/VideoModeData Vuforia.WebCamImpl::GetVideoMode()

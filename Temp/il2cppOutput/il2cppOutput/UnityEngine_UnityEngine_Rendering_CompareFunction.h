@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_Rendering_CompareFunction.h"
 
 // UnityEngine.Rendering.CompareFunction
-struct  CompareFunction_t5_225 
+struct  CompareFunction_t5_226 
 {
 	// System.Int32 UnityEngine.Rendering.CompareFunction::value__
 	int32_t ___value___1;

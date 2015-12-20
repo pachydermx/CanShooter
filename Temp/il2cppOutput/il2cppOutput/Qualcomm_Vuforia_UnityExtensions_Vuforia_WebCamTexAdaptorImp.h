@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.WebCamTexture
-struct WebCamTexture_t5_132;
+struct WebCamTexture_t5_133;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamTexAdaptor.h"
 
@@ -19,5 +19,5 @@ struct WebCamTexture_t5_132;
 struct  WebCamTexAdaptorImpl_t6_134  : public WebCamTexAdaptor_t6_86
 {
 	// UnityEngine.WebCamTexture Vuforia.WebCamTexAdaptorImpl::mWebCamTexture
-	WebCamTexture_t5_132 * ___mWebCamTexture_0;
+	WebCamTexture_t5_133 * ___mWebCamTexture_0;
 };

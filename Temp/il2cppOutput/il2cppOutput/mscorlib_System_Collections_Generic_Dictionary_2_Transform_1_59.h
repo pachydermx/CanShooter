@@ -18,11 +18,11 @@ struct AsyncCallback_t1_28;
 struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_32.h"
+#include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_Int32.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__1.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>>
-struct  Transform_1_t1_1978  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1973  : public MulticastDelegate_t1_21
 {
 };

@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<Vuforia.TargetFinder/TargetSearchResult>
-struct List_1_t1_1071;
+struct List_1_t1_1072;
 // System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.ImageTarget>
-struct Dictionary_2_t1_1072;
+struct Dictionary_2_t1_1073;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TargetFinder.h"
 #include "mscorlib_System_IntPtr.h"
@@ -27,7 +27,7 @@ struct  TargetFinderImpl_t6_161  : public TargetFinder_t6_81
 	// Vuforia.TargetFinderImpl/TargetFinderState Vuforia.TargetFinderImpl::mTargetFinderState
 	TargetFinderState_t6_159  ___mTargetFinderState_1;
 	// System.Collections.Generic.List`1<Vuforia.TargetFinder/TargetSearchResult> Vuforia.TargetFinderImpl::mNewResults
-	List_1_t1_1071 * ___mNewResults_2;
+	List_1_t1_1072 * ___mNewResults_2;
 	// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.ImageTarget> Vuforia.TargetFinderImpl::mImageTargets
-	Dictionary_2_t1_1072 * ___mImageTargets_3;
+	Dictionary_2_t1_1073 * ___mImageTargets_3;
 };

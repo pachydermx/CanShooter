@@ -16,7 +16,7 @@ struct CustomAttributeNamedArgumentU5BU5D_t1_892;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<System.Reflection.CustomAttributeNamedArgument>
-struct  List_1_t1_1355  : public Object_t
+struct  List_1_t1_1356  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	CustomAttributeNamedArgumentU5BU5D_t1_892* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1355  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1355_StaticFields{
+struct List_1_t1_1356_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	CustomAttributeNamedArgumentU5BU5D_t1_892* ___EmptyArray_4;
 };

@@ -10,17 +10,17 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct Dictionary_2_t1_1162;
+// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.TrackableBehaviour>
+struct Dictionary_2_t1_1070;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_31.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct  Enumerator_t1_1958 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.TrackableBehaviour>
+struct  Enumerator_t1_1955 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
-	Dictionary_2_t1_1162 * ___dictionary_0;
+	Dictionary_2_t1_1070 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp

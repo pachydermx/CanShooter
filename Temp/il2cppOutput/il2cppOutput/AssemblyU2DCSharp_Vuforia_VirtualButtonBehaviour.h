@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VirtualButtonAbstra.h"
 
 // Vuforia.VirtualButtonBehaviour
-struct  VirtualButtonBehaviour_t8_64  : public VirtualButtonAbstractBehaviour_t6_195
+struct  VirtualButtonBehaviour_t8_66  : public VirtualButtonAbstractBehaviour_t6_195
 {
 };

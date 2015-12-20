@@ -10,17 +10,18 @@
 
 #include <stdint.h>
 
-// System.Object
-struct Object_t;
+// UnityEngine.Camera
+struct Camera_t5_90;
+// Vuforia.VideoBackgroundAbstractBehaviour
+struct VideoBackgroundAbstractBehaviour_t6_193;
 
 #include "mscorlib_System_ValueType.h"
-#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
-// System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>
-struct  KeyValuePair_2_t1_1799 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
+struct  KeyValuePair_2_t1_1778 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
+	Camera_t5_90 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	Object_t * ___value_1;
+	VideoBackgroundAbstractBehaviour_t6_193 * ___value_1;
 };

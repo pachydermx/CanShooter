@@ -40,3 +40,5 @@ extern "C" Object_t * CanTable_NextStageWorker_m8_26 (CanTable_t8_5 * __this, co
 extern "C" void CanTable_Put_m8_27 (CanTable_t8_5 * __this, Vector3_t5_57  ___pos, bool ___explosive, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void CanTable::Explode(UnityEngine.Vector3)
 extern "C" void CanTable_Explode_m8_28 (CanTable_t8_5 * __this, Vector3_t5_57  ___position, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void CanTable::GameReset()
+extern "C" void CanTable_GameReset_m8_29 (CanTable_t8_5 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

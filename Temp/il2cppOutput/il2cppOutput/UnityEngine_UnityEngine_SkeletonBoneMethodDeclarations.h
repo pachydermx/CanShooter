@@ -15,6 +15,6 @@
 
 #include "codegen/il2cpp-codegen.h"
 
-extern "C" void SkeletonBone_t5_143_marshal(const SkeletonBone_t5_143& unmarshaled, SkeletonBone_t5_143_marshaled& marshaled);
-extern "C" void SkeletonBone_t5_143_marshal_back(const SkeletonBone_t5_143_marshaled& marshaled, SkeletonBone_t5_143& unmarshaled);
-extern "C" void SkeletonBone_t5_143_marshal_cleanup(SkeletonBone_t5_143_marshaled& marshaled);
+extern "C" void SkeletonBone_t5_144_marshal(const SkeletonBone_t5_144& unmarshaled, SkeletonBone_t5_144_marshaled& marshaled);
+extern "C" void SkeletonBone_t5_144_marshal_back(const SkeletonBone_t5_144_marshaled& marshaled, SkeletonBone_t5_144& unmarshaled);
+extern "C" void SkeletonBone_t5_144_marshal_cleanup(SkeletonBone_t5_144_marshaled& marshaled);

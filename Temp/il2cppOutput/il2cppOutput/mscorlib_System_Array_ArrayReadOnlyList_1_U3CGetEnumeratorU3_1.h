@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Array/ArrayReadOnlyList`1<System.Reflection.CustomAttributeNamedArgument>
-struct ArrayReadOnlyList_1_t1_1363;
+struct ArrayReadOnlyList_1_t1_1364;
 
 #include "mscorlib_System_Object.h"
 #include "mscorlib_System_Reflection_CustomAttributeNamedArgument.h"
 
 // System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeNamedArgument>
-struct  U3CGetEnumeratorU3Ec__Iterator0_t1_1364  : public Object_t
+struct  U3CGetEnumeratorU3Ec__Iterator0_t1_1365  : public Object_t
 {
 	// System.Int32 System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0::<i>__0
 	int32_t ___U3CiU3E__0_0;
@@ -26,5 +26,5 @@ struct  U3CGetEnumeratorU3Ec__Iterator0_t1_1364  : public Object_t
 	// T System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0::$current
 	CustomAttributeNamedArgument_t1_343  ___U24current_2;
 	// System.Array/ArrayReadOnlyList`1<T> System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0::<>f__this
-	ArrayReadOnlyList_1_t1_1363 * ___U3CU3Ef__this_3;
+	ArrayReadOnlyList_1_t1_1364 * ___U3CU3Ef__this_3;
 };

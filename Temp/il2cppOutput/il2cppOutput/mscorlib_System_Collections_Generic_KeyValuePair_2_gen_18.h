@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.Camera
-struct Camera_t5_89;
-// Vuforia.VideoBackgroundAbstractBehaviour
-struct VideoBackgroundAbstractBehaviour_t6_193;
+// UnityEngine.Event
+struct Event_t5_166;
+struct Event_t5_166_marshaled;
 
 #include "mscorlib_System_ValueType.h"
+#include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
-struct  KeyValuePair_2_t1_1772 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
+struct  KeyValuePair_2_t1_1763 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	Camera_t5_89 * ___key_0;
+	Event_t5_166 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	VideoBackgroundAbstractBehaviour_t6_193 * ___value_1;
+	int32_t ___value_1;
 };

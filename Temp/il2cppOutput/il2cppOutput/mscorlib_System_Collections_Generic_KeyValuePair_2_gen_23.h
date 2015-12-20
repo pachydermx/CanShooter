@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// Vuforia.Marker
-struct Marker_t6_175;
+// Vuforia.VirtualButton
+struct VirtualButton_t6_167;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.Marker>
-struct  KeyValuePair_2_t1_1846 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VirtualButton>
+struct  KeyValuePair_2_t1_1839 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	Object_t * ___value_1;
+	VirtualButton_t6_167 * ___value_1;
 };

@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// Vuforia.WordAbstractBehaviour
-struct WordAbstractBehaviour_t6_197;
+// Vuforia.WordResult
+struct WordResult_t6_140;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,7 +23,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.WordAbstractBehaviour,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1903  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.WordResult,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1898  : public MulticastDelegate_t1_21
 {
 };

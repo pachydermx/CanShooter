@@ -13,7 +13,7 @@
 // UnityEngine.Texture
 struct Texture_t5_31;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // System.String
 struct String_t;
 // System.Action
@@ -30,7 +30,7 @@ struct  SampleAppUIButton_t8_15  : public ISampleAppUIElement_t8_13
 	// UnityEngine.Rect SampleAppUIButton::mRect
 	Rect_t5_30  ___mRect_1;
 	// UnityEngine.GUIStyle SampleAppUIButton::mStyle
-	GUIStyle_t5_180 * ___mStyle_2;
+	GUIStyle_t5_181 * ___mStyle_2;
 	// System.String SampleAppUIButton::mTitle
 	String_t* ___mTitle_3;
 	// System.Action SampleAppUIButton::TappedOn

@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.SurfaceAbstractBehaviour>
-struct Dictionary_2_t1_1066;
+// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.WordAbstractBehaviour>
+struct Dictionary_2_t1_1058;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Vuforia.SurfaceAbstractBehaviour>
-struct  KeyCollection_t1_1929  : public Object_t
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Vuforia.WordAbstractBehaviour>
+struct  KeyCollection_t1_1910  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection::dictionary
-	Dictionary_2_t1_1066 * ___dictionary_0;
+	Dictionary_2_t1_1058 * ___dictionary_0;
 };

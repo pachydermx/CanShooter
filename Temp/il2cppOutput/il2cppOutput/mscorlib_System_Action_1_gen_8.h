@@ -22,6 +22,6 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitEr.h"
 
 // System.Action`1<Vuforia.VuforiaUnity/InitError>
-struct  Action_1_t1_1077  : public MulticastDelegate_t1_21
+struct  Action_1_t1_1078  : public MulticastDelegate_t1_21
 {
 };

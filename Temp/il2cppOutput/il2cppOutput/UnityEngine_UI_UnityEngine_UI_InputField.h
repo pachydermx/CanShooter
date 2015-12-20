@@ -29,19 +29,19 @@ struct OnValidateInput_t7_96;
 // UnityEngine.RectTransform
 struct RectTransform_t5_71;
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t5_294;
+struct UIVertexU5BU5D_t5_295;
 // UnityEngine.TextGenerator
-struct TextGenerator_t5_155;
+struct TextGenerator_t5_156;
 // UnityEngine.CanvasRenderer
-struct CanvasRenderer_t5_162;
+struct CanvasRenderer_t5_163;
 // UnityEngine.Mesh
 struct Mesh_t5_26;
 // UnityEngine.Coroutine
 struct Coroutine_t5_15;
 struct Coroutine_t5_15_marshaled;
 // UnityEngine.Event
-struct Event_t5_165;
-struct Event_t5_165_marshaled;
+struct Event_t5_166;
+struct Event_t5_166_marshaled;
 // System.Collections.Generic.Dictionary`2<System.String,System.Int32>
 struct Dictionary_2_t1_78;
 
@@ -97,11 +97,11 @@ struct  InputField_t7_98  : public Selectable_t7_55
 	// UnityEngine.RectTransform UnityEngine.UI.InputField::caretRectTrans
 	RectTransform_t5_71 * ___caretRectTrans_39;
 	// UnityEngine.UIVertex[] UnityEngine.UI.InputField::m_CursorVerts
-	UIVertexU5BU5D_t5_294* ___m_CursorVerts_40;
+	UIVertexU5BU5D_t5_295* ___m_CursorVerts_40;
 	// UnityEngine.TextGenerator UnityEngine.UI.InputField::m_InputTextCache
-	TextGenerator_t5_155 * ___m_InputTextCache_41;
+	TextGenerator_t5_156 * ___m_InputTextCache_41;
 	// UnityEngine.CanvasRenderer UnityEngine.UI.InputField::m_CachedInputRenderer
-	CanvasRenderer_t5_162 * ___m_CachedInputRenderer_42;
+	CanvasRenderer_t5_163 * ___m_CachedInputRenderer_42;
 	// System.Boolean UnityEngine.UI.InputField::m_PreventFontCallback
 	bool ___m_PreventFontCallback_43;
 	// UnityEngine.Mesh UnityEngine.UI.InputField::m_Mesh
@@ -133,7 +133,7 @@ struct  InputField_t7_98  : public Selectable_t7_55
 	// System.Boolean UnityEngine.UI.InputField::m_HasDoneFocusTransition
 	bool ___m_HasDoneFocusTransition_57;
 	// UnityEngine.Event UnityEngine.UI.InputField::m_ProcessingEvent
-	Event_t5_165 * ___m_ProcessingEvent_58;
+	Event_t5_166 * ___m_ProcessingEvent_58;
 };
 struct InputField_t7_98_StaticFields{
 	// System.Char[] UnityEngine.UI.InputField::kSeparators

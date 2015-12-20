@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // ISampleAppUIEventHandler
-struct  ISampleAppUIEventHandler_t8_11  : public MonoBehaviour_t5_94
+struct  ISampleAppUIEventHandler_t8_11  : public MonoBehaviour_t5_95
 {
 };

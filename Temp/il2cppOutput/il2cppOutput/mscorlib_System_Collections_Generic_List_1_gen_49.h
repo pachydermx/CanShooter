@@ -16,7 +16,7 @@ struct TrackableBehaviourU5BU5D_t6_217;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<Vuforia.TrackableBehaviour>
-struct  List_1_t1_1070  : public Object_t
+struct  List_1_t1_1071  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	TrackableBehaviourU5BU5D_t6_217* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1070  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1070_StaticFields{
+struct List_1_t1_1071_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	TrackableBehaviourU5BU5D_t6_217* ___EmptyArray_4;
 };

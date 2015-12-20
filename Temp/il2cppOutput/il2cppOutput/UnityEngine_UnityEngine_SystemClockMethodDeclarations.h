@@ -17,6 +17,6 @@
 #include "mscorlib_System_DateTime.h"
 
 // System.Void UnityEngine.SystemClock::.cctor()
-extern "C" void SystemClock__cctor_m5_1745 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SystemClock__cctor_m5_1758 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime UnityEngine.SystemClock::get_now()
-extern "C" DateTime_t1_128  SystemClock_get_now_m5_1746 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DateTime_t1_128  SystemClock_get_now_m5_1759 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -17,13 +17,13 @@ struct TrackableBehaviour_t6_15;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // System.Collections.Generic.List`1<Vuforia.ITrackerEventHandler>
-struct List_1_t1_1075;
-// System.Collections.Generic.List`1<Vuforia.IVideoBackgroundEventHandler>
 struct List_1_t1_1076;
+// System.Collections.Generic.List`1<Vuforia.IVideoBackgroundEventHandler>
+struct List_1_t1_1077;
 // System.Action`1<Vuforia.VuforiaUnity/InitError>
-struct Action_1_t1_1077;
+struct Action_1_t1_1078;
 // System.Action
 struct Action_t4_11;
 // System.Action`1<System.Boolean>
@@ -33,7 +33,7 @@ struct ICameraConfiguration_t6_184;
 // UnityEngine.Material
 struct Material_t5_33;
 // System.Collections.Generic.List`1<System.Type>
-struct List_1_t1_1037;
+struct List_1_t1_1038;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_CameraDevice_Camera.h"
@@ -44,7 +44,7 @@ struct List_1_t1_1037;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitEr.h"
 
 // Vuforia.VuforiaAbstractBehaviour
-struct  VuforiaAbstractBehaviour_t6_6  : public MonoBehaviour_t5_94
+struct  VuforiaAbstractBehaviour_t6_6  : public MonoBehaviour_t5_95
 {
 	// System.String Vuforia.VuforiaAbstractBehaviour::VuforiaLicenseKey
 	String_t* ___VuforiaLicenseKey_2;
@@ -73,11 +73,11 @@ struct  VuforiaAbstractBehaviour_t6_6  : public MonoBehaviour_t5_94
 	// UnityEngine.Transform Vuforia.VuforiaAbstractBehaviour::mParentAnchorPoint
 	Transform_t5_72 * ___mParentAnchorPoint_14;
 	// UnityEngine.Camera Vuforia.VuforiaAbstractBehaviour::mPrimaryCamera
-	Camera_t5_89 * ___mPrimaryCamera_15;
+	Camera_t5_90 * ___mPrimaryCamera_15;
 	// UnityEngine.Rect Vuforia.VuforiaAbstractBehaviour::mPrimaryCameraOriginalRect
 	Rect_t5_30  ___mPrimaryCameraOriginalRect_16;
 	// UnityEngine.Camera Vuforia.VuforiaAbstractBehaviour::mSecondaryCamera
-	Camera_t5_89 * ___mSecondaryCamera_17;
+	Camera_t5_90 * ___mSecondaryCamera_17;
 	// UnityEngine.Rect Vuforia.VuforiaAbstractBehaviour::mSecondaryCameraOriginalRect
 	Rect_t5_30  ___mSecondaryCameraOriginalRect_18;
 	// System.Boolean Vuforia.VuforiaAbstractBehaviour::mSecondaryCameraDisabledLocally
@@ -91,11 +91,11 @@ struct  VuforiaAbstractBehaviour_t6_6  : public MonoBehaviour_t5_94
 	// System.Boolean Vuforia.VuforiaAbstractBehaviour::mSynchronizePoseUpdates
 	bool ___mSynchronizePoseUpdates_23;
 	// System.Collections.Generic.List`1<Vuforia.ITrackerEventHandler> Vuforia.VuforiaAbstractBehaviour::mTrackerEventHandlers
-	List_1_t1_1075 * ___mTrackerEventHandlers_24;
+	List_1_t1_1076 * ___mTrackerEventHandlers_24;
 	// System.Collections.Generic.List`1<Vuforia.IVideoBackgroundEventHandler> Vuforia.VuforiaAbstractBehaviour::mVideoBgEventHandlers
-	List_1_t1_1076 * ___mVideoBgEventHandlers_25;
+	List_1_t1_1077 * ___mVideoBgEventHandlers_25;
 	// System.Action`1<Vuforia.VuforiaUnity/InitError> Vuforia.VuforiaAbstractBehaviour::mOnVuforiaInitError
-	Action_1_t1_1077 * ___mOnVuforiaInitError_26;
+	Action_1_t1_1078 * ___mOnVuforiaInitError_26;
 	// System.Action Vuforia.VuforiaAbstractBehaviour::mOnVuforiaInitialized
 	Action_t4_11 * ___mOnVuforiaInitialized_27;
 	// System.Action Vuforia.VuforiaAbstractBehaviour::mOnVuforiaStarted
@@ -137,5 +137,5 @@ struct  VuforiaAbstractBehaviour_t6_6  : public MonoBehaviour_t5_94
 	// System.Int32 Vuforia.VuforiaAbstractBehaviour::mLastUpdatedFrame
 	int32_t ___mLastUpdatedFrame_46;
 	// System.Collections.Generic.List`1<System.Type> Vuforia.VuforiaAbstractBehaviour::mTrackersRequestedToDeinit
-	List_1_t1_1037 * ___mTrackersRequestedToDeinit_47;
+	List_1_t1_1038 * ___mTrackersRequestedToDeinit_47;
 };

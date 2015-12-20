@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_BackgroundPlaneAbst.h"
 
 // Vuforia.BackgroundPlaneBehaviour
-struct  BackgroundPlaneBehaviour_t8_34  : public BackgroundPlaneAbstractBehaviour_t6_4
+struct  BackgroundPlaneBehaviour_t8_36  : public BackgroundPlaneAbstractBehaviour_t6_4
 {
 };

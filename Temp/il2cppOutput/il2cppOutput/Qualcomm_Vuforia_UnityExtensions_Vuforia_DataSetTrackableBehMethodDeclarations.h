@@ -21,7 +21,7 @@ struct ReconstructionFromTargetAbstractBehaviour_t6_18;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TrackableBehaviour_.h"
@@ -91,4 +91,4 @@ extern "C" void DataSetTrackableBehaviour_Vuforia_IEditorTrackableBehaviour_set_
 // UnityEngine.Transform Vuforia.DataSetTrackableBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * DataSetTrackableBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_151 (DataSetTrackableBehaviour_t6_17 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.DataSetTrackableBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * DataSetTrackableBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_152 (DataSetTrackableBehaviour_t6_17 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * DataSetTrackableBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_152 (DataSetTrackableBehaviour_t6_17 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

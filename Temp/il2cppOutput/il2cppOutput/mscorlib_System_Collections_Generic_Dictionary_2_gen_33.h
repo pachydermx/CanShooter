@@ -13,27 +13,27 @@
 // System.Int32[]
 struct Int32U5BU5D_t1_161;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1_1276;
-// System.Object[]
-struct ObjectU5BU5D_t1_158;
-// System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1_1281;
+struct LinkU5BU5D_t1_1277;
+// UnityEngine.UI.IClipper[]
+struct IClipperU5BU5D_t7_225;
+// System.Collections.Generic.IEqualityComparer`1<UnityEngine.UI.IClipper>
+struct IEqualityComparer_1_t1_2183;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t1_178;
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Int32,System.Collections.DictionaryEntry>
-struct Transform_1_t1_1280;
+// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.IClipper,System.Int32,System.Collections.DictionaryEntry>
+struct Transform_1_t1_2182;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2<System.Object,System.Int32>
-struct  Dictionary_2_t1_1279  : public Object_t
+// System.Collections.Generic.Dictionary`2<UnityEngine.UI.IClipper,System.Int32>
+struct  Dictionary_2_t1_1227  : public Object_t
 {
 	// System.Int32[] System.Collections.Generic.Dictionary`2::table
 	Int32U5BU5D_t1_161* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2::linkSlots
-	LinkU5BU5D_t1_1276* ___linkSlots_5;
+	LinkU5BU5D_t1_1277* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2::keySlots
-	ObjectU5BU5D_t1_158* ___keySlots_6;
+	IClipperU5BU5D_t7_225* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2::valueSlots
 	Int32U5BU5D_t1_161* ___valueSlots_7;
 	// System.Int32 System.Collections.Generic.Dictionary`2::touchedSlots
@@ -51,7 +51,7 @@ struct  Dictionary_2_t1_1279  : public Object_t
 	// System.Int32 System.Collections.Generic.Dictionary`2::generation
 	int32_t ___generation_14;
 };
-struct Dictionary_2_t1_1279_StaticFields{
+struct Dictionary_2_t1_1227_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2::<>f__am$cacheB
-	Transform_1_t1_1280 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t1_2182 * ___U3CU3Ef__amU24cacheB_15;
 };

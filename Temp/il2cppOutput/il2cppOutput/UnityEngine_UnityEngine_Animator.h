@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Experimental_Director_DirectorPlayer.h"
 
 // UnityEngine.Animator
-struct  Animator_t5_142  : public DirectorPlayer_t5_103
+struct  Animator_t5_143  : public DirectorPlayer_t5_104
 {
 };

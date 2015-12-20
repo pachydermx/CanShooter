@@ -13,14 +13,14 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.List`1<Vuforia.ITextRecoEventHandler>
-struct List_1_t1_1078;
+struct List_1_t1_1079;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WordFilterMode.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WordPrefabCreationM.h"
 
 // Vuforia.TextRecoAbstractBehaviour
-struct  TextRecoAbstractBehaviour_t6_189  : public MonoBehaviour_t5_94
+struct  TextRecoAbstractBehaviour_t6_189  : public MonoBehaviour_t5_95
 {
 	// System.Boolean Vuforia.TextRecoAbstractBehaviour::mHasInitialized
 	bool ___mHasInitialized_2;
@@ -45,5 +45,5 @@ struct  TextRecoAbstractBehaviour_t6_189  : public MonoBehaviour_t5_94
 	// System.Int32 Vuforia.TextRecoAbstractBehaviour::mMaximumWordInstances
 	int32_t ___mMaximumWordInstances_12;
 	// System.Collections.Generic.List`1<Vuforia.ITextRecoEventHandler> Vuforia.TextRecoAbstractBehaviour::mTextRecoEventHandlers
-	List_1_t1_1078 * ___mTextRecoEventHandlers_13;
+	List_1_t1_1079 * ___mTextRecoEventHandlers_13;
 };

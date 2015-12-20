@@ -13,17 +13,17 @@
 // System.Int32[]
 struct Int32U5BU5D_t1_161;
 // System.Collections.Generic.Link[]
-struct LinkU5BU5D_t1_1276;
+struct LinkU5BU5D_t1_1277;
 // System.ComponentModel.WeakObjectWrapper[]
 struct WeakObjectWrapperU5BU5D_t2_881;
 // System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>[]
 struct LinkedList_1U5BU5D_t2_879;
 // System.Collections.Generic.IEqualityComparer`1<System.ComponentModel.WeakObjectWrapper>
-struct IEqualityComparer_1_t1_1439;
+struct IEqualityComparer_1_t1_1440;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t1_178;
 // System.Collections.Generic.Dictionary`2/Transform`1<System.ComponentModel.WeakObjectWrapper,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>,System.Collections.DictionaryEntry>
-struct Transform_1_t1_1438;
+struct Transform_1_t1_1439;
 
 #include "mscorlib_System_Object.h"
 
@@ -33,7 +33,7 @@ struct  Dictionary_2_t1_936  : public Object_t
 	// System.Int32[] System.Collections.Generic.Dictionary`2::table
 	Int32U5BU5D_t1_161* ___table_4;
 	// System.Collections.Generic.Link[] System.Collections.Generic.Dictionary`2::linkSlots
-	LinkU5BU5D_t1_1276* ___linkSlots_5;
+	LinkU5BU5D_t1_1277* ___linkSlots_5;
 	// TKey[] System.Collections.Generic.Dictionary`2::keySlots
 	WeakObjectWrapperU5BU5D_t2_881* ___keySlots_6;
 	// TValue[] System.Collections.Generic.Dictionary`2::valueSlots
@@ -55,5 +55,5 @@ struct  Dictionary_2_t1_936  : public Object_t
 };
 struct Dictionary_2_t1_936_StaticFields{
 	// System.Collections.Generic.Dictionary`2/Transform`1<TKey,TValue,System.Collections.DictionaryEntry> System.Collections.Generic.Dictionary`2::<>f__am$cacheB
-	Transform_1_t1_1438 * ___U3CU3Ef__amU24cacheB_15;
+	Transform_1_t1_1439 * ___U3CU3Ef__amU24cacheB_15;
 };

@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // RotateAround
-struct  RotateAround_t8_32  : public MonoBehaviour_t5_94
+struct  RotateAround_t8_33  : public MonoBehaviour_t5_95
 {
 };

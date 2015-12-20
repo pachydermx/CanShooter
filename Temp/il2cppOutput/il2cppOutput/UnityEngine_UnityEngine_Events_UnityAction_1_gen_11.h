@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.Canvas>
-struct List_1_t1_1219;
+struct List_1_t1_1220;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.Canvas>>
-struct  UnityAction_1_t5_365  : public MulticastDelegate_t1_21
+struct  UnityAction_1_t5_366  : public MulticastDelegate_t1_21
 {
 };

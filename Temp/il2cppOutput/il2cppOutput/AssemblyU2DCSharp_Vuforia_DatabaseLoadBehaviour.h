@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_DatabaseLoadAbstrac.h"
 
 // Vuforia.DatabaseLoadBehaviour
-struct  DatabaseLoadBehaviour_t8_37  : public DatabaseLoadAbstractBehaviour_t6_56
+struct  DatabaseLoadBehaviour_t8_39  : public DatabaseLoadAbstractBehaviour_t6_56
 {
 };

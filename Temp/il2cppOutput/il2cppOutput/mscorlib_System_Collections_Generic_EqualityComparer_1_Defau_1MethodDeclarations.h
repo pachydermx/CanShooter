@@ -13,17 +13,17 @@
 #include <exception>
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>
-struct DefaultComparer_t1_1347;
+struct DefaultComparer_t1_1348;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
 // System.Void System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::.ctor()
-extern "C" void DefaultComparer__ctor_m1_7541_gshared (DefaultComparer_t1_1347 * __this, const MethodInfo* method);
-#define DefaultComparer__ctor_m1_7541(__this, method) (( void (*) (DefaultComparer_t1_1347 *, const MethodInfo*))DefaultComparer__ctor_m1_7541_gshared)(__this, method)
+extern "C" void DefaultComparer__ctor_m1_7542_gshared (DefaultComparer_t1_1348 * __this, const MethodInfo* method);
+#define DefaultComparer__ctor_m1_7542(__this, method) (( void (*) (DefaultComparer_t1_1348 *, const MethodInfo*))DefaultComparer__ctor_m1_7542_gshared)(__this, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::GetHashCode(T)
-extern "C" int32_t DefaultComparer_GetHashCode_m1_7542_gshared (DefaultComparer_t1_1347 * __this, CustomAttributeTypedArgument_t1_344  ___obj, const MethodInfo* method);
-#define DefaultComparer_GetHashCode_m1_7542(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t1_1347 *, CustomAttributeTypedArgument_t1_344 , const MethodInfo*))DefaultComparer_GetHashCode_m1_7542_gshared)(__this, ___obj, method)
+extern "C" int32_t DefaultComparer_GetHashCode_m1_7543_gshared (DefaultComparer_t1_1348 * __this, CustomAttributeTypedArgument_t1_344  ___obj, const MethodInfo* method);
+#define DefaultComparer_GetHashCode_m1_7543(__this, ___obj, method) (( int32_t (*) (DefaultComparer_t1_1348 *, CustomAttributeTypedArgument_t1_344 , const MethodInfo*))DefaultComparer_GetHashCode_m1_7543_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1/DefaultComparer<System.Reflection.CustomAttributeTypedArgument>::Equals(T,T)
-extern "C" bool DefaultComparer_Equals_m1_7543_gshared (DefaultComparer_t1_1347 * __this, CustomAttributeTypedArgument_t1_344  ___x, CustomAttributeTypedArgument_t1_344  ___y, const MethodInfo* method);
-#define DefaultComparer_Equals_m1_7543(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t1_1347 *, CustomAttributeTypedArgument_t1_344 , CustomAttributeTypedArgument_t1_344 , const MethodInfo*))DefaultComparer_Equals_m1_7543_gshared)(__this, ___x, ___y, method)
+extern "C" bool DefaultComparer_Equals_m1_7544_gshared (DefaultComparer_t1_1348 * __this, CustomAttributeTypedArgument_t1_344  ___x, CustomAttributeTypedArgument_t1_344  ___y, const MethodInfo* method);
+#define DefaultComparer_Equals_m1_7544(__this, ___x, ___y, method) (( bool (*) (DefaultComparer_t1_1348 *, CustomAttributeTypedArgument_t1_344 , CustomAttributeTypedArgument_t1_344 , const MethodInfo*))DefaultComparer_Equals_m1_7544_gshared)(__this, ___x, ___y, method)

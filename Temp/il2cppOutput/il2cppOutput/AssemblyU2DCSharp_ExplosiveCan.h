@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // ExplosiveCan
-struct  ExplosiveCan_t8_26  : public MonoBehaviour_t5_94
+struct  ExplosiveCan_t8_26  : public MonoBehaviour_t5_95
 {
 };

@@ -15,7 +15,7 @@ struct SmartTerrainTrackable_t6_48;
 // UnityEngine.MeshFilter
 struct MeshFilter_t5_24;
 // UnityEngine.MeshCollider
-struct MeshCollider_t5_117;
+struct MeshCollider_t5_118;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TrackableBehaviour.h"
 
@@ -29,5 +29,5 @@ struct  SmartTerrainTrackableBehaviour_t6_47  : public TrackableBehaviour_t6_15
 	// UnityEngine.MeshFilter Vuforia.SmartTerrainTrackableBehaviour::mMeshFilterToUpdate
 	MeshFilter_t5_24 * ___mMeshFilterToUpdate_11;
 	// UnityEngine.MeshCollider Vuforia.SmartTerrainTrackableBehaviour::mMeshColliderToUpdate
-	MeshCollider_t5_117 * ___mMeshColliderToUpdate_12;
+	MeshCollider_t5_118 * ___mMeshColliderToUpdate_12;
 };

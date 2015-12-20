@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_FilterMode.h"
 
 // UnityEngine.FilterMode
-struct  FilterMode_t5_220 
+struct  FilterMode_t5_221 
 {
 	// System.Int32 UnityEngine.FilterMode::value__
 	int32_t ___value___1;

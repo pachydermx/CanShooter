@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Events.PersistentCall
-struct PersistentCall_t5_267;
+struct PersistentCall_t5_268;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.Events.PersistentCall>
-struct  Comparison_1_t1_1764  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1770  : public MulticastDelegate_t1_21
 {
 };

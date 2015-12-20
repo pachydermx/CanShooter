@@ -13,11 +13,11 @@
 #include <exception>
 
 // Vuforia.MaskOutBehaviour
-struct MaskOutBehaviour_t8_53;
+struct MaskOutBehaviour_t8_55;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.MaskOutBehaviour::.ctor()
-extern "C" void MaskOutBehaviour__ctor_m8_258 (MaskOutBehaviour_t8_53 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MaskOutBehaviour__ctor_m8_273 (MaskOutBehaviour_t8_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.MaskOutBehaviour::Start()
-extern "C" void MaskOutBehaviour_Start_m8_259 (MaskOutBehaviour_t8_53 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MaskOutBehaviour_Start_m8_274 (MaskOutBehaviour_t8_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

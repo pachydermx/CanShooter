@@ -16,7 +16,7 @@ struct Material_t5_33;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.MaskOutAbstractBehaviour
-struct  MaskOutAbstractBehaviour_t6_176  : public MonoBehaviour_t5_94
+struct  MaskOutAbstractBehaviour_t6_176  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.Material Vuforia.MaskOutAbstractBehaviour::maskMaterial
 	Material_t5_33 * ___maskMaterial_2;

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t5_164;
+struct Vector3U5BU5D_t5_165;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct Vector3U5BU5D_t5_164;
 struct  List_1_t1_1024  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	Vector3U5BU5D_t5_164* ____items_1;
+	Vector3U5BU5D_t5_165* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -27,5 +27,5 @@ struct  List_1_t1_1024  : public Object_t
 };
 struct List_1_t1_1024_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	Vector3U5BU5D_t5_164* ___EmptyArray_4;
+	Vector3U5BU5D_t5_165* ___EmptyArray_4;
 };

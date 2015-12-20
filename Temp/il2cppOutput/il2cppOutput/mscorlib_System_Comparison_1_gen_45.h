@@ -21,6 +21,6 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
 // System.Comparison`1<Vuforia.Image/PIXEL_FORMAT>
-struct  Comparison_1_t1_1823  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1829  : public MulticastDelegate_t1_21
 {
 };

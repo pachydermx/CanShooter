@@ -11,19 +11,19 @@
 #include <stdint.h>
 
 // UnityEngine.GUILayoutGroup
-struct GUILayoutGroup_t5_178;
+struct GUILayoutGroup_t5_179;
 // UnityEngineInternal.GenericStack
-struct GenericStack_t5_174;
+struct GenericStack_t5_175;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.GUILayoutUtility/LayoutCache
-struct  LayoutCache_t5_177  : public Object_t
+struct  LayoutCache_t5_178  : public Object_t
 {
 	// UnityEngine.GUILayoutGroup UnityEngine.GUILayoutUtility/LayoutCache::topLevel
-	GUILayoutGroup_t5_178 * ___topLevel_0;
+	GUILayoutGroup_t5_179 * ___topLevel_0;
 	// UnityEngineInternal.GenericStack UnityEngine.GUILayoutUtility/LayoutCache::layoutGroups
-	GenericStack_t5_174 * ___layoutGroups_1;
+	GenericStack_t5_175 * ___layoutGroups_1;
 	// UnityEngine.GUILayoutGroup UnityEngine.GUILayoutUtility/LayoutCache::windows
-	GUILayoutGroup_t5_178 * ___windows_2;
+	GUILayoutGroup_t5_179 * ___windows_2;
 };

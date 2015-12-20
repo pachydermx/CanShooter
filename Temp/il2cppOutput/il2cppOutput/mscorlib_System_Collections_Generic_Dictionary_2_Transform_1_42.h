@@ -18,10 +18,10 @@ struct IAsyncResult_t1_27;
 struct AsyncCallback_t1_28;
 
 #include "mscorlib_System_MulticastDelegate.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_24.h"
+#include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_UInt16.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.UInt16,System.Collections.Generic.KeyValuePair`2<System.Object,System.UInt16>>
-struct  Transform_1_t1_1882  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.UInt16,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1878  : public MulticastDelegate_t1_21
 {
 };

@@ -21,6 +21,6 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_Void.h"
 
 // System.EventHandler`1<System.Object>
-struct  EventHandler_1_t1_1414  : public MulticastDelegate_t1_21
+struct  EventHandler_1_t1_1415  : public MulticastDelegate_t1_21
 {
 };

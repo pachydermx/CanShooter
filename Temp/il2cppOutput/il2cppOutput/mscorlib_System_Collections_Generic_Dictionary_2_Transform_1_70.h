@@ -10,8 +10,10 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.Graphic
-struct Graphic_t7_75;
+// UnityEngine.Font
+struct Font_t5_153;
+// System.Collections.Generic.List`1<UnityEngine.UI.Text>
+struct List_1_t1_1221;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -21,9 +23,8 @@ struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-#include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.UI.Graphic,System.Int32,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_2131  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_2121  : public MulticastDelegate_t1_21
 {
 };

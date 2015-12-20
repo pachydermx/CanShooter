@@ -15,7 +15,7 @@
 // Vuforia.StereoCameraConfiguration
 struct StereoCameraConfiguration_t6_11;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // System.Action
 struct Action_t4_11;
 // Vuforia.WebCamAbstractBehaviour
@@ -31,7 +31,7 @@ struct Transform_t5_72;
 #include "UnityEngine_UnityEngine_Vector4.h"
 
 // System.Void Vuforia.StereoCameraConfiguration::.ctor(UnityEngine.Camera,UnityEngine.Camera,System.Boolean,System.Single,Vuforia.CameraDevice/CameraDeviceMode,System.Action,System.Int32)
-extern "C" void StereoCameraConfiguration__ctor_m6_58 (StereoCameraConfiguration_t6_11 * __this, Camera_t5_89 * ___leftCamera, Camera_t5_89 * ___rightCamera, bool ___autoStereoSkewing, float ___cameraOffset, int32_t ___cameraDeviceMode, Action_t4_11 * ___onVideoBackgroundConfigChanged, int32_t ___eyewearUserCalibrationProfileId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void StereoCameraConfiguration__ctor_m6_58 (StereoCameraConfiguration_t6_11 * __this, Camera_t5_90 * ___leftCamera, Camera_t5_90 * ___rightCamera, bool ___autoStereoSkewing, float ___cameraOffset, int32_t ___cameraDeviceMode, Action_t4_11 * ___onVideoBackgroundConfigChanged, int32_t ___eyewearUserCalibrationProfileId, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.StereoCameraConfiguration::Init()
 extern "C" void StereoCameraConfiguration_Init_m6_59 (StereoCameraConfiguration_t6_11 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.StereoCameraConfiguration::ConfigureVideoBackground()

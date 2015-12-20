@@ -15,13 +15,13 @@
 // System.Collections.Generic.LinkedList`1<System.Int32>
 struct LinkedList_1_t2_849;
 // System.Collections.Generic.IEnumerable`1<System.Int32>
-struct IEnumerable_1_t1_1182;
+struct IEnumerable_1_t1_1183;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t1_178;
 // System.Array
 struct Array_t;
 // System.Collections.Generic.IEnumerator`1<System.Int32>
-struct IEnumerator_1_t1_2214;
+struct IEnumerator_1_t1_2220;
 // System.Collections.IEnumerator
 struct IEnumerator_t1_131;
 // System.Object

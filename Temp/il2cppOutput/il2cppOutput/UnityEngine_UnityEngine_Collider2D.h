@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.Collider2D
-struct  Collider2D_t5_121  : public Behaviour_t5_39
+struct  Collider2D_t5_122  : public Behaviour_t5_39
 {
 };

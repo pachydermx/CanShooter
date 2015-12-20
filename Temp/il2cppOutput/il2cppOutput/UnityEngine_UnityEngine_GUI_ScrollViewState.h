@@ -16,7 +16,7 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // UnityEngine.GUI/ScrollViewState
-struct  ScrollViewState_t5_170  : public Object_t
+struct  ScrollViewState_t5_171  : public Object_t
 {
 	// UnityEngine.Rect UnityEngine.GUI/ScrollViewState::position
 	Rect_t5_30  ___position_0;

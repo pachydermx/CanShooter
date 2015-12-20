@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_6.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct  DefaultComparer_t1_1423  : public Comparer_1_t1_1422
+struct  DefaultComparer_t1_1424  : public Comparer_1_t1_1423
 {
 };

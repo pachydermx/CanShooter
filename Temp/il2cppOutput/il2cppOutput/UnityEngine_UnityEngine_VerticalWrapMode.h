@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_VerticalWrapMode.h"
 
 // UnityEngine.VerticalWrapMode
-struct  VerticalWrapMode_t5_149 
+struct  VerticalWrapMode_t5_150 
 {
 	// System.Int32 UnityEngine.VerticalWrapMode::value__
 	int32_t ___value___1;

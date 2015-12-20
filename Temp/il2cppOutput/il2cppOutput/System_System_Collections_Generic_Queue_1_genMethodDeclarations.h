@@ -15,7 +15,7 @@
 // System.Collections.Generic.Queue`1<System.Object>
 struct Queue_1_t2_854;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t1_1125;
+struct IEnumerable_1_t1_1126;
 // System.Array
 struct Array_t;
 // System.Object

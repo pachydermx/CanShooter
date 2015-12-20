@@ -13,9 +13,9 @@
 // UnityEngine.TouchScreenKeyboard
 struct TouchScreenKeyboard_t5_53;
 // UnityEngine.GUIContent
-struct GUIContent_t5_175;
+struct GUIContent_t5_176;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp>
@@ -27,16 +27,16 @@ struct Dictionary_2_t1_1021;
 #include "UnityEngine_UnityEngine_TextEditor_DblClickSnapping.h"
 
 // UnityEngine.TextEditor
-struct  TextEditor_t5_260  : public Object_t
+struct  TextEditor_t5_261  : public Object_t
 {
 	// UnityEngine.TouchScreenKeyboard UnityEngine.TextEditor::keyboardOnScreen
 	TouchScreenKeyboard_t5_53 * ___keyboardOnScreen_0;
 	// System.Int32 UnityEngine.TextEditor::controlID
 	int32_t ___controlID_1;
 	// UnityEngine.GUIContent UnityEngine.TextEditor::content
-	GUIContent_t5_175 * ___content_2;
+	GUIContent_t5_176 * ___content_2;
 	// UnityEngine.GUIStyle UnityEngine.TextEditor::style
-	GUIStyle_t5_180 * ___style_3;
+	GUIStyle_t5_181 * ___style_3;
 	// System.Boolean UnityEngine.TextEditor::multiline
 	bool ___multiline_4;
 	// System.Boolean UnityEngine.TextEditor::hasHorizontalCursorPos
@@ -76,7 +76,7 @@ struct  TextEditor_t5_260  : public Object_t
 	// System.Int32 UnityEngine.TextEditor::oldSelectPos
 	int32_t ___oldSelectPos_22;
 };
-struct TextEditor_t5_260_StaticFields{
+struct TextEditor_t5_261_StaticFields{
 	// System.Collections.Generic.Dictionary`2<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp> UnityEngine.TextEditor::s_Keyactions
 	Dictionary_2_t1_1021 * ___s_Keyactions_23;
 };

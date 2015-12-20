@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.Texture2D>
-struct  InternalEnumerator_1_t1_2202 
+struct  InternalEnumerator_1_t1_2208 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

@@ -22,7 +22,7 @@ struct Toggle_t7_65;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // UnityEngine.UI.Dropdown/DropdownItem
-struct  DropdownItem_t7_62  : public MonoBehaviour_t5_94
+struct  DropdownItem_t7_62  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.UI.Text UnityEngine.UI.Dropdown/DropdownItem::m_Text
 	Text_t7_63 * ___m_Text_2;

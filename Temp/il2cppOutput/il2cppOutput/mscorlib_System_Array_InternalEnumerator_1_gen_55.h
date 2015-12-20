@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Runtime.Remoting.Contexts.IContextProperty>
-struct  InternalEnumerator_1_t1_1369 
+struct  InternalEnumerator_1_t1_1370 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

@@ -16,7 +16,7 @@ struct TrackableBehaviour_t6_15;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.aDefaultTrackableEventHandler
-struct  aDefaultTrackableEventHandler_t8_33  : public MonoBehaviour_t5_94
+struct  aDefaultTrackableEventHandler_t8_35  : public MonoBehaviour_t5_95
 {
 	// Vuforia.TrackableBehaviour Vuforia.aDefaultTrackableEventHandler::mTrackableBehaviour
 	TrackableBehaviour_t6_15 * ___mTrackableBehaviour_2;

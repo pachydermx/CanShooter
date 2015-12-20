@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_Comparer_1_gen_11.h"
 
 // System.Collections.Generic.Comparer`1/DefaultComparer<UnityEngine.Color32>
-struct  DefaultComparer_t1_1647  : public Comparer_1_t1_1646
+struct  DefaultComparer_t1_1648  : public Comparer_1_t1_1647
 {
 };

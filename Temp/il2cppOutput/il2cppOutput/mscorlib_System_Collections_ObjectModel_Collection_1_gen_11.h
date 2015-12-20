@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<UnityEngine.UIVertex>
-struct IList_1_t1_1030;
+struct IList_1_t1_1031;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.Collection`1<UnityEngine.UIVertex>
-struct  Collection_1_t1_1677  : public Object_t
+struct  Collection_1_t1_1683  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
 	Object_t* ___list_0;

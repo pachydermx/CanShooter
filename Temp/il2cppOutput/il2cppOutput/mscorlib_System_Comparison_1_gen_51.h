@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<Vuforia.ReconstructionAbstractBehaviour>
-struct  Comparison_1_t1_1868  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1874  : public MulticastDelegate_t1_21
 {
 };

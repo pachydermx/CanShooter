@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<ISampleAppUIElement>
-struct List_1_t1_1228;
+struct List_1_t1_1229;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 
 #include "mscorlib_System_Object.h"
 
@@ -21,19 +21,19 @@ struct GUIStyle_t5_180;
 struct  SampleAppsUILayout_t8_20  : public Object_t
 {
 	// System.Collections.Generic.List`1<ISampleAppUIElement> SampleAppsUILayout::GUIElements
-	List_1_t1_1228 * ___GUIElements_0;
+	List_1_t1_1229 * ___GUIElements_0;
 	// System.Single SampleAppsUILayout::mIndex
 	float ___mIndex_1;
 	// UnityEngine.GUIStyle SampleAppsUILayout::mStyleHeader
-	GUIStyle_t5_180 * ___mStyleHeader_2;
+	GUIStyle_t5_181 * ___mStyleHeader_2;
 	// UnityEngine.GUIStyle SampleAppsUILayout::mStyleAboutButton
-	GUIStyle_t5_180 * ___mStyleAboutButton_3;
+	GUIStyle_t5_181 * ___mStyleAboutButton_3;
 	// UnityEngine.GUIStyle SampleAppsUILayout::mStyleSlider
-	GUIStyle_t5_180 * ___mStyleSlider_4;
+	GUIStyle_t5_181 * ___mStyleSlider_4;
 	// UnityEngine.GUIStyle SampleAppsUILayout::mStyleToggle
-	GUIStyle_t5_180 * ___mStyleToggle_5;
+	GUIStyle_t5_181 * ___mStyleToggle_5;
 	// UnityEngine.GUIStyle SampleAppsUILayout::mStyleCloseButton
-	GUIStyle_t5_180 * ___mStyleCloseButton_6;
+	GUIStyle_t5_181 * ___mStyleCloseButton_6;
 	// UnityEngine.GUIStyle SampleAppsUILayout::mStyleGroupLabel
-	GUIStyle_t5_180 * ___mStyleGroupLabel_7;
+	GUIStyle_t5_181 * ___mStyleGroupLabel_7;
 };

@@ -13,9 +13,9 @@
 // UnityEngine.Sprite
 struct Sprite_t5_81;
 // UnityEngine.Vector2[]
-struct Vector2U5BU5D_t5_285;
+struct Vector2U5BU5D_t5_286;
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t5_164;
+struct Vector3U5BU5D_t5_165;
 
 #include "UnityEngine_UI_UnityEngine_UI_MaskableGraphic.h"
 #include "UnityEngine_UI_UnityEngine_UI_Image_Type.h"
@@ -47,11 +47,11 @@ struct  Image_t7_64  : public MaskableGraphic_t7_88
 };
 struct Image_t7_64_StaticFields{
 	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_VertScratch
-	Vector2U5BU5D_t5_285* ___s_VertScratch_38;
+	Vector2U5BU5D_t5_286* ___s_VertScratch_38;
 	// UnityEngine.Vector2[] UnityEngine.UI.Image::s_UVScratch
-	Vector2U5BU5D_t5_285* ___s_UVScratch_39;
+	Vector2U5BU5D_t5_286* ___s_UVScratch_39;
 	// UnityEngine.Vector3[] UnityEngine.UI.Image::s_Xy
-	Vector3U5BU5D_t5_164* ___s_Xy_40;
+	Vector3U5BU5D_t5_165* ___s_Xy_40;
 	// UnityEngine.Vector3[] UnityEngine.UI.Image::s_Uv
-	Vector3U5BU5D_t5_164* ___s_Uv_41;
+	Vector3U5BU5D_t5_165* ___s_Uv_41;
 };

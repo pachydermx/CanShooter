@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Debug
-struct  Debug_t5_90  : public Object_t
+struct  Debug_t5_91  : public Object_t
 {
 };

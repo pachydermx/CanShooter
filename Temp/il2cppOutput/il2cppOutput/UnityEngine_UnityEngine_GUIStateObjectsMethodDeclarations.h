@@ -20,6 +20,6 @@ struct Type_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.GUIStateObjects::.cctor()
-extern "C" void GUIStateObjects__cctor_m5_1627 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUIStateObjects__cctor_m5_1640 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.GUIStateObjects::GetStateObject(System.Type,System.Int32)
-extern "C" Object_t * GUIStateObjects_GetStateObject_m5_1628 (Object_t * __this /* static, unused */, Type_t * ___t, int32_t ___controlID, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * GUIStateObjects_GetStateObject_m5_1641 (Object_t * __this /* static, unused */, Type_t * ___t, int32_t ___controlID, const MethodInfo* method) IL2CPP_METHOD_ATTR;

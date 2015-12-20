@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.Canvas/WillRenderCanvases
-struct WillRenderCanvases_t5_158;
+struct WillRenderCanvases_t5_159;
 
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.Canvas
-struct  Canvas_t5_159  : public Behaviour_t5_39
+struct  Canvas_t5_160  : public Behaviour_t5_39
 {
 };
-struct Canvas_t5_159_StaticFields{
+struct Canvas_t5_160_StaticFields{
 	// UnityEngine.Canvas/WillRenderCanvases UnityEngine.Canvas::willRenderCanvases
-	WillRenderCanvases_t5_158 * ___willRenderCanvases_2;
+	WillRenderCanvases_t5_159 * ___willRenderCanvases_2;
 };

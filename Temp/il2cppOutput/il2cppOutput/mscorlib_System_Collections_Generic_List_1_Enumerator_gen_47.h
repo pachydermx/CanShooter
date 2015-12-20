@@ -18,7 +18,7 @@ struct IPEndPoint_t2_430;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Net.IPEndPoint>
-struct  Enumerator_t1_1501 
+struct  Enumerator_t1_1502 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_984 * ___l_0;

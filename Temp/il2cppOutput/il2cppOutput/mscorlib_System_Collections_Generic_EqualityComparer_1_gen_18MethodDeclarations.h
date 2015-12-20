@@ -13,24 +13,24 @@
 #include <exception>
 
 // System.Collections.Generic.EqualityComparer`1<Vuforia.Image/PIXEL_FORMAT>
-struct EqualityComparer_1_t1_1811;
+struct EqualityComparer_1_t1_1817;
 // System.Object
 struct Object_t;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void System.Collections.Generic.EqualityComparer`1<Vuforia.Image/PIXEL_FORMAT>::.ctor()
-extern "C" void EqualityComparer_1__ctor_m1_14229_gshared (EqualityComparer_1_t1_1811 * __this, const MethodInfo* method);
-#define EqualityComparer_1__ctor_m1_14229(__this, method) (( void (*) (EqualityComparer_1_t1_1811 *, const MethodInfo*))EqualityComparer_1__ctor_m1_14229_gshared)(__this, method)
+extern "C" void EqualityComparer_1__ctor_m1_14333_gshared (EqualityComparer_1_t1_1817 * __this, const MethodInfo* method);
+#define EqualityComparer_1__ctor_m1_14333(__this, method) (( void (*) (EqualityComparer_1_t1_1817 *, const MethodInfo*))EqualityComparer_1__ctor_m1_14333_gshared)(__this, method)
 // System.Void System.Collections.Generic.EqualityComparer`1<Vuforia.Image/PIXEL_FORMAT>::.cctor()
-extern "C" void EqualityComparer_1__cctor_m1_14230_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1__cctor_m1_14230(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m1_14230_gshared)(__this /* static, unused */, method)
+extern "C" void EqualityComparer_1__cctor_m1_14334_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1__cctor_m1_14334(__this /* static, unused */, method) (( void (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1__cctor_m1_14334_gshared)(__this /* static, unused */, method)
 // System.Int32 System.Collections.Generic.EqualityComparer`1<Vuforia.Image/PIXEL_FORMAT>::System.Collections.IEqualityComparer.GetHashCode(System.Object)
-extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1_14231_gshared (EqualityComparer_1_t1_1811 * __this, Object_t * ___obj, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1_14231(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t1_1811 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1_14231_gshared)(__this, ___obj, method)
+extern "C" int32_t EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1_14335_gshared (EqualityComparer_1_t1_1817 * __this, Object_t * ___obj, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1_14335(__this, ___obj, method) (( int32_t (*) (EqualityComparer_1_t1_1817 *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_GetHashCode_m1_14335_gshared)(__this, ___obj, method)
 // System.Boolean System.Collections.Generic.EqualityComparer`1<Vuforia.Image/PIXEL_FORMAT>::System.Collections.IEqualityComparer.Equals(System.Object,System.Object)
-extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1_14232_gshared (EqualityComparer_1_t1_1811 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
-#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1_14232(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t1_1811 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1_14232_gshared)(__this, ___x, ___y, method)
+extern "C" bool EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1_14336_gshared (EqualityComparer_1_t1_1817 * __this, Object_t * ___x, Object_t * ___y, const MethodInfo* method);
+#define EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1_14336(__this, ___x, ___y, method) (( bool (*) (EqualityComparer_1_t1_1817 *, Object_t *, Object_t *, const MethodInfo*))EqualityComparer_1_System_Collections_IEqualityComparer_Equals_m1_14336_gshared)(__this, ___x, ___y, method)
 // System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1<Vuforia.Image/PIXEL_FORMAT>::get_Default()
-extern "C" EqualityComparer_1_t1_1811 * EqualityComparer_1_get_Default_m1_14233_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
-#define EqualityComparer_1_get_Default_m1_14233(__this /* static, unused */, method) (( EqualityComparer_1_t1_1811 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m1_14233_gshared)(__this /* static, unused */, method)
+extern "C" EqualityComparer_1_t1_1817 * EqualityComparer_1_get_Default_m1_14337_gshared (Object_t * __this /* static, unused */, const MethodInfo* method);
+#define EqualityComparer_1_get_Default_m1_14337(__this /* static, unused */, method) (( EqualityComparer_1_t1_1817 * (*) (Object_t * /* static, unused */, const MethodInfo*))EqualityComparer_1_get_Default_m1_14337_gshared)(__this /* static, unused */, method)

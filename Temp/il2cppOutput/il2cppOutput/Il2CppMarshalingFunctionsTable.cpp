@@ -146,51 +146,51 @@ extern "C" void ScriptableObject_t5_16_marshal_cleanup ();
 extern "C" void Gradient_t5_50_marshal ();
 extern "C" void Gradient_t5_50_marshal_back ();
 extern "C" void Gradient_t5_50_marshal_cleanup ();
-extern "C" void CacheIndex_t5_84_marshal ();
-extern "C" void CacheIndex_t5_84_marshal_back ();
-extern "C" void CacheIndex_t5_84_marshal_cleanup ();
+extern "C" void CacheIndex_t5_85_marshal ();
+extern "C" void CacheIndex_t5_85_marshal_back ();
+extern "C" void CacheIndex_t5_85_marshal_cleanup ();
 extern "C" void AsyncOperation_t5_2_marshal ();
 extern "C" void AsyncOperation_t5_2_marshal_back ();
 extern "C" void AsyncOperation_t5_2_marshal_cleanup ();
-extern "C" void Touch_t5_97_marshal ();
-extern "C" void Touch_t5_97_marshal_back ();
-extern "C" void Touch_t5_97_marshal_cleanup ();
+extern "C" void Touch_t5_98_marshal ();
+extern "C" void Touch_t5_98_marshal_back ();
+extern "C" void Touch_t5_98_marshal_cleanup ();
 extern "C" void Object_t5_5_marshal ();
 extern "C" void Object_t5_5_marshal_back ();
 extern "C" void Object_t5_5_marshal_cleanup ();
 extern "C" void YieldInstruction_t5_12_marshal ();
 extern "C" void YieldInstruction_t5_12_marshal_back ();
 extern "C" void YieldInstruction_t5_12_marshal_cleanup ();
-extern "C" void WebCamDevice_t5_131_marshal ();
-extern "C" void WebCamDevice_t5_131_marshal_back ();
-extern "C" void WebCamDevice_t5_131_marshal_cleanup ();
-extern "C" void AnimationCurve_t5_139_marshal ();
-extern "C" void AnimationCurve_t5_139_marshal_back ();
-extern "C" void AnimationCurve_t5_139_marshal_cleanup ();
-extern "C" void AnimatorTransitionInfo_t5_141_marshal ();
-extern "C" void AnimatorTransitionInfo_t5_141_marshal_back ();
-extern "C" void AnimatorTransitionInfo_t5_141_marshal_cleanup ();
-extern "C" void SkeletonBone_t5_143_marshal ();
-extern "C" void SkeletonBone_t5_143_marshal_back ();
-extern "C" void SkeletonBone_t5_143_marshal_cleanup ();
-extern "C" void HumanBone_t5_145_marshal ();
-extern "C" void HumanBone_t5_145_marshal_back ();
-extern "C" void HumanBone_t5_145_marshal_cleanup ();
-extern "C" void CharacterInfo_t5_150_marshal ();
-extern "C" void CharacterInfo_t5_150_marshal_back ();
-extern "C" void CharacterInfo_t5_150_marshal_cleanup ();
-extern "C" void Event_t5_165_marshal ();
-extern "C" void Event_t5_165_marshal_back ();
-extern "C" void Event_t5_165_marshal_cleanup ();
-extern "C" void GcAchievementData_t5_214_marshal ();
-extern "C" void GcAchievementData_t5_214_marshal_back ();
-extern "C" void GcAchievementData_t5_214_marshal_cleanup ();
-extern "C" void GcScoreData_t5_215_marshal ();
-extern "C" void GcScoreData_t5_215_marshal_back ();
-extern "C" void GcScoreData_t5_215_marshal_cleanup ();
-extern "C" void TrackedReference_t5_140_marshal ();
-extern "C" void TrackedReference_t5_140_marshal_back ();
-extern "C" void TrackedReference_t5_140_marshal_cleanup ();
+extern "C" void WebCamDevice_t5_132_marshal ();
+extern "C" void WebCamDevice_t5_132_marshal_back ();
+extern "C" void WebCamDevice_t5_132_marshal_cleanup ();
+extern "C" void AnimationCurve_t5_140_marshal ();
+extern "C" void AnimationCurve_t5_140_marshal_back ();
+extern "C" void AnimationCurve_t5_140_marshal_cleanup ();
+extern "C" void AnimatorTransitionInfo_t5_142_marshal ();
+extern "C" void AnimatorTransitionInfo_t5_142_marshal_back ();
+extern "C" void AnimatorTransitionInfo_t5_142_marshal_cleanup ();
+extern "C" void SkeletonBone_t5_144_marshal ();
+extern "C" void SkeletonBone_t5_144_marshal_back ();
+extern "C" void SkeletonBone_t5_144_marshal_cleanup ();
+extern "C" void HumanBone_t5_146_marshal ();
+extern "C" void HumanBone_t5_146_marshal_back ();
+extern "C" void HumanBone_t5_146_marshal_cleanup ();
+extern "C" void CharacterInfo_t5_151_marshal ();
+extern "C" void CharacterInfo_t5_151_marshal_back ();
+extern "C" void CharacterInfo_t5_151_marshal_cleanup ();
+extern "C" void Event_t5_166_marshal ();
+extern "C" void Event_t5_166_marshal_back ();
+extern "C" void Event_t5_166_marshal_cleanup ();
+extern "C" void GcAchievementData_t5_215_marshal ();
+extern "C" void GcAchievementData_t5_215_marshal_back ();
+extern "C" void GcAchievementData_t5_215_marshal_cleanup ();
+extern "C" void GcScoreData_t5_216_marshal ();
+extern "C" void GcScoreData_t5_216_marshal_back ();
+extern "C" void GcScoreData_t5_216_marshal_cleanup ();
+extern "C" void TrackedReference_t5_141_marshal ();
+extern "C" void TrackedReference_t5_141_marshal_back ();
+extern "C" void TrackedReference_t5_141_marshal_cleanup ();
 extern "C" void EyewearCalibrationReading_t6_43_marshal ();
 extern "C" void EyewearCalibrationReading_t6_43_marshal_back ();
 extern "C" void EyewearCalibrationReading_t6_43_marshal_cleanup ();
@@ -262,21 +262,21 @@ extern const Il2CppMarshalingFunctions g_MarshalingFunctions[69] =
 	{ Coroutine_t5_15_marshal, Coroutine_t5_15_marshal_back, Coroutine_t5_15_marshal_cleanup },
 	{ ScriptableObject_t5_16_marshal, ScriptableObject_t5_16_marshal_back, ScriptableObject_t5_16_marshal_cleanup },
 	{ Gradient_t5_50_marshal, Gradient_t5_50_marshal_back, Gradient_t5_50_marshal_cleanup },
-	{ CacheIndex_t5_84_marshal, CacheIndex_t5_84_marshal_back, CacheIndex_t5_84_marshal_cleanup },
+	{ CacheIndex_t5_85_marshal, CacheIndex_t5_85_marshal_back, CacheIndex_t5_85_marshal_cleanup },
 	{ AsyncOperation_t5_2_marshal, AsyncOperation_t5_2_marshal_back, AsyncOperation_t5_2_marshal_cleanup },
-	{ Touch_t5_97_marshal, Touch_t5_97_marshal_back, Touch_t5_97_marshal_cleanup },
+	{ Touch_t5_98_marshal, Touch_t5_98_marshal_back, Touch_t5_98_marshal_cleanup },
 	{ Object_t5_5_marshal, Object_t5_5_marshal_back, Object_t5_5_marshal_cleanup },
 	{ YieldInstruction_t5_12_marshal, YieldInstruction_t5_12_marshal_back, YieldInstruction_t5_12_marshal_cleanup },
-	{ WebCamDevice_t5_131_marshal, WebCamDevice_t5_131_marshal_back, WebCamDevice_t5_131_marshal_cleanup },
-	{ AnimationCurve_t5_139_marshal, AnimationCurve_t5_139_marshal_back, AnimationCurve_t5_139_marshal_cleanup },
-	{ AnimatorTransitionInfo_t5_141_marshal, AnimatorTransitionInfo_t5_141_marshal_back, AnimatorTransitionInfo_t5_141_marshal_cleanup },
-	{ SkeletonBone_t5_143_marshal, SkeletonBone_t5_143_marshal_back, SkeletonBone_t5_143_marshal_cleanup },
-	{ HumanBone_t5_145_marshal, HumanBone_t5_145_marshal_back, HumanBone_t5_145_marshal_cleanup },
-	{ CharacterInfo_t5_150_marshal, CharacterInfo_t5_150_marshal_back, CharacterInfo_t5_150_marshal_cleanup },
-	{ Event_t5_165_marshal, Event_t5_165_marshal_back, Event_t5_165_marshal_cleanup },
-	{ GcAchievementData_t5_214_marshal, GcAchievementData_t5_214_marshal_back, GcAchievementData_t5_214_marshal_cleanup },
-	{ GcScoreData_t5_215_marshal, GcScoreData_t5_215_marshal_back, GcScoreData_t5_215_marshal_cleanup },
-	{ TrackedReference_t5_140_marshal, TrackedReference_t5_140_marshal_back, TrackedReference_t5_140_marshal_cleanup },
+	{ WebCamDevice_t5_132_marshal, WebCamDevice_t5_132_marshal_back, WebCamDevice_t5_132_marshal_cleanup },
+	{ AnimationCurve_t5_140_marshal, AnimationCurve_t5_140_marshal_back, AnimationCurve_t5_140_marshal_cleanup },
+	{ AnimatorTransitionInfo_t5_142_marshal, AnimatorTransitionInfo_t5_142_marshal_back, AnimatorTransitionInfo_t5_142_marshal_cleanup },
+	{ SkeletonBone_t5_144_marshal, SkeletonBone_t5_144_marshal_back, SkeletonBone_t5_144_marshal_cleanup },
+	{ HumanBone_t5_146_marshal, HumanBone_t5_146_marshal_back, HumanBone_t5_146_marshal_cleanup },
+	{ CharacterInfo_t5_151_marshal, CharacterInfo_t5_151_marshal_back, CharacterInfo_t5_151_marshal_cleanup },
+	{ Event_t5_166_marshal, Event_t5_166_marshal_back, Event_t5_166_marshal_cleanup },
+	{ GcAchievementData_t5_215_marshal, GcAchievementData_t5_215_marshal_back, GcAchievementData_t5_215_marshal_cleanup },
+	{ GcScoreData_t5_216_marshal, GcScoreData_t5_216_marshal_back, GcScoreData_t5_216_marshal_cleanup },
+	{ TrackedReference_t5_141_marshal, TrackedReference_t5_141_marshal_back, TrackedReference_t5_141_marshal_cleanup },
 	{ EyewearCalibrationReading_t6_43_marshal, EyewearCalibrationReading_t6_43_marshal_back, EyewearCalibrationReading_t6_43_marshal_cleanup },
 	{ TrackableResultData_t6_96_marshal, TrackableResultData_t6_96_marshal_back, TrackableResultData_t6_96_marshal_cleanup },
 	{ WordResultData_t6_100_marshal, WordResultData_t6_100_marshal_back, WordResultData_t6_100_marshal_cleanup },

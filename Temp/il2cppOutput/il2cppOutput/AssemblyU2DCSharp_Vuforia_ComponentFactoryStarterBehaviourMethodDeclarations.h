@@ -13,13 +13,13 @@
 #include <exception>
 
 // Vuforia.ComponentFactoryStarterBehaviour
-struct ComponentFactoryStarterBehaviour_t8_48;
+struct ComponentFactoryStarterBehaviour_t8_50;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.ComponentFactoryStarterBehaviour::.ctor()
-extern "C" void ComponentFactoryStarterBehaviour__ctor_m8_228 (ComponentFactoryStarterBehaviour_t8_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentFactoryStarterBehaviour__ctor_m8_243 (ComponentFactoryStarterBehaviour_t8_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ComponentFactoryStarterBehaviour::Awake()
-extern "C" void ComponentFactoryStarterBehaviour_Awake_m8_229 (ComponentFactoryStarterBehaviour_t8_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentFactoryStarterBehaviour_Awake_m8_244 (ComponentFactoryStarterBehaviour_t8_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ComponentFactoryStarterBehaviour::SetBehaviourComponentFactory()
-extern "C" void ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m8_230 (ComponentFactoryStarterBehaviour_t8_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ComponentFactoryStarterBehaviour_SetBehaviourComponentFactory_m8_245 (ComponentFactoryStarterBehaviour_t8_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

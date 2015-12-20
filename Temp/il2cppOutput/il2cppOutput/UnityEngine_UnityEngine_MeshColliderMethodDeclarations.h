@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.MeshCollider
-struct MeshCollider_t5_117;
+struct MeshCollider_t5_118;
 // UnityEngine.Mesh
 struct Mesh_t5_26;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.MeshCollider::set_sharedMesh(UnityEngine.Mesh)
-extern "C" void MeshCollider_set_sharedMesh_m5_954 (MeshCollider_t5_117 * __this, Mesh_t5_26 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MeshCollider_set_sharedMesh_m5_967 (MeshCollider_t5_118 * __this, Mesh_t5_26 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

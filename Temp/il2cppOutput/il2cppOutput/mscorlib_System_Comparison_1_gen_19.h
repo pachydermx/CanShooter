@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>
-struct  Comparison_1_t1_1497  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1498  : public MulticastDelegate_t1_21
 {
 };

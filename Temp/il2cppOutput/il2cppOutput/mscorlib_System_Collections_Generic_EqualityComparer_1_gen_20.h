@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.EqualityComparer`1<Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct EqualityComparer_1_t1_1965;
+struct EqualityComparer_1_t1_1971;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.EqualityComparer`1<Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct  EqualityComparer_1_t1_1965  : public Object_t
+struct  EqualityComparer_1_t1_1971  : public Object_t
 {
 };
-struct EqualityComparer_1_t1_1965_StaticFields{
+struct EqualityComparer_1_t1_1971_StaticFields{
 	// System.Collections.Generic.EqualityComparer`1<T> System.Collections.Generic.EqualityComparer`1::_default
-	EqualityComparer_1_t1_1965 * ____default_0;
+	EqualityComparer_1_t1_1971 * ____default_0;
 };

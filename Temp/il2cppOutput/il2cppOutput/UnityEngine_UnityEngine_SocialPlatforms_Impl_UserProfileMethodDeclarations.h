@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.SocialPlatforms.Impl.UserProfile
-struct UserProfile_t5_230;
+struct UserProfile_t5_231;
 // System.String
 struct String_t;
 // UnityEngine.Texture2D
@@ -23,22 +23,22 @@ struct Texture2D_t5_41;
 #include "UnityEngine_UnityEngine_SocialPlatforms_UserState.h"
 
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor()
-extern "C" void UserProfile__ctor_m5_1634 (UserProfile_t5_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserProfile__ctor_m5_1647 (UserProfile_t5_231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::.ctor(System.String,System.String,System.Boolean,UnityEngine.SocialPlatforms.UserState,UnityEngine.Texture2D)
-extern "C" void UserProfile__ctor_m5_1635 (UserProfile_t5_230 * __this, String_t* ___name, String_t* ___id, bool ___friend, int32_t ___state, Texture2D_t5_41 * ___image, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserProfile__ctor_m5_1648 (UserProfile_t5_231 * __this, String_t* ___name, String_t* ___id, bool ___friend, int32_t ___state, Texture2D_t5_41 * ___image, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::ToString()
-extern "C" String_t* UserProfile_ToString_m5_1636 (UserProfile_t5_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UserProfile_ToString_m5_1649 (UserProfile_t5_231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::SetUserName(System.String)
-extern "C" void UserProfile_SetUserName_m5_1637 (UserProfile_t5_230 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserProfile_SetUserName_m5_1650 (UserProfile_t5_231 * __this, String_t* ___name, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::SetUserID(System.String)
-extern "C" void UserProfile_SetUserID_m5_1638 (UserProfile_t5_230 * __this, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserProfile_SetUserID_m5_1651 (UserProfile_t5_231 * __this, String_t* ___id, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.UserProfile::SetImage(UnityEngine.Texture2D)
-extern "C" void UserProfile_SetImage_m5_1639 (UserProfile_t5_230 * __this, Texture2D_t5_41 * ___image, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserProfile_SetImage_m5_1652 (UserProfile_t5_231 * __this, Texture2D_t5_41 * ___image, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_userName()
-extern "C" String_t* UserProfile_get_userName_m5_1640 (UserProfile_t5_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UserProfile_get_userName_m5_1653 (UserProfile_t5_231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.SocialPlatforms.Impl.UserProfile::get_id()
-extern "C" String_t* UserProfile_get_id_m5_1641 (UserProfile_t5_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* UserProfile_get_id_m5_1654 (UserProfile_t5_231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.Impl.UserProfile::get_isFriend()
-extern "C" bool UserProfile_get_isFriend_m5_1642 (UserProfile_t5_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool UserProfile_get_isFriend_m5_1655 (UserProfile_t5_231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.SocialPlatforms.UserState UnityEngine.SocialPlatforms.Impl.UserProfile::get_state()
-extern "C" int32_t UserProfile_get_state_m5_1643 (UserProfile_t5_230 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" int32_t UserProfile_get_state_m5_1656 (UserProfile_t5_231 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

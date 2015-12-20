@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<UnityEngine.Color32>
-struct IList_1_t1_1641;
+struct IList_1_t1_1642;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<UnityEngine.Color32>
-struct  ReadOnlyCollection_1_t1_1640  : public Object_t
+struct  ReadOnlyCollection_1_t1_1641  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\MultiTargetUIEventHandler.cs" />
      <Compile Include="Assets\Scripts\MultiTargetUIView.cs" />
      <Compile Include="Assets\Scripts\RotateAround.cs" />
+     <Compile Include="Assets\TestButton.cs" />
      <Compile Include="Assets\Tracker.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
@@ -123,11 +124,17 @@
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
      <None Include="Assets\Resources\Vuforia_About.txt" />
      <None Include="Assets\Vuforia\Shaders\Text3D.shader" />
+ <Reference Include="UnityEngine.Advertisements">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Qualcomm.Vuforia.UnityExtensions">
  <HintPath>/Users/pachydermx/Git/Unity/CanShooter/Assets/Vuforia/Scripts/Internal/Qualcomm.Vuforia.UnityExtensions.dll</HintPath>

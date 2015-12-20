@@ -13,10 +13,10 @@
 #include <exception>
 
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription
-struct AchievementDescription_t5_233;
+struct AchievementDescription_t5_234;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_SocialPlatforms_GameCenter_GcAchieve.h"
 
 // UnityEngine.SocialPlatforms.Impl.AchievementDescription UnityEngine.SocialPlatforms.GameCenter.GcAchievementDescriptionData::ToAchievementDescription()
-extern "C" AchievementDescription_t5_233 * GcAchievementDescriptionData_ToAchievementDescription_m5_1617 (GcAchievementDescriptionData_t5_213 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" AchievementDescription_t5_234 * GcAchievementDescriptionData_ToAchievementDescription_m5_1630 (GcAchievementDescriptionData_t5_214 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

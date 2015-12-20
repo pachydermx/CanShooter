@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<System.Net.Mail.LinkedResource>
-struct IList_1_t1_1457;
+struct IList_1_t1_1458;
 // System.Object
 struct Object_t;
 

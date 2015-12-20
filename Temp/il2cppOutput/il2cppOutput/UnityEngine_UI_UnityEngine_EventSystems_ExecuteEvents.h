@@ -47,9 +47,9 @@ struct EventFunction_1_t7_27;
 // UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
 struct ObjectPool_1_t7_28;
 // System.Collections.Generic.List`1<UnityEngine.Transform>
-struct List_1_t1_1187;
+struct List_1_t1_1188;
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>>
-struct UnityAction_1_t5_310;
+struct UnityAction_1_t5_311;
 
 #include "mscorlib_System_Object.h"
 
@@ -95,7 +95,7 @@ struct ExecuteEvents_t7_10_StaticFields{
 	// UnityEngine.UI.ObjectPool`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>> UnityEngine.EventSystems.ExecuteEvents::s_HandlerListPool
 	ObjectPool_1_t7_28 * ___s_HandlerListPool_17;
 	// System.Collections.Generic.List`1<UnityEngine.Transform> UnityEngine.EventSystems.ExecuteEvents::s_InternalTransformList
-	List_1_t1_1187 * ___s_InternalTransformList_18;
+	List_1_t1_1188 * ___s_InternalTransformList_18;
 	// UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>> UnityEngine.EventSystems.ExecuteEvents::<>f__am$cache13
-	UnityAction_1_t5_310 * ___U3CU3Ef__amU24cache13_19;
+	UnityAction_1_t5_311 * ___U3CU3Ef__amU24cache13_19;
 };

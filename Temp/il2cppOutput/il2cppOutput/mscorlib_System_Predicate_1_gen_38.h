@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Events.PersistentCall
-struct PersistentCall_t5_267;
+struct PersistentCall_t5_268;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.Events.PersistentCall>
-struct  Predicate_1_t1_1763  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1769  : public MulticastDelegate_t1_21
 {
 };

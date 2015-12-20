@@ -13,12 +13,12 @@
 // System.Collections.Generic.List`1<UnityEngine.Events.BaseInvokableCall>
 struct List_1_t1_1023;
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t5_263;
+struct BaseInvokableCall_t5_264;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.BaseInvokableCall>
-struct  Enumerator_t1_1767 
+struct  Enumerator_t1_1773 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_1023 * ___l_0;
@@ -27,5 +27,5 @@ struct  Enumerator_t1_1767
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator::current
-	BaseInvokableCall_t5_263 * ___current_3;
+	BaseInvokableCall_t5_264 * ___current_3;
 };

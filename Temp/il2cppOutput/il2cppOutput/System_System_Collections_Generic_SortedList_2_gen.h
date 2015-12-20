@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>[]
-struct KeyValuePair_2U5BU5D_t1_1421;
+struct KeyValuePair_2U5BU5D_t1_1422;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t1_1420;
+struct IComparer_1_t1_1421;
 
 #include "mscorlib_System_Object.h"
 
@@ -25,7 +25,7 @@ struct  SortedList_2_t2_868  : public Object_t
 	// System.Int32 System.Collections.Generic.SortedList`2::modificationCount
 	int32_t ___modificationCount_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue>[] System.Collections.Generic.SortedList`2::table
-	KeyValuePair_2U5BU5D_t1_1421* ___table_3;
+	KeyValuePair_2U5BU5D_t1_1422* ___table_3;
 	// System.Collections.Generic.IComparer`1<TKey> System.Collections.Generic.SortedList`2::comparer
 	Object_t* ___comparer_4;
 	// System.Int32 System.Collections.Generic.SortedList`2::defaultCapacity

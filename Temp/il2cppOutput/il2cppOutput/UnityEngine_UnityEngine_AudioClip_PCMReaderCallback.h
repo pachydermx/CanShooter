@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.AudioClip/PCMReaderCallback
-struct  PCMReaderCallback_t5_128  : public MulticastDelegate_t1_21
+struct  PCMReaderCallback_t5_129  : public MulticastDelegate_t1_21
 {
 };

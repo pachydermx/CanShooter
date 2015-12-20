@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image>
-struct Dictionary_2_t1_1044;
+struct Dictionary_2_t1_1045;
 // System.Collections.Generic.List`1<Vuforia.Image/PIXEL_FORMAT>
-struct List_1_t1_1045;
+struct List_1_t1_1046;
 // Vuforia.WebCamImpl
 struct WebCamImpl_t6_71;
 
@@ -26,9 +26,9 @@ struct WebCamImpl_t6_71;
 struct  CameraDeviceImpl_t6_70  : public CameraDevice_t6_25
 {
 	// System.Collections.Generic.Dictionary`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image> Vuforia.CameraDeviceImpl::mCameraImages
-	Dictionary_2_t1_1044 * ___mCameraImages_1;
+	Dictionary_2_t1_1045 * ___mCameraImages_1;
 	// System.Collections.Generic.List`1<Vuforia.Image/PIXEL_FORMAT> Vuforia.CameraDeviceImpl::mForcedCameraFormats
-	List_1_t1_1045 * ___mForcedCameraFormats_2;
+	List_1_t1_1046 * ___mForcedCameraFormats_2;
 	// System.Boolean Vuforia.CameraDeviceImpl::mCameraReady
 	bool ___mCameraReady_4;
 	// System.Boolean Vuforia.CameraDeviceImpl::mIsDirty

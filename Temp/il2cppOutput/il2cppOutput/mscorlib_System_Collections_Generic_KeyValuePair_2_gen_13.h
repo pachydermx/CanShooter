@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// System.Object
-struct Object_t;
+// System.String
+struct String_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,System.Object>
-struct  KeyValuePair_2_t1_1707 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.String>
+struct  KeyValuePair_2_t1_1658 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
+	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	Object_t * ___value_1;
+	String_t* ___value_1;
 };

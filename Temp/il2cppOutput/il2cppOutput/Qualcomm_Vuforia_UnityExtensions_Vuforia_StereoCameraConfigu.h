@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_MonoCameraConfigura.h"
 #include "UnityEngine_UnityEngine_Vector4.h"
@@ -20,7 +20,7 @@ struct Camera_t5_89;
 struct  StereoCameraConfiguration_t6_11  : public MonoCameraConfiguration_t6_10
 {
 	// UnityEngine.Camera Vuforia.StereoCameraConfiguration::mSecondaryCamera
-	Camera_t5_89 * ___mSecondaryCamera_17;
+	Camera_t5_90 * ___mSecondaryCamera_17;
 	// System.Boolean Vuforia.StereoCameraConfiguration::mSkewFrustum
 	bool ___mSkewFrustum_18;
 	// System.Boolean Vuforia.StereoCameraConfiguration::mNeedToCheckStereo

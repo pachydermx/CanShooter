@@ -10,18 +10,16 @@
 
 #include <stdint.h>
 
-// System.String
-struct String_t;
-// UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+// UnityEngine.GUILayoutUtility/LayoutCache
+struct LayoutCache_t5_178;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
-struct  KeyValuePair_2_t1_1728 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,UnityEngine.GUILayoutUtility/LayoutCache>
+struct  KeyValuePair_2_t1_1724 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	String_t* ___key_0;
+	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	GUIStyle_t5_180 * ___value_1;
+	LayoutCache_t5_178 * ___value_1;
 };

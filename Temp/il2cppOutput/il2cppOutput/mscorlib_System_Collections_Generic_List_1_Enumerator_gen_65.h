@@ -11,16 +11,16 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<Vuforia.TargetFinder/TargetSearchResult>
-struct List_1_t1_1071;
+struct List_1_t1_1072;
 
 #include "mscorlib_System_ValueType.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TargetFinder_Target.h"
 
 // System.Collections.Generic.List`1/Enumerator<Vuforia.TargetFinder/TargetSearchResult>
-struct  Enumerator_t1_1986 
+struct  Enumerator_t1_1992 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1071 * ___l_0;
+	List_1_t1_1072 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

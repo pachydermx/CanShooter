@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.UI.IClippable>
-struct  Predicate_1_t1_2153  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_2159  : public MulticastDelegate_t1_21
 {
 };

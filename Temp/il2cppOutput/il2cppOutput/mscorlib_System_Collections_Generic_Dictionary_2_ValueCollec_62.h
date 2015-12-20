@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct Dictionary_2_t1_1197;
+// System.Collections.Generic.Dictionary`2<System.String,Vuforia.WebCamProfile/ProfileData>
+struct Dictionary_2_t1_1074;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
-struct  ValueCollection_t1_2124  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.String,Vuforia.WebCamProfile/ProfileData>
+struct  ValueCollection_t1_2025  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
-	Dictionary_2_t1_1197 * ___dictionary_0;
+	Dictionary_2_t1_1074 * ___dictionary_0;
 };

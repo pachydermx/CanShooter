@@ -24,6 +24,6 @@ struct Object_t;
 #include "mscorlib_System_Boolean.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Boolean,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1540  : public MulticastDelegate_t1_21
+struct  Transform_1_t1_1541  : public MulticastDelegate_t1_21
 {
 };

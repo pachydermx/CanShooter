@@ -10,16 +10,17 @@
 
 #include <stdint.h>
 
-// Vuforia.Trackable
-struct Trackable_t6_16;
+// Vuforia.Image
+struct Image_t6_74;
 
 #include "mscorlib_System_ValueType.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.Trackable>
-struct  KeyValuePair_2_t1_1825 
+// System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image>
+struct  KeyValuePair_2_t1_1819 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	Object_t * ___value_1;
+	Image_t6_74 * ___value_1;
 };

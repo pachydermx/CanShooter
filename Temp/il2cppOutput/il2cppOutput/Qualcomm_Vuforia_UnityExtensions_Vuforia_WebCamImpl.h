@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Camera[]
-struct CameraU5BU5D_t5_241;
+struct CameraU5BU5D_t5_242;
 // System.Int32[]
 struct Int32U5BU5D_t1_161;
 // Vuforia.WebCamTexAdaptor
@@ -31,7 +31,7 @@ struct Texture2D_t5_41;
 struct  WebCamImpl_t6_71  : public Object_t
 {
 	// UnityEngine.Camera[] Vuforia.WebCamImpl::mARCameras
-	CameraU5BU5D_t5_241* ___mARCameras_0;
+	CameraU5BU5D_t5_242* ___mARCameras_0;
 	// System.Int32[] Vuforia.WebCamImpl::mOriginalCameraCullMask
 	Int32U5BU5D_t1_161* ___mOriginalCameraCullMask_1;
 	// Vuforia.WebCamTexAdaptor Vuforia.WebCamImpl::mWebCamTexture

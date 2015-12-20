@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_HideExcessAreaAbstr.h"
 
 // Vuforia.HideExcessAreaBehaviour
-struct  HideExcessAreaBehaviour_t8_45  : public HideExcessAreaAbstractBehaviour_t6_29
+struct  HideExcessAreaBehaviour_t8_47  : public HideExcessAreaAbstractBehaviour_t6_29
 {
 };

@@ -25,7 +25,7 @@ struct Object_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t1_131;
 // System.Collections.Generic.IEqualityComparer`1<System.Object>
-struct IEqualityComparer_1_t1_1281;
+struct IEqualityComparer_1_t1_1282;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Runtime_Serialization_StreamingContext.h"

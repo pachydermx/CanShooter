@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<System.Object>
-struct List_1_t1_1181;
+struct List_1_t1_1182;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Events.UnityAction`1<System.Collections.Generic.List`1<System.Object>>
-struct  UnityAction_1_t5_359  : public MulticastDelegate_t1_21
+struct  UnityAction_1_t5_360  : public MulticastDelegate_t1_21
 {
 };

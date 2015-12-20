@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>
-struct U3CGetEnumeratorU3Ec__Iterator0_t1_1353;
+struct U3CGetEnumeratorU3Ec__Iterator0_t1_1354;
 // System.Object
 struct Object_t;
 
@@ -21,20 +21,20 @@ struct Object_t;
 #include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
 // System.Void System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>::.ctor()
-extern "C" void U3CGetEnumeratorU3Ec__Iterator0__ctor_m1_7574_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ec__Iterator0__ctor_m1_7574(__this, method) (( void (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0__ctor_m1_7574_gshared)(__this, method)
+extern "C" void U3CGetEnumeratorU3Ec__Iterator0__ctor_m1_7575_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ec__Iterator0__ctor_m1_7575(__this, method) (( void (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0__ctor_m1_7575_gshared)(__this, method)
 // T System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>::System.Collections.Generic.IEnumerator<T>.get_Current()
-extern "C" CustomAttributeTypedArgument_t1_344  U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CTU3E_get_Current_m1_7575_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CTU3E_get_Current_m1_7575(__this, method) (( CustomAttributeTypedArgument_t1_344  (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CTU3E_get_Current_m1_7575_gshared)(__this, method)
+extern "C" CustomAttributeTypedArgument_t1_344  U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CTU3E_get_Current_m1_7576_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CTU3E_get_Current_m1_7576(__this, method) (( CustomAttributeTypedArgument_t1_344  (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_System_Collections_Generic_IEnumeratorU3CTU3E_get_Current_m1_7576_gshared)(__this, method)
 // System.Object System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1_7576_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1_7576(__this, method) (( Object_t * (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1_7576_gshared)(__this, method)
+extern "C" Object_t * U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1_7577_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1_7577(__this, method) (( Object_t * (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_System_Collections_IEnumerator_get_Current_m1_7577_gshared)(__this, method)
 // System.Boolean System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>::MoveNext()
-extern "C" bool U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m1_7577_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m1_7577(__this, method) (( bool (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m1_7577_gshared)(__this, method)
+extern "C" bool U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m1_7578_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m1_7578(__this, method) (( bool (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_MoveNext_m1_7578_gshared)(__this, method)
 // System.Void System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>::Dispose()
-extern "C" void U3CGetEnumeratorU3Ec__Iterator0_Dispose_m1_7578_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ec__Iterator0_Dispose_m1_7578(__this, method) (( void (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_Dispose_m1_7578_gshared)(__this, method)
+extern "C" void U3CGetEnumeratorU3Ec__Iterator0_Dispose_m1_7579_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ec__Iterator0_Dispose_m1_7579(__this, method) (( void (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_Dispose_m1_7579_gshared)(__this, method)
 // System.Void System.Array/ArrayReadOnlyList`1/<GetEnumerator>c__Iterator0<System.Reflection.CustomAttributeTypedArgument>::Reset()
-extern "C" void U3CGetEnumeratorU3Ec__Iterator0_Reset_m1_7579_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 * __this, const MethodInfo* method);
-#define U3CGetEnumeratorU3Ec__Iterator0_Reset_m1_7579(__this, method) (( void (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1353 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_Reset_m1_7579_gshared)(__this, method)
+extern "C" void U3CGetEnumeratorU3Ec__Iterator0_Reset_m1_7580_gshared (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 * __this, const MethodInfo* method);
+#define U3CGetEnumeratorU3Ec__Iterator0_Reset_m1_7580(__this, method) (( void (*) (U3CGetEnumeratorU3Ec__Iterator0_t1_1354 *, const MethodInfo*))U3CGetEnumeratorU3Ec__Iterator0_Reset_m1_7580_gshared)(__this, method)

@@ -15,13 +15,13 @@
 #pragma once
 // Vuforia.VirtualButtonBehaviour[]
 // Vuforia.VirtualButtonBehaviour[]
-struct VirtualButtonBehaviourU5BU5D_t8_72  : public Array_t { };
+struct VirtualButtonBehaviourU5BU5D_t8_74  : public Array_t { };
 // ISampleAppUIElement[]
 // ISampleAppUIElement[]
-struct ISampleAppUIElementU5BU5D_t8_74  : public Array_t { };
+struct ISampleAppUIElementU5BU5D_t8_76  : public Array_t { };
 // SampleAppUIRect[]
 // SampleAppUIRect[]
 struct SampleAppUIRectU5BU5D_t8_22  : public Array_t { };
 // Vuforia.WireframeBehaviour[]
 // Vuforia.WireframeBehaviour[]
-struct WireframeBehaviourU5BU5D_t8_73  : public Array_t { };
+struct WireframeBehaviourU5BU5D_t8_75  : public Array_t { };

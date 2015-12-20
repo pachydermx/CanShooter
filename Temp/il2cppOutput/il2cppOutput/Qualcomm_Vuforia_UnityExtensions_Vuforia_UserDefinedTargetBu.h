@@ -13,13 +13,13 @@
 // Vuforia.ObjectTracker
 struct ObjectTracker_t6_27;
 // System.Collections.Generic.List`1<Vuforia.IUserDefinedTargetEventHandler>
-struct List_1_t1_1079;
+struct List_1_t1_1080;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ImageTargetBuilder_.h"
 
 // Vuforia.UserDefinedTargetBuildingAbstractBehaviour
-struct  UserDefinedTargetBuildingAbstractBehaviour_t6_192  : public MonoBehaviour_t5_94
+struct  UserDefinedTargetBuildingAbstractBehaviour_t6_192  : public MonoBehaviour_t5_95
 {
 	// Vuforia.ObjectTracker Vuforia.UserDefinedTargetBuildingAbstractBehaviour::mObjectTracker
 	ObjectTracker_t6_27 * ___mObjectTracker_2;
@@ -36,7 +36,7 @@ struct  UserDefinedTargetBuildingAbstractBehaviour_t6_192  : public MonoBehaviou
 	// System.Boolean Vuforia.UserDefinedTargetBuildingAbstractBehaviour::mOnInitializedCalled
 	bool ___mOnInitializedCalled_8;
 	// System.Collections.Generic.List`1<Vuforia.IUserDefinedTargetEventHandler> Vuforia.UserDefinedTargetBuildingAbstractBehaviour::mHandlers
-	List_1_t1_1079 * ___mHandlers_9;
+	List_1_t1_1080 * ___mHandlers_9;
 	// System.Boolean Vuforia.UserDefinedTargetBuildingAbstractBehaviour::StopTrackerWhileScanning
 	bool ___StopTrackerWhileScanning_10;
 	// System.Boolean Vuforia.UserDefinedTargetBuildingAbstractBehaviour::StartScanningAutomatically

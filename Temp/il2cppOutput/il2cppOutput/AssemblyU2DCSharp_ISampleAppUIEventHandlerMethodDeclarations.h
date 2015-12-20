@@ -18,4 +18,4 @@ struct ISampleAppUIEventHandler_t8_11;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void ISampleAppUIEventHandler::.ctor()
-extern "C" void ISampleAppUIEventHandler__ctor_m8_60 (ISampleAppUIEventHandler_t8_11 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ISampleAppUIEventHandler__ctor_m8_61 (ISampleAppUIEventHandler_t8_11 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

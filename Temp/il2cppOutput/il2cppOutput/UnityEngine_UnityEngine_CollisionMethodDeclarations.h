@@ -13,10 +13,10 @@
 #include <exception>
 
 // UnityEngine.Collision
-struct Collision_t5_109;
+struct Collision_t5_110;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // UnityEngine.Vector3 UnityEngine.Collision::get_relativeVelocity()
-extern "C" Vector3_t5_57  Collision_get_relativeVelocity_m5_939 (Collision_t5_109 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t5_57  Collision_get_relativeVelocity_m5_952 (Collision_t5_110 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

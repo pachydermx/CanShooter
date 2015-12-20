@@ -15,10 +15,10 @@
 #include "mscorlib_System_DateTime.h"
 
 // UnityEngine.SystemClock
-struct  SystemClock_t5_257  : public Object_t
+struct  SystemClock_t5_258  : public Object_t
 {
 };
-struct SystemClock_t5_257_StaticFields{
+struct SystemClock_t5_258_StaticFields{
 	// System.DateTime UnityEngine.SystemClock::s_Epoch
 	DateTime_t1_128  ___s_Epoch_0;
 };

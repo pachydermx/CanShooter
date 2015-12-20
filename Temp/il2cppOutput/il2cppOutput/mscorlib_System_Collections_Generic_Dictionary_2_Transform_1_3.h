@@ -24,6 +24,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.String,System.Int32,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1277  : public MulticastDelegate_t1_21
+struct  Transform_1_t1_1278  : public MulticastDelegate_t1_21
 {
 };

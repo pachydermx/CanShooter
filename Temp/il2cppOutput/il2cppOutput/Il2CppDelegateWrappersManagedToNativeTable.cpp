@@ -105,18 +105,18 @@ extern "C" void pinvoke_delegate_wrapper_CertificateSelectionCallback_t3_14 ();
 extern "C" void pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t3_12 ();
 extern "C" void pinvoke_delegate_wrapper_StateChanged_t5_45 ();
 extern "C" void pinvoke_delegate_wrapper_ReapplyDrivenProperties_t5_70 ();
-extern "C" void pinvoke_delegate_wrapper_LogCallback_t5_86 ();
-extern "C" void pinvoke_delegate_wrapper_CameraCallback_t5_88 ();
-extern "C" void pinvoke_delegate_wrapper_DisplaysUpdatedDelegate_t5_91 ();
-extern "C" void pinvoke_delegate_wrapper_AudioConfigurationChangeHandler_t5_126 ();
-extern "C" void pinvoke_delegate_wrapper_PCMReaderCallback_t5_128 ();
-extern "C" void pinvoke_delegate_wrapper_PCMSetPositionCallback_t5_129 ();
-extern "C" void pinvoke_delegate_wrapper_FontTextureRebuildCallback_t5_151 ();
-extern "C" void pinvoke_delegate_wrapper_WillRenderCanvases_t5_158 ();
-extern "C" void pinvoke_delegate_wrapper_WindowFunction_t5_171 ();
-extern "C" void pinvoke_delegate_wrapper_SkinChangedDelegate_t5_188 ();
-extern "C" void pinvoke_delegate_wrapper_UnityAdsDelegate_t5_105 ();
-extern "C" void pinvoke_delegate_wrapper_UnityAction_t5_265 ();
+extern "C" void pinvoke_delegate_wrapper_LogCallback_t5_87 ();
+extern "C" void pinvoke_delegate_wrapper_CameraCallback_t5_89 ();
+extern "C" void pinvoke_delegate_wrapper_DisplaysUpdatedDelegate_t5_92 ();
+extern "C" void pinvoke_delegate_wrapper_AudioConfigurationChangeHandler_t5_127 ();
+extern "C" void pinvoke_delegate_wrapper_PCMReaderCallback_t5_129 ();
+extern "C" void pinvoke_delegate_wrapper_PCMSetPositionCallback_t5_130 ();
+extern "C" void pinvoke_delegate_wrapper_FontTextureRebuildCallback_t5_152 ();
+extern "C" void pinvoke_delegate_wrapper_WillRenderCanvases_t5_159 ();
+extern "C" void pinvoke_delegate_wrapper_WindowFunction_t5_172 ();
+extern "C" void pinvoke_delegate_wrapper_SkinChangedDelegate_t5_189 ();
+extern "C" void pinvoke_delegate_wrapper_UnityAdsDelegate_t5_106 ();
+extern "C" void pinvoke_delegate_wrapper_UnityAction_t5_266 ();
 extern "C" void pinvoke_delegate_wrapper_OnValidateInput_t7_96 ();
 extern const methodPointerType g_DelegateWrappersManagedToNative[107] = 
 {
@@ -214,17 +214,17 @@ extern const methodPointerType g_DelegateWrappersManagedToNative[107] =
 	pinvoke_delegate_wrapper_PrivateKeySelectionCallback_t3_12,
 	pinvoke_delegate_wrapper_StateChanged_t5_45,
 	pinvoke_delegate_wrapper_ReapplyDrivenProperties_t5_70,
-	pinvoke_delegate_wrapper_LogCallback_t5_86,
-	pinvoke_delegate_wrapper_CameraCallback_t5_88,
-	pinvoke_delegate_wrapper_DisplaysUpdatedDelegate_t5_91,
-	pinvoke_delegate_wrapper_AudioConfigurationChangeHandler_t5_126,
-	pinvoke_delegate_wrapper_PCMReaderCallback_t5_128,
-	pinvoke_delegate_wrapper_PCMSetPositionCallback_t5_129,
-	pinvoke_delegate_wrapper_FontTextureRebuildCallback_t5_151,
-	pinvoke_delegate_wrapper_WillRenderCanvases_t5_158,
-	pinvoke_delegate_wrapper_WindowFunction_t5_171,
-	pinvoke_delegate_wrapper_SkinChangedDelegate_t5_188,
-	pinvoke_delegate_wrapper_UnityAdsDelegate_t5_105,
-	pinvoke_delegate_wrapper_UnityAction_t5_265,
+	pinvoke_delegate_wrapper_LogCallback_t5_87,
+	pinvoke_delegate_wrapper_CameraCallback_t5_89,
+	pinvoke_delegate_wrapper_DisplaysUpdatedDelegate_t5_92,
+	pinvoke_delegate_wrapper_AudioConfigurationChangeHandler_t5_127,
+	pinvoke_delegate_wrapper_PCMReaderCallback_t5_129,
+	pinvoke_delegate_wrapper_PCMSetPositionCallback_t5_130,
+	pinvoke_delegate_wrapper_FontTextureRebuildCallback_t5_152,
+	pinvoke_delegate_wrapper_WillRenderCanvases_t5_159,
+	pinvoke_delegate_wrapper_WindowFunction_t5_172,
+	pinvoke_delegate_wrapper_SkinChangedDelegate_t5_189,
+	pinvoke_delegate_wrapper_UnityAdsDelegate_t5_106,
+	pinvoke_delegate_wrapper_UnityAction_t5_266,
 	pinvoke_delegate_wrapper_OnValidateInput_t7_96,
 };

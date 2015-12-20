@@ -13,11 +13,11 @@
 #include <exception>
 
 // System.Collections.Generic.Dictionary`2<System.String,Vuforia.WebCamProfile/ProfileData>
-struct Dictionary_2_t1_1073;
+struct Dictionary_2_t1_1074;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi_0.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
 // System.Void Vuforia.WebCamProfile/ProfileCollection::.ctor(Vuforia.WebCamProfile/ProfileData,System.Collections.Generic.Dictionary`2<System.String,Vuforia.WebCamProfile/ProfileData>)
-extern "C" void ProfileCollection__ctor_m6_1726 (ProfileCollection_t6_171 * __this, ProfileData_t6_170  ___defaultProfile, Dictionary_2_t1_1073 * ___profiles, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ProfileCollection__ctor_m6_1726 (ProfileCollection_t6_171 * __this, ProfileData_t6_170  ___defaultProfile, Dictionary_2_t1_1074 * ___profiles, const MethodInfo* method) IL2CPP_METHOD_ATTR;

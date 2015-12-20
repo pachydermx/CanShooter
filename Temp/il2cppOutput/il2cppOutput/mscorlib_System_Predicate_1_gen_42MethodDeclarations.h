@@ -17,10 +17,10 @@
 #include "mscorlib_System_Predicate_1_gen_3MethodDeclarations.h"
 
 // System.Void System.Predicate`1<Vuforia.VirtualButton>::.ctor(System.Object,System.IntPtr)
-#define Predicate_1__ctor_m1_14017(__this, ___object, ___method, method) (( void (*) (Predicate_1_t1_1792 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m1_6637_gshared)(__this, ___object, ___method, method)
+#define Predicate_1__ctor_m1_14121(__this, ___object, ___method, method) (( void (*) (Predicate_1_t1_1798 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m1_6638_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<Vuforia.VirtualButton>::Invoke(T)
-#define Predicate_1_Invoke_m1_14018(__this, ___obj, method) (( bool (*) (Predicate_1_t1_1792 *, VirtualButton_t6_167 *, const MethodInfo*))Predicate_1_Invoke_m1_6638_gshared)(__this, ___obj, method)
+#define Predicate_1_Invoke_m1_14122(__this, ___obj, method) (( bool (*) (Predicate_1_t1_1798 *, VirtualButton_t6_167 *, const MethodInfo*))Predicate_1_Invoke_m1_6639_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<Vuforia.VirtualButton>::BeginInvoke(T,System.AsyncCallback,System.Object)
-#define Predicate_1_BeginInvoke_m1_14019(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t1_1792 *, VirtualButton_t6_167 *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m1_6639_gshared)(__this, ___obj, ___callback, ___object, method)
+#define Predicate_1_BeginInvoke_m1_14123(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t1_1798 *, VirtualButton_t6_167 *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m1_6640_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<Vuforia.VirtualButton>::EndInvoke(System.IAsyncResult)
-#define Predicate_1_EndInvoke_m1_14020(__this, ___result, method) (( bool (*) (Predicate_1_t1_1792 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m1_6640_gshared)(__this, ___result, method)
+#define Predicate_1_EndInvoke_m1_14124(__this, ___result, method) (( bool (*) (Predicate_1_t1_1798 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m1_6641_gshared)(__this, ___result, method)

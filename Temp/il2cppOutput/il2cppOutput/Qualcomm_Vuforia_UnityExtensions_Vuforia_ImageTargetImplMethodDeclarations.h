@@ -21,7 +21,7 @@ struct DataSet_t6_55;
 // Vuforia.VirtualButton
 struct VirtualButton_t6_167;
 // System.Collections.Generic.IEnumerable`1<Vuforia.VirtualButton>
-struct IEnumerable_1_t1_1081;
+struct IEnumerable_1_t1_1082;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ImageTargetType.h"

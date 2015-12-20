@@ -18,7 +18,7 @@ struct SampleInitErrorHandler_t8_24;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // SceneViewManager
-struct  SceneViewManager_t8_25  : public MonoBehaviour_t5_94
+struct  SceneViewManager_t8_25  : public MonoBehaviour_t5_95
 {
 	// AppManager SceneViewManager::mAppManager
 	AppManager_t8_10 * ___mAppManager_2;

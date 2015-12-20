@@ -20,7 +20,7 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_MulticastDelegate.h"
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,UnityEngine.TextEditor/TextEditOp,UnityEngine.TextEditor/TextEditOp>
-struct  Transform_1_t1_1752  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,UnityEngine.TextEditor/TextEditOp,System.Object>
+struct  Transform_1_t1_1755  : public MulticastDelegate_t1_21
 {
 };

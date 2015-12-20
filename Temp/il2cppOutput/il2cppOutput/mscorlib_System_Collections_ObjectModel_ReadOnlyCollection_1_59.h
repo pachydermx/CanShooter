@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Vuforia.ITrackerEventHandler>
-struct IList_1_t1_2026;
+struct IList_1_t1_2032;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Vuforia.ITrackerEventHandler>
-struct  ReadOnlyCollection_1_t1_2025  : public Object_t
+struct  ReadOnlyCollection_1_t1_2031  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

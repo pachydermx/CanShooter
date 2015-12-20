@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_ScriptableObject.h"
 
 // UnityEngine.StateMachineBehaviour
-struct  StateMachineBehaviour_t5_256  : public ScriptableObject_t5_16
+struct  StateMachineBehaviour_t5_257  : public ScriptableObject_t5_16
 {
 };

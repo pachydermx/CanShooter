@@ -18,6 +18,6 @@ struct SampleAppUIBox_t8_7;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void SampleAppUIBox::.ctor()
-extern "C" void SampleAppUIBox__ctor_m8_64 (SampleAppUIBox_t8_7 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleAppUIBox__ctor_m8_65 (SampleAppUIBox_t8_7 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SampleAppUIBox::Draw()
-extern "C" void SampleAppUIBox_Draw_m8_65 (SampleAppUIBox_t8_7 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleAppUIBox_Draw_m8_66 (SampleAppUIBox_t8_7 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

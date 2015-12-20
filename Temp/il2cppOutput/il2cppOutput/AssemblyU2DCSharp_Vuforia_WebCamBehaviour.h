@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamAbstractBehav.h"
 
 // Vuforia.WebCamBehaviour
-struct  WebCamBehaviour_t8_66  : public WebCamAbstractBehaviour_t6_196
+struct  WebCamBehaviour_t8_68  : public WebCamAbstractBehaviour_t6_196
 {
 };

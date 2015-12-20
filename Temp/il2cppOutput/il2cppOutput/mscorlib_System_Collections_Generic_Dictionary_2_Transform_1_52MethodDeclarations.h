@@ -12,28 +12,15 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData,System.Int32>
-struct Transform_1_t1_1959;
-// System.Object
-struct Object_t;
-// System.IAsyncResult
-struct IAsyncResult_t1_27;
-// System.AsyncCallback
-struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
-#include "mscorlib_System_IntPtr.h"
-#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__0.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Transform_1_22MethodDeclarations.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData,System.Int32>::.ctor(System.Object,System.IntPtr)
-extern "C" void Transform_1__ctor_m1_17271_gshared (Transform_1_t1_1959 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Transform_1__ctor_m1_17271(__this, ___object, ___method, method) (( void (*) (Transform_1_t1_1959 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m1_17271_gshared)(__this, ___object, ___method, method)
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData,System.Int32>::Invoke(TKey,TValue)
-extern "C" int32_t Transform_1_Invoke_m1_17272_gshared (Transform_1_t1_1959 * __this, int32_t ___key, TrackableResultData_t6_96  ___value, const MethodInfo* method);
-#define Transform_1_Invoke_m1_17272(__this, ___key, ___value, method) (( int32_t (*) (Transform_1_t1_1959 *, int32_t, TrackableResultData_t6_96 , const MethodInfo*))Transform_1_Invoke_m1_17272_gshared)(__this, ___key, ___value, method)
-// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData,System.Int32>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern "C" Object_t * Transform_1_BeginInvoke_m1_17273_gshared (Transform_1_t1_1959 * __this, int32_t ___key, TrackableResultData_t6_96  ___value, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Transform_1_BeginInvoke_m1_17273(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t1_1959 *, int32_t, TrackableResultData_t6_96 , AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m1_17273_gshared)(__this, ___key, ___value, ___callback, ___object, method)
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData,System.Int32>::EndInvoke(System.IAsyncResult)
-extern "C" int32_t Transform_1_EndInvoke_m1_17274_gshared (Transform_1_t1_1959 * __this, Object_t * ___result, const MethodInfo* method);
-#define Transform_1_EndInvoke_m1_17274(__this, ___result, method) (( int32_t (*) (Transform_1_t1_1959 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m1_17274_gshared)(__this, ___result, method)
+// System.Void System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.TrackableBehaviour,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
+#define Transform_1__ctor_m1_17209(__this, ___object, ___method, method) (( void (*) (Transform_1_t1_1953 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m1_12811_gshared)(__this, ___object, ___method, method)
+// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.TrackableBehaviour,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
+#define Transform_1_Invoke_m1_17210(__this, ___key, ___value, method) (( DictionaryEntry_t1_168  (*) (Transform_1_t1_1953 *, int32_t, TrackableBehaviour_t6_15 *, const MethodInfo*))Transform_1_Invoke_m1_12812_gshared)(__this, ___key, ___value, method)
+// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.TrackableBehaviour,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
+#define Transform_1_BeginInvoke_m1_17211(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t1_1953 *, int32_t, TrackableBehaviour_t6_15 *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m1_12813_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+// TRet System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.TrackableBehaviour,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
+#define Transform_1_EndInvoke_m1_17212(__this, ___result, method) (( DictionaryEntry_t1_168  (*) (Transform_1_t1_1953 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m1_12814_gshared)(__this, ___result, method)

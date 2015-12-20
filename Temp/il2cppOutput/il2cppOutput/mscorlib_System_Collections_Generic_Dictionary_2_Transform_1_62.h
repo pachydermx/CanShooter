@@ -20,7 +20,7 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_MulticastDelegate.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Vuforia.WebCamProfile/ProfileData,Vuforia.WebCamProfile/ProfileData>
-struct  Transform_1_t1_2012  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Object,Vuforia.WebCamProfile/ProfileData,System.Object>
+struct  Transform_1_t1_2015  : public MulticastDelegate_t1_21
 {
 };

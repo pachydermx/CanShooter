@@ -23,7 +23,7 @@ struct RectMask2D_t7_102;
 // UnityEngine.UI.IClippable
 struct IClippable_t7_178;
 // System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>
-struct List_1_t1_1202;
+struct List_1_t1_1203;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -40,4 +40,4 @@ extern "C" int32_t MaskUtilities_GetStencilDepth_m7_785 (Object_t * __this /* st
 // UnityEngine.UI.RectMask2D UnityEngine.UI.MaskUtilities::GetRectMaskForClippable(UnityEngine.UI.IClippable)
 extern "C" RectMask2D_t7_102 * MaskUtilities_GetRectMaskForClippable_m7_786 (Object_t * __this /* static, unused */, Object_t * ___transform, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.MaskUtilities::GetRectMasksForClip(UnityEngine.UI.RectMask2D,System.Collections.Generic.List`1<UnityEngine.UI.RectMask2D>)
-extern "C" void MaskUtilities_GetRectMasksForClip_m7_787 (Object_t * __this /* static, unused */, RectMask2D_t7_102 * ___clipper, List_1_t1_1202 * ___masks, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MaskUtilities_GetRectMasksForClip_m7_787 (Object_t * __this /* static, unused */, RectMask2D_t7_102 * ___clipper, List_1_t1_1203 * ___masks, const MethodInfo* method) IL2CPP_METHOD_ATTR;

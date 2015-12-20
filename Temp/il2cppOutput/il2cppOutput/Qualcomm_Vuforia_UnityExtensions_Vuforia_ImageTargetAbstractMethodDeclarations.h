@@ -23,9 +23,9 @@ struct VirtualButtonAbstractBehaviour_t6_195;
 // System.String
 struct String_t;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // System.Collections.Generic.IEnumerable`1<Vuforia.VirtualButtonAbstractBehaviour>
-struct IEnumerable_1_t1_1099;
+struct IEnumerable_1_t1_1100;
 // Vuforia.VirtualButton
 struct VirtualButton_t6_167;
 // UnityEngine.Transform
@@ -51,7 +51,7 @@ extern "C" void ImageTargetAbstractBehaviour_ProtectedSetAsSmartTerrainInitializ
 // Vuforia.VirtualButtonAbstractBehaviour Vuforia.ImageTargetAbstractBehaviour::CreateVirtualButton(System.String,UnityEngine.Vector2,UnityEngine.Vector2)
 extern "C" VirtualButtonAbstractBehaviour_t6_195 * ImageTargetAbstractBehaviour_CreateVirtualButton_m6_1737 (ImageTargetAbstractBehaviour_t6_173 * __this, String_t* ___vbName, Vector2_t5_56  ___position, Vector2_t5_56  ___size, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.VirtualButtonAbstractBehaviour Vuforia.ImageTargetAbstractBehaviour::CreateVirtualButton(System.String,UnityEngine.Vector2,UnityEngine.GameObject)
-extern "C" VirtualButtonAbstractBehaviour_t6_195 * ImageTargetAbstractBehaviour_CreateVirtualButton_m6_1738 (Object_t * __this /* static, unused */, String_t* ___vbName, Vector2_t5_56  ___localScale, GameObject_t5_100 * ___immediateParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" VirtualButtonAbstractBehaviour_t6_195 * ImageTargetAbstractBehaviour_CreateVirtualButton_m6_1738 (Object_t * __this /* static, unused */, String_t* ___vbName, Vector2_t5_56  ___localScale, GameObject_t5_101 * ___immediateParent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<Vuforia.VirtualButtonAbstractBehaviour> Vuforia.ImageTargetAbstractBehaviour::GetVirtualButtonBehaviours()
 extern "C" Object_t* ImageTargetAbstractBehaviour_GetVirtualButtonBehaviours_m6_1739 (ImageTargetAbstractBehaviour_t6_173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ImageTargetAbstractBehaviour::DestroyVirtualButton(System.String)
@@ -89,4 +89,4 @@ extern "C" void ImageTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_s
 // UnityEngine.Transform Vuforia.ImageTargetAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * ImageTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_1756 (ImageTargetAbstractBehaviour_t6_173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.ImageTargetAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * ImageTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1757 (ImageTargetAbstractBehaviour_t6_173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * ImageTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1757 (ImageTargetAbstractBehaviour_t6_173 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -19,7 +19,7 @@ struct Win32_MIB_TCP6ROW_t2_340_marshaled;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCP6ROW>
-struct  Enumerator_t1_1496 
+struct  Enumerator_t1_1497 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_963 * ___l_0;

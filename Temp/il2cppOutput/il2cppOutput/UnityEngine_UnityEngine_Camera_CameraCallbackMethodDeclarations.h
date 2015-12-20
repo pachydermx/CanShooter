@@ -13,11 +13,11 @@
 #include <exception>
 
 // UnityEngine.Camera/CameraCallback
-struct CameraCallback_t5_88;
+struct CameraCallback_t5_89;
 // System.Object
 struct Object_t;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -27,11 +27,11 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.Camera/CameraCallback::.ctor(System.Object,System.IntPtr)
-extern "C" void CameraCallback__ctor_m5_656 (CameraCallback_t5_88 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraCallback__ctor_m5_669 (CameraCallback_t5_89 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera/CameraCallback::Invoke(UnityEngine.Camera)
-extern "C" void CameraCallback_Invoke_m5_657 (CameraCallback_t5_88 * __this, Camera_t5_89 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_CameraCallback_t5_88(Il2CppObject* delegate, Camera_t5_89 * ___cam);
+extern "C" void CameraCallback_Invoke_m5_670 (CameraCallback_t5_89 * __this, Camera_t5_90 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_CameraCallback_t5_89(Il2CppObject* delegate, Camera_t5_90 * ___cam);
 // System.IAsyncResult UnityEngine.Camera/CameraCallback::BeginInvoke(UnityEngine.Camera,System.AsyncCallback,System.Object)
-extern "C" Object_t * CameraCallback_BeginInvoke_m5_658 (CameraCallback_t5_88 * __this, Camera_t5_89 * ___cam, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * CameraCallback_BeginInvoke_m5_671 (CameraCallback_t5_89 * __this, Camera_t5_90 * ___cam, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Camera/CameraCallback::EndInvoke(System.IAsyncResult)
-extern "C" void CameraCallback_EndInvoke_m5_659 (CameraCallback_t5_88 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CameraCallback_EndInvoke_m5_672 (CameraCallback_t5_89 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_UserDefinedTargetBu.h"
 
 // Vuforia.UserDefinedTargetBuildingBehaviour
-struct  UserDefinedTargetBuildingBehaviour_t8_61  : public UserDefinedTargetBuildingAbstractBehaviour_t6_192
+struct  UserDefinedTargetBuildingBehaviour_t8_63  : public UserDefinedTargetBuildingAbstractBehaviour_t6_192
 {
 };

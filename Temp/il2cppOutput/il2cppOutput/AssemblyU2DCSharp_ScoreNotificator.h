@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // ScoreNotificator
-struct  ScoreNotificator_t8_28  : public MonoBehaviour_t5_94
+struct  ScoreNotificator_t8_29  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.GameObject ScoreNotificator::Manager
-	GameObject_t5_100 * ___Manager_2;
+	GameObject_t5_101 * ___Manager_2;
 	// System.Int32 ScoreNotificator::Score
 	int32_t ___Score_3;
 };

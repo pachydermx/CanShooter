@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_MultiTargetAbstract.h"
 
 // Vuforia.MultiTargetBehaviour
-struct  MultiTargetBehaviour_t8_54  : public MultiTargetAbstractBehaviour_t6_177
+struct  MultiTargetBehaviour_t8_56  : public MultiTargetAbstractBehaviour_t6_177
 {
 };

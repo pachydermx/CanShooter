@@ -83,11 +83,11 @@ struct EventFunction_1_t7_26;
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler>
 struct EventFunction_1_t7_27;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // System.Collections.Generic.IList`1<UnityEngine.Transform>
-struct IList_1_t1_1211;
+struct IList_1_t1_1212;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>
-struct List_1_t1_1210;
+struct List_1_t1_1211;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -162,6 +162,6 @@ extern "C" EventFunction_1_t7_26 * ExecuteEvents_get_submitHandler_m7_84 (Object
 // UnityEngine.EventSystems.ExecuteEvents/EventFunction`1<UnityEngine.EventSystems.ICancelHandler> UnityEngine.EventSystems.ExecuteEvents::get_cancelHandler()
 extern "C" EventFunction_1_t7_27 * ExecuteEvents_get_cancelHandler_m7_85 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.ExecuteEvents::GetEventChain(UnityEngine.GameObject,System.Collections.Generic.IList`1<UnityEngine.Transform>)
-extern "C" void ExecuteEvents_GetEventChain_m7_86 (Object_t * __this /* static, unused */, GameObject_t5_100 * ___root, Object_t* ___eventChain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExecuteEvents_GetEventChain_m7_86 (Object_t * __this /* static, unused */, GameObject_t5_101 * ___root, Object_t* ___eventChain, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.ExecuteEvents::<s_HandlerListPool>m__0(System.Collections.Generic.List`1<UnityEngine.EventSystems.IEventSystemHandler>)
-extern "C" void ExecuteEvents_U3Cs_HandlerListPoolU3Em__0_m7_87 (Object_t * __this /* static, unused */, List_1_t1_1210 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ExecuteEvents_U3Cs_HandlerListPoolU3Em__0_m7_87 (Object_t * __this /* static, unused */, List_1_t1_1211 * ___l, const MethodInfo* method) IL2CPP_METHOD_ATTR;

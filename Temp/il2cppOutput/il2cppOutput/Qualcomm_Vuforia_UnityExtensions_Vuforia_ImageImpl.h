@@ -13,7 +13,7 @@
 // System.Byte[]
 struct ByteU5BU5D_t1_72;
 // UnityEngine.Color32[]
-struct Color32U5BU5D_t5_286;
+struct Color32U5BU5D_t5_287;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
@@ -41,5 +41,5 @@ struct  ImageImpl_t6_75  : public Image_t6_74
 	// System.Boolean Vuforia.ImageImpl::mDataSet
 	bool ___mDataSet_8;
 	// UnityEngine.Color32[] Vuforia.ImageImpl::mPixel32
-	Color32U5BU5D_t5_286* ___mPixel32_9;
+	Color32U5BU5D_t5_287* ___mPixel32_9;
 };

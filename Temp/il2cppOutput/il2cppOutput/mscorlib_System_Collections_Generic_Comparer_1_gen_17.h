@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>
-struct Comparer_1_t1_2067;
+struct Comparer_1_t1_2073;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Comparer`1<UnityEngine.EventSystems.RaycastResult>
-struct  Comparer_1_t1_2067  : public Object_t
+struct  Comparer_1_t1_2073  : public Object_t
 {
 };
-struct Comparer_1_t1_2067_StaticFields{
+struct Comparer_1_t1_2073_StaticFields{
 	// System.Collections.Generic.Comparer`1<T> System.Collections.Generic.Comparer`1::_default
-	Comparer_1_t1_2067 * ____default_0;
+	Comparer_1_t1_2073 * ____default_0;
 };

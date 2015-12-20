@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<System.Net.NetworkInformation.MulticastIPAddressInformation>
-struct  Comparison_1_t1_1506  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1507  : public MulticastDelegate_t1_21
 {
 };

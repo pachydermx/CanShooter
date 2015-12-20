@@ -17,7 +17,7 @@ struct RectMask2D_t7_102;
 // UnityEngine.RectTransform
 struct RectTransform_t5_71;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // UnityEngine.UI.IClippable
 struct IClippable_t7_178;
 
@@ -36,7 +36,7 @@ extern "C" void RectMask2D_OnEnable_m7_812 (RectMask2D_t7_102 * __this, const Me
 // System.Void UnityEngine.UI.RectMask2D::OnDisable()
 extern "C" void RectMask2D_OnDisable_m7_813 (RectMask2D_t7_102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.RectMask2D::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" bool RectMask2D_IsRaycastLocationValid_m7_814 (RectMask2D_t7_102 * __this, Vector2_t5_56  ___sp, Camera_t5_89 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool RectMask2D_IsRaycastLocationValid_m7_814 (RectMask2D_t7_102 * __this, Vector2_t5_56  ___sp, Camera_t5_90 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.RectMask2D::PerformClipping()
 extern "C" void RectMask2D_PerformClipping_m7_815 (RectMask2D_t7_102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.RectMask2D::AddClippable(UnityEngine.UI.IClippable)

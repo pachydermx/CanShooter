@@ -13,7 +13,7 @@
 // Vuforia.ObjectTracker
 struct ObjectTracker_t6_27;
 // System.Collections.Generic.List`1<Vuforia.ICloudRecoEventHandler>
-struct List_1_t1_1042;
+struct List_1_t1_1043;
 // System.String
 struct String_t;
 
@@ -21,7 +21,7 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Color.h"
 
 // Vuforia.CloudRecoAbstractBehaviour
-struct  CloudRecoAbstractBehaviour_t6_26  : public MonoBehaviour_t5_94
+struct  CloudRecoAbstractBehaviour_t6_26  : public MonoBehaviour_t5_95
 {
 	// Vuforia.ObjectTracker Vuforia.CloudRecoAbstractBehaviour::mObjectTracker
 	ObjectTracker_t6_27 * ___mObjectTracker_2;
@@ -34,7 +34,7 @@ struct  CloudRecoAbstractBehaviour_t6_26  : public MonoBehaviour_t5_94
 	// System.Boolean Vuforia.CloudRecoAbstractBehaviour::mOnInitializedCalled
 	bool ___mOnInitializedCalled_6;
 	// System.Collections.Generic.List`1<Vuforia.ICloudRecoEventHandler> Vuforia.CloudRecoAbstractBehaviour::mHandlers
-	List_1_t1_1042 * ___mHandlers_7;
+	List_1_t1_1043 * ___mHandlers_7;
 	// System.Boolean Vuforia.CloudRecoAbstractBehaviour::mTargetFinderStartedBeforeDisable
 	bool ___mTargetFinderStartedBeforeDisable_8;
 	// System.String Vuforia.CloudRecoAbstractBehaviour::AccessKey

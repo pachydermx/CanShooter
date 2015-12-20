@@ -19,13 +19,13 @@ struct String_t;
 #include "UnityEngine_UnityEngine_HumanBone.h"
 
 // System.String UnityEngine.HumanBone::get_boneName()
-extern "C" String_t* HumanBone_get_boneName_m5_1057 (HumanBone_t5_145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* HumanBone_get_boneName_m5_1070 (HumanBone_t5_146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.HumanBone::set_boneName(System.String)
-extern "C" void HumanBone_set_boneName_m5_1058 (HumanBone_t5_145 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HumanBone_set_boneName_m5_1071 (HumanBone_t5_146 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.HumanBone::get_humanName()
-extern "C" String_t* HumanBone_get_humanName_m5_1059 (HumanBone_t5_145 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" String_t* HumanBone_get_humanName_m5_1072 (HumanBone_t5_146 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.HumanBone::set_humanName(System.String)
-extern "C" void HumanBone_set_humanName_m5_1060 (HumanBone_t5_145 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void HumanBone_t5_145_marshal(const HumanBone_t5_145& unmarshaled, HumanBone_t5_145_marshaled& marshaled);
-extern "C" void HumanBone_t5_145_marshal_back(const HumanBone_t5_145_marshaled& marshaled, HumanBone_t5_145& unmarshaled);
-extern "C" void HumanBone_t5_145_marshal_cleanup(HumanBone_t5_145_marshaled& marshaled);
+extern "C" void HumanBone_set_humanName_m5_1073 (HumanBone_t5_146 * __this, String_t* ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HumanBone_t5_146_marshal(const HumanBone_t5_146& unmarshaled, HumanBone_t5_146_marshaled& marshaled);
+extern "C" void HumanBone_t5_146_marshal_back(const HumanBone_t5_146_marshaled& marshaled, HumanBone_t5_146& unmarshaled);
+extern "C" void HumanBone_t5_146_marshal_cleanup(HumanBone_t5_146_marshaled& marshaled);

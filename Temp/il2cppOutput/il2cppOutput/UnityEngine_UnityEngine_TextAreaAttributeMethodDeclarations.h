@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.TextAreaAttribute
-struct TextAreaAttribute_t5_249;
+struct TextAreaAttribute_t5_250;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.TextAreaAttribute::.ctor(System.Int32,System.Int32)
-extern "C" void TextAreaAttribute__ctor_m5_1700 (TextAreaAttribute_t5_249 * __this, int32_t ___minLines, int32_t ___maxLines, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TextAreaAttribute__ctor_m5_1713 (TextAreaAttribute_t5_250 * __this, int32_t ___minLines, int32_t ___maxLines, const MethodInfo* method) IL2CPP_METHOD_ATTR;

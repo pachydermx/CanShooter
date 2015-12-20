@@ -21,6 +21,6 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_Boolean.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Object,System.Boolean,System.Object>
-struct  Transform_1_t1_1548  : public MulticastDelegate_t1_21
+struct  Transform_1_t1_1549  : public MulticastDelegate_t1_21
 {
 };

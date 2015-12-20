@@ -16,10 +16,10 @@ struct String_t;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.GLErrorHandler
-struct  GLErrorHandler_t8_44  : public MonoBehaviour_t5_94
+struct  GLErrorHandler_t8_46  : public MonoBehaviour_t5_95
 {
 };
-struct GLErrorHandler_t8_44_StaticFields{
+struct GLErrorHandler_t8_46_StaticFields{
 	// System.String Vuforia.GLErrorHandler::mErrorText
 	String_t* ___mErrorText_3;
 	// System.Boolean Vuforia.GLErrorHandler::mErrorOccurred

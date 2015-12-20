@@ -15,7 +15,7 @@
 // UnityEngine.UI.Selectable
 struct Selectable_t7_55;
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct List_1_t1_1204;
+struct List_1_t1_1205;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_t7_51;
 // UnityEngine.UI.Graphic
@@ -23,7 +23,7 @@ struct Graphic_t7_75;
 // UnityEngine.UI.Image
 struct Image_t7_64;
 // UnityEngine.Animator
-struct Animator_t5_142;
+struct Animator_t5_143;
 // UnityEngine.RectTransform
 struct RectTransform_t5_71;
 // UnityEngine.EventSystems.AxisEventData
@@ -52,7 +52,7 @@ extern "C" void Selectable__ctor_m7_959 (Selectable_t7_55 * __this, const Method
 // System.Void UnityEngine.UI.Selectable::.cctor()
 extern "C" void Selectable__cctor_m7_960 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable> UnityEngine.UI.Selectable::get_allSelectables()
-extern "C" List_1_t1_1204 * Selectable_get_allSelectables_m7_961 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t1_1205 * Selectable_get_allSelectables_m7_961 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Navigation UnityEngine.UI.Selectable::get_navigation()
 extern "C" Navigation_t7_106  Selectable_get_navigation_m7_962 (Selectable_t7_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Selectable::set_navigation(UnityEngine.UI.Navigation)
@@ -98,7 +98,7 @@ extern "C" Image_t7_64 * Selectable_get_image_m7_982 (Selectable_t7_55 * __this,
 // System.Void UnityEngine.UI.Selectable::set_image(UnityEngine.UI.Image)
 extern "C" void Selectable_set_image_m7_983 (Selectable_t7_55 * __this, Image_t7_64 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Animator UnityEngine.UI.Selectable::get_animator()
-extern "C" Animator_t5_142 * Selectable_get_animator_m7_984 (Selectable_t7_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Animator_t5_143 * Selectable_get_animator_m7_984 (Selectable_t7_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Selectable::Awake()
 extern "C" void Selectable_Awake_m7_985 (Selectable_t7_55 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Selectable::OnCanvasGroupChanged()

@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_RenderTextureFormat.h"
 
 // UnityEngine.RenderTextureFormat
-struct  RenderTextureFormat_t5_223 
+struct  RenderTextureFormat_t5_224 
 {
 	// System.Int32 UnityEngine.RenderTextureFormat::value__
 	int32_t ___value___1;

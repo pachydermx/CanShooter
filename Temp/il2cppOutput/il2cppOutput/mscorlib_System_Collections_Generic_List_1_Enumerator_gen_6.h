@@ -18,7 +18,7 @@ struct GcLeaderboard_t5_22;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.SocialPlatforms.GameCenter.GcLeaderboard>
-struct  Enumerator_t1_1033 
+struct  Enumerator_t1_1034 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_1011 * ___l_0;

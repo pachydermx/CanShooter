@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
 
 // System.Predicate`1<UnityEngine.EventSystems.RaycastResult>
-struct  Predicate_1_t1_2066  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_2072  : public MulticastDelegate_t1_21
 {
 };

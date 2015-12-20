@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_ImagePosition.h"
 
 // UnityEngine.ImagePosition
-struct  ImagePosition_t5_192 
+struct  ImagePosition_t5_193 
 {
 	// System.Int32 UnityEngine.ImagePosition::value__
 	int32_t ___value___1;

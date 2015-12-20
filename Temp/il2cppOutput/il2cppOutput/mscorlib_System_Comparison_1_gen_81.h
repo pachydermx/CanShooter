@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.CanvasGroup
-struct CanvasGroup_t5_160;
+struct CanvasGroup_t5_161;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.CanvasGroup>
-struct  Comparison_1_t1_2165  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_2171  : public MulticastDelegate_t1_21
 {
 };

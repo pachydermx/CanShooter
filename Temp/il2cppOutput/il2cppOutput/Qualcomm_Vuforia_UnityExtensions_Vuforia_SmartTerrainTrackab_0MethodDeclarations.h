@@ -19,7 +19,7 @@ struct String_t;
 // Vuforia.SmartTerrainTrackable
 struct SmartTerrainTrackable_t6_48;
 // System.Collections.Generic.IEnumerable`1<Vuforia.SmartTerrainTrackable>
-struct IEnumerable_1_t1_1085;
+struct IEnumerable_1_t1_1086;
 // UnityEngine.Mesh
 struct Mesh_t5_26;
 

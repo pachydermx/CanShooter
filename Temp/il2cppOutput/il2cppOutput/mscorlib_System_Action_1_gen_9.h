@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_Int32.h"
 
 // System.Action`1<System.Int32>
-struct  Action_1_t1_1229  : public MulticastDelegate_t1_21
+struct  Action_1_t1_1230  : public MulticastDelegate_t1_21
 {
 };

@@ -10,14 +10,13 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct Dictionary_2_t1_1162;
 
-#include "mscorlib_System_Object.h"
+#include "mscorlib_System_ValueType.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__0.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct  KeyCollection_t1_1956  : public Object_t
+// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,Vuforia.Prop>
+struct  Enumerator_t1_1951 
 {
-	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection::dictionary
-	Dictionary_2_t1_1162 * ___dictionary_0;
+	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator::host_enumerator
+	Enumerator_t1_1153  ___host_enumerator_0;
 };

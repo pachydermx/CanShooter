@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Type,System.UInt16>
-struct Dictionary_2_t1_1053;
+struct Dictionary_2_t1_1054;
 
 #include "mscorlib_System_Object.h"
 
@@ -21,5 +21,5 @@ struct  TypeMapping_t6_133  : public Object_t
 };
 struct TypeMapping_t6_133_StaticFields{
 	// System.Collections.Generic.Dictionary`2<System.Type,System.UInt16> Vuforia.TypeMapping::sTypes
-	Dictionary_2_t1_1053 * ___sTypes_0;
+	Dictionary_2_t1_1054 * ___sTypes_0;
 };

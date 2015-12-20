@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<System.Reflection.MethodInfo>
-struct List_1_t1_1231;
+struct List_1_t1_1232;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Reflection.MethodInfo>
-struct  Enumerator_t1_1232 
+struct  Enumerator_t1_1233 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1231 * ___l_0;
+	List_1_t1_1232 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

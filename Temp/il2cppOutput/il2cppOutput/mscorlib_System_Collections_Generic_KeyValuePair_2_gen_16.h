@@ -10,17 +10,18 @@
 
 #include <stdint.h>
 
-// System.Object
-struct Object_t;
+// System.String
+struct String_t;
+// UnityEngine.GUIStyle
+struct GUIStyle_t5_181;
 
 #include "mscorlib_System_ValueType.h"
-#include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct  KeyValuePair_2_t1_1743 
+// System.Collections.Generic.KeyValuePair`2<System.String,UnityEngine.GUIStyle>
+struct  KeyValuePair_2_t1_1734 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	Object_t * ___key_0;
+	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	int32_t ___value_1;
+	GUIStyle_t5_181 * ___value_1;
 };

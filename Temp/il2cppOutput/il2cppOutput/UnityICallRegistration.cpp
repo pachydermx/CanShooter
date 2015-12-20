@@ -1,4 +1,4 @@
-//Generated on : 2015/12/19 23:37:53
+//Generated on : 2015/12/21 8:57:12
 void RegisterAllStrippedInternalCalls()
 {
 	//Start Registrations for type : UnityEngine.Advertisements.UnityAdsInternal
@@ -2368,5 +2368,33 @@ void RegisterAllStrippedInternalCalls()
 		Register_UnityEngine_WebCamTexture_get_devices();
 
 	//End Registrations for type : UnityEngine.WebCamTexture
+
+	//Start Registrations for type : UnityEngine.WWW
+
+		//System.Boolean UnityEngine.WWW::get_isDone()
+		void Register_UnityEngine_WWW_get_isDone();
+		Register_UnityEngine_WWW_get_isDone();
+
+		//System.Byte[] UnityEngine.WWW::get_bytes()
+		void Register_UnityEngine_WWW_get_bytes();
+		Register_UnityEngine_WWW_get_bytes();
+
+		//System.String UnityEngine.WWW::get_error()
+		void Register_UnityEngine_WWW_get_error();
+		Register_UnityEngine_WWW_get_error();
+
+		//System.String UnityEngine.WWW::get_responseHeadersString()
+		void Register_UnityEngine_WWW_get_responseHeadersString();
+		Register_UnityEngine_WWW_get_responseHeadersString();
+
+		//System.Void UnityEngine.WWW::DestroyWWW(System.Boolean)
+		void Register_UnityEngine_WWW_DestroyWWW();
+		Register_UnityEngine_WWW_DestroyWWW();
+
+		//System.Void UnityEngine.WWW::InitWWW(System.String,System.Byte[],System.String[])
+		void Register_UnityEngine_WWW_InitWWW();
+		Register_UnityEngine_WWW_InitWWW();
+
+	//End Registrations for type : UnityEngine.WWW
 
 }

@@ -15,7 +15,7 @@
 // UnityEngine.EventSystems.BaseRaycaster
 struct BaseRaycaster_t7_32;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster>
-struct List_1_t1_1188;
+struct List_1_t1_1189;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -24,6 +24,6 @@ extern "C" void RaycasterManager__cctor_m7_88 (Object_t * __this /* static, unus
 // System.Void UnityEngine.EventSystems.RaycasterManager::AddRaycaster(UnityEngine.EventSystems.BaseRaycaster)
 extern "C" void RaycasterManager_AddRaycaster_m7_89 (Object_t * __this /* static, unused */, BaseRaycaster_t7_32 * ___baseRaycaster, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.BaseRaycaster> UnityEngine.EventSystems.RaycasterManager::GetRaycasters()
-extern "C" List_1_t1_1188 * RaycasterManager_GetRaycasters_m7_90 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t1_1189 * RaycasterManager_GetRaycasters_m7_90 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.RaycasterManager::RemoveRaycasters(UnityEngine.EventSystems.BaseRaycaster)
 extern "C" void RaycasterManager_RemoveRaycasters_m7_91 (Object_t * __this /* static, unused */, BaseRaycaster_t7_32 * ___baseRaycaster, const MethodInfo* method) IL2CPP_METHOD_ATTR;

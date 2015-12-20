@@ -10,18 +10,18 @@
 
 #include <stdint.h>
 
-// UnityEngine.Canvas
-struct Canvas_t5_159;
-// UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>
-struct IndexedSet_1_t7_185;
+// UnityEngine.Font
+struct Font_t5_153;
+// System.Collections.Generic.List`1<UnityEngine.UI.Text>
+struct List_1_t1_1221;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.Canvas,UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.Graphic>>
-struct  KeyValuePair_2_t1_2133 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.Font,System.Collections.Generic.List`1<UnityEngine.UI.Text>>
+struct  KeyValuePair_2_t1_2128 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	Canvas_t5_159 * ___key_0;
+	Font_t5_153 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	IndexedSet_1_t7_185 * ___value_1;
+	List_1_t1_1221 * ___value_1;
 };

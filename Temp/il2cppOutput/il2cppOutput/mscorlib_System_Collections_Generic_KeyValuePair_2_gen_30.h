@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// Vuforia.TrackableBehaviour
-struct TrackableBehaviour_t6_15;
+// Vuforia.PropAbstractBehaviour
+struct PropAbstractBehaviour_t6_151;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.TrackableBehaviour>
-struct  KeyValuePair_2_t1_1948 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.PropAbstractBehaviour>
+struct  KeyValuePair_2_t1_1939 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	TrackableBehaviour_t6_15 * ___value_1;
+	PropAbstractBehaviour_t6_151 * ___value_1;
 };

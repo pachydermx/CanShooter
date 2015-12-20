@@ -18,7 +18,7 @@ struct Node_t2_10;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Collections.Generic.RBTree/Node>
-struct  Enumerator_t1_1418 
+struct  Enumerator_t1_1419 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_933 * ___l_0;

@@ -19,11 +19,11 @@ struct Surface_t6_51;
 // UnityEngine.MeshFilter
 struct MeshFilter_t5_24;
 // UnityEngine.MeshCollider
-struct MeshCollider_t5_117;
+struct MeshCollider_t5_118;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -38,9 +38,9 @@ extern "C" void SurfaceAbstractBehaviour_Vuforia_IEditorSurfaceBehaviour_SetMesh
 // UnityEngine.MeshFilter Vuforia.SurfaceAbstractBehaviour::Vuforia.IEditorSurfaceBehaviour.get_MeshFilterToUpdate()
 extern "C" MeshFilter_t5_24 * SurfaceAbstractBehaviour_Vuforia_IEditorSurfaceBehaviour_get_MeshFilterToUpdate_m6_326 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.SurfaceAbstractBehaviour::Vuforia.IEditorSurfaceBehaviour.SetMeshColliderToUpdate(UnityEngine.MeshCollider)
-extern "C" void SurfaceAbstractBehaviour_Vuforia_IEditorSurfaceBehaviour_SetMeshColliderToUpdate_m6_327 (SurfaceAbstractBehaviour_t6_50 * __this, MeshCollider_t5_117 * ___meshColliderToUpdate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SurfaceAbstractBehaviour_Vuforia_IEditorSurfaceBehaviour_SetMeshColliderToUpdate_m6_327 (SurfaceAbstractBehaviour_t6_50 * __this, MeshCollider_t5_118 * ___meshColliderToUpdate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.MeshCollider Vuforia.SurfaceAbstractBehaviour::Vuforia.IEditorSurfaceBehaviour.get_MeshColliderToUpdate()
-extern "C" MeshCollider_t5_117 * SurfaceAbstractBehaviour_Vuforia_IEditorSurfaceBehaviour_get_MeshColliderToUpdate_m6_328 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MeshCollider_t5_118 * SurfaceAbstractBehaviour_Vuforia_IEditorSurfaceBehaviour_get_MeshColliderToUpdate_m6_328 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.SurfaceAbstractBehaviour::.ctor()
 extern "C" void SurfaceAbstractBehaviour__ctor_m6_329 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.SurfaceAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_enabled()
@@ -50,4 +50,4 @@ extern "C" void SurfaceAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_set_e
 // UnityEngine.Transform Vuforia.SurfaceAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * SurfaceAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_332 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.SurfaceAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * SurfaceAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_333 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * SurfaceAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_333 (SurfaceAbstractBehaviour_t6_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

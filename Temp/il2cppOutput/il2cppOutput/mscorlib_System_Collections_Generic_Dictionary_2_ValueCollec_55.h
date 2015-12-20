@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct Dictionary_2_t1_1162;
+// System.Collections.Generic.Dictionary`2<System.Type,System.UInt16>
+struct Dictionary_2_t1_1054;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct  ValueCollection_t1_1960  : public Object_t
+// System.Collections.Generic.Dictionary`2/ValueCollection<System.Type,System.UInt16>
+struct  ValueCollection_t1_1895  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
-	Dictionary_2_t1_1162 * ___dictionary_0;
+	Dictionary_2_t1_1054 * ___dictionary_0;
 };

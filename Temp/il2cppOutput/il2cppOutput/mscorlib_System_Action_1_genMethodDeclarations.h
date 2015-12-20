@@ -25,14 +25,14 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void System.Action`1<System.Boolean>::.ctor(System.Object,System.IntPtr)
-extern "C" void Action_1__ctor_m1_6161_gshared (Action_1_t1_1006 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Action_1__ctor_m1_6161(__this, ___object, ___method, method) (( void (*) (Action_1_t1_1006 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m1_6161_gshared)(__this, ___object, ___method, method)
+extern "C" void Action_1__ctor_m1_6162_gshared (Action_1_t1_1006 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Action_1__ctor_m1_6162(__this, ___object, ___method, method) (( void (*) (Action_1_t1_1006 *, Object_t *, IntPtr_t, const MethodInfo*))Action_1__ctor_m1_6162_gshared)(__this, ___object, ___method, method)
 // System.Void System.Action`1<System.Boolean>::Invoke(T)
 extern "C" void Action_1_Invoke_m1_6109_gshared (Action_1_t1_1006 * __this, bool ___obj, const MethodInfo* method);
 #define Action_1_Invoke_m1_6109(__this, ___obj, method) (( void (*) (Action_1_t1_1006 *, bool, const MethodInfo*))Action_1_Invoke_m1_6109_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Action`1<System.Boolean>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Action_1_BeginInvoke_m1_10922_gshared (Action_1_t1_1006 * __this, bool ___obj, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Action_1_BeginInvoke_m1_10922(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1_1006 *, bool, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m1_10922_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Action_1_BeginInvoke_m1_10923_gshared (Action_1_t1_1006 * __this, bool ___obj, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Action_1_BeginInvoke_m1_10923(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Action_1_t1_1006 *, bool, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Action_1_BeginInvoke_m1_10923_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Void System.Action`1<System.Boolean>::EndInvoke(System.IAsyncResult)
-extern "C" void Action_1_EndInvoke_m1_10923_gshared (Action_1_t1_1006 * __this, Object_t * ___result, const MethodInfo* method);
-#define Action_1_EndInvoke_m1_10923(__this, ___result, method) (( void (*) (Action_1_t1_1006 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m1_10923_gshared)(__this, ___result, method)
+extern "C" void Action_1_EndInvoke_m1_10924_gshared (Action_1_t1_1006 * __this, Object_t * ___result, const MethodInfo* method);
+#define Action_1_EndInvoke_m1_10924(__this, ___result, method) (( void (*) (Action_1_t1_1006 *, Object_t *, const MethodInfo*))Action_1_EndInvoke_m1_10924_gshared)(__this, ___result, method)

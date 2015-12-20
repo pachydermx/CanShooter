@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 
 #include "AssemblyU2DCSharp_ISampleAppUIElement.h"
 #include "UnityEngine_UnityEngine_Rect.h"
@@ -22,5 +22,5 @@ struct  SampleAppUIBox_t8_7  : public ISampleAppUIElement_t8_13
 	// UnityEngine.Rect SampleAppUIBox::mRect
 	Rect_t5_30  ___mRect_0;
 	// UnityEngine.GUIStyle SampleAppUIBox::mStyle
-	GUIStyle_t5_180 * ___mStyle_1;
+	GUIStyle_t5_181 * ___mStyle_1;
 };

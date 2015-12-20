@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct Camera_t5_89;
 struct  TextureRenderer_t6_163  : public Object_t
 {
 	// UnityEngine.Camera Vuforia.TextureRenderer::mTextureBufferCamera
-	Camera_t5_89 * ___mTextureBufferCamera_0;
+	Camera_t5_90 * ___mTextureBufferCamera_0;
 	// System.Int32 Vuforia.TextureRenderer::mTextureWidth
 	int32_t ___mTextureWidth_1;
 	// System.Int32 Vuforia.TextureRenderer::mTextureHeight

@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Color32.h"
 
 // System.Predicate`1<UnityEngine.Color32>
-struct  Predicate_1_t1_1645  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1646  : public MulticastDelegate_t1_21
 {
 };

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Events.BaseInvokableCall
-struct BaseInvokableCall_t5_263;
+struct BaseInvokableCall_t5_264;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.Events.BaseInvokableCall>
-struct  Comparison_1_t1_1768  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1774  : public MulticastDelegate_t1_21
 {
 };

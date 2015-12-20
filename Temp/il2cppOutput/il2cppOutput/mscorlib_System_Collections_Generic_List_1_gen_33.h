@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Events.BaseInvokableCall[]
-struct BaseInvokableCallU5BU5D_t5_351;
+struct BaseInvokableCallU5BU5D_t5_352;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct BaseInvokableCallU5BU5D_t5_351;
 struct  List_1_t1_1023  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	BaseInvokableCallU5BU5D_t5_351* ____items_1;
+	BaseInvokableCallU5BU5D_t5_352* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -27,5 +27,5 @@ struct  List_1_t1_1023  : public Object_t
 };
 struct List_1_t1_1023_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	BaseInvokableCallU5BU5D_t5_351* ___EmptyArray_4;
+	BaseInvokableCallU5BU5D_t5_352* ___EmptyArray_4;
 };

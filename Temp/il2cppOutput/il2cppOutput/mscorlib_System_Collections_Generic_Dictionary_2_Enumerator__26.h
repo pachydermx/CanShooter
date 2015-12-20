@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.WordResult>
+// System.Collections.Generic.Dictionary`2<System.Type,System.UInt16>
 struct Dictionary_2_t1_1054;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_26.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.WordResult>
-struct  Enumerator_t1_1894 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Type,System.UInt16>
+struct  Enumerator_t1_1896 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
 	Dictionary_2_t1_1054 * ___dictionary_0;

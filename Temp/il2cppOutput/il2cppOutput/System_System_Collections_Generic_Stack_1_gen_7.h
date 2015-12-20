@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.Vector3>[]
-struct List_1U5BU5D_t1_2189;
+struct List_1U5BU5D_t1_2195;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct List_1U5BU5D_t1_2189;
 struct  Stack_1_t2_893  : public Object_t
 {
 	// T[] System.Collections.Generic.Stack`1::_array
-	List_1U5BU5D_t1_2189* ____array_1;
+	List_1U5BU5D_t1_2195* ____array_1;
 	// System.Int32 System.Collections.Generic.Stack`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.Stack`1::_version

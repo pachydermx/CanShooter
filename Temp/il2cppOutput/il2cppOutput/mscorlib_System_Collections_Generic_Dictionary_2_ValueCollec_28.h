@@ -12,11 +12,11 @@
 
 
 #include "mscorlib_System_ValueType.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__33.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__34.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator<System.Int32,Vuforia.ImageTarget>
-struct  Enumerator_t1_1169 
+struct  Enumerator_t1_1170 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::host_enumerator
-	Enumerator_t1_1999  ___host_enumerator_0;
+	Enumerator_t1_2005  ___host_enumerator_0;
 };

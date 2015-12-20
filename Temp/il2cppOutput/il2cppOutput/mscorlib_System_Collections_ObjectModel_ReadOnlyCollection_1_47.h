@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Vuforia.SmartTerrainTrackable>
-struct IList_1_t1_1861;
+struct IList_1_t1_1867;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Vuforia.SmartTerrainTrackable>
-struct  ReadOnlyCollection_1_t1_1860  : public Object_t
+struct  ReadOnlyCollection_1_t1_1866  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

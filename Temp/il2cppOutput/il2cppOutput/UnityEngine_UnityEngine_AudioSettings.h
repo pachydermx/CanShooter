@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.AudioSettings/AudioConfigurationChangeHandler
-struct AudioConfigurationChangeHandler_t5_126;
+struct AudioConfigurationChangeHandler_t5_127;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.AudioSettings
-struct  AudioSettings_t5_127  : public Object_t
+struct  AudioSettings_t5_128  : public Object_t
 {
 };
-struct AudioSettings_t5_127_StaticFields{
+struct AudioSettings_t5_128_StaticFields{
 	// UnityEngine.AudioSettings/AudioConfigurationChangeHandler UnityEngine.AudioSettings::OnAudioConfigurationChanged
-	AudioConfigurationChangeHandler_t5_126 * ___OnAudioConfigurationChanged_0;
+	AudioConfigurationChangeHandler_t5_127 * ___OnAudioConfigurationChanged_0;
 };

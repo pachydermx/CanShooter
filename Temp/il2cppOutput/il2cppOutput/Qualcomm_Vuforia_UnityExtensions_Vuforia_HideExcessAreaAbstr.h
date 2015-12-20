@@ -13,39 +13,39 @@
 // UnityEngine.Shader
 struct Shader_t5_78;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // Vuforia.VuforiaAbstractBehaviour
 struct VuforiaAbstractBehaviour_t6_6;
 // Vuforia.HideExcessAreaAbstractBehaviour[]
 struct HideExcessAreaAbstractBehaviourU5BU5D_t6_30;
 // System.Collections.Generic.List`1<Vuforia.HideExcessAreaAbstractBehaviour>
-struct List_1_t1_1043;
+struct List_1_t1_1044;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // Vuforia.HideExcessAreaAbstractBehaviour
-struct  HideExcessAreaAbstractBehaviour_t6_29  : public MonoBehaviour_t5_94
+struct  HideExcessAreaAbstractBehaviour_t6_29  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.Shader Vuforia.HideExcessAreaAbstractBehaviour::matteShader
 	Shader_t5_78 * ___matteShader_2;
 	// System.Boolean Vuforia.HideExcessAreaAbstractBehaviour::disableMattes
 	bool ___disableMattes_3;
 	// UnityEngine.GameObject Vuforia.HideExcessAreaAbstractBehaviour::mBgPlane
-	GameObject_t5_100 * ___mBgPlane_4;
+	GameObject_t5_101 * ___mBgPlane_4;
 	// UnityEngine.GameObject Vuforia.HideExcessAreaAbstractBehaviour::mLeftPlane
-	GameObject_t5_100 * ___mLeftPlane_5;
+	GameObject_t5_101 * ___mLeftPlane_5;
 	// UnityEngine.GameObject Vuforia.HideExcessAreaAbstractBehaviour::mRightPlane
-	GameObject_t5_100 * ___mRightPlane_6;
+	GameObject_t5_101 * ___mRightPlane_6;
 	// UnityEngine.GameObject Vuforia.HideExcessAreaAbstractBehaviour::mTopPlane
-	GameObject_t5_100 * ___mTopPlane_7;
+	GameObject_t5_101 * ___mTopPlane_7;
 	// UnityEngine.GameObject Vuforia.HideExcessAreaAbstractBehaviour::mBottomPlane
-	GameObject_t5_100 * ___mBottomPlane_8;
+	GameObject_t5_101 * ___mBottomPlane_8;
 	// UnityEngine.Camera Vuforia.HideExcessAreaAbstractBehaviour::mCamera
-	Camera_t5_89 * ___mCamera_9;
+	Camera_t5_90 * ___mCamera_9;
 	// System.Boolean Vuforia.HideExcessAreaAbstractBehaviour::mSceneIsScaledDown
 	bool ___mSceneIsScaledDown_10;
 	// UnityEngine.Vector3 Vuforia.HideExcessAreaAbstractBehaviour::mBgPlaneLocalPos
@@ -63,7 +63,7 @@ struct  HideExcessAreaAbstractBehaviour_t6_29  : public MonoBehaviour_t5_94
 	// Vuforia.HideExcessAreaAbstractBehaviour[] Vuforia.HideExcessAreaAbstractBehaviour::mHideBehaviours
 	HideExcessAreaAbstractBehaviourU5BU5D_t6_30* ___mHideBehaviours_17;
 	// System.Collections.Generic.List`1<Vuforia.HideExcessAreaAbstractBehaviour> Vuforia.HideExcessAreaAbstractBehaviour::mDeactivatedHideBehaviours
-	List_1_t1_1043 * ___mDeactivatedHideBehaviours_18;
+	List_1_t1_1044 * ___mDeactivatedHideBehaviours_18;
 	// System.Boolean Vuforia.HideExcessAreaAbstractBehaviour::mPlanesActivated
 	bool ___mPlanesActivated_19;
 	// UnityEngine.Vector3 Vuforia.HideExcessAreaAbstractBehaviour::mLeftPlaneCachedScale

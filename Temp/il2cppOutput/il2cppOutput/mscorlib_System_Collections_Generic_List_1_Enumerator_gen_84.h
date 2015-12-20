@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t1_1208;
+struct List_1_t1_1209;
 // UnityEngine.RectTransform
 struct RectTransform_t5_71;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.RectTransform>
-struct  Enumerator_t1_2187 
+struct  Enumerator_t1_2193 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1208 * ___l_0;
+	List_1_t1_1209 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

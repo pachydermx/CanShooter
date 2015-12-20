@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.CylinderTargetBehaviour
-struct CylinderTargetBehaviour_t8_36;
+struct CylinderTargetBehaviour_t8_38;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.CylinderTargetBehaviour::.ctor()
-extern "C" void CylinderTargetBehaviour__ctor_m8_185 (CylinderTargetBehaviour_t8_36 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void CylinderTargetBehaviour__ctor_m8_200 (CylinderTargetBehaviour_t8_38 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

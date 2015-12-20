@@ -15,17 +15,17 @@
 // UnityEngine.SocialPlatforms.Impl.LocalUser
 struct LocalUser_t5_21;
 // UnityEngine.SocialPlatforms.IUserProfile[]
-struct IUserProfileU5BU5D_t5_231;
+struct IUserProfileU5BU5D_t5_232;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::.ctor()
-extern "C" void LocalUser__ctor_m5_1629 (LocalUser_t5_21 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalUser__ctor_m5_1642 (LocalUser_t5_21 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetFriends(UnityEngine.SocialPlatforms.IUserProfile[])
-extern "C" void LocalUser_SetFriends_m5_1630 (LocalUser_t5_21 * __this, IUserProfileU5BU5D_t5_231* ___friends, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalUser_SetFriends_m5_1643 (LocalUser_t5_21 * __this, IUserProfileU5BU5D_t5_232* ___friends, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetAuthenticated(System.Boolean)
-extern "C" void LocalUser_SetAuthenticated_m5_1631 (LocalUser_t5_21 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalUser_SetAuthenticated_m5_1644 (LocalUser_t5_21 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.SocialPlatforms.Impl.LocalUser::SetUnderage(System.Boolean)
-extern "C" void LocalUser_SetUnderage_m5_1632 (LocalUser_t5_21 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void LocalUser_SetUnderage_m5_1645 (LocalUser_t5_21 * __this, bool ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.SocialPlatforms.Impl.LocalUser::get_authenticated()
-extern "C" bool LocalUser_get_authenticated_m5_1633 (LocalUser_t5_21 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool LocalUser_get_authenticated_m5_1646 (LocalUser_t5_21 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

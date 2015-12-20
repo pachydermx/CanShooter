@@ -22,20 +22,20 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_RectangleData.h"
 
 // System.Void System.Array/InternalEnumerator`1<Vuforia.RectangleData>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m1_15595_gshared (InternalEnumerator_1_t1_1891 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m1_15595(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1891 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_15595_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m1_15699_gshared (InternalEnumerator_1_t1_1897 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_15699(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1897 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_15699_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<Vuforia.RectangleData>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15596_gshared (InternalEnumerator_1_t1_1891 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15596(__this, method) (( void (*) (InternalEnumerator_1_t1_1891 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15596_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15700_gshared (InternalEnumerator_1_t1_1897 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15700(__this, method) (( void (*) (InternalEnumerator_1_t1_1897 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15700_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<Vuforia.RectangleData>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15597_gshared (InternalEnumerator_1_t1_1891 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15597(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1891 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15597_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15701_gshared (InternalEnumerator_1_t1_1897 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15701(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1897 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15701_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<Vuforia.RectangleData>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m1_15598_gshared (InternalEnumerator_1_t1_1891 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m1_15598(__this, method) (( void (*) (InternalEnumerator_1_t1_1891 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_15598_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m1_15702_gshared (InternalEnumerator_1_t1_1897 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_15702(__this, method) (( void (*) (InternalEnumerator_1_t1_1897 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_15702_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<Vuforia.RectangleData>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m1_15599_gshared (InternalEnumerator_1_t1_1891 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m1_15599(__this, method) (( bool (*) (InternalEnumerator_1_t1_1891 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_15599_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m1_15703_gshared (InternalEnumerator_1_t1_1897 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_15703(__this, method) (( bool (*) (InternalEnumerator_1_t1_1897 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_15703_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<Vuforia.RectangleData>::get_Current()
-extern "C" RectangleData_t6_57  InternalEnumerator_1_get_Current_m1_15600_gshared (InternalEnumerator_1_t1_1891 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m1_15600(__this, method) (( RectangleData_t6_57  (*) (InternalEnumerator_1_t1_1891 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_15600_gshared)(__this, method)
+extern "C" RectangleData_t6_57  InternalEnumerator_1_get_Current_m1_15704_gshared (InternalEnumerator_1_t1_1897 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_15704(__this, method) (( RectangleData_t6_57  (*) (InternalEnumerator_1_t1_1897 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_15704_gshared)(__this, method)

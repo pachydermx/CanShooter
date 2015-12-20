@@ -21,7 +21,7 @@ struct MouseState_t7_39;
 // System.String
 struct String_t;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // UnityEngine.EventSystems.BaseEventData
 struct BaseEventData_t7_5;
 
@@ -37,7 +37,7 @@ extern "C" bool PointerInputModule_GetPointerData_m7_200 (PointerInputModule_t7_
 // System.Void UnityEngine.EventSystems.PointerInputModule::RemovePointerData(UnityEngine.EventSystems.PointerEventData)
 extern "C" void PointerInputModule_RemovePointerData_m7_201 (PointerInputModule_t7_40 * __this, PointerEventData_t7_36 * ___data, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.PointerEventData UnityEngine.EventSystems.PointerInputModule::GetTouchPointerEventData(UnityEngine.Touch,System.Boolean&,System.Boolean&)
-extern "C" PointerEventData_t7_36 * PointerInputModule_GetTouchPointerEventData_m7_202 (PointerInputModule_t7_40 * __this, Touch_t5_97  ___input, bool* ___pressed, bool* ___released, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" PointerEventData_t7_36 * PointerInputModule_GetTouchPointerEventData_m7_202 (PointerInputModule_t7_40 * __this, Touch_t5_98  ___input, bool* ___pressed, bool* ___released, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::CopyFromTo(UnityEngine.EventSystems.PointerEventData,UnityEngine.EventSystems.PointerEventData)
 extern "C" void PointerInputModule_CopyFromTo_m7_203 (PointerInputModule_t7_40 * __this, PointerEventData_t7_36 * ___from, PointerEventData_t7_36 * ___to, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.EventSystems.PointerEventData/FramePressState UnityEngine.EventSystems.PointerInputModule::StateForMouseButton(System.Int32)
@@ -61,4 +61,4 @@ extern "C" void PointerInputModule_ClearSelection_m7_212 (PointerInputModule_t7_
 // System.String UnityEngine.EventSystems.PointerInputModule::ToString()
 extern "C" String_t* PointerInputModule_ToString_m7_213 (PointerInputModule_t7_40 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.EventSystems.PointerInputModule::DeselectIfSelectionChanged(UnityEngine.GameObject,UnityEngine.EventSystems.BaseEventData)
-extern "C" void PointerInputModule_DeselectIfSelectionChanged_m7_214 (PointerInputModule_t7_40 * __this, GameObject_t5_100 * ___currentOverGo, BaseEventData_t7_5 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PointerInputModule_DeselectIfSelectionChanged_m7_214 (PointerInputModule_t7_40 * __this, GameObject_t5_101 * ___currentOverGo, BaseEventData_t7_5 * ___pointerEvent, const MethodInfo* method) IL2CPP_METHOD_ATTR;

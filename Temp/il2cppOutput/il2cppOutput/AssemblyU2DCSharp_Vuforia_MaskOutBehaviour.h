@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_MaskOutAbstractBeha.h"
 
 // Vuforia.MaskOutBehaviour
-struct  MaskOutBehaviour_t8_53  : public MaskOutAbstractBehaviour_t6_176
+struct  MaskOutBehaviour_t8_55  : public MaskOutAbstractBehaviour_t6_176
 {
 };

@@ -10,10 +10,9 @@
 
 #include <stdint.h>
 
-// UnityEngine.Camera
-struct Camera_t5_89;
-// Vuforia.VideoBackgroundAbstractBehaviour
-struct VideoBackgroundAbstractBehaviour_t6_193;
+// UnityEngine.Event
+struct Event_t5_166;
+struct Event_t5_166_marshaled;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,8 +22,9 @@ struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Collections_DictionaryEntry.h"
+#include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1770  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<UnityEngine.Event,UnityEngine.TextEditor/TextEditOp,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1745  : public MulticastDelegate_t1_21
 {
 };

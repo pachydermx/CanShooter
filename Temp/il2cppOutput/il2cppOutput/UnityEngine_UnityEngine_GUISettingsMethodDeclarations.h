@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.GUISettings
-struct GUISettings_t5_187;
+struct GUISettings_t5_188;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.GUISettings::.ctor()
-extern "C" void GUISettings__ctor_m5_1434 (GUISettings_t5_187 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void GUISettings__ctor_m5_1447 (GUISettings_t5_188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

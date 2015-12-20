@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 
 #include "UnityEngine_UnityEngine_GUILayoutGroup.h"
 
 // UnityEngine.GUIScrollGroup
-struct  GUIScrollGroup_t5_183  : public GUILayoutGroup_t5_178
+struct  GUIScrollGroup_t5_184  : public GUILayoutGroup_t5_179
 {
 	// System.Single UnityEngine.GUIScrollGroup::calcMinWidth
 	float ___calcMinWidth_27;
@@ -39,7 +39,7 @@ struct  GUIScrollGroup_t5_183  : public GUILayoutGroup_t5_178
 	// System.Boolean UnityEngine.GUIScrollGroup::needsVerticalScrollbar
 	bool ___needsVerticalScrollbar_36;
 	// UnityEngine.GUIStyle UnityEngine.GUIScrollGroup::horizontalScrollbar
-	GUIStyle_t5_180 * ___horizontalScrollbar_37;
+	GUIStyle_t5_181 * ___horizontalScrollbar_37;
 	// UnityEngine.GUIStyle UnityEngine.GUIScrollGroup::verticalScrollbar
-	GUIStyle_t5_180 * ___verticalScrollbar_38;
+	GUIStyle_t5_181 * ___verticalScrollbar_38;
 };

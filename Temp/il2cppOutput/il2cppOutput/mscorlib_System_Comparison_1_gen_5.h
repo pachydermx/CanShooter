@@ -21,6 +21,6 @@ struct Object_t;
 #include "mscorlib_System_Reflection_CustomAttributeTypedArgument.h"
 
 // System.Comparison`1<System.Reflection.CustomAttributeTypedArgument>
-struct  Comparison_1_t1_1351  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1352  : public MulticastDelegate_t1_21
 {
 };

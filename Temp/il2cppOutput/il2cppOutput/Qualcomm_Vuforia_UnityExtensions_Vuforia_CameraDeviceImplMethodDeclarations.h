@@ -19,7 +19,7 @@ struct WebCamImpl_t6_71;
 // Vuforia.Image
 struct Image_t6_74;
 // System.Collections.Generic.Dictionary`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image>
-struct Dictionary_2_t1_1044;
+struct Dictionary_2_t1_1045;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_CameraDevice_Camera_0.h"
@@ -62,7 +62,7 @@ extern "C" int32_t CameraDeviceImpl_GetCameraDirection_m6_426 (CameraDeviceImpl_
 // UnityEngine.Vector2 Vuforia.CameraDeviceImpl::GetCameraFieldOfViewRads()
 extern "C" Vector2_t5_56  CameraDeviceImpl_GetCameraFieldOfViewRads_m6_427 (CameraDeviceImpl_t6_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.Dictionary`2<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image> Vuforia.CameraDeviceImpl::GetAllImages()
-extern "C" Dictionary_2_t1_1044 * CameraDeviceImpl_GetAllImages_m6_428 (CameraDeviceImpl_t6_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Dictionary_2_t1_1045 * CameraDeviceImpl_GetAllImages_m6_428 (CameraDeviceImpl_t6_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.CameraDeviceImpl::IsDirty()
 extern "C" bool CameraDeviceImpl_IsDirty_m6_429 (CameraDeviceImpl_t6_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.CameraDeviceImpl::ResetDirtyFlag()

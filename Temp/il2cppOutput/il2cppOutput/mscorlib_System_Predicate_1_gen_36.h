@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.GUILayoutEntry
-struct GUILayoutEntry_t5_181;
+struct GUILayoutEntry_t5_182;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.GUILayoutEntry>
-struct  Predicate_1_t1_1724  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1730  : public MulticastDelegate_t1_21
 {
 };

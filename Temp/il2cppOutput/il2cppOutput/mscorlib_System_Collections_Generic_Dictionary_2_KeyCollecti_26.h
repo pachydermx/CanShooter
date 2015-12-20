@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<Vuforia.Image/PIXEL_FORMAT,System.Object>
-struct Dictionary_2_t1_1797;
+// System.Collections.Generic.Dictionary`2<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
+struct Dictionary_2_t1_1041;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<Vuforia.Image/PIXEL_FORMAT,System.Object>
-struct  KeyCollection_t1_1802  : public Object_t
+// System.Collections.Generic.Dictionary`2/KeyCollection<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
+struct  KeyCollection_t1_1779  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection::dictionary
-	Dictionary_2_t1_1797 * ___dictionary_0;
+	Dictionary_2_t1_1041 * ___dictionary_0;
 };

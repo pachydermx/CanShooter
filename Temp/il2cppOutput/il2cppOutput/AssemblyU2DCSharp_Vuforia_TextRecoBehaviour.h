@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TextRecoAbstractBeh.h"
 
 // Vuforia.TextRecoBehaviour
-struct  TextRecoBehaviour_t8_58  : public TextRecoAbstractBehaviour_t6_189
+struct  TextRecoBehaviour_t8_60  : public TextRecoAbstractBehaviour_t6_189
 {
 };

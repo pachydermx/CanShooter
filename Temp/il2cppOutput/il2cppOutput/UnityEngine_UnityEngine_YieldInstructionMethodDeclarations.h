@@ -19,7 +19,7 @@ struct YieldInstruction_t5_12_marshaled;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.YieldInstruction::.ctor()
-extern "C" void YieldInstruction__ctor_m5_896 (YieldInstruction_t5_12 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void YieldInstruction__ctor_m5_909 (YieldInstruction_t5_12 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 extern "C" void YieldInstruction_t5_12_marshal(const YieldInstruction_t5_12& unmarshaled, YieldInstruction_t5_12_marshaled& marshaled);
 extern "C" void YieldInstruction_t5_12_marshal_back(const YieldInstruction_t5_12_marshaled& marshaled, YieldInstruction_t5_12& unmarshaled);
 extern "C" void YieldInstruction_t5_12_marshal_cleanup(YieldInstruction_t5_12_marshaled& marshaled);

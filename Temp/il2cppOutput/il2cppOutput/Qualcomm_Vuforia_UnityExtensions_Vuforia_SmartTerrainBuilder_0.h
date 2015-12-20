@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<Vuforia.ReconstructionAbstractBehaviour>
-struct List_1_t1_1052;
+struct List_1_t1_1053;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_SmartTerrainBuilder.h"
 
@@ -19,7 +19,7 @@ struct List_1_t1_1052;
 struct  SmartTerrainBuilderImpl_t6_125  : public SmartTerrainBuilder_t6_41
 {
 	// System.Collections.Generic.List`1<Vuforia.ReconstructionAbstractBehaviour> Vuforia.SmartTerrainBuilderImpl::mReconstructionBehaviours
-	List_1_t1_1052 * ___mReconstructionBehaviours_0;
+	List_1_t1_1053 * ___mReconstructionBehaviours_0;
 	// System.Boolean Vuforia.SmartTerrainBuilderImpl::mIsInitialized
 	bool ___mIsInitialized_1;
 };

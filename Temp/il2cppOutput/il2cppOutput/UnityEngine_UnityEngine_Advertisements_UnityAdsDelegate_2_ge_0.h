@@ -22,6 +22,6 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_Boolean.h"
 
 // UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Boolean>
-struct  UnityAdsDelegate_2_t5_329  : public MulticastDelegate_t1_21
+struct  UnityAdsDelegate_2_t5_330  : public MulticastDelegate_t1_21
 {
 };

@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_UIVertex.h"
 
 // System.Predicate`1<UnityEngine.UIVertex>
-struct  Predicate_1_t1_1680  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1686  : public MulticastDelegate_t1_21
 {
 };

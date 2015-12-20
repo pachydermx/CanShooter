@@ -15,7 +15,7 @@ struct CanvasUpdateRegistry_t7_57;
 // UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.ICanvasElement>
 struct IndexedSet_1_t7_58;
 // System.Comparison`1<UnityEngine.UI.ICanvasElement>
-struct Comparison_1_t1_1194;
+struct Comparison_1_t1_1195;
 
 #include "mscorlib_System_Object.h"
 
@@ -35,5 +35,5 @@ struct CanvasUpdateRegistry_t7_57_StaticFields{
 	// UnityEngine.UI.CanvasUpdateRegistry UnityEngine.UI.CanvasUpdateRegistry::s_Instance
 	CanvasUpdateRegistry_t7_57 * ___s_Instance_0;
 	// System.Comparison`1<UnityEngine.UI.ICanvasElement> UnityEngine.UI.CanvasUpdateRegistry::s_SortLayoutFunction
-	Comparison_1_t1_1194 * ___s_SortLayoutFunction_5;
+	Comparison_1_t1_1195 * ___s_SortLayoutFunction_5;
 };

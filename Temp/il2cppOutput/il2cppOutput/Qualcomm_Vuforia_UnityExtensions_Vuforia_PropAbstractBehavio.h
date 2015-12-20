@@ -13,7 +13,7 @@
 // Vuforia.Prop
 struct Prop_t6_152;
 // UnityEngine.BoxCollider
-struct BoxCollider_t5_116;
+struct BoxCollider_t5_117;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_SmartTerrainTrackab.h"
 
@@ -23,5 +23,5 @@ struct  PropAbstractBehaviour_t6_151  : public SmartTerrainTrackableBehaviour_t6
 	// Vuforia.Prop Vuforia.PropAbstractBehaviour::mProp
 	Object_t * ___mProp_13;
 	// UnityEngine.BoxCollider Vuforia.PropAbstractBehaviour::mBoxColliderToUpdate
-	BoxCollider_t5_116 * ___mBoxColliderToUpdate_14;
+	BoxCollider_t5_117 * ___mBoxColliderToUpdate_14;
 };

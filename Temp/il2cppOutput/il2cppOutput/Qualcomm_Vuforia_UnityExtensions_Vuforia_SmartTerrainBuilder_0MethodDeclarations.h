@@ -15,7 +15,7 @@
 // Vuforia.SmartTerrainBuilderImpl
 struct SmartTerrainBuilderImpl_t6_125;
 // System.Collections.Generic.IEnumerable`1<Vuforia.ReconstructionAbstractBehaviour>
-struct IEnumerable_1_t1_1086;
+struct IEnumerable_1_t1_1087;
 // Vuforia.ReconstructionAbstractBehaviour
 struct ReconstructionAbstractBehaviour_t6_39;
 // Vuforia.Reconstruction

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.Trackable>
-struct Dictionary_2_t1_1046;
+struct Dictionary_2_t1_1047;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<System.Int32,Vuforia.Trackable>
-struct  ValueCollection_t1_1109  : public Object_t
+struct  ValueCollection_t1_1110  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
-	Dictionary_2_t1_1046 * ___dictionary_0;
+	Dictionary_2_t1_1047 * ___dictionary_0;
 };

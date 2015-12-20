@@ -17,13 +17,13 @@ struct DataSetImpl_t6_33;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerable`1<Vuforia.Trackable>
-struct IEnumerable_1_t1_1082;
+struct IEnumerable_1_t1_1083;
 // Vuforia.DataSetTrackableBehaviour
 struct DataSetTrackableBehaviour_t6_17;
 // Vuforia.TrackableSource
 struct TrackableSource_t6_77;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // Vuforia.Trackable
 struct Trackable_t6_16;
 
@@ -48,7 +48,7 @@ extern "C" Object_t* DataSetImpl_GetTrackables_m6_444 (DataSetImpl_t6_33 * __thi
 // Vuforia.DataSetTrackableBehaviour Vuforia.DataSetImpl::CreateTrackable(Vuforia.TrackableSource,System.String)
 extern "C" DataSetTrackableBehaviour_t6_17 * DataSetImpl_CreateTrackable_m6_445 (DataSetImpl_t6_33 * __this, TrackableSource_t6_77 * ___trackableSource, String_t* ___gameObjectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.DataSetTrackableBehaviour Vuforia.DataSetImpl::CreateTrackable(Vuforia.TrackableSource,UnityEngine.GameObject)
-extern "C" DataSetTrackableBehaviour_t6_17 * DataSetImpl_CreateTrackable_m6_446 (DataSetImpl_t6_33 * __this, TrackableSource_t6_77 * ___trackableSource, GameObject_t5_100 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DataSetTrackableBehaviour_t6_17 * DataSetImpl_CreateTrackable_m6_446 (DataSetImpl_t6_33 * __this, TrackableSource_t6_77 * ___trackableSource, GameObject_t5_101 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.DataSetImpl::Destroy(Vuforia.Trackable,System.Boolean)
 extern "C" bool DataSetImpl_Destroy_m6_447 (DataSetImpl_t6_33 * __this, Object_t * ___trackable, bool ___destroyGameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.DataSetImpl::HasReachedTrackableLimit()

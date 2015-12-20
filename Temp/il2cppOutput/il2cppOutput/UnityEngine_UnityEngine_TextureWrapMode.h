@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_TextureWrapMode.h"
 
 // UnityEngine.TextureWrapMode
-struct  TextureWrapMode_t5_221 
+struct  TextureWrapMode_t5_222 
 {
 	// System.Int32 UnityEngine.TextureWrapMode::value__
 	int32_t ___value___1;

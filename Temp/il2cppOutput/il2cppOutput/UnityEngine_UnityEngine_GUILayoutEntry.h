@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 
 #include "mscorlib_System_Object.h"
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // UnityEngine.GUILayoutEntry
-struct  GUILayoutEntry_t5_181  : public Object_t
+struct  GUILayoutEntry_t5_182  : public Object_t
 {
 	// System.Single UnityEngine.GUILayoutEntry::minWidth
 	float ___minWidth_0;
@@ -34,9 +34,9 @@ struct  GUILayoutEntry_t5_181  : public Object_t
 	// System.Int32 UnityEngine.GUILayoutEntry::stretchHeight
 	int32_t ___stretchHeight_6;
 	// UnityEngine.GUIStyle UnityEngine.GUILayoutEntry::m_Style
-	GUIStyle_t5_180 * ___m_Style_7;
+	GUIStyle_t5_181 * ___m_Style_7;
 };
-struct GUILayoutEntry_t5_181_StaticFields{
+struct GUILayoutEntry_t5_182_StaticFields{
 	// UnityEngine.Rect UnityEngine.GUILayoutEntry::kDummyRect
 	Rect_t5_30  ___kDummyRect_8;
 	// System.Int32 UnityEngine.GUILayoutEntry::indent

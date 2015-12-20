@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // UnityEngine.Texture2D
 struct Texture2D_t5_41;
 
@@ -19,12 +19,12 @@ struct Texture2D_t5_41;
 #include "mscorlib_System_IntPtr.h"
 
 // UnityEngine.GUIStyleState
-struct  GUIStyleState_t5_190  : public Object_t
+struct  GUIStyleState_t5_191  : public Object_t
 {
 	// System.IntPtr UnityEngine.GUIStyleState::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 	// UnityEngine.GUIStyle UnityEngine.GUIStyleState::m_SourceStyle
-	GUIStyle_t5_180 * ___m_SourceStyle_1;
+	GUIStyle_t5_181 * ___m_SourceStyle_1;
 	// UnityEngine.Texture2D UnityEngine.GUIStyleState::m_Background
 	Texture2D_t5_41 * ___m_Background_2;
 };

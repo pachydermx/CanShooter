@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.PropBehaviour
-struct PropBehaviour_t8_41;
+struct PropBehaviour_t8_43;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.PropBehaviour::.ctor()
-extern "C" void PropBehaviour__ctor_m8_262 (PropBehaviour_t8_41 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void PropBehaviour__ctor_m8_277 (PropBehaviour_t8_43 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

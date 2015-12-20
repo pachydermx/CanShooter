@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.GUISkin/SkinChangedDelegate
-struct SkinChangedDelegate_t5_188;
+struct SkinChangedDelegate_t5_189;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -25,11 +25,11 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_IntPtr.h"
 
 // System.Void UnityEngine.GUISkin/SkinChangedDelegate::.ctor(System.Object,System.IntPtr)
-extern "C" void SkinChangedDelegate__ctor_m5_1435 (SkinChangedDelegate_t5_188 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SkinChangedDelegate__ctor_m5_1448 (SkinChangedDelegate_t5_189 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUISkin/SkinChangedDelegate::Invoke()
-extern "C" void SkinChangedDelegate_Invoke_m5_1436 (SkinChangedDelegate_t5_188 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
-extern "C" void pinvoke_delegate_wrapper_SkinChangedDelegate_t5_188(Il2CppObject* delegate);
+extern "C" void SkinChangedDelegate_Invoke_m5_1449 (SkinChangedDelegate_t5_189 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void pinvoke_delegate_wrapper_SkinChangedDelegate_t5_189(Il2CppObject* delegate);
 // System.IAsyncResult UnityEngine.GUISkin/SkinChangedDelegate::BeginInvoke(System.AsyncCallback,System.Object)
-extern "C" Object_t * SkinChangedDelegate_BeginInvoke_m5_1437 (SkinChangedDelegate_t5_188 * __this, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * SkinChangedDelegate_BeginInvoke_m5_1450 (SkinChangedDelegate_t5_189 * __this, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.GUISkin/SkinChangedDelegate::EndInvoke(System.IAsyncResult)
-extern "C" void SkinChangedDelegate_EndInvoke_m5_1438 (SkinChangedDelegate_t5_188 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SkinChangedDelegate_EndInvoke_m5_1451 (SkinChangedDelegate_t5_189 * __this, Object_t * ___result, const MethodInfo* method) IL2CPP_METHOD_ATTR;

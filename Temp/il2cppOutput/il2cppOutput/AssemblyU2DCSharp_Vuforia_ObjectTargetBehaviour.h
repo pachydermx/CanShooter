@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ObjectTargetAbstrac.h"
 
 // Vuforia.ObjectTargetBehaviour
-struct  ObjectTargetBehaviour_t8_55  : public ObjectTargetAbstractBehaviour_t6_19
+struct  ObjectTargetBehaviour_t8_57  : public ObjectTargetAbstractBehaviour_t6_19
 {
 };

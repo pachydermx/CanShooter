@@ -16,7 +16,7 @@ struct ReflectionProbe_t5_43;
 #include "mscorlib_System_ValueType.h"
 
 // UnityEngine.Rendering.ReflectionProbeBlendInfo
-struct  ReflectionProbeBlendInfo_t5_228 
+struct  ReflectionProbeBlendInfo_t5_229 
 {
 	// UnityEngine.ReflectionProbe UnityEngine.Rendering.ReflectionProbeBlendInfo::probe
 	ReflectionProbe_t5_43 * ___probe_0;

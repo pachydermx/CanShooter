@@ -15,9 +15,9 @@ struct Int32U5BU5D_t1_161;
 // System.Collections.Generic.HashSet`1/Link<UnityEngine.MeshRenderer>[]
 struct LinkU5BU5D_t4_30;
 // UnityEngine.MeshRenderer[]
-struct MeshRendererU5BU5D_t5_357;
+struct MeshRendererU5BU5D_t5_358;
 // System.Collections.Generic.IEqualityComparer`1<UnityEngine.MeshRenderer>
-struct IEqualityComparer_1_t1_2041;
+struct IEqualityComparer_1_t1_2047;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t1_178;
 
@@ -31,7 +31,7 @@ struct  HashSet_1_t4_17  : public Object_t
 	// System.Collections.Generic.HashSet`1/Link<T>[] System.Collections.Generic.HashSet`1::links
 	LinkU5BU5D_t4_30* ___links_5;
 	// T[] System.Collections.Generic.HashSet`1::slots
-	MeshRendererU5BU5D_t5_357* ___slots_6;
+	MeshRendererU5BU5D_t5_358* ___slots_6;
 	// System.Int32 System.Collections.Generic.HashSet`1::touched
 	int32_t ___touched_7;
 	// System.Int32 System.Collections.Generic.HashSet`1::empty_slot

@@ -18,5 +18,5 @@
 struct  Enumerator_t1_989 
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection/Enumerator::host_enumerator
-	Enumerator_t1_1511  ___host_enumerator_0;
+	Enumerator_t1_1512  ___host_enumerator_0;
 };

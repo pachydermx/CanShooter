@@ -19,7 +19,7 @@ struct RectTransform_t5_71;
 // UnityEngine.UI.Graphic
 struct Graphic_t7_75;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // UnityEngine.Material
 struct Material_t5_33;
 
@@ -45,6 +45,6 @@ extern "C" void Mask_OnEnable_m7_758 (Mask_t7_100 * __this, const MethodInfo* me
 // System.Void UnityEngine.UI.Mask::OnDisable()
 extern "C" void Mask_OnDisable_m7_759 (Mask_t7_100 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.Mask::IsRaycastLocationValid(UnityEngine.Vector2,UnityEngine.Camera)
-extern "C" bool Mask_IsRaycastLocationValid_m7_760 (Mask_t7_100 * __this, Vector2_t5_56  ___sp, Camera_t5_89 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Mask_IsRaycastLocationValid_m7_760 (Mask_t7_100 * __this, Vector2_t5_56  ___sp, Camera_t5_90 * ___eventCamera, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Material UnityEngine.UI.Mask::GetModifiedMaterial(UnityEngine.Material)
 extern "C" Material_t5_33 * Mask_GetModifiedMaterial_m7_761 (Mask_t7_100 * __this, Material_t5_33 * ___baseMaterial, const MethodInfo* method) IL2CPP_METHOD_ATTR;

@@ -23,7 +23,7 @@ struct AboutScreenView_t8_6;
 #include "AssemblyU2DCSharp_AppManager_ViewType.h"
 
 // AppManager
-struct  AppManager_t8_10  : public MonoBehaviour_t5_94
+struct  AppManager_t8_10  : public MonoBehaviour_t5_95
 {
 	// System.String AppManager::TitleForAboutPage
 	String_t* ___TitleForAboutPage_2;

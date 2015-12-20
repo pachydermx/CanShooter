@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_SmartTerrainTracker.h"
 
 // Vuforia.SmartTerrainTrackerBehaviour
-struct  SmartTerrainTrackerBehaviour_t8_57  : public SmartTerrainTrackerAbstractBehaviour_t6_49
+struct  SmartTerrainTrackerBehaviour_t8_59  : public SmartTerrainTrackerAbstractBehaviour_t6_49
 {
 };

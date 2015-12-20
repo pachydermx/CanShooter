@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<Vuforia.VirtualButtonAbstractBehaviour>
-struct  Comparison_1_t1_1985  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1991  : public MulticastDelegate_t1_21
 {
 };

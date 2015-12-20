@@ -12,11 +12,11 @@
 
 
 #include "mscorlib_System_Object.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__31.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__32.h"
 
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
-struct  ShimEnumerator_t1_1964  : public Object_t
+struct  ShimEnumerator_t1_1970  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator::host_enumerator
-	Enumerator_t1_1958  ___host_enumerator_0;
+	Enumerator_t1_1964  ___host_enumerator_0;
 };

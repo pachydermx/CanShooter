@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_SurfaceAbstractBeha.h"
 
 // Vuforia.SurfaceBehaviour
-struct  SurfaceBehaviour_t8_42  : public SurfaceAbstractBehaviour_t6_50
+struct  SurfaceBehaviour_t8_44  : public SurfaceAbstractBehaviour_t6_50
 {
 };

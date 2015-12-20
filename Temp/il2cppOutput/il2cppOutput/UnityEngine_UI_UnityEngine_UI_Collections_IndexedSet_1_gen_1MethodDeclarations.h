@@ -47,6 +47,6 @@
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper>::set_Item(System.Int32,T)
 #define IndexedSet_1_set_Item_m7_1692(__this, ___index, ___value, method) (( void (*) (IndexedSet_1_t7_132 *, int32_t, Object_t *, const MethodInfo*))IndexedSet_1_set_Item_m7_1636_gshared)(__this, ___index, ___value, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper>::RemoveAll(System.Predicate`1<T>)
-#define IndexedSet_1_RemoveAll_m7_1693(__this, ___match, method) (( void (*) (IndexedSet_1_t7_132 *, Predicate_1_t1_2178 *, const MethodInfo*))IndexedSet_1_RemoveAll_m7_1638_gshared)(__this, ___match, method)
+#define IndexedSet_1_RemoveAll_m7_1693(__this, ___match, method) (( void (*) (IndexedSet_1_t7_132 *, Predicate_1_t1_2184 *, const MethodInfo*))IndexedSet_1_RemoveAll_m7_1638_gshared)(__this, ___match, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<UnityEngine.UI.IClipper>::Sort(System.Comparison`1<T>)
-#define IndexedSet_1_Sort_m7_1694(__this, ___sortLayoutFunction, method) (( void (*) (IndexedSet_1_t7_132 *, Comparison_1_t1_2179 *, const MethodInfo*))IndexedSet_1_Sort_m7_1639_gshared)(__this, ___sortLayoutFunction, method)
+#define IndexedSet_1_Sort_m7_1694(__this, ___sortLayoutFunction, method) (( void (*) (IndexedSet_1_t7_132 *, Comparison_1_t1_2185 *, const MethodInfo*))IndexedSet_1_Sort_m7_1639_gshared)(__this, ___sortLayoutFunction, method)

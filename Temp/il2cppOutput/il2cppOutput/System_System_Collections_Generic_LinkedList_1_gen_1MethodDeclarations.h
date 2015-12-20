@@ -15,7 +15,7 @@
 // System.Collections.Generic.LinkedList`1<System.Object>
 struct LinkedList_1_t2_851;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t1_1125;
+struct IEnumerable_1_t1_1126;
 // System.Runtime.Serialization.SerializationInfo
 struct SerializationInfo_t1_178;
 // System.Object

@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
-struct Dictionary_2_t1_1040;
+struct Dictionary_2_t1_1041;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.Dictionary`2/ValueCollection<UnityEngine.Camera,Vuforia.VideoBackgroundAbstractBehaviour>
-struct  ValueCollection_t1_1101  : public Object_t
+struct  ValueCollection_t1_1102  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/ValueCollection::dictionary
-	Dictionary_2_t1_1040 * ___dictionary_0;
+	Dictionary_2_t1_1041 * ___dictionary_0;
 };

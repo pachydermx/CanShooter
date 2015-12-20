@@ -13,12 +13,12 @@
 // System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry>
 struct List_1_t1_1018;
 // UnityEngine.RectOffset
-struct RectOffset_t5_182;
+struct RectOffset_t5_183;
 
 #include "UnityEngine_UnityEngine_GUILayoutEntry.h"
 
 // UnityEngine.GUILayoutGroup
-struct  GUILayoutGroup_t5_178  : public GUILayoutEntry_t5_181
+struct  GUILayoutGroup_t5_179  : public GUILayoutEntry_t5_182
 {
 	// System.Collections.Generic.List`1<UnityEngine.GUILayoutEntry> UnityEngine.GUILayoutGroup::entries
 	List_1_t1_1018 * ___entries_10;
@@ -53,5 +53,5 @@ struct  GUILayoutGroup_t5_178  : public GUILayoutEntry_t5_181
 	// System.Single UnityEngine.GUILayoutGroup::m_ChildMaxHeight
 	float ___m_ChildMaxHeight_25;
 	// UnityEngine.RectOffset UnityEngine.GUILayoutGroup::m_Margin
-	RectOffset_t5_182 * ___m_Margin_26;
+	RectOffset_t5_183 * ___m_Margin_26;
 };

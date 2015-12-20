@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// Vuforia.Trackable
-struct Trackable_t6_16;
+// Vuforia.Image
+struct Image_t6_74;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -21,9 +21,9 @@ struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-#include "mscorlib_System_Int32.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.Trackable,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1824  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,Vuforia.Image,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1801  : public MulticastDelegate_t1_21
 {
 };

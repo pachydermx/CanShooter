@@ -16,7 +16,7 @@ struct WordAbstractBehaviour_t6_197;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.WordAbstractBehaviour>
-struct  KeyValuePair_2_t1_1139 
+struct  KeyValuePair_2_t1_1140 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_5.h"
 
 // System.Collections.Generic.GenericEqualityComparer`1<System.DateTimeOffset>
-struct  GenericEqualityComparer_1_t1_926  : public EqualityComparer_1_t1_1403
+struct  GenericEqualityComparer_1_t1_926  : public EqualityComparer_1_t1_1404
 {
 };

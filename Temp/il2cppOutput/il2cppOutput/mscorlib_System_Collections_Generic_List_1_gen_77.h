@@ -16,7 +16,7 @@ struct MatEntryU5BU5D_t7_223;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  List_1_t1_1205  : public Object_t
+struct  List_1_t1_1206  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	MatEntryU5BU5D_t7_223* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1205  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1205_StaticFields{
+struct List_1_t1_1206_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	MatEntryU5BU5D_t7_223* ___EmptyArray_4;
 };

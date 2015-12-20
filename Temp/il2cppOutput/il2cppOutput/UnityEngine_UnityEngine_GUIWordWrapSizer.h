@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.GUIContent
-struct GUIContent_t5_175;
+struct GUIContent_t5_176;
 
 #include "UnityEngine_UnityEngine_GUILayoutEntry.h"
 
 // UnityEngine.GUIWordWrapSizer
-struct  GUIWordWrapSizer_t5_184  : public GUILayoutEntry_t5_181
+struct  GUIWordWrapSizer_t5_185  : public GUILayoutEntry_t5_182
 {
 	// UnityEngine.GUIContent UnityEngine.GUIWordWrapSizer::m_Content
-	GUIContent_t5_175 * ___m_Content_10;
+	GUIContent_t5_176 * ___m_Content_10;
 	// System.Single UnityEngine.GUIWordWrapSizer::m_ForcedMinHeight
 	float ___m_ForcedMinHeight_11;
 	// System.Single UnityEngine.GUIWordWrapSizer::m_ForcedMaxHeight

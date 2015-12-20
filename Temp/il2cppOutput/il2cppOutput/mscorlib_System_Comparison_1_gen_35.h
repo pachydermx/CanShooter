@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_UICharInfo.h"
 
 // System.Comparison`1<UnityEngine.UICharInfo>
-struct  Comparison_1_t1_1693  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1699  : public MulticastDelegate_t1_21
 {
 };

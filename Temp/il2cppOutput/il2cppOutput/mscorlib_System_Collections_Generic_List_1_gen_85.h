@@ -16,7 +16,7 @@ struct ICanvasElementU5BU5D_t7_211;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
-struct  List_1_t1_2094  : public Object_t
+struct  List_1_t1_2100  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	ICanvasElementU5BU5D_t7_211* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_2094  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_2094_StaticFields{
+struct List_1_t1_2100_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	ICanvasElementU5BU5D_t7_211* ___EmptyArray_4;
 };

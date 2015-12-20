@@ -24,14 +24,14 @@ struct List_1_t1_1016;
 #include "UnityEngine_UnityEngine_TextGenerationSettings.h"
 
 // UnityEngine.TextGenerator
-struct  TextGenerator_t5_155  : public Object_t
+struct  TextGenerator_t5_156  : public Object_t
 {
 	// System.IntPtr UnityEngine.TextGenerator::m_Ptr
 	IntPtr_t ___m_Ptr_0;
 	// System.String UnityEngine.TextGenerator::m_LastString
 	String_t* ___m_LastString_1;
 	// UnityEngine.TextGenerationSettings UnityEngine.TextGenerator::m_LastSettings
-	TextGenerationSettings_t5_156  ___m_LastSettings_2;
+	TextGenerationSettings_t5_157  ___m_LastSettings_2;
 	// System.Boolean UnityEngine.TextGenerator::m_HasGenerated
 	bool ___m_HasGenerated_3;
 	// System.Boolean UnityEngine.TextGenerator::m_LastValid

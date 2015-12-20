@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct List_1_t1_1203;
+struct List_1_t1_1204;
 // UnityEngine.CanvasGroup
-struct CanvasGroup_t5_160;
+struct CanvasGroup_t5_161;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.CanvasGroup>
-struct  Enumerator_t1_2164 
+struct  Enumerator_t1_2170 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1203 * ___l_0;
+	List_1_t1_1204 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator::current
-	CanvasGroup_t5_160 * ___current_3;
+	CanvasGroup_t5_161 * ___current_3;
 };

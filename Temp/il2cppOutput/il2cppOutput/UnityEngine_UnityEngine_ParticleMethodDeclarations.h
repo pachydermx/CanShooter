@@ -19,34 +19,34 @@
 #include "UnityEngine_UnityEngine_Color.h"
 
 // UnityEngine.Vector3 UnityEngine.Particle::get_position()
-extern "C" Vector3_t5_57  Particle_get_position_m5_923 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t5_57  Particle_get_position_m5_936 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_position(UnityEngine.Vector3)
-extern "C" void Particle_set_position_m5_924 (Particle_t5_107 * __this, Vector3_t5_57  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_position_m5_937 (Particle_t5_108 * __this, Vector3_t5_57  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector3 UnityEngine.Particle::get_velocity()
-extern "C" Vector3_t5_57  Particle_get_velocity_m5_925 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Vector3_t5_57  Particle_get_velocity_m5_938 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_velocity(UnityEngine.Vector3)
-extern "C" void Particle_set_velocity_m5_926 (Particle_t5_107 * __this, Vector3_t5_57  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_velocity_m5_939 (Particle_t5_108 * __this, Vector3_t5_57  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Particle::get_energy()
-extern "C" float Particle_get_energy_m5_927 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Particle_get_energy_m5_940 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_energy(System.Single)
-extern "C" void Particle_set_energy_m5_928 (Particle_t5_107 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_energy_m5_941 (Particle_t5_108 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Particle::get_startEnergy()
-extern "C" float Particle_get_startEnergy_m5_929 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Particle_get_startEnergy_m5_942 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_startEnergy(System.Single)
-extern "C" void Particle_set_startEnergy_m5_930 (Particle_t5_107 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_startEnergy_m5_943 (Particle_t5_108 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Particle::get_size()
-extern "C" float Particle_get_size_m5_931 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Particle_get_size_m5_944 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_size(System.Single)
-extern "C" void Particle_set_size_m5_932 (Particle_t5_107 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_size_m5_945 (Particle_t5_108 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Particle::get_rotation()
-extern "C" float Particle_get_rotation_m5_933 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Particle_get_rotation_m5_946 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_rotation(System.Single)
-extern "C" void Particle_set_rotation_m5_934 (Particle_t5_107 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_rotation_m5_947 (Particle_t5_108 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.Particle::get_angularVelocity()
-extern "C" float Particle_get_angularVelocity_m5_935 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" float Particle_get_angularVelocity_m5_948 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_angularVelocity(System.Single)
-extern "C" void Particle_set_angularVelocity_m5_936 (Particle_t5_107 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_angularVelocity_m5_949 (Particle_t5_108 * __this, float ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color UnityEngine.Particle::get_color()
-extern "C" Color_t5_48  Particle_get_color_m5_937 (Particle_t5_107 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color_t5_48  Particle_get_color_m5_950 (Particle_t5_108 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Particle::set_color(UnityEngine.Color)
-extern "C" void Particle_set_color_m5_938 (Particle_t5_107 * __this, Color_t5_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Particle_set_color_m5_951 (Particle_t5_108 * __this, Color_t5_48  ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;

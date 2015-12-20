@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VirtualButtonAbstractBehaviour>
+// System.Collections.Generic.Dictionary`2<System.String,Vuforia.WebCamProfile/ProfileData>
 struct Dictionary_2_t1_1074;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_36.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.VirtualButtonAbstractBehaviour>
-struct  Enumerator_t1_2024 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.String,Vuforia.WebCamProfile/ProfileData>
+struct  Enumerator_t1_2026 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
 	Dictionary_2_t1_1074 * ___dictionary_0;
@@ -26,5 +26,5 @@ struct  Enumerator_t1_2024
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
-	KeyValuePair_2_t1_2022  ___current_3;
+	KeyValuePair_2_t1_2023  ___current_3;
 };

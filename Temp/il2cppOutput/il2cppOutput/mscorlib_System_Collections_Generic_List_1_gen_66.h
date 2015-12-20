@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject[]
-struct GameObjectU5BU5D_t5_362;
+struct GameObjectU5BU5D_t5_363;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct  List_1_t1_1189  : public Object_t
+struct  List_1_t1_1190  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	GameObjectU5BU5D_t5_362* ____items_1;
+	GameObjectU5BU5D_t5_363* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1189_StaticFields{
+struct List_1_t1_1190_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	GameObjectU5BU5D_t5_362* ___EmptyArray_4;
+	GameObjectU5BU5D_t5_363* ___EmptyArray_4;
 };

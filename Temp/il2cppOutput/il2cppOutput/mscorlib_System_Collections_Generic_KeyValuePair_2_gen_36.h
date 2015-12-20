@@ -10,16 +10,17 @@
 
 #include <stdint.h>
 
-// Vuforia.VirtualButtonAbstractBehaviour
-struct VirtualButtonAbstractBehaviour_t6_195;
+// System.String
+struct String_t;
 
 #include "mscorlib_System_ValueType.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VirtualButtonAbstractBehaviour>
-struct  KeyValuePair_2_t1_2022 
+// System.Collections.Generic.KeyValuePair`2<System.String,Vuforia.WebCamProfile/ProfileData>
+struct  KeyValuePair_2_t1_2023 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
+	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	VirtualButtonAbstractBehaviour_t6_195 * ___value_1;
+	ProfileData_t6_170  ___value_1;
 };

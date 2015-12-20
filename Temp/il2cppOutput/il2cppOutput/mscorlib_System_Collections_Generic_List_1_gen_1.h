@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Security.AccessControl.AuditRule[]
-struct AuditRuleU5BU5D_t1_1384;
+struct AuditRuleU5BU5D_t1_1385;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct AuditRuleU5BU5D_t1_1384;
 struct  List_1_t1_567  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	AuditRuleU5BU5D_t1_1384* ____items_1;
+	AuditRuleU5BU5D_t1_1385* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -27,5 +27,5 @@ struct  List_1_t1_567  : public Object_t
 };
 struct List_1_t1_567_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	AuditRuleU5BU5D_t1_1384* ___EmptyArray_4;
+	AuditRuleU5BU5D_t1_1385* ___EmptyArray_4;
 };

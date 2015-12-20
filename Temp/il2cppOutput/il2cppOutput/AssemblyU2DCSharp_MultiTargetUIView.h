@@ -25,7 +25,7 @@ struct Action_t4_11;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_CameraDevice_FocusM.h"
 
 // MultiTargetUIView
-struct  MultiTargetUIView_t8_31  : public Object_t
+struct  MultiTargetUIView_t8_32  : public Object_t
 {
 	// SampleAppUILabel MultiTargetUIView::mMultiTargetLabel
 	SampleAppUILabel_t8_19 * ___mMultiTargetLabel_0;

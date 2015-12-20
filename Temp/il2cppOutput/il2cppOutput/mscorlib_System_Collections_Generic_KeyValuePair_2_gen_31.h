@@ -10,15 +10,16 @@
 
 #include <stdint.h>
 
+// Vuforia.TrackableBehaviour
+struct TrackableBehaviour_t6_15;
 
 #include "mscorlib_System_ValueType.h"
-#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__0.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.TrackableBehaviour>
 struct  KeyValuePair_2_t1_1954 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	TrackableResultData_t6_96  ___value_1;
+	TrackableBehaviour_t6_15 * ___value_1;
 };

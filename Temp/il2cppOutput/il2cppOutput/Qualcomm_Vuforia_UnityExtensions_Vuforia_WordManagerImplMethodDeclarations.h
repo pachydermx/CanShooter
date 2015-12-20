@@ -15,15 +15,15 @@
 // Vuforia.WordManagerImpl
 struct WordManagerImpl_t6_139;
 // System.Collections.Generic.IEnumerable`1<Vuforia.WordResult>
-struct IEnumerable_1_t1_1087;
-// System.Collections.Generic.IEnumerable`1<Vuforia.Word>
 struct IEnumerable_1_t1_1088;
+// System.Collections.Generic.IEnumerable`1<Vuforia.Word>
+struct IEnumerable_1_t1_1089;
 // Vuforia.Word
 struct Word_t6_142;
 // Vuforia.WordAbstractBehaviour
 struct WordAbstractBehaviour_t6_197;
 // System.Collections.Generic.IEnumerable`1<Vuforia.WordAbstractBehaviour>
-struct IEnumerable_1_t1_1089;
+struct IEnumerable_1_t1_1090;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // Vuforia.VuforiaManagerImpl/WordData[]
@@ -31,9 +31,9 @@ struct WordDataU5BU5D_t6_112;
 // Vuforia.VuforiaManagerImpl/WordResultData[]
 struct WordResultDataU5BU5D_t6_113;
 // System.Collections.Generic.IEnumerable`1<Vuforia.VuforiaManagerImpl/WordData>
-struct IEnumerable_1_t1_1090;
-// System.Collections.Generic.IEnumerable`1<Vuforia.VuforiaManagerImpl/WordResultData>
 struct IEnumerable_1_t1_1091;
+// System.Collections.Generic.IEnumerable`1<Vuforia.VuforiaManagerImpl/WordResultData>
+struct IEnumerable_1_t1_1092;
 // Vuforia.WordResult
 struct WordResult_t6_140;
 

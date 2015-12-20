@@ -17,7 +17,7 @@ struct List_1_t1_1014;
 #include "UnityEngine_UnityEngine_UIVertex.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UIVertex>
-struct  Enumerator_t1_1675 
+struct  Enumerator_t1_1681 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_1014 * ___l_0;
@@ -26,5 +26,5 @@ struct  Enumerator_t1_1675
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator::current
-	UIVertex_t5_161  ___current_3;
+	UIVertex_t5_162  ___current_3;
 };

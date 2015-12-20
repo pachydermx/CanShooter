@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Vuforia.ITextRecoEventHandler>
-struct IList_1_t1_2034;
+struct IList_1_t1_2040;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Vuforia.ITextRecoEventHandler>
-struct  ReadOnlyCollection_1_t1_2033  : public Object_t
+struct  ReadOnlyCollection_1_t1_2039  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

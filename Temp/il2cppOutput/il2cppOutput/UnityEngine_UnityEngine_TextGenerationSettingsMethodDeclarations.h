@@ -19,8 +19,8 @@
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Boolean UnityEngine.TextGenerationSettings::CompareColors(UnityEngine.Color,UnityEngine.Color)
-extern "C" bool TextGenerationSettings_CompareColors_m5_1748 (TextGenerationSettings_t5_156 * __this, Color_t5_48  ___left, Color_t5_48  ___right, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerationSettings_CompareColors_m5_1761 (TextGenerationSettings_t5_157 * __this, Color_t5_48  ___left, Color_t5_48  ___right, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerationSettings::CompareVector2(UnityEngine.Vector2,UnityEngine.Vector2)
-extern "C" bool TextGenerationSettings_CompareVector2_m5_1749 (TextGenerationSettings_t5_156 * __this, Vector2_t5_56  ___left, Vector2_t5_56  ___right, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerationSettings_CompareVector2_m5_1762 (TextGenerationSettings_t5_157 * __this, Vector2_t5_56  ___left, Vector2_t5_56  ___right, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.TextGenerationSettings::Equals(UnityEngine.TextGenerationSettings)
-extern "C" bool TextGenerationSettings_Equals_m5_1750 (TextGenerationSettings_t5_156 * __this, TextGenerationSettings_t5_156  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool TextGenerationSettings_Equals_m5_1763 (TextGenerationSettings_t5_157 * __this, TextGenerationSettings_t5_157  ___other, const MethodInfo* method) IL2CPP_METHOD_ATTR;

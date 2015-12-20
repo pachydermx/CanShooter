@@ -21,6 +21,6 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
 // System.Predicate`1<Vuforia.Image/PIXEL_FORMAT>
-struct  Predicate_1_t1_1820  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1826  : public MulticastDelegate_t1_21
 {
 };

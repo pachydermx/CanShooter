@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Component.h"
 
 // UnityEngine.CanvasGroup
-struct  CanvasGroup_t5_160  : public Component_t5_25
+struct  CanvasGroup_t5_161  : public Component_t5_25
 {
 };

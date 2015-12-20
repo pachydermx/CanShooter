@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.SmartTerrainTrackerBehaviour
-struct SmartTerrainTrackerBehaviour_t8_57;
+struct SmartTerrainTrackerBehaviour_t8_59;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.SmartTerrainTrackerBehaviour::.ctor()
-extern "C" void SmartTerrainTrackerBehaviour__ctor_m8_265 (SmartTerrainTrackerBehaviour_t8_57 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SmartTerrainTrackerBehaviour__ctor_m8_280 (SmartTerrainTrackerBehaviour_t8_59 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

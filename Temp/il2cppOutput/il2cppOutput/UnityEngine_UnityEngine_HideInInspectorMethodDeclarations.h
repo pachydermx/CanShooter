@@ -13,9 +13,9 @@
 #include <exception>
 
 // UnityEngine.HideInInspector
-struct HideInInspector_t5_208;
+struct HideInInspector_t5_209;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.HideInInspector::.ctor()
-extern "C" void HideInInspector__ctor_m5_1609 (HideInInspector_t5_208 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HideInInspector__ctor_m5_1622 (HideInInspector_t5_209 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

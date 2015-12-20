@@ -18,7 +18,7 @@ struct LinkedList_1_t2_815;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.KeyValuePair`2<System.ComponentModel.WeakObjectWrapper,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>>
-struct  KeyValuePair_2_t1_1440 
+struct  KeyValuePair_2_t1_1441 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	WeakObjectWrapper_t2_177 * ___key_0;

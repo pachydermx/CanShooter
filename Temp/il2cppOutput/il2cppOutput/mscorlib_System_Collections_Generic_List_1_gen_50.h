@@ -16,7 +16,7 @@ struct ISmartTerrainEventHandlerU5BU5D_t6_251;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<Vuforia.ISmartTerrainEventHandler>
-struct  List_1_t1_1061  : public Object_t
+struct  List_1_t1_1062  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	ISmartTerrainEventHandlerU5BU5D_t6_251* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1061  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1061_StaticFields{
+struct List_1_t1_1062_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	ISmartTerrainEventHandlerU5BU5D_t6_251* ___EmptyArray_4;
 };

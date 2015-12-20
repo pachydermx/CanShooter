@@ -16,10 +16,10 @@ struct List_1_t1_1012;
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Physics2D
-struct  Physics2D_t5_119  : public Object_t
+struct  Physics2D_t5_120  : public Object_t
 {
 };
-struct Physics2D_t5_119_StaticFields{
+struct Physics2D_t5_120_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.Rigidbody2D> UnityEngine.Physics2D::m_LastDisabledRigidbody2D
 	List_1_t1_1012 * ___m_LastDisabledRigidbody2D_0;
 };

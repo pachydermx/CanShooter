@@ -17,7 +17,7 @@ struct ToggleGroup_t7_130;
 // UnityEngine.UI.Toggle
 struct Toggle_t7_65;
 // System.Collections.Generic.IEnumerable`1<UnityEngine.UI.Toggle>
-struct IEnumerable_1_t1_1213;
+struct IEnumerable_1_t1_1214;
 
 #include "codegen/il2cpp-codegen.h"
 

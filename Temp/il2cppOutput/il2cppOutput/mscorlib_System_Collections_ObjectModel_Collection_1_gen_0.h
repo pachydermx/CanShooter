@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<System.Net.Mail.Attachment>
-struct IList_1_t1_1459;
+struct IList_1_t1_1460;
 // System.Object
 struct Object_t;
 

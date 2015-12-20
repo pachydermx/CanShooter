@@ -18,7 +18,7 @@ struct ReconstructionAbstractBehaviour_t6_39;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.ReconstructionFromTargetAbstractBehaviour
-struct  ReconstructionFromTargetAbstractBehaviour_t6_18  : public MonoBehaviour_t5_94
+struct  ReconstructionFromTargetAbstractBehaviour_t6_18  : public MonoBehaviour_t5_95
 {
 	// Vuforia.ReconstructionFromTarget Vuforia.ReconstructionFromTargetAbstractBehaviour::mReconstructionFromTarget
 	Object_t * ___mReconstructionFromTarget_2;

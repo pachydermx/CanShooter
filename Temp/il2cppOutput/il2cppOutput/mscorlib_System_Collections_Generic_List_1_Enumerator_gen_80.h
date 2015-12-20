@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct List_1_t1_1204;
+struct List_1_t1_1205;
 // UnityEngine.UI.Selectable
 struct Selectable_t7_55;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.Selectable>
-struct  Enumerator_t1_2159 
+struct  Enumerator_t1_2165 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1204 * ___l_0;
+	List_1_t1_1205 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

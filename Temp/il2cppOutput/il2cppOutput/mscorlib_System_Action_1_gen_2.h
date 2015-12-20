@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.SocialPlatforms.IScore[]
-struct IScoreU5BU5D_t5_235;
+struct IScoreU5BU5D_t5_236;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback

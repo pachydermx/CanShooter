@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.RectTransform>
-struct  Comparison_1_t1_2188  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_2194  : public MulticastDelegate_t1_21
 {
 };

@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES>
-struct  InternalEnumerator_1_t1_1516 
+struct  InternalEnumerator_1_t1_1517 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

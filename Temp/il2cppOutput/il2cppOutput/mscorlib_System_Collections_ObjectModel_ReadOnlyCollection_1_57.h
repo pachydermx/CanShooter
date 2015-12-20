@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Vuforia.VirtualButtonAbstractBehaviour>
-struct IList_1_t1_1983;
+struct IList_1_t1_1989;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Vuforia.VirtualButtonAbstractBehaviour>
-struct  ReadOnlyCollection_1_t1_1982  : public Object_t
+struct  ReadOnlyCollection_1_t1_1988  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

@@ -15,7 +15,7 @@
 // Vuforia.StateManagerImpl
 struct StateManagerImpl_t6_154;
 // System.Collections.Generic.IEnumerable`1<Vuforia.TrackableBehaviour>
-struct IEnumerable_1_t1_1096;
+struct IEnumerable_1_t1_1097;
 // Vuforia.WordManager
 struct WordManager_t6_138;
 // Vuforia.Trackable
@@ -29,7 +29,7 @@ struct ImageTargetAbstractBehaviour_t6_173;
 // Vuforia.ImageTarget
 struct ImageTarget_t6_169;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // Vuforia.MarkerAbstractBehaviour
 struct MarkerAbstractBehaviour_t6_174;
 // Vuforia.Marker
@@ -89,13 +89,13 @@ extern "C" void StateManagerImpl_RemoveDestroyedTrackables_m6_1640 (StateManager
 // System.Void Vuforia.StateManagerImpl::ClearTrackableBehaviours()
 extern "C" void StateManagerImpl_ClearTrackableBehaviours_m6_1641 (StateManagerImpl_t6_154 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.ImageTargetAbstractBehaviour Vuforia.StateManagerImpl::FindOrCreateImageTargetBehaviourForTrackable(Vuforia.ImageTarget,UnityEngine.GameObject)
-extern "C" ImageTargetAbstractBehaviour_t6_173 * StateManagerImpl_FindOrCreateImageTargetBehaviourForTrackable_m6_1642 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, GameObject_t5_100 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ImageTargetAbstractBehaviour_t6_173 * StateManagerImpl_FindOrCreateImageTargetBehaviourForTrackable_m6_1642 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, GameObject_t5_101 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.ImageTargetAbstractBehaviour Vuforia.StateManagerImpl::FindOrCreateImageTargetBehaviourForTrackable(Vuforia.ImageTarget,UnityEngine.GameObject,Vuforia.DataSet)
-extern "C" ImageTargetAbstractBehaviour_t6_173 * StateManagerImpl_FindOrCreateImageTargetBehaviourForTrackable_m6_1643 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, GameObject_t5_100 * ___gameObject, DataSet_t6_55 * ___dataSet, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ImageTargetAbstractBehaviour_t6_173 * StateManagerImpl_FindOrCreateImageTargetBehaviourForTrackable_m6_1643 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, GameObject_t5_101 * ___gameObject, DataSet_t6_55 * ___dataSet, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.MarkerAbstractBehaviour Vuforia.StateManagerImpl::CreateNewMarkerBehaviourForMarker(Vuforia.Marker,System.String)
 extern "C" MarkerAbstractBehaviour_t6_174 * StateManagerImpl_CreateNewMarkerBehaviourForMarker_m6_1644 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, String_t* ___gameObjectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.MarkerAbstractBehaviour Vuforia.StateManagerImpl::CreateNewMarkerBehaviourForMarker(Vuforia.Marker,UnityEngine.GameObject)
-extern "C" MarkerAbstractBehaviour_t6_174 * StateManagerImpl_CreateNewMarkerBehaviourForMarker_m6_1645 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, GameObject_t5_100 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" MarkerAbstractBehaviour_t6_174 * StateManagerImpl_CreateNewMarkerBehaviourForMarker_m6_1645 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, GameObject_t5_101 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.StateManagerImpl::SetTrackableBehavioursForTrackableToNotFound(Vuforia.Trackable)
 extern "C" void StateManagerImpl_SetTrackableBehavioursForTrackableToNotFound_m6_1646 (StateManagerImpl_t6_154 * __this, Object_t * ___trackable, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.StateManagerImpl::EnableTrackableBehavioursForTrackable(Vuforia.Trackable,System.Boolean)

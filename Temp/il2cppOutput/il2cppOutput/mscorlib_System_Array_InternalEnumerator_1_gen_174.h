@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<Vuforia.WireframeBehaviour>
-struct  InternalEnumerator_1_t1_2208 
+struct  InternalEnumerator_1_t1_2214 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

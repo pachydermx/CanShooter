@@ -21,6 +21,6 @@ struct AsyncCallback_t1_28;
 #include "mscorlib_System_Void.h"
 
 // UnityEngine.Advertisements.UnityAdsDelegate`2<System.Object,System.Object>
-struct  UnityAdsDelegate_2_t5_356  : public MulticastDelegate_t1_21
+struct  UnityAdsDelegate_2_t5_357  : public MulticastDelegate_t1_21
 {
 };

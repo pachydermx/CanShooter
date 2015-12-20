@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.VideoBackgroundBehaviour
-struct VideoBackgroundBehaviour_t8_62;
+struct VideoBackgroundBehaviour_t8_64;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.VideoBackgroundBehaviour::.ctor()
-extern "C" void VideoBackgroundBehaviour__ctor_m8_273 (VideoBackgroundBehaviour_t8_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VideoBackgroundBehaviour__ctor_m8_288 (VideoBackgroundBehaviour_t8_64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

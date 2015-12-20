@@ -21,5 +21,5 @@ struct  Enumerator_t2_867
 	// System.Collections.Generic.RBTree/NodeEnumerator System.Collections.Generic.SortedDictionary`2/Enumerator::host
 	NodeEnumerator_t2_11  ___host_0;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Enumerator::current
-	KeyValuePair_2_t1_1311  ___current_1;
+	KeyValuePair_2_t1_1312  ___current_1;
 };

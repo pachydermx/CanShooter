@@ -16,7 +16,7 @@ struct PropU5BU5D_t6_254;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<Vuforia.Prop>
-struct  List_1_t1_1092  : public Object_t
+struct  List_1_t1_1093  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	PropU5BU5D_t6_254* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1092  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1092_StaticFields{
+struct List_1_t1_1093_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	PropU5BU5D_t6_254* ___EmptyArray_4;
 };

@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.WebCamBehaviour
-struct WebCamBehaviour_t8_66;
+struct WebCamBehaviour_t8_68;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.WebCamBehaviour::.ctor()
-extern "C" void WebCamBehaviour__ctor_m8_280 (WebCamBehaviour_t8_66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void WebCamBehaviour__ctor_m8_295 (WebCamBehaviour_t8_68 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

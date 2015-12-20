@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<Vuforia.TargetFinder/TargetSearchResult>
-struct IList_1_t1_1988;
+struct IList_1_t1_1994;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<Vuforia.TargetFinder/TargetSearchResult>
-struct  ReadOnlyCollection_1_t1_1987  : public Object_t
+struct  ReadOnlyCollection_1_t1_1993  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

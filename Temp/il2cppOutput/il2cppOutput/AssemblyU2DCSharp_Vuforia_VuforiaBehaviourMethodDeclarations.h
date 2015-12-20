@@ -13,15 +13,15 @@
 #include <exception>
 
 // Vuforia.VuforiaBehaviour
-struct VuforiaBehaviour_t8_65;
+struct VuforiaBehaviour_t8_67;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.VuforiaBehaviour::.ctor()
-extern "C" void VuforiaBehaviour__ctor_m8_276 (VuforiaBehaviour_t8_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaBehaviour__ctor_m8_291 (VuforiaBehaviour_t8_67 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaBehaviour::.cctor()
-extern "C" void VuforiaBehaviour__cctor_m8_277 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaBehaviour__cctor_m8_292 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaBehaviour::Awake()
-extern "C" void VuforiaBehaviour_Awake_m8_278 (VuforiaBehaviour_t8_65 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaBehaviour_Awake_m8_293 (VuforiaBehaviour_t8_67 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.VuforiaBehaviour Vuforia.VuforiaBehaviour::get_Instance()
-extern "C" VuforiaBehaviour_t8_65 * VuforiaBehaviour_get_Instance_m8_279 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" VuforiaBehaviour_t8_67 * VuforiaBehaviour_get_Instance_m8_294 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;

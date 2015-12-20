@@ -15,11 +15,11 @@ struct BooleanU5BU5D_t1_272;
 // SampleAppUIRect[]
 struct SampleAppUIRectU5BU5D_t8_22;
 // UnityEngine.GUIStyle[]
-struct GUIStyleU5BU5D_t5_189;
+struct GUIStyleU5BU5D_t5_190;
 // System.String[]
 struct StringU5BU5D_t1_206;
 // System.Action`1<System.Int32>
-struct Action_1_t1_1229;
+struct Action_1_t1_1230;
 
 #include "AssemblyU2DCSharp_ISampleAppUIElement.h"
 
@@ -37,7 +37,7 @@ struct  SampleAppUIRadioButton_t8_21  : public ISampleAppUIElement_t8_13
 	// System.Boolean SampleAppUIRadioButton::mTappedOn
 	bool ___mTappedOn_4;
 	// UnityEngine.GUIStyle[] SampleAppUIRadioButton::mStyle
-	GUIStyleU5BU5D_t5_189* ___mStyle_5;
+	GUIStyleU5BU5D_t5_190* ___mStyle_5;
 	// System.Single SampleAppUIRadioButton::mWidth
 	float ___mWidth_6;
 	// System.Single SampleAppUIRadioButton::mHeight
@@ -45,5 +45,5 @@ struct  SampleAppUIRadioButton_t8_21  : public ISampleAppUIElement_t8_13
 	// System.String[] SampleAppUIRadioButton::titleList
 	StringU5BU5D_t1_206* ___titleList_8;
 	// System.Action`1<System.Int32> SampleAppUIRadioButton::TappedOnOption
-	Action_1_t1_1229 * ___TappedOnOption_9;
+	Action_1_t1_1230 * ___TappedOnOption_9;
 };

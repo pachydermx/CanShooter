@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.HideExcessAreaBehaviour
-struct HideExcessAreaBehaviour_t8_45;
+struct HideExcessAreaBehaviour_t8_47;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.HideExcessAreaBehaviour::.ctor()
-extern "C" void HideExcessAreaBehaviour__ctor_m8_211 (HideExcessAreaBehaviour_t8_45 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void HideExcessAreaBehaviour__ctor_m8_226 (HideExcessAreaBehaviour_t8_47 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

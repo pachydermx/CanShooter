@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>
-struct UnityAction_1_t5_367;
+struct UnityAction_1_t5_368;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -26,14 +26,14 @@ struct AsyncCallback_t1_28;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>::.ctor(System.Object,System.IntPtr)
-extern "C" void UnityAction_1__ctor_m5_2113_gshared (UnityAction_1_t5_367 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define UnityAction_1__ctor_m5_2113(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t5_367 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m5_2113_gshared)(__this, ___object, ___method, method)
+extern "C" void UnityAction_1__ctor_m5_2127_gshared (UnityAction_1_t5_368 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define UnityAction_1__ctor_m5_2127(__this, ___object, ___method, method) (( void (*) (UnityAction_1_t5_368 *, Object_t *, IntPtr_t, const MethodInfo*))UnityAction_1__ctor_m5_2127_gshared)(__this, ___object, ___method, method)
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>::Invoke(T0)
-extern "C" void UnityAction_1_Invoke_m5_2114_gshared (UnityAction_1_t5_367 * __this, Vector2_t5_56  ___arg0, const MethodInfo* method);
-#define UnityAction_1_Invoke_m5_2114(__this, ___arg0, method) (( void (*) (UnityAction_1_t5_367 *, Vector2_t5_56 , const MethodInfo*))UnityAction_1_Invoke_m5_2114_gshared)(__this, ___arg0, method)
+extern "C" void UnityAction_1_Invoke_m5_2128_gshared (UnityAction_1_t5_368 * __this, Vector2_t5_56  ___arg0, const MethodInfo* method);
+#define UnityAction_1_Invoke_m5_2128(__this, ___arg0, method) (( void (*) (UnityAction_1_t5_368 *, Vector2_t5_56 , const MethodInfo*))UnityAction_1_Invoke_m5_2128_gshared)(__this, ___arg0, method)
 // System.IAsyncResult UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>::BeginInvoke(T0,System.AsyncCallback,System.Object)
-extern "C" Object_t * UnityAction_1_BeginInvoke_m5_2115_gshared (UnityAction_1_t5_367 * __this, Vector2_t5_56  ___arg0, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define UnityAction_1_BeginInvoke_m5_2115(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t5_367 *, Vector2_t5_56 , AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m5_2115_gshared)(__this, ___arg0, ___callback, ___object, method)
+extern "C" Object_t * UnityAction_1_BeginInvoke_m5_2129_gshared (UnityAction_1_t5_368 * __this, Vector2_t5_56  ___arg0, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define UnityAction_1_BeginInvoke_m5_2129(__this, ___arg0, ___callback, ___object, method) (( Object_t * (*) (UnityAction_1_t5_368 *, Vector2_t5_56 , AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))UnityAction_1_BeginInvoke_m5_2129_gshared)(__this, ___arg0, ___callback, ___object, method)
 // System.Void UnityEngine.Events.UnityAction`1<UnityEngine.Vector2>::EndInvoke(System.IAsyncResult)
-extern "C" void UnityAction_1_EndInvoke_m5_2116_gshared (UnityAction_1_t5_367 * __this, Object_t * ___result, const MethodInfo* method);
-#define UnityAction_1_EndInvoke_m5_2116(__this, ___result, method) (( void (*) (UnityAction_1_t5_367 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m5_2116_gshared)(__this, ___result, method)
+extern "C" void UnityAction_1_EndInvoke_m5_2130_gshared (UnityAction_1_t5_368 * __this, Object_t * ___result, const MethodInfo* method);
+#define UnityAction_1_EndInvoke_m5_2130(__this, ___result, method) (( void (*) (UnityAction_1_t5_368 *, Object_t *, const MethodInfo*))UnityAction_1_EndInvoke_m5_2130_gshared)(__this, ___result, method)

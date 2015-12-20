@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Behaviour.h"
 
 // UnityEngine.Experimental.Director.DirectorPlayer
-struct  DirectorPlayer_t5_103  : public Behaviour_t5_39
+struct  DirectorPlayer_t5_104  : public Behaviour_t5_39
 {
 };

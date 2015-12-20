@@ -11,27 +11,27 @@
 #include <stdint.h>
 
 // UnityEngine.Advertisements.UnityAdsDelegate
-struct UnityAdsDelegate_t5_105;
+struct UnityAdsDelegate_t5_106;
 // UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>
-struct UnityAdsDelegate_2_t5_106;
+struct UnityAdsDelegate_2_t5_107;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.Advertisements.UnityAdsInternal
-struct  UnityAdsInternal_t5_104  : public Object_t
+struct  UnityAdsInternal_t5_105  : public Object_t
 {
 };
-struct UnityAdsInternal_t5_104_StaticFields{
+struct UnityAdsInternal_t5_105_StaticFields{
 	// UnityEngine.Advertisements.UnityAdsDelegate UnityEngine.Advertisements.UnityAdsInternal::onCampaignsAvailable
-	UnityAdsDelegate_t5_105 * ___onCampaignsAvailable_0;
+	UnityAdsDelegate_t5_106 * ___onCampaignsAvailable_0;
 	// UnityEngine.Advertisements.UnityAdsDelegate UnityEngine.Advertisements.UnityAdsInternal::onCampaignsFetchFailed
-	UnityAdsDelegate_t5_105 * ___onCampaignsFetchFailed_1;
+	UnityAdsDelegate_t5_106 * ___onCampaignsFetchFailed_1;
 	// UnityEngine.Advertisements.UnityAdsDelegate UnityEngine.Advertisements.UnityAdsInternal::onShow
-	UnityAdsDelegate_t5_105 * ___onShow_2;
+	UnityAdsDelegate_t5_106 * ___onShow_2;
 	// UnityEngine.Advertisements.UnityAdsDelegate UnityEngine.Advertisements.UnityAdsInternal::onHide
-	UnityAdsDelegate_t5_105 * ___onHide_3;
+	UnityAdsDelegate_t5_106 * ___onHide_3;
 	// UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean> UnityEngine.Advertisements.UnityAdsInternal::onVideoCompleted
-	UnityAdsDelegate_2_t5_106 * ___onVideoCompleted_4;
+	UnityAdsDelegate_2_t5_107 * ___onVideoCompleted_4;
 	// UnityEngine.Advertisements.UnityAdsDelegate UnityEngine.Advertisements.UnityAdsInternal::onVideoStarted
-	UnityAdsDelegate_t5_105 * ___onVideoStarted_5;
+	UnityAdsDelegate_t5_106 * ___onVideoStarted_5;
 };

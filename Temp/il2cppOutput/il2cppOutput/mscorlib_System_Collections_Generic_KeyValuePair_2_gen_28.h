@@ -10,16 +10,18 @@
 
 #include <stdint.h>
 
-// Vuforia.SurfaceAbstractBehaviour
-struct SurfaceAbstractBehaviour_t6_50;
+// System.String
+struct String_t;
+// System.Collections.Generic.List`1<Vuforia.WordAbstractBehaviour>
+struct List_1_t1_1059;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.SurfaceAbstractBehaviour>
-struct  KeyValuePair_2_t1_1928 
+// System.Collections.Generic.KeyValuePair`2<System.String,System.Collections.Generic.List`1<Vuforia.WordAbstractBehaviour>>
+struct  KeyValuePair_2_t1_1917 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
+	String_t* ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	SurfaceAbstractBehaviour_t6_50 * ___value_1;
+	List_1_t1_1059 * ___value_1;
 };

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct List_1_t1_1205;
+struct List_1_t1_1206;
 
 #include "mscorlib_System_Object.h"
 
@@ -21,5 +21,5 @@ struct  StencilMaterial_t7_127  : public Object_t
 };
 struct StencilMaterial_t7_127_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry> UnityEngine.UI.StencilMaterial::m_List
-	List_1_t1_1205 * ___m_List_0;
+	List_1_t1_1206 * ___m_List_0;
 };

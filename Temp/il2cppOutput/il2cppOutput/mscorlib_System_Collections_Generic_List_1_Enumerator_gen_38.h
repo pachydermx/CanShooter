@@ -18,7 +18,7 @@ struct AuditRule_t1_562;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Security.AccessControl.AuditRule>
-struct  Enumerator_t1_1388 
+struct  Enumerator_t1_1389 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_567 * ___l_0;

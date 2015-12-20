@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult>
-struct List_1_t1_1190;
+struct List_1_t1_1191;
 // UnityEngine.EventSystems.AxisEventData
 struct AxisEventData_t7_33;
 // UnityEngine.EventSystems.EventSystem
@@ -25,7 +25,7 @@ struct BaseEventData_t7_5;
 struct  BaseInputModule_t7_4  : public UIBehaviour_t7_3
 {
 	// System.Collections.Generic.List`1<UnityEngine.EventSystems.RaycastResult> UnityEngine.EventSystems.BaseInputModule::m_RaycastResultCache
-	List_1_t1_1190 * ___m_RaycastResultCache_2;
+	List_1_t1_1191 * ___m_RaycastResultCache_2;
 	// UnityEngine.EventSystems.AxisEventData UnityEngine.EventSystems.BaseInputModule::m_AxisEventData
 	AxisEventData_t7_33 * ___m_AxisEventData_3;
 	// UnityEngine.EventSystems.EventSystem UnityEngine.EventSystems.BaseInputModule::m_EventSystem

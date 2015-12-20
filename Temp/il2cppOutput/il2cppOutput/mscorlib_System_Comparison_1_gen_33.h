@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Rigidbody2D
-struct Rigidbody2D_t5_122;
+struct Rigidbody2D_t5_123;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Comparison`1<UnityEngine.Rigidbody2D>
-struct  Comparison_1_t1_1668  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1674  : public MulticastDelegate_t1_21
 {
 };

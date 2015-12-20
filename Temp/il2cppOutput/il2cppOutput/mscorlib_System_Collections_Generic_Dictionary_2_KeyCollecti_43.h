@@ -10,13 +10,14 @@
 
 #include <stdint.h>
 
+// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>
+struct Dictionary_2_t1_1164;
 
-#include "mscorlib_System_ValueType.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__32.h"
+#include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>
-struct  Enumerator_t1_1972 
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>
+struct  KeyCollection_t1_1977  : public Object_t
 {
-	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection/Enumerator::host_enumerator
-	Enumerator_t1_1973  ___host_enumerator_0;
+	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection::dictionary
+	Dictionary_2_t1_1164 * ___dictionary_0;
 };

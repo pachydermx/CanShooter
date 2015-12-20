@@ -16,7 +16,7 @@ struct Texture2D_t5_41;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.VideoTextureRendererAbstractBehaviour
-struct  VideoTextureRendererAbstractBehaviour_t6_194  : public MonoBehaviour_t5_94
+struct  VideoTextureRendererAbstractBehaviour_t6_194  : public MonoBehaviour_t5_95
 {
 	// UnityEngine.Texture2D Vuforia.VideoTextureRendererAbstractBehaviour::mTexture
 	Texture2D_t5_41 * ___mTexture_2;

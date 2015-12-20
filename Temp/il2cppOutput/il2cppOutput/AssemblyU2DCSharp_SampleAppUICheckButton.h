@@ -13,7 +13,7 @@
 // SampleAppUIRect
 struct SampleAppUIRect_t8_17;
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 // System.String
 struct String_t;
 // System.Action`1<System.Boolean>
@@ -31,7 +31,7 @@ struct  SampleAppUICheckButton_t8_16  : public ISampleAppUIElement_t8_13
 	// System.Boolean SampleAppUICheckButton::mSelected
 	bool ___mSelected_2;
 	// UnityEngine.GUIStyle SampleAppUICheckButton::mStyle
-	GUIStyle_t5_180 * ___mStyle_3;
+	GUIStyle_t5_181 * ___mStyle_3;
 	// System.Single SampleAppUICheckButton::mHeight
 	float ___mHeight_4;
 	// System.Single SampleAppUICheckButton::mWidth

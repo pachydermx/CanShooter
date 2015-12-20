@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/VirtualButtonData>
-struct  InternalEnumerator_1_t1_1970 
+struct  InternalEnumerator_1_t1_1976 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t5_294;
+struct UIVertexU5BU5D_t5_295;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct UIVertexU5BU5D_t5_294;
 struct  List_1_t1_1014  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	UIVertexU5BU5D_t5_294* ____items_1;
+	UIVertexU5BU5D_t5_295* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -27,5 +27,5 @@ struct  List_1_t1_1014  : public Object_t
 };
 struct List_1_t1_1014_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	UIVertexU5BU5D_t5_294* ___EmptyArray_4;
+	UIVertexU5BU5D_t5_295* ___EmptyArray_4;
 };

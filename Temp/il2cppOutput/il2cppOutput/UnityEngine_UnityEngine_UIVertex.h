@@ -19,7 +19,7 @@
 #include "UnityEngine_UnityEngine_UIVertex.h"
 
 // UnityEngine.UIVertex
-struct  UIVertex_t5_161 
+struct  UIVertex_t5_162 
 {
 	// UnityEngine.Vector3 UnityEngine.UIVertex::position
 	Vector3_t5_57  ___position_0;
@@ -34,11 +34,11 @@ struct  UIVertex_t5_161
 	// UnityEngine.Vector4 UnityEngine.UIVertex::tangent
 	Vector4_t5_61  ___tangent_5;
 };
-struct UIVertex_t5_161_StaticFields{
+struct UIVertex_t5_162_StaticFields{
 	// UnityEngine.Color32 UnityEngine.UIVertex::s_DefaultColor
 	Color32_t5_32  ___s_DefaultColor_6;
 	// UnityEngine.Vector4 UnityEngine.UIVertex::s_DefaultTangent
 	Vector4_t5_61  ___s_DefaultTangent_7;
 	// UnityEngine.UIVertex UnityEngine.UIVertex::simpleVert
-	UIVertex_t5_161  ___simpleVert_8;
+	UIVertex_t5_162  ___simpleVert_8;
 };

@@ -15,19 +15,19 @@
 // System.Collections.Generic.SortedList`2<System.Object,System.Object>
 struct SortedList_2_t2_868;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t1_1420;
+struct IComparer_1_t1_1421;
 // System.Collections.Generic.IDictionary`2<System.Object,System.Object>
-struct IDictionary_2_t1_2224;
+struct IDictionary_2_t1_2230;
 // System.Object
 struct Object_t;
 // System.Collections.ICollection
 struct ICollection_t1_860;
 // System.Collections.Generic.ICollection`1<System.Object>
-struct ICollection_1_t1_2209;
+struct ICollection_1_t1_2215;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>[]
-struct KeyValuePair_2U5BU5D_t1_1421;
+struct KeyValuePair_2U5BU5D_t1_1422;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct IEnumerator_1_t1_2217;
+struct IEnumerator_1_t1_2223;
 // System.Collections.IEnumerator
 struct IEnumerator_t1_131;
 // System.Collections.IDictionaryEnumerator
@@ -35,7 +35,7 @@ struct IDictionaryEnumerator_t1_470;
 // System.Array
 struct Array_t;
 // System.Collections.Generic.IList`1<System.Object>
-struct IList_1_t1_1238;
+struct IList_1_t1_1239;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
@@ -99,17 +99,17 @@ extern "C" bool SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Col
 extern "C" void SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Clear_m2_6915_gshared (SortedList_2_t2_868 * __this, const MethodInfo* method);
 #define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Clear_m2_6915(__this, method) (( void (*) (SortedList_2_t2_868 *, const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Clear_m2_6915_gshared)(__this, method)
 // System.Void System.Collections.Generic.SortedList`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-extern "C" void SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2_6916_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2U5BU5D_t1_1421* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2_6916(__this, ___array, ___arrayIndex, method) (( void (*) (SortedList_2_t2_868 *, KeyValuePair_2U5BU5D_t1_1421*, int32_t, const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2_6916_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2_6916_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2U5BU5D_t1_1422* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2_6916(__this, ___array, ___arrayIndex, method) (( void (*) (SortedList_2_t2_868 *, KeyValuePair_2U5BU5D_t1_1422*, int32_t, const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_CopyTo_m2_6916_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Void System.Collections.Generic.SortedList`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" void SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6917_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2_t1_1311  ___keyValuePair, const MethodInfo* method);
-#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6917(__this, ___keyValuePair, method) (( void (*) (SortedList_2_t2_868 *, KeyValuePair_2_t1_1311 , const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6917_gshared)(__this, ___keyValuePair, method)
+extern "C" void SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6917_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2_t1_1312  ___keyValuePair, const MethodInfo* method);
+#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6917(__this, ___keyValuePair, method) (( void (*) (SortedList_2_t2_868 *, KeyValuePair_2_t1_1312 , const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6917_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.SortedList`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6918_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2_t1_1311  ___keyValuePair, const MethodInfo* method);
-#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6918(__this, ___keyValuePair, method) (( bool (*) (SortedList_2_t2_868 *, KeyValuePair_2_t1_1311 , const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6918_gshared)(__this, ___keyValuePair, method)
+extern "C" bool SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6918_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2_t1_1312  ___keyValuePair, const MethodInfo* method);
+#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6918(__this, ___keyValuePair, method) (( bool (*) (SortedList_2_t2_868 *, KeyValuePair_2_t1_1312 , const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6918_gshared)(__this, ___keyValuePair, method)
 // System.Boolean System.Collections.Generic.SortedList`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6919_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2_t1_1311  ___keyValuePair, const MethodInfo* method);
-#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6919(__this, ___keyValuePair, method) (( bool (*) (SortedList_2_t2_868 *, KeyValuePair_2_t1_1311 , const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6919_gshared)(__this, ___keyValuePair, method)
+extern "C" bool SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6919_gshared (SortedList_2_t2_868 * __this, KeyValuePair_2_t1_1312  ___keyValuePair, const MethodInfo* method);
+#define SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6919(__this, ___keyValuePair, method) (( bool (*) (SortedList_2_t2_868 *, KeyValuePair_2_t1_1312 , const MethodInfo*))SortedList_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6919_gshared)(__this, ___keyValuePair, method)
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<TKey,TValue>> System.Collections.Generic.SortedList`2<System.Object,System.Object>::System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey,TValue>>.GetEnumerator()
 extern "C" Object_t* SortedList_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m2_6920_gshared (SortedList_2_t2_868 * __this, const MethodInfo* method);
 #define SortedList_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m2_6920(__this, method) (( Object_t* (*) (SortedList_2_t2_868 *, const MethodInfo*))SortedList_2_System_Collections_Generic_IEnumerableU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_GetEnumerator_m2_6920_gshared)(__this, method)

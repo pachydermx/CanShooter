@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Texture.h"
 
 // UnityEngine.WebCamTexture
-struct  WebCamTexture_t5_132  : public Texture_t5_31
+struct  WebCamTexture_t5_133  : public Texture_t5_31
 {
 };

@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_CloudRecoAbstractBe.h"
 
 // Vuforia.CloudRecoBehaviour
-struct  CloudRecoBehaviour_t8_35  : public CloudRecoAbstractBehaviour_t6_26
+struct  CloudRecoBehaviour_t8_37  : public CloudRecoAbstractBehaviour_t6_26
 {
 };

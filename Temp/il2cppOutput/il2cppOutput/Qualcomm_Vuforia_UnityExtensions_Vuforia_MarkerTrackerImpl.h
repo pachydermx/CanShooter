@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.Marker>
-struct Dictionary_2_t1_1050;
+struct Dictionary_2_t1_1051;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_MarkerTracker.h"
 
@@ -19,5 +19,5 @@ struct Dictionary_2_t1_1050;
 struct  MarkerTrackerImpl_t6_84  : public MarkerTracker_t6_83
 {
 	// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.Marker> Vuforia.MarkerTrackerImpl::mMarkerDict
-	Dictionary_2_t1_1050 * ___mMarkerDict_1;
+	Dictionary_2_t1_1051 * ___mMarkerDict_1;
 };

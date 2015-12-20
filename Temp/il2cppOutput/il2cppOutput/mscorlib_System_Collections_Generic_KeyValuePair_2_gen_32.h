@@ -12,13 +12,13 @@
 
 
 #include "mscorlib_System_ValueType.h"
-#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__1.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__0.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/VirtualButtonData>
-struct  KeyValuePair_2_t1_1968 
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.VuforiaManagerImpl/TrackableResultData>
+struct  KeyValuePair_2_t1_1960 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	VirtualButtonData_t6_97  ___value_1;
+	TrackableResultData_t6_96  ___value_1;
 };

@@ -16,7 +16,7 @@ struct CustomAttributeTypedArgumentU5BU5D_t1_891;
 #include "mscorlib_System_Object.h"
 
 // System.Array/ArrayReadOnlyList`1<System.Reflection.CustomAttributeTypedArgument>
-struct  ArrayReadOnlyList_1_t1_1352  : public Object_t
+struct  ArrayReadOnlyList_1_t1_1353  : public Object_t
 {
 	// T[] System.Array/ArrayReadOnlyList`1::array
 	CustomAttributeTypedArgumentU5BU5D_t1_891* ___array_0;

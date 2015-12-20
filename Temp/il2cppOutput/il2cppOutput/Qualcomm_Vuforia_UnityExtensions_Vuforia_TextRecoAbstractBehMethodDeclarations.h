@@ -17,9 +17,9 @@ struct TextRecoAbstractBehaviour_t6_189;
 // Vuforia.ITextRecoEventHandler
 struct ITextRecoEventHandler_t6_212;
 // System.Collections.Generic.IEnumerable`1<Vuforia.Word>
-struct IEnumerable_1_t1_1088;
+struct IEnumerable_1_t1_1089;
 // System.Collections.Generic.IEnumerable`1<Vuforia.WordResult>
-struct IEnumerable_1_t1_1087;
+struct IEnumerable_1_t1_1088;
 // System.String
 struct String_t;
 

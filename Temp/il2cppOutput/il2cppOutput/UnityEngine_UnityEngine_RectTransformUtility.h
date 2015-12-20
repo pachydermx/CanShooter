@@ -11,15 +11,15 @@
 #include <stdint.h>
 
 // UnityEngine.Vector3[]
-struct Vector3U5BU5D_t5_164;
+struct Vector3U5BU5D_t5_165;
 
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.RectTransformUtility
-struct  RectTransformUtility_t5_163  : public Object_t
+struct  RectTransformUtility_t5_164  : public Object_t
 {
 };
-struct RectTransformUtility_t5_163_StaticFields{
+struct RectTransformUtility_t5_164_StaticFields{
 	// UnityEngine.Vector3[] UnityEngine.RectTransformUtility::s_Corners
-	Vector3U5BU5D_t5_164* ___s_Corners_0;
+	Vector3U5BU5D_t5_165* ___s_Corners_0;
 };

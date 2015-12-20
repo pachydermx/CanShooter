@@ -10,13 +10,13 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.IClipper
-struct IClipper_t7_179;
+// UnityEngine.UI.ICanvasElement
+struct ICanvasElement_t7_176;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.IClipper,System.Int32>
-struct  KeyValuePair_2_t1_2180 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
+struct  KeyValuePair_2_t1_2147 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
 	Object_t * ___key_0;

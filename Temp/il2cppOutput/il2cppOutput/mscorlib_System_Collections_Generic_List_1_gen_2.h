@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Security.Policy.StrongName[]
-struct StrongNameU5BU5D_t1_1390;
+struct StrongNameU5BU5D_t1_1391;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct StrongNameU5BU5D_t1_1390;
 struct  List_1_t1_922  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	StrongNameU5BU5D_t1_1390* ____items_1;
+	StrongNameU5BU5D_t1_1391* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -27,5 +27,5 @@ struct  List_1_t1_922  : public Object_t
 };
 struct List_1_t1_922_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	StrongNameU5BU5D_t1_1390* ___EmptyArray_4;
+	StrongNameU5BU5D_t1_1391* ___EmptyArray_4;
 };

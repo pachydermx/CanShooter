@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.UI.StencilMaterial/MatEntry>
-struct List_1_t1_1205;
+struct List_1_t1_1206;
 // UnityEngine.UI.StencilMaterial/MatEntry
 struct MatEntry_t7_126;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UI.StencilMaterial/MatEntry>
-struct  Enumerator_t1_2169 
+struct  Enumerator_t1_2175 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1205 * ___l_0;
+	List_1_t1_1206 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

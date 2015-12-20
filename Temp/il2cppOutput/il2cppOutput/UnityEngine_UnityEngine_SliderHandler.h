@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // UnityEngine.GUIStyle
-struct GUIStyle_t5_180;
+struct GUIStyle_t5_181;
 
 #include "mscorlib_System_ValueType.h"
 #include "UnityEngine_UnityEngine_Rect.h"
 
 // UnityEngine.SliderHandler
-struct  SliderHandler_t5_252 
+struct  SliderHandler_t5_253 
 {
 	// UnityEngine.Rect UnityEngine.SliderHandler::position
 	Rect_t5_30  ___position_0;
@@ -30,9 +30,9 @@ struct  SliderHandler_t5_252
 	// System.Single UnityEngine.SliderHandler::end
 	float ___end_4;
 	// UnityEngine.GUIStyle UnityEngine.SliderHandler::slider
-	GUIStyle_t5_180 * ___slider_5;
+	GUIStyle_t5_181 * ___slider_5;
 	// UnityEngine.GUIStyle UnityEngine.SliderHandler::thumb
-	GUIStyle_t5_180 * ___thumb_6;
+	GUIStyle_t5_181 * ___thumb_6;
 	// System.Boolean UnityEngine.SliderHandler::horiz
 	bool ___horiz_7;
 	// System.Int32 UnityEngine.SliderHandler::id

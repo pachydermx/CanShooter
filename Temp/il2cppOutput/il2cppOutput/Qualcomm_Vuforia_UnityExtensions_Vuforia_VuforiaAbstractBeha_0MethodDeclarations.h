@@ -19,11 +19,11 @@ struct TrackableBehaviour_t6_15;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 // System.String
 struct String_t;
 // System.Action`1<Vuforia.VuforiaUnity/InitError>
-struct Action_1_t1_1077;
+struct Action_1_t1_1078;
 // System.Action
 struct Action_t4_11;
 // System.Action`1<System.Boolean>
@@ -35,7 +35,7 @@ struct IVideoBackgroundEventHandler_t6_211;
 // Vuforia.IUnityPlayer
 struct IUnityPlayer_t6_35;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaAbstractBeha.h"
@@ -69,13 +69,13 @@ extern "C" bool VuforiaAbstractBehaviour_get_HasStarted_m6_1797 (VuforiaAbstract
 // System.Boolean Vuforia.VuforiaAbstractBehaviour::get_IsStereoRendering()
 extern "C" bool VuforiaAbstractBehaviour_get_IsStereoRendering_m6_1798 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Camera Vuforia.VuforiaAbstractBehaviour::get_PrimaryCamera()
-extern "C" Camera_t5_89 * VuforiaAbstractBehaviour_get_PrimaryCamera_m6_1799 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Camera_t5_90 * VuforiaAbstractBehaviour_get_PrimaryCamera_m6_1799 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::set_PrimaryCamera(UnityEngine.Camera)
-extern "C" void VuforiaAbstractBehaviour_set_PrimaryCamera_m6_1800 (VuforiaAbstractBehaviour_t6_6 * __this, Camera_t5_89 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaAbstractBehaviour_set_PrimaryCamera_m6_1800 (VuforiaAbstractBehaviour_t6_6 * __this, Camera_t5_90 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Camera Vuforia.VuforiaAbstractBehaviour::get_SecondaryCamera()
-extern "C" Camera_t5_89 * VuforiaAbstractBehaviour_get_SecondaryCamera_m6_1801 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Camera_t5_90 * VuforiaAbstractBehaviour_get_SecondaryCamera_m6_1801 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::set_SecondaryCamera(UnityEngine.Camera)
-extern "C" void VuforiaAbstractBehaviour_set_SecondaryCamera_m6_1802 (VuforiaAbstractBehaviour_t6_6 * __this, Camera_t5_89 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaAbstractBehaviour_set_SecondaryCamera_m6_1802 (VuforiaAbstractBehaviour_t6_6 * __this, Camera_t5_90 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Vuforia.VuforiaAbstractBehaviour::get_AppLicenseKey()
 extern "C" String_t* VuforiaAbstractBehaviour_get_AppLicenseKey_m6_1803 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Vuforia.VuforiaAbstractBehaviour::get_EyewearUserCalibrationProfileId()
@@ -89,9 +89,9 @@ extern "C" void VuforiaAbstractBehaviour_set_SynchronizePoseUpdates_m6_1807 (Vuf
 // System.Void Vuforia.VuforiaAbstractBehaviour::SetSkewFrustum(System.Boolean)
 extern "C" void VuforiaAbstractBehaviour_SetSkewFrustum_m6_1808 (VuforiaAbstractBehaviour_t6_6 * __this, bool ___setSkewing, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::RegisterVuforiaInitErrorCallback(System.Action`1<Vuforia.VuforiaUnity/InitError>)
-extern "C" void VuforiaAbstractBehaviour_RegisterVuforiaInitErrorCallback_m6_1809 (VuforiaAbstractBehaviour_t6_6 * __this, Action_1_t1_1077 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaAbstractBehaviour_RegisterVuforiaInitErrorCallback_m6_1809 (VuforiaAbstractBehaviour_t6_6 * __this, Action_1_t1_1078 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::UnregisterVuforiaInitErrorCallback(System.Action`1<Vuforia.VuforiaUnity/InitError>)
-extern "C" void VuforiaAbstractBehaviour_UnregisterVuforiaInitErrorCallback_m6_1810 (VuforiaAbstractBehaviour_t6_6 * __this, Action_1_t1_1077 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaAbstractBehaviour_UnregisterVuforiaInitErrorCallback_m6_1810 (VuforiaAbstractBehaviour_t6_6 * __this, Action_1_t1_1078 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::RegisterVuforiaInitializedCallback(System.Action)
 extern "C" void VuforiaAbstractBehaviour_RegisterVuforiaInitializedCallback_m6_1811 (VuforiaAbstractBehaviour_t6_6 * __this, Action_t4_11 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::UnregisterVuforiaInitializedCallback(System.Action)
@@ -155,9 +155,9 @@ extern "C" void VuforiaAbstractBehaviour_RegisterRenderOnUpdateCallback_m6_1840 
 // System.Void Vuforia.VuforiaAbstractBehaviour::UnregisterRenderOnUpdateCallback(System.Action)
 extern "C" void VuforiaAbstractBehaviour_UnregisterRenderOnUpdateCallback_m6_1841 (VuforiaAbstractBehaviour_t6_6 * __this, Action_t4_11 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.VuforiaAbstractBehaviour::IsValidPrimaryCamera(UnityEngine.Camera)
-extern "C" bool VuforiaAbstractBehaviour_IsValidPrimaryCamera_m6_1842 (Object_t * __this /* static, unused */, Camera_t5_89 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool VuforiaAbstractBehaviour_IsValidPrimaryCamera_m6_1842 (Object_t * __this /* static, unused */, Camera_t5_90 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.VuforiaAbstractBehaviour::IsValidSecondaryCamera(UnityEngine.Camera)
-extern "C" bool VuforiaAbstractBehaviour_IsValidSecondaryCamera_m6_1843 (Object_t * __this /* static, unused */, Camera_t5_89 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool VuforiaAbstractBehaviour_IsValidSecondaryCamera_m6_1843 (Object_t * __this /* static, unused */, Camera_t5_90 * ___cam, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::Start()
 extern "C" void VuforiaAbstractBehaviour_Start_m6_1844 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::OnEnable()
@@ -185,7 +185,7 @@ extern "C" void VuforiaAbstractBehaviour_OnVideoBackgroundConfigChanged_m6_1855 
 // System.Void Vuforia.VuforiaAbstractBehaviour::ConfigureView()
 extern "C" void VuforiaAbstractBehaviour_ConfigureView_m6_1856 (VuforiaAbstractBehaviour_t6_6 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::EnableObjectRenderer(UnityEngine.GameObject,System.Boolean)
-extern "C" void VuforiaAbstractBehaviour_EnableObjectRenderer_m6_1857 (VuforiaAbstractBehaviour_t6_6 * __this, GameObject_t5_100 * ___go, bool ___enabled, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VuforiaAbstractBehaviour_EnableObjectRenderer_m6_1857 (VuforiaAbstractBehaviour_t6_6 * __this, GameObject_t5_101 * ___go, bool ___enabled, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VuforiaAbstractBehaviour::Vuforia.IEditorVuforiaBehaviour.SetCameraDeviceMode(Vuforia.CameraDevice/CameraDeviceMode)
 extern "C" void VuforiaAbstractBehaviour_Vuforia_IEditorVuforiaBehaviour_SetCameraDeviceMode_m6_1858 (VuforiaAbstractBehaviour_t6_6 * __this, int32_t ___mode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Vuforia.VuforiaAbstractBehaviour::Vuforia.IEditorVuforiaBehaviour.GetMaximumSimultaneousImageTargets()

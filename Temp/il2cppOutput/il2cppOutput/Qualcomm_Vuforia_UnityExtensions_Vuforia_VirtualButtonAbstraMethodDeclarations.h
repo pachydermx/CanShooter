@@ -23,7 +23,7 @@ struct IVirtualButtonEventHandler_t6_214;
 // Vuforia.ImageTargetAbstractBehaviour
 struct ImageTargetAbstractBehaviour_t6_173;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // UnityEngine.Renderer
 struct Renderer_t5_28;
 // UnityEngine.Transform
@@ -77,9 +77,9 @@ extern "C" Matrix4x4_t5_59  VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtua
 // System.Boolean Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.SetPreviousTransform(UnityEngine.Matrix4x4)
 extern "C" bool VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_SetPreviousTransform_m6_1984 (VirtualButtonAbstractBehaviour_t6_195 * __this, Matrix4x4_t5_59  ___transformMatrix, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.get_PreviousParent()
-extern "C" GameObject_t5_100 * VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_get_PreviousParent_m6_1985 (VirtualButtonAbstractBehaviour_t6_195 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_get_PreviousParent_m6_1985 (VirtualButtonAbstractBehaviour_t6_195 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.SetPreviousParent(UnityEngine.GameObject)
-extern "C" bool VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_SetPreviousParent_m6_1986 (VirtualButtonAbstractBehaviour_t6_195 * __this, GameObject_t5_100 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_SetPreviousParent_m6_1986 (VirtualButtonAbstractBehaviour_t6_195 * __this, GameObject_t5_101 * ___parent, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.InitializeVirtualButton(Vuforia.VirtualButton)
 extern "C" void VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_InitializeVirtualButton_m6_1987 (VirtualButtonAbstractBehaviour_t6_195 * __this, VirtualButton_t6_167 * ___virtualButton, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.SetPosAndScaleFromButtonArea(UnityEngine.Vector2,UnityEngine.Vector2)
@@ -101,4 +101,4 @@ extern "C" void VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehav
 // UnityEngine.Transform Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.get_transform()
 extern "C" Transform_t5_72 * VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_get_transform_m6_1996 (VirtualButtonAbstractBehaviour_t6_195 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.VirtualButtonAbstractBehaviour::Vuforia.IEditorVirtualButtonBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_get_gameObject_m6_1997 (VirtualButtonAbstractBehaviour_t6_195 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * VirtualButtonAbstractBehaviour_Vuforia_IEditorVirtualButtonBehaviour_get_gameObject_m6_1997 (VirtualButtonAbstractBehaviour_t6_195 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

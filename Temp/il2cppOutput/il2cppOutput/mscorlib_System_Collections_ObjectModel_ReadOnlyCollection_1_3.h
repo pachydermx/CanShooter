@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<System.Object>
-struct IList_1_t1_1238;
+struct IList_1_t1_1239;
 
 #include "mscorlib_System_Object.h"
 

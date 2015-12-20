@@ -15,7 +15,7 @@
 // Vuforia.HideExcessAreaAbstractBehaviour
 struct HideExcessAreaAbstractBehaviour_t6_29;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // System.String
 struct String_t;
 
@@ -24,7 +24,7 @@ struct String_t;
 #include "UnityEngine_UnityEngine_Quaternion.h"
 
 // UnityEngine.GameObject Vuforia.HideExcessAreaAbstractBehaviour::CreateQuad(UnityEngine.GameObject,System.String,UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Int32)
-extern "C" GameObject_t5_100 * HideExcessAreaAbstractBehaviour_CreateQuad_m6_210 (HideExcessAreaAbstractBehaviour_t6_29 * __this, GameObject_t5_100 * ___parent, String_t* ___name, Vector3_t5_57  ___position, Quaternion_t5_58  ___rotation, Vector3_t5_57  ___scale, int32_t ___layer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * HideExcessAreaAbstractBehaviour_CreateQuad_m6_210 (HideExcessAreaAbstractBehaviour_t6_29 * __this, GameObject_t5_101 * ___parent, String_t* ___name, Vector3_t5_57  ___position, Quaternion_t5_58  ___rotation, Vector3_t5_57  ___scale, int32_t ___layer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.HideExcessAreaAbstractBehaviour::SetPlanesActive(System.Boolean)
 extern "C" void HideExcessAreaAbstractBehaviour_SetPlanesActive_m6_211 (HideExcessAreaAbstractBehaviour_t6_29 * __this, bool ___activeflag, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.HideExcessAreaAbstractBehaviour::SetPlanesRenderingActive(System.Boolean)

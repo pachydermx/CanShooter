@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// Vuforia.VirtualButton
-struct VirtualButton_t6_167;
+// Vuforia.Trackable
+struct Trackable_t6_16;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,7 +23,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VirtualButton,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1832  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.Trackable,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1830  : public MulticastDelegate_t1_21
 {
 };

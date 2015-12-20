@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t1_1189;
+struct List_1_t1_1190;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.GameObject>
-struct  Enumerator_t1_1227 
+struct  Enumerator_t1_1228 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1189 * ___l_0;
+	List_1_t1_1190 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator::current
-	GameObject_t5_100 * ___current_3;
+	GameObject_t5_101 * ___current_3;
 };

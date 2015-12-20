@@ -11,13 +11,13 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.UI.Selectable>
-struct List_1_t1_1204;
+struct List_1_t1_1205;
 // UnityEngine.UI.AnimationTriggers
 struct AnimationTriggers_t7_51;
 // UnityEngine.UI.Graphic
 struct Graphic_t7_75;
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct List_1_t1_1203;
+struct List_1_t1_1204;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 #include "UnityEngine_UI_UnityEngine_UI_Navigation.h"
@@ -48,7 +48,7 @@ struct  Selectable_t7_55  : public UIBehaviour_t7_3
 	// UnityEngine.UI.Selectable/SelectionState UnityEngine.UI.Selectable::m_CurrentSelectionState
 	int32_t ___m_CurrentSelectionState_11;
 	// System.Collections.Generic.List`1<UnityEngine.CanvasGroup> UnityEngine.UI.Selectable::m_CanvasGroupCache
-	List_1_t1_1203 * ___m_CanvasGroupCache_12;
+	List_1_t1_1204 * ___m_CanvasGroupCache_12;
 	// System.Boolean UnityEngine.UI.Selectable::<isPointerInside>k__BackingField
 	bool ___U3CisPointerInsideU3Ek__BackingField_13;
 	// System.Boolean UnityEngine.UI.Selectable::<isPointerDown>k__BackingField
@@ -58,5 +58,5 @@ struct  Selectable_t7_55  : public UIBehaviour_t7_3
 };
 struct Selectable_t7_55_StaticFields{
 	// System.Collections.Generic.List`1<UnityEngine.UI.Selectable> UnityEngine.UI.Selectable::s_List
-	List_1_t1_1204 * ___s_List_2;
+	List_1_t1_1205 * ___s_List_2;
 };

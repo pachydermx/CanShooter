@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.TurnOffWordBehaviour
-struct  TurnOffWordBehaviour_t8_60  : public MonoBehaviour_t5_94
+struct  TurnOffWordBehaviour_t8_62  : public MonoBehaviour_t5_95
 {
 };

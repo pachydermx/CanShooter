@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.TurnOffAbstractBehaviour
-struct  TurnOffAbstractBehaviour_t6_191  : public MonoBehaviour_t5_94
+struct  TurnOffAbstractBehaviour_t6_191  : public MonoBehaviour_t5_95
 {
 };

@@ -16,7 +16,7 @@ struct List_1_t1_1028;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Int32>
-struct  Enumerator_t1_1122 
+struct  Enumerator_t1_1123 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_1028 * ___l_0;

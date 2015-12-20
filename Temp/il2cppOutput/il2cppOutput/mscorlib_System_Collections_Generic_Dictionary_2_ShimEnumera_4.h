@@ -12,11 +12,11 @@
 
 
 #include "mscorlib_System_Object.h"
-#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__16.h"
+#include "mscorlib_System_Collections_Generic_Dictionary_2_Enumerator__17.h"
 
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,UnityEngine.TextEditor/TextEditOp>
-struct  ShimEnumerator_t1_1754  : public Object_t
+struct  ShimEnumerator_t1_1760  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.Dictionary`2/ShimEnumerator::host_enumerator
-	Enumerator_t1_1748  ___host_enumerator_0;
+	Enumerator_t1_1754  ___host_enumerator_0;
 };

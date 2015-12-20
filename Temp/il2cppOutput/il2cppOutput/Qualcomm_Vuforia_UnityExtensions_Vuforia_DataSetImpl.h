@@ -13,7 +13,7 @@
 // System.String
 struct String_t;
 // System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.Trackable>
-struct Dictionary_2_t1_1046;
+struct Dictionary_2_t1_1047;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_DataSet.h"
 #include "mscorlib_System_IntPtr.h"
@@ -29,5 +29,5 @@ struct  DataSetImpl_t6_33  : public DataSet_t6_55
 	// Vuforia.VuforiaUnity/StorageType Vuforia.DataSetImpl::mStorageType
 	int32_t ___mStorageType_2;
 	// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.Trackable> Vuforia.DataSetImpl::mTrackablesDict
-	Dictionary_2_t1_1046 * ___mTrackablesDict_3;
+	Dictionary_2_t1_1047 * ___mTrackablesDict_3;
 };

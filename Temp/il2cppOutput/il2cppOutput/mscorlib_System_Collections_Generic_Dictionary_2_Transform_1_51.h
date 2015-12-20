@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// Vuforia.TrackableBehaviour
-struct TrackableBehaviour_t6_15;
+// Vuforia.PropAbstractBehaviour
+struct PropAbstractBehaviour_t6_151;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -23,7 +23,7 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "mscorlib_System_Int32.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.TrackableBehaviour,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1947  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.PropAbstractBehaviour,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_1938  : public MulticastDelegate_t1_21
 {
 };

@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// Vuforia.WordResult
-struct WordResult_t6_140;
+// System.Type
+struct Type_t;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.WordResult>
+// System.Collections.Generic.KeyValuePair`2<System.Type,System.UInt16>
 struct  KeyValuePair_2_t1_1893 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	int32_t ___key_0;
+	Type_t * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	WordResult_t6_140 * ___value_1;
+	uint16_t ___value_1;
 };

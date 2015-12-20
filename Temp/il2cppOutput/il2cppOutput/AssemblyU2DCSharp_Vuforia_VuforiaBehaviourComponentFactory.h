@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // Vuforia.VuforiaBehaviourComponentFactory
-struct  VuforiaBehaviourComponentFactory_t8_50  : public Object_t
+struct  VuforiaBehaviourComponentFactory_t8_52  : public Object_t
 {
 };

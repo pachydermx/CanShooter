@@ -18,7 +18,7 @@ struct ProcessThread_t2_203;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Diagnostics.ProcessThread>
-struct  Enumerator_t1_1454 
+struct  Enumerator_t1_1455 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_939 * ___l_0;

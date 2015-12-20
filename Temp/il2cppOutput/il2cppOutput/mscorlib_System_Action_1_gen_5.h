@@ -22,6 +22,6 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_SmartTerrainInitial.h"
 
 // System.Action`1<Vuforia.SmartTerrainInitializationInfo>
-struct  Action_1_t1_1062  : public MulticastDelegate_t1_21
+struct  Action_1_t1_1063  : public MulticastDelegate_t1_21
 {
 };

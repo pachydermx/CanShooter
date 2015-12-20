@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.VirtualButtonBehaviour
-struct VirtualButtonBehaviour_t8_64;
+struct VirtualButtonBehaviour_t8_66;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.VirtualButtonBehaviour::.ctor()
-extern "C" void VirtualButtonBehaviour__ctor_m8_275 (VirtualButtonBehaviour_t8_64 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VirtualButtonBehaviour__ctor_m8_290 (VirtualButtonBehaviour_t8_66 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

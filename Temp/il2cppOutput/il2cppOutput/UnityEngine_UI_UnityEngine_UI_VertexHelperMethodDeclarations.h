@@ -17,7 +17,7 @@ struct VertexHelper_t7_77;
 // UnityEngine.Mesh
 struct Mesh_t5_26;
 // UnityEngine.UIVertex[]
-struct UIVertexU5BU5D_t5_294;
+struct UIVertexU5BU5D_t5_295;
 // System.Collections.Generic.List`1<UnityEngine.UIVertex>
 struct List_1_t1_1014;
 // System.Collections.Generic.List`1<System.Int32>
@@ -43,9 +43,9 @@ extern "C" int32_t VertexHelper_get_currentVertCount_m7_1368 (VertexHelper_t7_77
 // System.Int32 UnityEngine.UI.VertexHelper::get_currentIndexCount()
 extern "C" int32_t VertexHelper_get_currentIndexCount_m7_1369 (VertexHelper_t7_77 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::PopulateUIVertex(UnityEngine.UIVertex&,System.Int32)
-extern "C" void VertexHelper_PopulateUIVertex_m7_1370 (VertexHelper_t7_77 * __this, UIVertex_t5_161 * ___vertex, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VertexHelper_PopulateUIVertex_m7_1370 (VertexHelper_t7_77 * __this, UIVertex_t5_162 * ___vertex, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::SetUIVertex(UnityEngine.UIVertex,System.Int32)
-extern "C" void VertexHelper_SetUIVertex_m7_1371 (VertexHelper_t7_77 * __this, UIVertex_t5_161  ___vertex, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VertexHelper_SetUIVertex_m7_1371 (VertexHelper_t7_77 * __this, UIVertex_t5_162  ___vertex, int32_t ___i, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::FillMesh(UnityEngine.Mesh)
 extern "C" void VertexHelper_FillMesh_m7_1372 (VertexHelper_t7_77 * __this, Mesh_t5_26 * ___mesh, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::Dispose()
@@ -55,11 +55,11 @@ extern "C" void VertexHelper_AddVert_m7_1374 (VertexHelper_t7_77 * __this, Vecto
 // System.Void UnityEngine.UI.VertexHelper::AddVert(UnityEngine.Vector3,UnityEngine.Color32,UnityEngine.Vector2)
 extern "C" void VertexHelper_AddVert_m7_1375 (VertexHelper_t7_77 * __this, Vector3_t5_57  ___position, Color32_t5_32  ___color, Vector2_t5_56  ___uv0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::AddVert(UnityEngine.UIVertex)
-extern "C" void VertexHelper_AddVert_m7_1376 (VertexHelper_t7_77 * __this, UIVertex_t5_161  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VertexHelper_AddVert_m7_1376 (VertexHelper_t7_77 * __this, UIVertex_t5_162  ___v, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::AddTriangle(System.Int32,System.Int32,System.Int32)
 extern "C" void VertexHelper_AddTriangle_m7_1377 (VertexHelper_t7_77 * __this, int32_t ___idx0, int32_t ___idx1, int32_t ___idx2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::AddUIVertexQuad(UnityEngine.UIVertex[])
-extern "C" void VertexHelper_AddUIVertexQuad_m7_1378 (VertexHelper_t7_77 * __this, UIVertexU5BU5D_t5_294* ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void VertexHelper_AddUIVertexQuad_m7_1378 (VertexHelper_t7_77 * __this, UIVertexU5BU5D_t5_295* ___verts, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::AddUIVertexStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>,System.Collections.Generic.List`1<System.Int32>)
 extern "C" void VertexHelper_AddUIVertexStream_m7_1379 (VertexHelper_t7_77 * __this, List_1_t1_1014 * ___verts, List_1_t1_1028 * ___indicies, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.VertexHelper::AddUIVertexTriangleStream(System.Collections.Generic.List`1<UnityEngine.UIVertex>)

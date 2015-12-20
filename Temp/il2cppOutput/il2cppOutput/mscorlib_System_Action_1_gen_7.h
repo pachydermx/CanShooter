@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_Void.h"
 
 // System.Action`1<Vuforia.Surface>
-struct  Action_1_t1_1064  : public MulticastDelegate_t1_21
+struct  Action_1_t1_1065  : public MulticastDelegate_t1_21
 {
 };

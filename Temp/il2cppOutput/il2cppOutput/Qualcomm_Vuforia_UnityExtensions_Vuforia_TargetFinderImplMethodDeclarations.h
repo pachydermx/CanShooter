@@ -17,13 +17,13 @@ struct TargetFinderImpl_t6_161;
 // System.String
 struct String_t;
 // System.Collections.Generic.IEnumerable`1<Vuforia.TargetFinder/TargetSearchResult>
-struct IEnumerable_1_t1_1097;
+struct IEnumerable_1_t1_1098;
 // Vuforia.ImageTargetAbstractBehaviour
 struct ImageTargetAbstractBehaviour_t6_173;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // System.Collections.Generic.IEnumerable`1<Vuforia.ImageTarget>
-struct IEnumerable_1_t1_1098;
+struct IEnumerable_1_t1_1099;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TargetFinder_InitSt.h"
@@ -61,7 +61,7 @@ extern "C" Object_t* TargetFinderImpl_GetResults_m6_1678 (TargetFinderImpl_t6_16
 // Vuforia.ImageTargetAbstractBehaviour Vuforia.TargetFinderImpl::EnableTracking(Vuforia.TargetFinder/TargetSearchResult,System.String)
 extern "C" ImageTargetAbstractBehaviour_t6_173 * TargetFinderImpl_EnableTracking_m6_1679 (TargetFinderImpl_t6_161 * __this, TargetSearchResult_t6_158  ___result, String_t* ___gameObjectName, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.ImageTargetAbstractBehaviour Vuforia.TargetFinderImpl::EnableTracking(Vuforia.TargetFinder/TargetSearchResult,UnityEngine.GameObject)
-extern "C" ImageTargetAbstractBehaviour_t6_173 * TargetFinderImpl_EnableTracking_m6_1680 (TargetFinderImpl_t6_161 * __this, TargetSearchResult_t6_158  ___result, GameObject_t5_100 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" ImageTargetAbstractBehaviour_t6_173 * TargetFinderImpl_EnableTracking_m6_1680 (TargetFinderImpl_t6_161 * __this, TargetSearchResult_t6_158  ___result, GameObject_t5_101 * ___gameObject, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.TargetFinderImpl::ClearTrackables(System.Boolean)
 extern "C" void TargetFinderImpl_ClearTrackables_m6_1681 (TargetFinderImpl_t6_161 * __this, bool ___destroyGameObjects, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.IEnumerable`1<Vuforia.ImageTarget> Vuforia.TargetFinderImpl::GetImageTargets()

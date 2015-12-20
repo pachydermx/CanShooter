@@ -13,11 +13,11 @@
 #include <exception>
 
 // Vuforia.TurnOffWordBehaviour
-struct TurnOffWordBehaviour_t8_60;
+struct TurnOffWordBehaviour_t8_62;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.TurnOffWordBehaviour::.ctor()
-extern "C" void TurnOffWordBehaviour__ctor_m8_270 (TurnOffWordBehaviour_t8_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TurnOffWordBehaviour__ctor_m8_285 (TurnOffWordBehaviour_t8_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.TurnOffWordBehaviour::Awake()
-extern "C" void TurnOffWordBehaviour_Awake_m8_271 (TurnOffWordBehaviour_t8_60 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void TurnOffWordBehaviour_Awake_m8_286 (TurnOffWordBehaviour_t8_62 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

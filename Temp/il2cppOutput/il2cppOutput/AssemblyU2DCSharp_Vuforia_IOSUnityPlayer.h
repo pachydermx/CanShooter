@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_ScreenOrientation.h"
 
 // Vuforia.IOSUnityPlayer
-struct  IOSUnityPlayer_t8_49  : public Object_t
+struct  IOSUnityPlayer_t8_51  : public Object_t
 {
 	// UnityEngine.ScreenOrientation Vuforia.IOSUnityPlayer::mScreenOrientation
 	int32_t ___mScreenOrientation_0;

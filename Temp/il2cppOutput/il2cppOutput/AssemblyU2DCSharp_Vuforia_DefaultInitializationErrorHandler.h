@@ -16,7 +16,7 @@ struct String_t;
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.DefaultInitializationErrorHandler
-struct  DefaultInitializationErrorHandler_t8_38  : public MonoBehaviour_t5_94
+struct  DefaultInitializationErrorHandler_t8_40  : public MonoBehaviour_t5_95
 {
 	// System.String Vuforia.DefaultInitializationErrorHandler::mErrorText
 	String_t* ___mErrorText_3;

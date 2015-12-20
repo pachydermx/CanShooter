@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<UnityEngine.UI.ICanvasElement>
-struct List_1_t1_2094;
+struct List_1_t1_2100;
 // System.Collections.Generic.Dictionary`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct Dictionary_2_t1_1223;
+struct Dictionary_2_t1_1224;
 
 #include "mscorlib_System_Object.h"
 
@@ -21,7 +21,7 @@ struct Dictionary_2_t1_1223;
 struct  IndexedSet_1_t7_58  : public Object_t
 {
 	// System.Collections.Generic.List`1<T> UnityEngine.UI.Collections.IndexedSet`1::m_List
-	List_1_t1_2094 * ___m_List_0;
+	List_1_t1_2100 * ___m_List_0;
 	// System.Collections.Generic.Dictionary`2<T,System.Int32> UnityEngine.UI.Collections.IndexedSet`1::m_Dictionary
-	Dictionary_2_t1_1223 * ___m_Dictionary_1;
+	Dictionary_2_t1_1224 * ___m_Dictionary_1;
 };

@@ -15,7 +15,7 @@
 // UnityEngine.UI.FontData
 struct FontData_t7_73;
 // UnityEngine.Font
-struct Font_t5_152;
+struct Font_t5_153;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_FontStyle.h"
@@ -32,9 +32,9 @@ extern "C" void FontData_UnityEngine_ISerializationCallbackReceiver_OnAfterDeser
 // UnityEngine.UI.FontData UnityEngine.UI.FontData::get_defaultFontData()
 extern "C" FontData_t7_73 * FontData_get_defaultFontData_m7_452 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Font UnityEngine.UI.FontData::get_font()
-extern "C" Font_t5_152 * FontData_get_font_m7_453 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Font_t5_153 * FontData_get_font_m7_453 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_font(UnityEngine.Font)
-extern "C" void FontData_set_font_m7_454 (FontData_t7_73 * __this, Font_t5_152 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FontData_set_font_m7_454 (FontData_t7_73 * __this, Font_t5_153 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 UnityEngine.UI.FontData::get_fontSize()
 extern "C" int32_t FontData_get_fontSize_m7_455 (FontData_t7_73 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.FontData::set_fontSize(System.Int32)

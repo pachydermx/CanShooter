@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_MarkerAbstractBehav.h"
 
 // Vuforia.MarkerBehaviour
-struct  MarkerBehaviour_t8_52  : public MarkerAbstractBehaviour_t6_174
+struct  MarkerBehaviour_t8_54  : public MarkerAbstractBehaviour_t6_174
 {
 };

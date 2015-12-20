@@ -16,7 +16,7 @@ struct IClippableU5BU5D_t7_221;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.UI.IClippable>
-struct  List_1_t1_1201  : public Object_t
+struct  List_1_t1_1202  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	IClippableU5BU5D_t7_221* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_1201  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1201_StaticFields{
+struct List_1_t1_1202_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	IClippableU5BU5D_t7_221* ___EmptyArray_4;
 };

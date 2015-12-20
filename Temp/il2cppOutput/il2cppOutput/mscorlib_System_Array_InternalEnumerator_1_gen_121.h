@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<UnityEngine.Camera>
-struct  InternalEnumerator_1_t1_1656 
+struct  InternalEnumerator_1_t1_1662 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

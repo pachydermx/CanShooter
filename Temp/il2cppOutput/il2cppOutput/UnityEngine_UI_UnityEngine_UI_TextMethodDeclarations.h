@@ -15,11 +15,11 @@
 // UnityEngine.UI.Text
 struct Text_t7_63;
 // UnityEngine.TextGenerator
-struct TextGenerator_t5_155;
+struct TextGenerator_t5_156;
 // UnityEngine.Texture
 struct Texture_t5_31;
 // UnityEngine.Font
-struct Font_t5_152;
+struct Font_t5_153;
 // System.String
 struct String_t;
 // UnityEngine.UI.VertexHelper
@@ -38,17 +38,17 @@ extern "C" void Text__ctor_m7_1081 (Text_t7_63 * __this, const MethodInfo* metho
 // System.Void UnityEngine.UI.Text::.cctor()
 extern "C" void Text__cctor_m7_1082 (Object_t * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextGenerator UnityEngine.UI.Text::get_cachedTextGenerator()
-extern "C" TextGenerator_t5_155 * Text_get_cachedTextGenerator_m7_1083 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextGenerator_t5_156 * Text_get_cachedTextGenerator_m7_1083 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextGenerator UnityEngine.UI.Text::get_cachedTextGeneratorForLayout()
-extern "C" TextGenerator_t5_155 * Text_get_cachedTextGeneratorForLayout_m7_1084 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextGenerator_t5_156 * Text_get_cachedTextGeneratorForLayout_m7_1084 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Texture UnityEngine.UI.Text::get_mainTexture()
 extern "C" Texture_t5_31 * Text_get_mainTexture_m7_1085 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Text::FontTextureChanged()
 extern "C" void Text_FontTextureChanged_m7_1086 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Font UnityEngine.UI.Text::get_font()
-extern "C" Font_t5_152 * Text_get_font_m7_1087 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Font_t5_153 * Text_get_font_m7_1087 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Text::set_font(UnityEngine.Font)
-extern "C" void Text_set_font_m7_1088 (Text_t7_63 * __this, Font_t5_152 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Text_set_font_m7_1088 (Text_t7_63 * __this, Font_t5_153 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String UnityEngine.UI.Text::get_text()
 extern "C" String_t* Text_get_text_m7_1089 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Text::set_text(System.String)
@@ -102,7 +102,7 @@ extern "C" void Text_OnDisable_m7_1113 (Text_t7_63 * __this, const MethodInfo* m
 // System.Void UnityEngine.UI.Text::UpdateGeometry()
 extern "C" void Text_UpdateGeometry_m7_1114 (Text_t7_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextGenerationSettings UnityEngine.UI.Text::GetGenerationSettings(UnityEngine.Vector2)
-extern "C" TextGenerationSettings_t5_156  Text_GetGenerationSettings_m7_1115 (Text_t7_63 * __this, Vector2_t5_56  ___extents, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" TextGenerationSettings_t5_157  Text_GetGenerationSettings_m7_1115 (Text_t7_63 * __this, Vector2_t5_56  ___extents, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Vector2 UnityEngine.UI.Text::GetTextAnchorPivot(UnityEngine.TextAnchor)
 extern "C" Vector2_t5_56  Text_GetTextAnchorPivot_m7_1116 (Object_t * __this /* static, unused */, int32_t ___anchor, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Text::OnPopulateMesh(UnityEngine.UI.VertexHelper)

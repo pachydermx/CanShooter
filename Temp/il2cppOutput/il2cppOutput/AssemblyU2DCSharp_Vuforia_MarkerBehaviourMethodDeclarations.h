@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.MarkerBehaviour
-struct MarkerBehaviour_t8_52;
+struct MarkerBehaviour_t8_54;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.MarkerBehaviour::.ctor()
-extern "C" void MarkerBehaviour__ctor_m8_257 (MarkerBehaviour_t8_52 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MarkerBehaviour__ctor_m8_272 (MarkerBehaviour_t8_54 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

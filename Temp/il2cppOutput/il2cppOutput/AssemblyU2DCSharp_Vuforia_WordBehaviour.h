@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WordAbstractBehavio.h"
 
 // Vuforia.WordBehaviour
-struct  WordBehaviour_t8_69  : public WordAbstractBehaviour_t6_197
+struct  WordBehaviour_t8_71  : public WordAbstractBehaviour_t6_197
 {
 };

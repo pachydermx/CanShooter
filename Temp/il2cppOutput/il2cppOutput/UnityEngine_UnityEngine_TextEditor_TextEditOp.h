@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_TextEditor_TextEditOp.h"
 
 // UnityEngine.TextEditor/TextEditOp
-struct  TextEditOp_t5_259 
+struct  TextEditOp_t5_260 
 {
 	// System.Int32 UnityEngine.TextEditor/TextEditOp::value__
 	int32_t ___value___1;

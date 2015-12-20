@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Events.UnityAction`1<UnityEngine.Color>
-struct UnityAction_1_t5_319;
+struct UnityAction_1_t5_320;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_ColorTween.h"
@@ -43,7 +43,7 @@ extern "C" void ColorTween_set_ignoreTimeScale_m7_288 (ColorTween_t7_48 * __this
 // System.Void UnityEngine.UI.CoroutineTween.ColorTween::TweenValue(System.Single)
 extern "C" void ColorTween_TweenValue_m7_289 (ColorTween_t7_48 * __this, float ___floatPercentage, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.ColorTween::AddOnChangedCallback(UnityEngine.Events.UnityAction`1<UnityEngine.Color>)
-extern "C" void ColorTween_AddOnChangedCallback_m7_290 (ColorTween_t7_48 * __this, UnityAction_1_t5_319 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ColorTween_AddOnChangedCallback_m7_290 (ColorTween_t7_48 * __this, UnityAction_1_t5_320 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.CoroutineTween.ColorTween::GetIgnoreTimescale()
 extern "C" bool ColorTween_GetIgnoreTimescale_m7_291 (ColorTween_t7_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CoroutineTween.ColorTween::GetDuration()

@@ -14,6 +14,6 @@
 #include "mscorlib_System_Object.h"
 
 // UnityEngine.GUIClip
-struct  GUIClip_t5_196  : public Object_t
+struct  GUIClip_t5_197  : public Object_t
 {
 };

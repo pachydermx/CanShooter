@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ReconstructionFromT_0.h"
 
 // Vuforia.ReconstructionFromTargetBehaviour
-struct  ReconstructionFromTargetBehaviour_t8_56  : public ReconstructionFromTargetAbstractBehaviour_t6_18
+struct  ReconstructionFromTargetBehaviour_t8_58  : public ReconstructionFromTargetAbstractBehaviour_t6_18
 {
 };

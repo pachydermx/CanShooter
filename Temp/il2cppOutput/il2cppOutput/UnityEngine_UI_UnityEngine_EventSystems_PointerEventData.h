@@ -11,9 +11,9 @@
 #include <stdint.h>
 
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // System.Collections.Generic.List`1<UnityEngine.GameObject>
-struct List_1_t1_1189;
+struct List_1_t1_1190;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_BaseEventData.h"
 #include "UnityEngine_UI_UnityEngine_EventSystems_RaycastResult.h"
@@ -25,17 +25,17 @@ struct List_1_t1_1189;
 struct  PointerEventData_t7_36  : public BaseEventData_t7_5
 {
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::m_PointerPress
-	GameObject_t5_100 * ___m_PointerPress_2;
+	GameObject_t5_101 * ___m_PointerPress_2;
 	// System.Collections.Generic.List`1<UnityEngine.GameObject> UnityEngine.EventSystems.PointerEventData::hovered
-	List_1_t1_1189 * ___hovered_3;
+	List_1_t1_1190 * ___hovered_3;
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<pointerEnter>k__BackingField
-	GameObject_t5_100 * ___U3CpointerEnterU3Ek__BackingField_4;
+	GameObject_t5_101 * ___U3CpointerEnterU3Ek__BackingField_4;
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<lastPress>k__BackingField
-	GameObject_t5_100 * ___U3ClastPressU3Ek__BackingField_5;
+	GameObject_t5_101 * ___U3ClastPressU3Ek__BackingField_5;
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<rawPointerPress>k__BackingField
-	GameObject_t5_100 * ___U3CrawPointerPressU3Ek__BackingField_6;
+	GameObject_t5_101 * ___U3CrawPointerPressU3Ek__BackingField_6;
 	// UnityEngine.GameObject UnityEngine.EventSystems.PointerEventData::<pointerDrag>k__BackingField
-	GameObject_t5_100 * ___U3CpointerDragU3Ek__BackingField_7;
+	GameObject_t5_101 * ___U3CpointerDragU3Ek__BackingField_7;
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerCurrentRaycast>k__BackingField
 	RaycastResult_t7_31  ___U3CpointerCurrentRaycastU3Ek__BackingField_8;
 	// UnityEngine.EventSystems.RaycastResult UnityEngine.EventSystems.PointerEventData::<pointerPressRaycast>k__BackingField

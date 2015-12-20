@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Events.UnityAction`1<System.Single>
-struct UnityAction_1_t5_320;
+struct UnityAction_1_t5_321;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UI_UnityEngine_UI_CoroutineTween_FloatTween.h"
@@ -37,7 +37,7 @@ extern "C" void FloatTween_set_ignoreTimeScale_m7_302 (FloatTween_t7_50 * __this
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::TweenValue(System.Single)
 extern "C" void FloatTween_TweenValue_m7_303 (FloatTween_t7_50 * __this, float ___floatPercentage, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.CoroutineTween.FloatTween::AddOnChangedCallback(UnityEngine.Events.UnityAction`1<System.Single>)
-extern "C" void FloatTween_AddOnChangedCallback_m7_304 (FloatTween_t7_50 * __this, UnityAction_1_t5_320 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void FloatTween_AddOnChangedCallback_m7_304 (FloatTween_t7_50 * __this, UnityAction_1_t5_321 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.UI.CoroutineTween.FloatTween::GetIgnoreTimescale()
 extern "C" bool FloatTween_GetIgnoreTimescale_m7_305 (FloatTween_t7_50 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Single UnityEngine.UI.CoroutineTween.FloatTween::GetDuration()

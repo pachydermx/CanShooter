@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<System.Net.NetworkInformation.Win32_IP_ADDR_STRING>
-struct  InternalEnumerator_1_t1_1470 
+struct  InternalEnumerator_1_t1_1471 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

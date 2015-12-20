@@ -13,7 +13,7 @@
 #include <exception>
 
 // UnityEngine.Transform/Enumerator
-struct Enumerator_t5_101;
+struct Enumerator_t5_102;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // System.Object
@@ -22,10 +22,10 @@ struct Object_t;
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void UnityEngine.Transform/Enumerator::.ctor(UnityEngine.Transform)
-extern "C" void Enumerator__ctor_m5_836 (Enumerator_t5_101 * __this, Transform_t5_72 * ___outer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator__ctor_m5_849 (Enumerator_t5_102 * __this, Transform_t5_72 * ___outer, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object UnityEngine.Transform/Enumerator::get_Current()
-extern "C" Object_t * Enumerator_get_Current_m5_837 (Enumerator_t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Object_t * Enumerator_get_Current_m5_850 (Enumerator_t5_102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean UnityEngine.Transform/Enumerator::MoveNext()
-extern "C" bool Enumerator_MoveNext_m5_838 (Enumerator_t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" bool Enumerator_MoveNext_m5_851 (Enumerator_t5_102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.Transform/Enumerator::Reset()
-extern "C" void Enumerator_Reset_m5_839 (Enumerator_t5_101 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Enumerator_Reset_m5_852 (Enumerator_t5_102 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

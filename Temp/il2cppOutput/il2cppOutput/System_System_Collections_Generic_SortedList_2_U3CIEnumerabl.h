@@ -22,11 +22,11 @@ struct  GetEnumeratorU3Ec__Iterator0_t2_875  : public Object_t
 	// System.Int32 System.Collections.Generic.SortedList`2/<IEnumerable.GetEnumerator>c__Iterator0::<i>__0
 	int32_t ___U3CiU3E__0_0;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedList`2/<IEnumerable.GetEnumerator>c__Iterator0::<current>__1
-	KeyValuePair_2_t1_1311  ___U3CcurrentU3E__1_1;
+	KeyValuePair_2_t1_1312  ___U3CcurrentU3E__1_1;
 	// System.Int32 System.Collections.Generic.SortedList`2/<IEnumerable.GetEnumerator>c__Iterator0::$PC
 	int32_t ___U24PC_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedList`2/<IEnumerable.GetEnumerator>c__Iterator0::$current
-	KeyValuePair_2_t1_1311  ___U24current_3;
+	KeyValuePair_2_t1_1312  ___U24current_3;
 	// System.Collections.Generic.SortedList`2<TKey,TValue> System.Collections.Generic.SortedList`2/<IEnumerable.GetEnumerator>c__Iterator0::<>f__this
 	SortedList_2_t2_868 * ___U3CU3Ef__this_4;
 };

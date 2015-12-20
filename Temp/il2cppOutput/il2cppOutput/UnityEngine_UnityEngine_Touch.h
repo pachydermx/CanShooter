@@ -16,7 +16,7 @@
 #include "UnityEngine_UnityEngine_TouchPhase.h"
 
 // UnityEngine.Touch
-struct  Touch_t5_97 
+struct  Touch_t5_98 
 {
 	// System.Int32 UnityEngine.Touch::m_FingerId
 	int32_t ___m_FingerId_0;
@@ -38,7 +38,7 @@ struct  Touch_t5_97
 	float ___m_maximumPossiblePressure_8;
 };
 // Native definition for marshalling of: UnityEngine.Touch
-struct Touch_t5_97_marshaled
+struct Touch_t5_98_marshaled
 {
 	int32_t ___m_FingerId_0;
 	Vector2_t5_56  ___m_Position_1;

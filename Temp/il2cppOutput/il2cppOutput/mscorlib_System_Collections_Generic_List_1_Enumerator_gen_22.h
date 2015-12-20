@@ -11,17 +11,17 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<Vuforia.Prop>
-struct List_1_t1_1092;
+struct List_1_t1_1093;
 // Vuforia.Prop
 struct Prop_t6_152;
 
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<Vuforia.Prop>
-struct  Enumerator_t1_1156 
+struct  Enumerator_t1_1157 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
-	List_1_t1_1092 * ___l_0;
+	List_1_t1_1093 * ___l_0;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver

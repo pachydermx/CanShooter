@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.CanvasGroup[]
-struct CanvasGroupU5BU5D_t5_369;
+struct CanvasGroupU5BU5D_t5_370;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.CanvasGroup>
-struct  List_1_t1_1203  : public Object_t
+struct  List_1_t1_1204  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	CanvasGroupU5BU5D_t5_369* ____items_1;
+	CanvasGroupU5BU5D_t5_370* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1203_StaticFields{
+struct List_1_t1_1204_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	CanvasGroupU5BU5D_t5_369* ___EmptyArray_4;
+	CanvasGroupU5BU5D_t5_370* ___EmptyArray_4;
 };

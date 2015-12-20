@@ -16,7 +16,7 @@ struct String_t;
 #include "mscorlib_System_Attribute.h"
 
 // UnityEngineInternal.TypeInferenceRuleAttribute
-struct  TypeInferenceRuleAttribute_t5_276  : public Attribute_t1_2
+struct  TypeInferenceRuleAttribute_t5_277  : public Attribute_t1_2
 {
 	// System.String UnityEngineInternal.TypeInferenceRuleAttribute::_rule
 	String_t* ____rule_0;

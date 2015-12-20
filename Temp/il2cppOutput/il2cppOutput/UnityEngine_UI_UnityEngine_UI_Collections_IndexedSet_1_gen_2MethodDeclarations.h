@@ -23,9 +23,9 @@ struct IEnumerator_1_t1_957;
 // System.Object[]
 struct ObjectU5BU5D_t1_158;
 // System.Predicate`1<System.Object>
-struct Predicate_1_t1_1243;
+struct Predicate_1_t1_1244;
 // System.Comparison`1<System.Object>
-struct Comparison_1_t1_1248;
+struct Comparison_1_t1_1249;
 
 #include "codegen/il2cpp-codegen.h"
 
@@ -75,8 +75,8 @@ extern "C" Object_t * IndexedSet_1_get_Item_m7_1634_gshared (IndexedSet_1_t7_210
 extern "C" void IndexedSet_1_set_Item_m7_1636_gshared (IndexedSet_1_t7_210 * __this, int32_t ___index, Object_t * ___value, const MethodInfo* method);
 #define IndexedSet_1_set_Item_m7_1636(__this, ___index, ___value, method) (( void (*) (IndexedSet_1_t7_210 *, int32_t, Object_t *, const MethodInfo*))IndexedSet_1_set_Item_m7_1636_gshared)(__this, ___index, ___value, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::RemoveAll(System.Predicate`1<T>)
-extern "C" void IndexedSet_1_RemoveAll_m7_1638_gshared (IndexedSet_1_t7_210 * __this, Predicate_1_t1_1243 * ___match, const MethodInfo* method);
-#define IndexedSet_1_RemoveAll_m7_1638(__this, ___match, method) (( void (*) (IndexedSet_1_t7_210 *, Predicate_1_t1_1243 *, const MethodInfo*))IndexedSet_1_RemoveAll_m7_1638_gshared)(__this, ___match, method)
+extern "C" void IndexedSet_1_RemoveAll_m7_1638_gshared (IndexedSet_1_t7_210 * __this, Predicate_1_t1_1244 * ___match, const MethodInfo* method);
+#define IndexedSet_1_RemoveAll_m7_1638(__this, ___match, method) (( void (*) (IndexedSet_1_t7_210 *, Predicate_1_t1_1244 *, const MethodInfo*))IndexedSet_1_RemoveAll_m7_1638_gshared)(__this, ___match, method)
 // System.Void UnityEngine.UI.Collections.IndexedSet`1<System.Object>::Sort(System.Comparison`1<T>)
-extern "C" void IndexedSet_1_Sort_m7_1639_gshared (IndexedSet_1_t7_210 * __this, Comparison_1_t1_1248 * ___sortLayoutFunction, const MethodInfo* method);
-#define IndexedSet_1_Sort_m7_1639(__this, ___sortLayoutFunction, method) (( void (*) (IndexedSet_1_t7_210 *, Comparison_1_t1_1248 *, const MethodInfo*))IndexedSet_1_Sort_m7_1639_gshared)(__this, ___sortLayoutFunction, method)
+extern "C" void IndexedSet_1_Sort_m7_1639_gshared (IndexedSet_1_t7_210 * __this, Comparison_1_t1_1249 * ___sortLayoutFunction, const MethodInfo* method);
+#define IndexedSet_1_Sort_m7_1639(__this, ___sortLayoutFunction, method) (( void (*) (IndexedSet_1_t7_210 *, Comparison_1_t1_1249 *, const MethodInfo*))IndexedSet_1_Sort_m7_1639_gshared)(__this, ___sortLayoutFunction, method)

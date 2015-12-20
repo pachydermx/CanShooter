@@ -10,17 +10,16 @@
 
 #include <stdint.h>
 
-// System.Object
-struct Object_t;
+// Vuforia.ImageTarget
+struct ImageTarget_t6_169;
 
 #include "mscorlib_System_ValueType.h"
-#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
-// System.Collections.Generic.KeyValuePair`2<System.Object,Vuforia.WebCamProfile/ProfileData>
+// System.Collections.Generic.KeyValuePair`2<System.Int32,Vuforia.ImageTarget>
 struct  KeyValuePair_2_t1_2003 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	Object_t * ___key_0;
+	int32_t ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
-	ProfileData_t6_170  ___value_1;
+	Object_t * ___value_1;
 };

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.SocialPlatforms.IUserProfile[]
-struct IUserProfileU5BU5D_t5_231;
+struct IUserProfileU5BU5D_t5_232;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback

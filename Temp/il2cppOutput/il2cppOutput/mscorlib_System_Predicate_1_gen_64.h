@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<Vuforia.IVirtualButtonEventHandler>
-struct  Predicate_1_t1_2044  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_2050  : public MulticastDelegate_t1_21
 {
 };

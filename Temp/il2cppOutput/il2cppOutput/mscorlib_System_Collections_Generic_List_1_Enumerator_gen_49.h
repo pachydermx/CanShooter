@@ -19,7 +19,7 @@ struct Win32_IP_ADAPTER_ADDRESSES_t2_356_marshaled;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES>
-struct  Enumerator_t1_1526 
+struct  Enumerator_t1_1527 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_995 * ___l_0;

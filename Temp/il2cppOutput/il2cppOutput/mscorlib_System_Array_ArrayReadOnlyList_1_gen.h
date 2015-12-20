@@ -16,7 +16,7 @@ struct ObjectU5BU5D_t1_158;
 #include "mscorlib_System_Object.h"
 
 // System.Array/ArrayReadOnlyList`1<System.Object>
-struct  ArrayReadOnlyList_1_t1_1266  : public Object_t
+struct  ArrayReadOnlyList_1_t1_1267  : public Object_t
 {
 	// T[] System.Array/ArrayReadOnlyList`1::array
 	ObjectU5BU5D_t1_158* ___array_0;

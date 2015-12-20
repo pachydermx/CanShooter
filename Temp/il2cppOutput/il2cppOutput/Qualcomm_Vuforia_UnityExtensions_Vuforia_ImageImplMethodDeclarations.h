@@ -19,7 +19,7 @@ struct ByteU5BU5D_t1_72;
 // UnityEngine.Texture2D
 struct Texture2D_t5_41;
 // UnityEngine.Color32[]
-struct Color32U5BU5D_t5_286;
+struct Color32U5BU5D_t5_287;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
@@ -69,6 +69,6 @@ extern "C" void ImageImpl_CopyToTexture_m6_476 (ImageImpl_t6_75 * __this, Textur
 // System.Void Vuforia.ImageImpl::CopyPixelsFromUnmanagedBuffer()
 extern "C" void ImageImpl_CopyPixelsFromUnmanagedBuffer_m6_477 (ImageImpl_t6_75 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.Color32[] Vuforia.ImageImpl::GetPixels32()
-extern "C" Color32U5BU5D_t5_286* ImageImpl_GetPixels32_m6_478 (ImageImpl_t6_75 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" Color32U5BU5D_t5_287* ImageImpl_GetPixels32_m6_478 (ImageImpl_t6_75 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.TextureFormat Vuforia.ImageImpl::ConvertPixelFormat(Vuforia.Image/PIXEL_FORMAT)
 extern "C" int32_t ImageImpl_ConvertPixelFormat_m6_479 (ImageImpl_t6_75 * __this, int32_t ___input, const MethodInfo* method) IL2CPP_METHOD_ATTR;

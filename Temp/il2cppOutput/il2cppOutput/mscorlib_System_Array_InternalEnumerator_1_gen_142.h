@@ -16,7 +16,7 @@ struct Array_t;
 #include "mscorlib_System_ValueType.h"
 
 // System.Array/InternalEnumerator`1<Vuforia.Eyewear/EyewearCalibrationReading>
-struct  InternalEnumerator_1_t1_1769 
+struct  InternalEnumerator_1_t1_1775 
 {
 	// System.Array System.Array/InternalEnumerator`1::array
 	Array_t * ___array_0;

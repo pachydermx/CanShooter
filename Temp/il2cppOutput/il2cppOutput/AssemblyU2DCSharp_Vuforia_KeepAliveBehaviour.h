@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_KeepAliveAbstractBe.h"
 
 // Vuforia.KeepAliveBehaviour
-struct  KeepAliveBehaviour_t8_51  : public KeepAliveAbstractBehaviour_t6_149
+struct  KeepAliveBehaviour_t8_53  : public KeepAliveAbstractBehaviour_t6_149
 {
 };

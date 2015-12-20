@@ -17,7 +17,7 @@ struct List_1_t1_1026;
 #include "UnityEngine_UnityEngine_Vector2.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.Vector2>
-struct  Enumerator_t1_1629 
+struct  Enumerator_t1_1630 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_1026 * ___l_0;

@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TurnOffAbstractBeha.h"
 
 // Vuforia.TurnOffBehaviour
-struct  TurnOffBehaviour_t8_59  : public TurnOffAbstractBehaviour_t6_191
+struct  TurnOffBehaviour_t8_61  : public TurnOffAbstractBehaviour_t6_191
 {
 };

@@ -14,7 +14,7 @@
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // VirtualButtonHandler
-struct  VirtualButtonHandler_t8_3  : public MonoBehaviour_t5_94
+struct  VirtualButtonHandler_t8_3  : public MonoBehaviour_t5_95
 {
 	// System.Int32 VirtualButtonHandler::counter
 	int32_t ___counter_2;

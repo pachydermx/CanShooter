@@ -10,8 +10,8 @@
 
 #include <stdint.h>
 
-// Vuforia.VirtualButtonAbstractBehaviour
-struct VirtualButtonAbstractBehaviour_t6_195;
+// System.String
+struct String_t;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -21,9 +21,9 @@ struct Object_t;
 
 #include "mscorlib_System_MulticastDelegate.h"
 #include "mscorlib_System_Collections_DictionaryEntry.h"
-#include "mscorlib_System_Int32.h"
+#include "Qualcomm_Vuforia_UnityExtensions_Vuforia_WebCamProfile_Profi.h"
 
-// System.Collections.Generic.Dictionary`2/Transform`1<System.Int32,Vuforia.VirtualButtonAbstractBehaviour,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_2021  : public MulticastDelegate_t1_21
+// System.Collections.Generic.Dictionary`2/Transform`1<System.String,Vuforia.WebCamProfile/ProfileData,System.Collections.DictionaryEntry>
+struct  Transform_1_t1_2006  : public MulticastDelegate_t1_21
 {
 };

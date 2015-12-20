@@ -43,8 +43,8 @@ extern "C" Object_t * Enumerator_System_Collections_IEnumerator_get_Current_m2_6
 extern "C" void Enumerator_System_Collections_IEnumerator_Reset_m2_6892_gshared (Enumerator_t2_867 * __this, const MethodInfo* method);
 #define Enumerator_System_Collections_IEnumerator_Reset_m2_6892(__this, method) (( void (*) (Enumerator_t2_867 *, const MethodInfo*))Enumerator_System_Collections_IEnumerator_Reset_m2_6892_gshared)(__this, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Enumerator<System.Object,System.Object>::get_Current()
-extern "C" KeyValuePair_2_t1_1311  Enumerator_get_Current_m2_6893_gshared (Enumerator_t2_867 * __this, const MethodInfo* method);
-#define Enumerator_get_Current_m2_6893(__this, method) (( KeyValuePair_2_t1_1311  (*) (Enumerator_t2_867 *, const MethodInfo*))Enumerator_get_Current_m2_6893_gshared)(__this, method)
+extern "C" KeyValuePair_2_t1_1312  Enumerator_get_Current_m2_6893_gshared (Enumerator_t2_867 * __this, const MethodInfo* method);
+#define Enumerator_get_Current_m2_6893(__this, method) (( KeyValuePair_2_t1_1312  (*) (Enumerator_t2_867 *, const MethodInfo*))Enumerator_get_Current_m2_6893_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.SortedDictionary`2/Enumerator<System.Object,System.Object>::MoveNext()
 extern "C" bool Enumerator_MoveNext_m2_6894_gshared (Enumerator_t2_867 * __this, const MethodInfo* method);
 #define Enumerator_MoveNext_m2_6894(__this, method) (( bool (*) (Enumerator_t2_867 *, const MethodInfo*))Enumerator_MoveNext_m2_6894_gshared)(__this, method)

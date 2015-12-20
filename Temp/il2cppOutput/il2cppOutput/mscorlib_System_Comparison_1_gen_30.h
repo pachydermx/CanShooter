@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Color32.h"
 
 // System.Comparison`1<UnityEngine.Color32>
-struct  Comparison_1_t1_1648  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_1649  : public MulticastDelegate_t1_21
 {
 };

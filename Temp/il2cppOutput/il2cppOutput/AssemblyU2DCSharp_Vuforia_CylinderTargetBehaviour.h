@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_CylinderTargetAbstr.h"
 
 // Vuforia.CylinderTargetBehaviour
-struct  CylinderTargetBehaviour_t8_36  : public CylinderTargetAbstractBehaviour_t6_52
+struct  CylinderTargetBehaviour_t8_38  : public CylinderTargetAbstractBehaviour_t6_52
 {
 };

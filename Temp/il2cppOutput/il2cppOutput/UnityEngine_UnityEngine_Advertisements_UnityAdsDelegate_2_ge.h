@@ -24,6 +24,6 @@ struct Object_t;
 #include "mscorlib_System_Boolean.h"
 
 // UnityEngine.Advertisements.UnityAdsDelegate`2<System.String,System.Boolean>
-struct  UnityAdsDelegate_2_t5_106  : public MulticastDelegate_t1_21
+struct  UnityAdsDelegate_2_t5_107  : public MulticastDelegate_t1_21
 {
 };

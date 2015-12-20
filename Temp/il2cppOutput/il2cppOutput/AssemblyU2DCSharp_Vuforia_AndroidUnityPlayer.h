@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_ScreenOrientation.h"
 
 // Vuforia.AndroidUnityPlayer
-struct  AndroidUnityPlayer_t8_47  : public Object_t
+struct  AndroidUnityPlayer_t8_49  : public Object_t
 {
 	// UnityEngine.ScreenOrientation Vuforia.AndroidUnityPlayer::mScreenOrientation
 	int32_t ___mScreenOrientation_2;

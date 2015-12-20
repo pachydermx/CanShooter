@@ -13,9 +13,9 @@
 #include <exception>
 
 // System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>
-struct ShimEnumerator_t1_2014;
+struct ShimEnumerator_t1_2020;
 // System.Collections.Generic.Dictionary`2<System.Object,Vuforia.WebCamProfile/ProfileData>
-struct Dictionary_2_t1_2001;
+struct Dictionary_2_t1_2007;
 // System.Object
 struct Object_t;
 
@@ -23,23 +23,23 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Void System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::.ctor(System.Collections.Generic.Dictionary`2<TKey,TValue>)
-extern "C" void ShimEnumerator__ctor_m1_18010_gshared (ShimEnumerator_t1_2014 * __this, Dictionary_2_t1_2001 * ___host, const MethodInfo* method);
-#define ShimEnumerator__ctor_m1_18010(__this, ___host, method) (( void (*) (ShimEnumerator_t1_2014 *, Dictionary_2_t1_2001 *, const MethodInfo*))ShimEnumerator__ctor_m1_18010_gshared)(__this, ___host, method)
+extern "C" void ShimEnumerator__ctor_m1_18114_gshared (ShimEnumerator_t1_2020 * __this, Dictionary_2_t1_2007 * ___host, const MethodInfo* method);
+#define ShimEnumerator__ctor_m1_18114(__this, ___host, method) (( void (*) (ShimEnumerator_t1_2020 *, Dictionary_2_t1_2007 *, const MethodInfo*))ShimEnumerator__ctor_m1_18114_gshared)(__this, ___host, method)
 // System.Boolean System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::MoveNext()
-extern "C" bool ShimEnumerator_MoveNext_m1_18011_gshared (ShimEnumerator_t1_2014 * __this, const MethodInfo* method);
-#define ShimEnumerator_MoveNext_m1_18011(__this, method) (( bool (*) (ShimEnumerator_t1_2014 *, const MethodInfo*))ShimEnumerator_MoveNext_m1_18011_gshared)(__this, method)
+extern "C" bool ShimEnumerator_MoveNext_m1_18115_gshared (ShimEnumerator_t1_2020 * __this, const MethodInfo* method);
+#define ShimEnumerator_MoveNext_m1_18115(__this, method) (( bool (*) (ShimEnumerator_t1_2020 *, const MethodInfo*))ShimEnumerator_MoveNext_m1_18115_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Entry()
-extern "C" DictionaryEntry_t1_168  ShimEnumerator_get_Entry_m1_18012_gshared (ShimEnumerator_t1_2014 * __this, const MethodInfo* method);
-#define ShimEnumerator_get_Entry_m1_18012(__this, method) (( DictionaryEntry_t1_168  (*) (ShimEnumerator_t1_2014 *, const MethodInfo*))ShimEnumerator_get_Entry_m1_18012_gshared)(__this, method)
+extern "C" DictionaryEntry_t1_168  ShimEnumerator_get_Entry_m1_18116_gshared (ShimEnumerator_t1_2020 * __this, const MethodInfo* method);
+#define ShimEnumerator_get_Entry_m1_18116(__this, method) (( DictionaryEntry_t1_168  (*) (ShimEnumerator_t1_2020 *, const MethodInfo*))ShimEnumerator_get_Entry_m1_18116_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Key()
-extern "C" Object_t * ShimEnumerator_get_Key_m1_18013_gshared (ShimEnumerator_t1_2014 * __this, const MethodInfo* method);
-#define ShimEnumerator_get_Key_m1_18013(__this, method) (( Object_t * (*) (ShimEnumerator_t1_2014 *, const MethodInfo*))ShimEnumerator_get_Key_m1_18013_gshared)(__this, method)
+extern "C" Object_t * ShimEnumerator_get_Key_m1_18117_gshared (ShimEnumerator_t1_2020 * __this, const MethodInfo* method);
+#define ShimEnumerator_get_Key_m1_18117(__this, method) (( Object_t * (*) (ShimEnumerator_t1_2020 *, const MethodInfo*))ShimEnumerator_get_Key_m1_18117_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Value()
-extern "C" Object_t * ShimEnumerator_get_Value_m1_18014_gshared (ShimEnumerator_t1_2014 * __this, const MethodInfo* method);
-#define ShimEnumerator_get_Value_m1_18014(__this, method) (( Object_t * (*) (ShimEnumerator_t1_2014 *, const MethodInfo*))ShimEnumerator_get_Value_m1_18014_gshared)(__this, method)
+extern "C" Object_t * ShimEnumerator_get_Value_m1_18118_gshared (ShimEnumerator_t1_2020 * __this, const MethodInfo* method);
+#define ShimEnumerator_get_Value_m1_18118(__this, method) (( Object_t * (*) (ShimEnumerator_t1_2020 *, const MethodInfo*))ShimEnumerator_get_Value_m1_18118_gshared)(__this, method)
 // System.Object System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::get_Current()
-extern "C" Object_t * ShimEnumerator_get_Current_m1_18015_gshared (ShimEnumerator_t1_2014 * __this, const MethodInfo* method);
-#define ShimEnumerator_get_Current_m1_18015(__this, method) (( Object_t * (*) (ShimEnumerator_t1_2014 *, const MethodInfo*))ShimEnumerator_get_Current_m1_18015_gshared)(__this, method)
+extern "C" Object_t * ShimEnumerator_get_Current_m1_18119_gshared (ShimEnumerator_t1_2020 * __this, const MethodInfo* method);
+#define ShimEnumerator_get_Current_m1_18119(__this, method) (( Object_t * (*) (ShimEnumerator_t1_2020 *, const MethodInfo*))ShimEnumerator_get_Current_m1_18119_gshared)(__this, method)
 // System.Void System.Collections.Generic.Dictionary`2/ShimEnumerator<System.Object,Vuforia.WebCamProfile/ProfileData>::Reset()
-extern "C" void ShimEnumerator_Reset_m1_18016_gshared (ShimEnumerator_t1_2014 * __this, const MethodInfo* method);
-#define ShimEnumerator_Reset_m1_18016(__this, method) (( void (*) (ShimEnumerator_t1_2014 *, const MethodInfo*))ShimEnumerator_Reset_m1_18016_gshared)(__this, method)
+extern "C" void ShimEnumerator_Reset_m1_18120_gshared (ShimEnumerator_t1_2020 * __this, const MethodInfo* method);
+#define ShimEnumerator_Reset_m1_18120(__this, method) (( void (*) (ShimEnumerator_t1_2020 *, const MethodInfo*))ShimEnumerator_Reset_m1_18120_gshared)(__this, method)

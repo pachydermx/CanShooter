@@ -10,21 +10,21 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.PropAbstractBehaviour>
-struct Dictionary_2_t1_1068;
+// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.SurfaceAbstractBehaviour>
+struct Dictionary_2_t1_1067;
 
 #include "mscorlib_System_ValueType.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_29.h"
 
-// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.PropAbstractBehaviour>
-struct  Enumerator_t1_1935 
+// System.Collections.Generic.Dictionary`2/Enumerator<System.Int32,Vuforia.SurfaceAbstractBehaviour>
+struct  Enumerator_t1_1936 
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::dictionary
-	Dictionary_2_t1_1068 * ___dictionary_0;
+	Dictionary_2_t1_1067 * ___dictionary_0;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::next
 	int32_t ___next_1;
 	// System.Int32 System.Collections.Generic.Dictionary`2/Enumerator::stamp
 	int32_t ___stamp_2;
 	// System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.Dictionary`2/Enumerator::current
-	KeyValuePair_2_t1_1933  ___current_3;
+	KeyValuePair_2_t1_1934  ___current_3;
 };

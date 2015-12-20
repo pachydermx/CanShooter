@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.MultiTargetBehaviour
-struct MultiTargetBehaviour_t8_54;
+struct MultiTargetBehaviour_t8_56;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.MultiTargetBehaviour::.ctor()
-extern "C" void MultiTargetBehaviour__ctor_m8_260 (MultiTargetBehaviour_t8_54 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void MultiTargetBehaviour__ctor_m8_275 (MultiTargetBehaviour_t8_56 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

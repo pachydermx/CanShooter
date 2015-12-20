@@ -21,6 +21,6 @@ struct Object_t;
 #include "UnityEngine_UnityEngine_Vector3.h"
 
 // System.Predicate`1<UnityEngine.Vector3>
-struct  Predicate_1_t1_1615  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1616  : public MulticastDelegate_t1_21
 {
 };

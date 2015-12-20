@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Canvas
-struct Canvas_t5_159;
+struct Canvas_t5_160;
 // System.IAsyncResult
 struct IAsyncResult_t1_27;
 // System.AsyncCallback
@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<UnityEngine.Canvas>
-struct  Predicate_1_t1_2110  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_2116  : public MulticastDelegate_t1_21
 {
 };

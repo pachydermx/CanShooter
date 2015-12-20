@@ -10,16 +10,16 @@
 
 #include <stdint.h>
 
-// UnityEngine.UI.ICanvasElement
-struct ICanvasElement_t7_176;
+// UnityEngine.UI.Graphic
+struct Graphic_t7_75;
 
 #include "mscorlib_System_ValueType.h"
 
-// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.ICanvasElement,System.Int32>
-struct  KeyValuePair_2_t1_2141 
+// System.Collections.Generic.KeyValuePair`2<UnityEngine.UI.Graphic,System.Int32>
+struct  KeyValuePair_2_t1_2143 
 {
 	// TKey System.Collections.Generic.KeyValuePair`2::key
-	Object_t * ___key_0;
+	Graphic_t7_75 * ___key_0;
 	// TValue System.Collections.Generic.KeyValuePair`2::value
 	int32_t ___value_1;
 };

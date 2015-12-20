@@ -19,11 +19,11 @@ struct Reconstruction_t6_150;
 // Vuforia.ISmartTerrainEventHandler
 struct ISmartTerrainEventHandler_t6_208;
 // System.Action`1<Vuforia.SmartTerrainInitializationInfo>
-struct Action_1_t1_1062;
-// System.Action`1<Vuforia.Prop>
 struct Action_1_t1_1063;
-// System.Action`1<Vuforia.Surface>
+// System.Action`1<Vuforia.Prop>
 struct Action_1_t1_1064;
+// System.Action`1<Vuforia.Surface>
+struct Action_1_t1_1065;
 // Vuforia.PropAbstractBehaviour
 struct PropAbstractBehaviour_t6_151;
 // Vuforia.Prop
@@ -33,9 +33,9 @@ struct SurfaceAbstractBehaviour_t6_50;
 // Vuforia.Surface
 struct Surface_t6_51;
 // System.Collections.Generic.IEnumerable`1<Vuforia.Prop>
-struct IEnumerable_1_t1_1094;
-// System.Collections.Generic.IEnumerable`1<Vuforia.Surface>
 struct IEnumerable_1_t1_1095;
+// System.Collections.Generic.IEnumerable`1<Vuforia.Surface>
+struct IEnumerable_1_t1_1096;
 // Vuforia.VuforiaManagerImpl/SmartTerrainRevisionData[]
 struct SmartTerrainRevisionDataU5BU5D_t6_204;
 // Vuforia.VuforiaManagerImpl/SurfaceData[]
@@ -49,9 +49,9 @@ struct Mesh_t5_26;
 // System.Int32[]
 struct Int32U5BU5D_t1_161;
 // System.Collections.Generic.List`1<Vuforia.Prop>
-struct List_1_t1_1092;
-// System.Collections.Generic.List`1<Vuforia.Surface>
 struct List_1_t1_1093;
+// System.Collections.Generic.List`1<Vuforia.Surface>
+struct List_1_t1_1094;
 
 #include "codegen/il2cpp-codegen.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__7.h"
@@ -69,33 +69,33 @@ extern "C" void ReconstructionAbstractBehaviour_RegisterSmartTerrainEventHandler
 // System.Boolean Vuforia.ReconstructionAbstractBehaviour::UnregisterSmartTerrainEventHandler(Vuforia.ISmartTerrainEventHandler)
 extern "C" bool ReconstructionAbstractBehaviour_UnregisterSmartTerrainEventHandler_m6_1560 (ReconstructionAbstractBehaviour_t6_39 * __this, Object_t * ___trackableEventHandler, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterInitializedCallback(System.Action`1<Vuforia.SmartTerrainInitializationInfo>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterInitializedCallback_m6_1561 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1062 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterInitializedCallback_m6_1561 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterInitializedCallback(System.Action`1<Vuforia.SmartTerrainInitializationInfo>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterInitializedCallback_m6_1562 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1062 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterInitializedCallback_m6_1562 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterPropCreatedCallback(System.Action`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterPropCreatedCallback_m6_1563 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterPropCreatedCallback_m6_1563 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterPropCreatedCallback(System.Action`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterPropCreatedCallback_m6_1564 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterPropCreatedCallback_m6_1564 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterPropUpdatedCallback(System.Action`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterPropUpdatedCallback_m6_1565 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterPropUpdatedCallback_m6_1565 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterPropUpdatedCallback(System.Action`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterPropUpdatedCallback_m6_1566 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterPropUpdatedCallback_m6_1566 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterPropDeletedCallback(System.Action`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterPropDeletedCallback_m6_1567 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterPropDeletedCallback_m6_1567 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterPropDeletedCallback(System.Action`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterPropDeletedCallback_m6_1568 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1063 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterPropDeletedCallback_m6_1568 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterSurfaceCreatedCallback(System.Action`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterSurfaceCreatedCallback_m6_1569 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterSurfaceCreatedCallback_m6_1569 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1065 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterSurfaceCreatedCallback(System.Action`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterSurfaceCreatedCallback_m6_1570 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterSurfaceCreatedCallback_m6_1570 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1065 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterSurfaceUpdatedCallback(System.Action`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterSurfaceUpdatedCallback_m6_1571 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterSurfaceUpdatedCallback_m6_1571 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1065 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterSurfaceUpdatedCallback(System.Action`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterSurfaceUpdatedCallback_m6_1572 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterSurfaceUpdatedCallback_m6_1572 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1065 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::RegisterSurfaceDeletedCallback(System.Action`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_RegisterSurfaceDeletedCallback_m6_1573 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_RegisterSurfaceDeletedCallback_m6_1573 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1065 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterSurfaceDeletedCallback(System.Action`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterSurfaceDeletedCallback_m6_1574 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1064 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterSurfaceDeletedCallback_m6_1574 (ReconstructionAbstractBehaviour_t6_39 * __this, Action_1_t1_1065 * ___callback, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.PropAbstractBehaviour Vuforia.ReconstructionAbstractBehaviour::AssociateProp(Vuforia.PropAbstractBehaviour,Vuforia.Prop)
 extern "C" PropAbstractBehaviour_t6_151 * ReconstructionAbstractBehaviour_AssociateProp_m6_1575 (ReconstructionAbstractBehaviour_t6_39 * __this, PropAbstractBehaviour_t6_151 * ___templateBehaviour, Object_t * ___newProp, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Vuforia.SurfaceAbstractBehaviour Vuforia.ReconstructionAbstractBehaviour::AssociateSurface(Vuforia.SurfaceAbstractBehaviour,Vuforia.Surface)
@@ -139,9 +139,9 @@ extern "C" Mesh_t5_26 * ReconstructionAbstractBehaviour_UpdateMesh_m6_1594 (Obje
 // System.Int32[] Vuforia.ReconstructionAbstractBehaviour::ReadMeshBoundaries(System.Int32,System.IntPtr)
 extern "C" Int32U5BU5D_t1_161* ReconstructionAbstractBehaviour_ReadMeshBoundaries_m6_1595 (Object_t * __this /* static, unused */, int32_t ___numBoundaries, IntPtr_t ___boundaryArray, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterDeletedProps(System.Collections.Generic.List`1<Vuforia.Prop>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterDeletedProps_m6_1596 (ReconstructionAbstractBehaviour_t6_39 * __this, List_1_t1_1092 * ___deletedProps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterDeletedProps_m6_1596 (ReconstructionAbstractBehaviour_t6_39 * __this, List_1_t1_1093 * ___deletedProps, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UnregisterDeletedSurfaces(System.Collections.Generic.List`1<Vuforia.Surface>)
-extern "C" void ReconstructionAbstractBehaviour_UnregisterDeletedSurfaces_m6_1597 (ReconstructionAbstractBehaviour_t6_39 * __this, List_1_t1_1093 * ___deletedSurfaces, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionAbstractBehaviour_UnregisterDeletedSurfaces_m6_1597 (ReconstructionAbstractBehaviour_t6_39 * __this, List_1_t1_1094 * ___deletedSurfaces, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UpdateSurfaces(Vuforia.VuforiaManagerImpl/SmartTerrainRevisionData[],Vuforia.VuforiaManagerImpl/SurfaceData[])
 extern "C" void ReconstructionAbstractBehaviour_UpdateSurfaces_m6_1598 (ReconstructionAbstractBehaviour_t6_39 * __this, SmartTerrainRevisionDataU5BU5D_t6_204* ___smartTerrainRevisions, SurfaceDataU5BU5D_t6_205* ___updatedSurfaceData, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Vuforia.ReconstructionAbstractBehaviour::UpdateProps(Vuforia.VuforiaManagerImpl/SmartTerrainRevisionData[],Vuforia.VuforiaManagerImpl/PropData[])

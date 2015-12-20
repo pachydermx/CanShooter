@@ -13,7 +13,7 @@
 #include <exception>
 
 // System.Predicate`1<Vuforia.Image/PIXEL_FORMAT>
-struct Predicate_1_t1_1820;
+struct Predicate_1_t1_1826;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -26,14 +26,14 @@ struct AsyncCallback_t1_28;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
 // System.Void System.Predicate`1<Vuforia.Image/PIXEL_FORMAT>::.ctor(System.Object,System.IntPtr)
-extern "C" void Predicate_1__ctor_m1_14411_gshared (Predicate_1_t1_1820 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Predicate_1__ctor_m1_14411(__this, ___object, ___method, method) (( void (*) (Predicate_1_t1_1820 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m1_14411_gshared)(__this, ___object, ___method, method)
+extern "C" void Predicate_1__ctor_m1_14515_gshared (Predicate_1_t1_1826 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Predicate_1__ctor_m1_14515(__this, ___object, ___method, method) (( void (*) (Predicate_1_t1_1826 *, Object_t *, IntPtr_t, const MethodInfo*))Predicate_1__ctor_m1_14515_gshared)(__this, ___object, ___method, method)
 // System.Boolean System.Predicate`1<Vuforia.Image/PIXEL_FORMAT>::Invoke(T)
-extern "C" bool Predicate_1_Invoke_m1_14412_gshared (Predicate_1_t1_1820 * __this, int32_t ___obj, const MethodInfo* method);
-#define Predicate_1_Invoke_m1_14412(__this, ___obj, method) (( bool (*) (Predicate_1_t1_1820 *, int32_t, const MethodInfo*))Predicate_1_Invoke_m1_14412_gshared)(__this, ___obj, method)
+extern "C" bool Predicate_1_Invoke_m1_14516_gshared (Predicate_1_t1_1826 * __this, int32_t ___obj, const MethodInfo* method);
+#define Predicate_1_Invoke_m1_14516(__this, ___obj, method) (( bool (*) (Predicate_1_t1_1826 *, int32_t, const MethodInfo*))Predicate_1_Invoke_m1_14516_gshared)(__this, ___obj, method)
 // System.IAsyncResult System.Predicate`1<Vuforia.Image/PIXEL_FORMAT>::BeginInvoke(T,System.AsyncCallback,System.Object)
-extern "C" Object_t * Predicate_1_BeginInvoke_m1_14413_gshared (Predicate_1_t1_1820 * __this, int32_t ___obj, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Predicate_1_BeginInvoke_m1_14413(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t1_1820 *, int32_t, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m1_14413_gshared)(__this, ___obj, ___callback, ___object, method)
+extern "C" Object_t * Predicate_1_BeginInvoke_m1_14517_gshared (Predicate_1_t1_1826 * __this, int32_t ___obj, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Predicate_1_BeginInvoke_m1_14517(__this, ___obj, ___callback, ___object, method) (( Object_t * (*) (Predicate_1_t1_1826 *, int32_t, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Predicate_1_BeginInvoke_m1_14517_gshared)(__this, ___obj, ___callback, ___object, method)
 // System.Boolean System.Predicate`1<Vuforia.Image/PIXEL_FORMAT>::EndInvoke(System.IAsyncResult)
-extern "C" bool Predicate_1_EndInvoke_m1_14414_gshared (Predicate_1_t1_1820 * __this, Object_t * ___result, const MethodInfo* method);
-#define Predicate_1_EndInvoke_m1_14414(__this, ___result, method) (( bool (*) (Predicate_1_t1_1820 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m1_14414_gshared)(__this, ___result, method)
+extern "C" bool Predicate_1_EndInvoke_m1_14518_gshared (Predicate_1_t1_1826 * __this, Object_t * ___result, const MethodInfo* method);
+#define Predicate_1_EndInvoke_m1_14518(__this, ___result, method) (( bool (*) (Predicate_1_t1_1826 *, Object_t *, const MethodInfo*))Predicate_1_EndInvoke_m1_14518_gshared)(__this, ___result, method)

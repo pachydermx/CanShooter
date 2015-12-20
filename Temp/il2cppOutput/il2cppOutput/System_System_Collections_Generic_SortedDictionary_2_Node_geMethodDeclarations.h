@@ -33,8 +33,8 @@ extern "C" void Node__ctor_m2_6858_gshared (Node_t2_864 * __this, Object_t * ___
 extern "C" void Node_SwapValue_m2_6859_gshared (Node_t2_864 * __this, Node_t2_10 * ___other, const MethodInfo* method);
 #define Node_SwapValue_m2_6859(__this, ___other, method) (( void (*) (Node_t2_864 *, Node_t2_10 *, const MethodInfo*))Node_SwapValue_m2_6859_gshared)(__this, ___other, method)
 // System.Collections.Generic.KeyValuePair`2<TKey,TValue> System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::AsKV()
-extern "C" KeyValuePair_2_t1_1311  Node_AsKV_m2_6860_gshared (Node_t2_864 * __this, const MethodInfo* method);
-#define Node_AsKV_m2_6860(__this, method) (( KeyValuePair_2_t1_1311  (*) (Node_t2_864 *, const MethodInfo*))Node_AsKV_m2_6860_gshared)(__this, method)
+extern "C" KeyValuePair_2_t1_1312  Node_AsKV_m2_6860_gshared (Node_t2_864 * __this, const MethodInfo* method);
+#define Node_AsKV_m2_6860(__this, method) (( KeyValuePair_2_t1_1312  (*) (Node_t2_864 *, const MethodInfo*))Node_AsKV_m2_6860_gshared)(__this, method)
 // System.Collections.DictionaryEntry System.Collections.Generic.SortedDictionary`2/Node<System.Object,System.Object>::AsDE()
 extern "C" DictionaryEntry_t1_168  Node_AsDE_m2_6861_gshared (Node_t2_864 * __this, const MethodInfo* method);
 #define Node_AsDE_m2_6861(__this, method) (( DictionaryEntry_t1_168  (*) (Node_t2_864 *, const MethodInfo*))Node_AsDE_m2_6861_gshared)(__this, method)

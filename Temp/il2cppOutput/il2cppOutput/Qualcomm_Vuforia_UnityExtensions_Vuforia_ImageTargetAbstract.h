@@ -13,7 +13,7 @@
 // Vuforia.ImageTarget
 struct ImageTarget_t6_169;
 // System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VirtualButtonAbstractBehaviour>
-struct Dictionary_2_t1_1074;
+struct Dictionary_2_t1_1075;
 
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_DataSetTrackableBeh.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ImageTargetType.h"
@@ -28,5 +28,5 @@ struct  ImageTargetAbstractBehaviour_t6_173  : public DataSetTrackableBehaviour_
 	// Vuforia.ImageTarget Vuforia.ImageTargetAbstractBehaviour::mImageTarget
 	Object_t * ___mImageTarget_22;
 	// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.VirtualButtonAbstractBehaviour> Vuforia.ImageTargetAbstractBehaviour::mVirtualButtonBehaviours
-	Dictionary_2_t1_1074 * ___mVirtualButtonBehaviours_23;
+	Dictionary_2_t1_1075 * ___mVirtualButtonBehaviours_23;
 };

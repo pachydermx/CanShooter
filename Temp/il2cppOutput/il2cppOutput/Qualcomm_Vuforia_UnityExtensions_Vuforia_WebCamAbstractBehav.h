@@ -15,12 +15,12 @@ struct String_t;
 // Vuforia.WebCamImpl
 struct WebCamImpl_t6_71;
 // UnityEngine.Camera
-struct Camera_t5_89;
+struct Camera_t5_90;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour.h"
 
 // Vuforia.WebCamAbstractBehaviour
-struct  WebCamAbstractBehaviour_t6_196  : public MonoBehaviour_t5_94
+struct  WebCamAbstractBehaviour_t6_196  : public MonoBehaviour_t5_95
 {
 	// System.Int32 Vuforia.WebCamAbstractBehaviour::RenderTextureLayer
 	int32_t ___RenderTextureLayer_2;
@@ -35,5 +35,5 @@ struct  WebCamAbstractBehaviour_t6_196  : public MonoBehaviour_t5_94
 	// Vuforia.WebCamImpl Vuforia.WebCamAbstractBehaviour::mWebCamImpl
 	WebCamImpl_t6_71 * ___mWebCamImpl_7;
 	// UnityEngine.Camera Vuforia.WebCamAbstractBehaviour::mBackgroundCameraInstance
-	Camera_t5_89 * ___mBackgroundCameraInstance_8;
+	Camera_t5_90 * ___mBackgroundCameraInstance_8;
 };

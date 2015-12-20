@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // UnityEngine.Color32[]
-struct Color32U5BU5D_t5_286;
+struct Color32U5BU5D_t5_287;
 
 #include "mscorlib_System_Object.h"
 
@@ -19,7 +19,7 @@ struct Color32U5BU5D_t5_286;
 struct  List_1_t1_1027  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	Color32U5BU5D_t5_286* ____items_1;
+	Color32U5BU5D_t5_287* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
@@ -27,5 +27,5 @@ struct  List_1_t1_1027  : public Object_t
 };
 struct List_1_t1_1027_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	Color32U5BU5D_t5_286* ___EmptyArray_4;
+	Color32U5BU5D_t5_287* ___EmptyArray_4;
 };

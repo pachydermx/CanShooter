@@ -11,11 +11,11 @@
 #include <stdint.h>
 
 // UnityEngine.RectOffset
-struct RectOffset_t5_182;
+struct RectOffset_t5_183;
 // UnityEngine.RectTransform
 struct RectTransform_t5_71;
 // System.Collections.Generic.List`1<UnityEngine.RectTransform>
-struct List_1_t1_1208;
+struct List_1_t1_1209;
 
 #include "UnityEngine_UI_UnityEngine_EventSystems_UIBehaviour.h"
 #include "UnityEngine_UnityEngine_TextAnchor.h"
@@ -26,7 +26,7 @@ struct List_1_t1_1208;
 struct  LayoutGroup_t7_146  : public UIBehaviour_t7_3
 {
 	// UnityEngine.RectOffset UnityEngine.UI.LayoutGroup::m_Padding
-	RectOffset_t5_182 * ___m_Padding_2;
+	RectOffset_t5_183 * ___m_Padding_2;
 	// UnityEngine.TextAnchor UnityEngine.UI.LayoutGroup::m_ChildAlignment
 	int32_t ___m_ChildAlignment_3;
 	// UnityEngine.RectTransform UnityEngine.UI.LayoutGroup::m_Rect
@@ -40,5 +40,5 @@ struct  LayoutGroup_t7_146  : public UIBehaviour_t7_3
 	// UnityEngine.Vector2 UnityEngine.UI.LayoutGroup::m_TotalFlexibleSize
 	Vector2_t5_56  ___m_TotalFlexibleSize_8;
 	// System.Collections.Generic.List`1<UnityEngine.RectTransform> UnityEngine.UI.LayoutGroup::m_RectChildren
-	List_1_t1_1208 * ___m_RectChildren_9;
+	List_1_t1_1209 * ___m_RectChildren_9;
 };

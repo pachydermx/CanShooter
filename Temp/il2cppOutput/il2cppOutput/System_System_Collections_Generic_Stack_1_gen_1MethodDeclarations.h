@@ -15,7 +15,7 @@
 // System.Collections.Generic.Stack`1<System.Object>
 struct Stack_1_t2_857;
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t1_1125;
+struct IEnumerable_1_t1_1126;
 // System.Object
 struct Object_t;
 // System.Array

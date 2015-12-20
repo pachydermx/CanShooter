@@ -16,7 +16,7 @@ struct IClipperU5BU5D_t7_225;
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.UI.IClipper>
-struct  List_1_t1_2175  : public Object_t
+struct  List_1_t1_2181  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
 	IClipperU5BU5D_t7_225* ____items_1;
@@ -25,7 +25,7 @@ struct  List_1_t1_2175  : public Object_t
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_2175_StaticFields{
+struct List_1_t1_2181_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
 	IClipperU5BU5D_t7_225* ___EmptyArray_4;
 };

@@ -17,7 +17,7 @@ struct List_1_t1_1015;
 #include "UnityEngine_UnityEngine_UICharInfo.h"
 
 // System.Collections.Generic.List`1/Enumerator<UnityEngine.UICharInfo>
-struct  Enumerator_t1_1685 
+struct  Enumerator_t1_1691 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_1015 * ___l_0;
@@ -26,5 +26,5 @@ struct  Enumerator_t1_1685
 	// System.Int32 System.Collections.Generic.List`1/Enumerator::ver
 	int32_t ___ver_2;
 	// T System.Collections.Generic.List`1/Enumerator::current
-	UICharInfo_t5_153  ___current_3;
+	UICharInfo_t5_154  ___current_3;
 };

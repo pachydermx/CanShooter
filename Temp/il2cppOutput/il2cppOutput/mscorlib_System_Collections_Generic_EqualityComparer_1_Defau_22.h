@@ -14,6 +14,6 @@
 #include "mscorlib_System_Collections_Generic_EqualityComparer_1_gen_23.h"
 
 // System.Collections.Generic.EqualityComparer`1/DefaultComparer<Vuforia.WebCamProfile/ProfileData>
-struct  DefaultComparer_t1_2016  : public EqualityComparer_1_t1_2015
+struct  DefaultComparer_t1_2022  : public EqualityComparer_1_t1_2021
 {
 };

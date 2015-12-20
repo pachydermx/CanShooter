@@ -10,14 +10,14 @@
 
 #include <stdint.h>
 
-// System.Collections.Generic.Dictionary`2<System.Int32,Vuforia.WordAbstractBehaviour>
-struct Dictionary_2_t1_1057;
+// System.Collections.Generic.Dictionary`2<System.Type,System.UInt16>
+struct Dictionary_2_t1_1054;
 
 #include "mscorlib_System_Object.h"
 
-// System.Collections.Generic.Dictionary`2/KeyCollection<System.Int32,Vuforia.WordAbstractBehaviour>
-struct  KeyCollection_t1_1904  : public Object_t
+// System.Collections.Generic.Dictionary`2/KeyCollection<System.Type,System.UInt16>
+struct  KeyCollection_t1_1894  : public Object_t
 {
 	// System.Collections.Generic.Dictionary`2<TKey,TValue> System.Collections.Generic.Dictionary`2/KeyCollection::dictionary
-	Dictionary_2_t1_1057 * ___dictionary_0;
+	Dictionary_2_t1_1054 * ___dictionary_0;
 };

@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.ImageTargetBehaviour
-struct ImageTargetBehaviour_t8_46;
+struct ImageTargetBehaviour_t8_48;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.ImageTargetBehaviour::.ctor()
-extern "C" void ImageTargetBehaviour__ctor_m8_212 (ImageTargetBehaviour_t8_46 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ImageTargetBehaviour__ctor_m8_227 (ImageTargetBehaviour_t8_48 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

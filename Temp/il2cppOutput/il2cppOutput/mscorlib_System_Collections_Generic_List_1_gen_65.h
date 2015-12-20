@@ -11,21 +11,21 @@
 #include <stdint.h>
 
 // UnityEngine.Transform[]
-struct TransformU5BU5D_t5_361;
+struct TransformU5BU5D_t5_362;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.Generic.List`1<UnityEngine.Transform>
-struct  List_1_t1_1187  : public Object_t
+struct  List_1_t1_1188  : public Object_t
 {
 	// T[] System.Collections.Generic.List`1::_items
-	TransformU5BU5D_t5_361* ____items_1;
+	TransformU5BU5D_t5_362* ____items_1;
 	// System.Int32 System.Collections.Generic.List`1::_size
 	int32_t ____size_2;
 	// System.Int32 System.Collections.Generic.List`1::_version
 	int32_t ____version_3;
 };
-struct List_1_t1_1187_StaticFields{
+struct List_1_t1_1188_StaticFields{
 	// T[] System.Collections.Generic.List`1::EmptyArray
-	TransformU5BU5D_t5_361* ___EmptyArray_4;
+	TransformU5BU5D_t5_362* ___EmptyArray_4;
 };

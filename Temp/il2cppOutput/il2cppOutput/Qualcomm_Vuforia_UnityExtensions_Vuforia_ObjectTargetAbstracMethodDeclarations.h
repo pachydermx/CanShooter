@@ -23,7 +23,7 @@ struct Texture2D_t5_41;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
@@ -75,4 +75,4 @@ extern "C" void ObjectTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_
 // UnityEngine.Transform Vuforia.ObjectTargetAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * ObjectTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_175 (ObjectTargetAbstractBehaviour_t6_19 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.ObjectTargetAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * ObjectTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_176 (ObjectTargetAbstractBehaviour_t6_19 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * ObjectTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_176 (ObjectTargetAbstractBehaviour_t6_19 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

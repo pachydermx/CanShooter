@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.ReconstructionBehaviour
-struct ReconstructionBehaviour_t8_40;
+struct ReconstructionBehaviour_t8_42;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.ReconstructionBehaviour::.ctor()
-extern "C" void ReconstructionBehaviour__ctor_m8_263 (ReconstructionBehaviour_t8_40 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void ReconstructionBehaviour__ctor_m8_278 (ReconstructionBehaviour_t8_42 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

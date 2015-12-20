@@ -21,6 +21,6 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_TargetFinder_Target.h"
 
 // System.Comparison`1<Vuforia.TargetFinder/TargetSearchResult>
-struct  Comparison_1_t1_1995  : public MulticastDelegate_t1_21
+struct  Comparison_1_t1_2001  : public MulticastDelegate_t1_21
 {
 };

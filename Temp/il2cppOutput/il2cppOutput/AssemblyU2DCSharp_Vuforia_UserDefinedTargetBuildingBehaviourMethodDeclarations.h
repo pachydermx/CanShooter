@@ -13,9 +13,9 @@
 #include <exception>
 
 // Vuforia.UserDefinedTargetBuildingBehaviour
-struct UserDefinedTargetBuildingBehaviour_t8_61;
+struct UserDefinedTargetBuildingBehaviour_t8_63;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void Vuforia.UserDefinedTargetBuildingBehaviour::.ctor()
-extern "C" void UserDefinedTargetBuildingBehaviour__ctor_m8_272 (UserDefinedTargetBuildingBehaviour_t8_61 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void UserDefinedTargetBuildingBehaviour__ctor_m8_287 (UserDefinedTargetBuildingBehaviour_t8_63 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

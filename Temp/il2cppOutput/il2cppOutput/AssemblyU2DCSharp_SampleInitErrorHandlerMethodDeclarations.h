@@ -19,12 +19,12 @@ struct SampleInitErrorHandler_t8_24;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaUnity_InitEr.h"
 
 // System.Void SampleInitErrorHandler::.ctor()
-extern "C" void SampleInitErrorHandler__ctor_m8_109 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleInitErrorHandler__ctor_m8_110 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SampleInitErrorHandler::InitPopUp()
-extern "C" void SampleInitErrorHandler_InitPopUp_m8_110 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleInitErrorHandler_InitPopUp_m8_111 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SampleInitErrorHandler::Draw()
-extern "C" void SampleInitErrorHandler_Draw_m8_111 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleInitErrorHandler_Draw_m8_112 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SampleInitErrorHandler::DrawPopUp()
-extern "C" void SampleInitErrorHandler_DrawPopUp_m8_112 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleInitErrorHandler_DrawPopUp_m8_113 (SampleInitErrorHandler_t8_24 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void SampleInitErrorHandler::SetErrorCode(Vuforia.VuforiaUnity/InitError)
-extern "C" void SampleInitErrorHandler_SetErrorCode_m8_113 (SampleInitErrorHandler_t8_24 * __this, int32_t ___errorCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void SampleInitErrorHandler_SetErrorCode_m8_114 (SampleInitErrorHandler_t8_24 * __this, int32_t ___errorCode, const MethodInfo* method) IL2CPP_METHOD_ATTR;

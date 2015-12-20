@@ -11,12 +11,12 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES>
-struct IList_1_t1_1524;
+struct IList_1_t1_1525;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.ReadOnlyCollection`1<System.Net.NetworkInformation.Win32_IP_ADAPTER_ADDRESSES>
-struct  ReadOnlyCollection_1_t1_1523  : public Object_t
+struct  ReadOnlyCollection_1_t1_1524  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.ReadOnlyCollection`1::list
 	Object_t* ___list_0;

@@ -22,20 +22,20 @@ struct Object_t;
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_VuforiaManagerImpl__10.h"
 
 // System.Void System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/PropData>::.ctor(System.Array)
-extern "C" void InternalEnumerator_1__ctor_m1_15134_gshared (InternalEnumerator_1_t1_1858 * __this, Array_t * ___array, const MethodInfo* method);
-#define InternalEnumerator_1__ctor_m1_15134(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1858 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_15134_gshared)(__this, ___array, method)
+extern "C" void InternalEnumerator_1__ctor_m1_15238_gshared (InternalEnumerator_1_t1_1864 * __this, Array_t * ___array, const MethodInfo* method);
+#define InternalEnumerator_1__ctor_m1_15238(__this, ___array, method) (( void (*) (InternalEnumerator_1_t1_1864 *, Array_t *, const MethodInfo*))InternalEnumerator_1__ctor_m1_15238_gshared)(__this, ___array, method)
 // System.Void System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/PropData>::System.Collections.IEnumerator.Reset()
-extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15135_gshared (InternalEnumerator_1_t1_1858 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15135(__this, method) (( void (*) (InternalEnumerator_1_t1_1858 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15135_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15239_gshared (InternalEnumerator_1_t1_1864 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15239(__this, method) (( void (*) (InternalEnumerator_1_t1_1864 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_Reset_m1_15239_gshared)(__this, method)
 // System.Object System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/PropData>::System.Collections.IEnumerator.get_Current()
-extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15136_gshared (InternalEnumerator_1_t1_1858 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15136(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1858 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15136_gshared)(__this, method)
+extern "C" Object_t * InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15240_gshared (InternalEnumerator_1_t1_1864 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15240(__this, method) (( Object_t * (*) (InternalEnumerator_1_t1_1864 *, const MethodInfo*))InternalEnumerator_1_System_Collections_IEnumerator_get_Current_m1_15240_gshared)(__this, method)
 // System.Void System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/PropData>::Dispose()
-extern "C" void InternalEnumerator_1_Dispose_m1_15137_gshared (InternalEnumerator_1_t1_1858 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_Dispose_m1_15137(__this, method) (( void (*) (InternalEnumerator_1_t1_1858 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_15137_gshared)(__this, method)
+extern "C" void InternalEnumerator_1_Dispose_m1_15241_gshared (InternalEnumerator_1_t1_1864 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_Dispose_m1_15241(__this, method) (( void (*) (InternalEnumerator_1_t1_1864 *, const MethodInfo*))InternalEnumerator_1_Dispose_m1_15241_gshared)(__this, method)
 // System.Boolean System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/PropData>::MoveNext()
-extern "C" bool InternalEnumerator_1_MoveNext_m1_15138_gshared (InternalEnumerator_1_t1_1858 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_MoveNext_m1_15138(__this, method) (( bool (*) (InternalEnumerator_1_t1_1858 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_15138_gshared)(__this, method)
+extern "C" bool InternalEnumerator_1_MoveNext_m1_15242_gshared (InternalEnumerator_1_t1_1864 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_MoveNext_m1_15242(__this, method) (( bool (*) (InternalEnumerator_1_t1_1864 *, const MethodInfo*))InternalEnumerator_1_MoveNext_m1_15242_gshared)(__this, method)
 // T System.Array/InternalEnumerator`1<Vuforia.VuforiaManagerImpl/PropData>::get_Current()
-extern "C" PropData_t6_106  InternalEnumerator_1_get_Current_m1_15139_gshared (InternalEnumerator_1_t1_1858 * __this, const MethodInfo* method);
-#define InternalEnumerator_1_get_Current_m1_15139(__this, method) (( PropData_t6_106  (*) (InternalEnumerator_1_t1_1858 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_15139_gshared)(__this, method)
+extern "C" PropData_t6_106  InternalEnumerator_1_get_Current_m1_15243_gshared (InternalEnumerator_1_t1_1864 * __this, const MethodInfo* method);
+#define InternalEnumerator_1_get_Current_m1_15243(__this, method) (( PropData_t6_106  (*) (InternalEnumerator_1_t1_1864 *, const MethodInfo*))InternalEnumerator_1_get_Current_m1_15243_gshared)(__this, method)

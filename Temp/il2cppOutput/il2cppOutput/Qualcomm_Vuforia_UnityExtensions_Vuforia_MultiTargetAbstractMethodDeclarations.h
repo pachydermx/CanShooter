@@ -21,7 +21,7 @@ struct ReconstructionFromTarget_t6_40;
 // UnityEngine.Transform
 struct Transform_t5_72;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 
 #include "codegen/il2cpp-codegen.h"
 #include "UnityEngine_UnityEngine_Vector3.h"
@@ -45,4 +45,4 @@ extern "C" void MultiTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_s
 // UnityEngine.Transform Vuforia.MultiTargetAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_transform()
 extern "C" Transform_t5_72 * MultiTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_transform_m6_1778 (MultiTargetAbstractBehaviour_t6_177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject Vuforia.MultiTargetAbstractBehaviour::Vuforia.IEditorTrackableBehaviour.get_gameObject()
-extern "C" GameObject_t5_100 * MultiTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1779 (MultiTargetAbstractBehaviour_t6_177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * MultiTargetAbstractBehaviour_Vuforia_IEditorTrackableBehaviour_get_gameObject_m6_1779 (MultiTargetAbstractBehaviour_t6_177 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

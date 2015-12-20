@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.List`1<Vuforia.SmartTerrainTrackable>
-struct List_1_t1_1051;
+struct List_1_t1_1052;
 // UnityEngine.Mesh
 struct Mesh_t5_26;
 // Vuforia.SmartTerrainTrackable
@@ -24,7 +24,7 @@ struct SmartTerrainTrackable_t6_48;
 struct  SmartTerrainTrackableImpl_t6_123  : public TrackableImpl_t6_31
 {
 	// System.Collections.Generic.List`1<Vuforia.SmartTerrainTrackable> Vuforia.SmartTerrainTrackableImpl::mChildren
-	List_1_t1_1051 * ___mChildren_2;
+	List_1_t1_1052 * ___mChildren_2;
 	// UnityEngine.Mesh Vuforia.SmartTerrainTrackableImpl::mMesh
 	Mesh_t5_26 * ___mMesh_3;
 	// System.Int32 Vuforia.SmartTerrainTrackableImpl::mMeshRevision

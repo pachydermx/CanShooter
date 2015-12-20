@@ -21,7 +21,7 @@ struct Text_t7_63;
 // UnityEngine.UI.Image
 struct Image_t7_64;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>
-struct List_1_t1_1195;
+struct List_1_t1_1196;
 // UnityEngine.UI.Dropdown/DropdownEvent
 struct DropdownEvent_t7_68;
 // UnityEngine.EventSystems.PointerEventData
@@ -29,15 +29,15 @@ struct PointerEventData_t7_36;
 // UnityEngine.EventSystems.BaseEventData
 struct BaseEventData_t7_5;
 // UnityEngine.GameObject
-struct GameObject_t5_100;
+struct GameObject_t5_101;
 // UnityEngine.Canvas
-struct Canvas_t5_159;
+struct Canvas_t5_160;
 // UnityEngine.UI.Dropdown/DropdownItem
 struct DropdownItem_t7_62;
 // UnityEngine.UI.Dropdown/OptionData
 struct OptionData_t7_66;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>
-struct List_1_t1_1196;
+struct List_1_t1_1197;
 // System.Collections.IEnumerator
 struct IEnumerator_t1_131;
 // UnityEngine.UI.Toggle
@@ -68,9 +68,9 @@ extern "C" Image_t7_64 * Dropdown_get_itemImage_m7_421 (Dropdown_t7_70 * __this,
 // System.Void UnityEngine.UI.Dropdown::set_itemImage(UnityEngine.UI.Image)
 extern "C" void Dropdown_set_itemImage_m7_422 (Dropdown_t7_70 * __this, Image_t7_64 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData> UnityEngine.UI.Dropdown::get_options()
-extern "C" List_1_t1_1195 * Dropdown_get_options_m7_423 (Dropdown_t7_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" List_1_t1_1196 * Dropdown_get_options_m7_423 (Dropdown_t7_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::set_options(System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/OptionData>)
-extern "C" void Dropdown_set_options_m7_424 (Dropdown_t7_70 * __this, List_1_t1_1195 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Dropdown_set_options_m7_424 (Dropdown_t7_70 * __this, List_1_t1_1196 * ___value, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Dropdown/DropdownEvent UnityEngine.UI.Dropdown::get_onValueChanged()
 extern "C" DropdownEvent_t7_68 * Dropdown_get_onValueChanged_m7_425 (Dropdown_t7_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::set_onValueChanged(UnityEngine.UI.Dropdown/DropdownEvent)
@@ -94,19 +94,19 @@ extern "C" void Dropdown_OnCancel_m7_434 (Dropdown_t7_70 * __this, BaseEventData
 // System.Void UnityEngine.UI.Dropdown::Show()
 extern "C" void Dropdown_Show_m7_435 (Dropdown_t7_70 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.UI.Dropdown::CreateBlocker(UnityEngine.Canvas)
-extern "C" GameObject_t5_100 * Dropdown_CreateBlocker_m7_436 (Dropdown_t7_70 * __this, Canvas_t5_159 * ___rootCanvas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * Dropdown_CreateBlocker_m7_436 (Dropdown_t7_70 * __this, Canvas_t5_160 * ___rootCanvas, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::DestroyBlocker(UnityEngine.GameObject)
-extern "C" void Dropdown_DestroyBlocker_m7_437 (Dropdown_t7_70 * __this, GameObject_t5_100 * ___blocker, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Dropdown_DestroyBlocker_m7_437 (Dropdown_t7_70 * __this, GameObject_t5_101 * ___blocker, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.GameObject UnityEngine.UI.Dropdown::CreateDropdownList(UnityEngine.GameObject)
-extern "C" GameObject_t5_100 * Dropdown_CreateDropdownList_m7_438 (Dropdown_t7_70 * __this, GameObject_t5_100 * ___template, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" GameObject_t5_101 * Dropdown_CreateDropdownList_m7_438 (Dropdown_t7_70 * __this, GameObject_t5_101 * ___template, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::DestroyDropdownList(UnityEngine.GameObject)
-extern "C" void Dropdown_DestroyDropdownList_m7_439 (Dropdown_t7_70 * __this, GameObject_t5_100 * ___dropdownList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void Dropdown_DestroyDropdownList_m7_439 (Dropdown_t7_70 * __this, GameObject_t5_101 * ___dropdownList, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Dropdown/DropdownItem UnityEngine.UI.Dropdown::CreateItem(UnityEngine.UI.Dropdown/DropdownItem)
 extern "C" DropdownItem_t7_62 * Dropdown_CreateItem_m7_440 (Dropdown_t7_70 * __this, DropdownItem_t7_62 * ___itemTemplate, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::DestroyItem(UnityEngine.UI.Dropdown/DropdownItem)
 extern "C" void Dropdown_DestroyItem_m7_441 (Dropdown_t7_70 * __this, DropdownItem_t7_62 * ___item, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // UnityEngine.UI.Dropdown/DropdownItem UnityEngine.UI.Dropdown::AddItem(UnityEngine.UI.Dropdown/OptionData,System.Boolean,UnityEngine.UI.Dropdown/DropdownItem,System.Collections.Generic.List`1<UnityEngine.UI.Dropdown/DropdownItem>)
-extern "C" DropdownItem_t7_62 * Dropdown_AddItem_m7_442 (Dropdown_t7_70 * __this, OptionData_t7_66 * ___data, bool ___selected, DropdownItem_t7_62 * ___itemTemplate, List_1_t1_1196 * ___items, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" DropdownItem_t7_62 * Dropdown_AddItem_m7_442 (Dropdown_t7_70 * __this, OptionData_t7_66 * ___data, bool ___selected, DropdownItem_t7_62 * ___itemTemplate, List_1_t1_1197 * ___items, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::AlphaFadeList(System.Single,System.Single)
 extern "C" void Dropdown_AlphaFadeList_m7_443 (Dropdown_t7_70 * __this, float ___duration, float ___alpha, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void UnityEngine.UI.Dropdown::AlphaFadeList(System.Single,System.Single,System.Single)

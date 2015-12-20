@@ -12,8 +12,8 @@
 #include <assert.h>
 #include <exception>
 
-// System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>>
-struct Transform_1_t1_1809;
+// System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.DictionaryEntry>
+struct Transform_1_t1_1804;
 // System.Object
 struct Object_t;
 // System.IAsyncResult
@@ -23,18 +23,18 @@ struct AsyncCallback_t1_28;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_IntPtr.h"
-#include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_19.h"
+#include "mscorlib_System_Collections_DictionaryEntry.h"
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_Image_PIXEL_FORMAT.h"
 
-// System.Void System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>>::.ctor(System.Object,System.IntPtr)
-extern "C" void Transform_1__ctor_m1_14218_gshared (Transform_1_t1_1809 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
-#define Transform_1__ctor_m1_14218(__this, ___object, ___method, method) (( void (*) (Transform_1_t1_1809 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m1_14218_gshared)(__this, ___object, ___method, method)
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>>::Invoke(TKey,TValue)
-extern "C" KeyValuePair_2_t1_1799  Transform_1_Invoke_m1_14219_gshared (Transform_1_t1_1809 * __this, int32_t ___key, Object_t * ___value, const MethodInfo* method);
-#define Transform_1_Invoke_m1_14219(__this, ___key, ___value, method) (( KeyValuePair_2_t1_1799  (*) (Transform_1_t1_1809 *, int32_t, Object_t *, const MethodInfo*))Transform_1_Invoke_m1_14219_gshared)(__this, ___key, ___value, method)
-// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
-extern "C" Object_t * Transform_1_BeginInvoke_m1_14220_gshared (Transform_1_t1_1809 * __this, int32_t ___key, Object_t * ___value, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
-#define Transform_1_BeginInvoke_m1_14220(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t1_1809 *, int32_t, Object_t *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m1_14220_gshared)(__this, ___key, ___value, ___callback, ___object, method)
-// TRet System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.Generic.KeyValuePair`2<Vuforia.Image/PIXEL_FORMAT,System.Object>>::EndInvoke(System.IAsyncResult)
-extern "C" KeyValuePair_2_t1_1799  Transform_1_EndInvoke_m1_14221_gshared (Transform_1_t1_1809 * __this, Object_t * ___result, const MethodInfo* method);
-#define Transform_1_EndInvoke_m1_14221(__this, ___result, method) (( KeyValuePair_2_t1_1799  (*) (Transform_1_t1_1809 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m1_14221_gshared)(__this, ___result, method)
+// System.Void System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.DictionaryEntry>::.ctor(System.Object,System.IntPtr)
+extern "C" void Transform_1__ctor_m1_14318_gshared (Transform_1_t1_1804 * __this, Object_t * ___object, IntPtr_t ___method, const MethodInfo* method);
+#define Transform_1__ctor_m1_14318(__this, ___object, ___method, method) (( void (*) (Transform_1_t1_1804 *, Object_t *, IntPtr_t, const MethodInfo*))Transform_1__ctor_m1_14318_gshared)(__this, ___object, ___method, method)
+// TRet System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.DictionaryEntry>::Invoke(TKey,TValue)
+extern "C" DictionaryEntry_t1_168  Transform_1_Invoke_m1_14319_gshared (Transform_1_t1_1804 * __this, int32_t ___key, Object_t * ___value, const MethodInfo* method);
+#define Transform_1_Invoke_m1_14319(__this, ___key, ___value, method) (( DictionaryEntry_t1_168  (*) (Transform_1_t1_1804 *, int32_t, Object_t *, const MethodInfo*))Transform_1_Invoke_m1_14319_gshared)(__this, ___key, ___value, method)
+// System.IAsyncResult System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.DictionaryEntry>::BeginInvoke(TKey,TValue,System.AsyncCallback,System.Object)
+extern "C" Object_t * Transform_1_BeginInvoke_m1_14320_gshared (Transform_1_t1_1804 * __this, int32_t ___key, Object_t * ___value, AsyncCallback_t1_28 * ___callback, Object_t * ___object, const MethodInfo* method);
+#define Transform_1_BeginInvoke_m1_14320(__this, ___key, ___value, ___callback, ___object, method) (( Object_t * (*) (Transform_1_t1_1804 *, int32_t, Object_t *, AsyncCallback_t1_28 *, Object_t *, const MethodInfo*))Transform_1_BeginInvoke_m1_14320_gshared)(__this, ___key, ___value, ___callback, ___object, method)
+// TRet System.Collections.Generic.Dictionary`2/Transform`1<Vuforia.Image/PIXEL_FORMAT,System.Object,System.Collections.DictionaryEntry>::EndInvoke(System.IAsyncResult)
+extern "C" DictionaryEntry_t1_168  Transform_1_EndInvoke_m1_14321_gshared (Transform_1_t1_1804 * __this, Object_t * ___result, const MethodInfo* method);
+#define Transform_1_EndInvoke_m1_14321(__this, ___result, method) (( DictionaryEntry_t1_168  (*) (Transform_1_t1_1804 *, Object_t *, const MethodInfo*))Transform_1_EndInvoke_m1_14321_gshared)(__this, ___result, method)

@@ -11,7 +11,7 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IEnumerable`1<System.Object>
-struct IEnumerable_1_t1_1125;
+struct IEnumerable_1_t1_1126;
 // System.Collections.Generic.IEnumerator`1<System.Object>
 struct IEnumerator_1_t1_957;
 // System.Object

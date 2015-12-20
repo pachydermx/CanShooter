@@ -25,6 +25,6 @@ struct Object_t;
 #include "mscorlib_System_Collections_DictionaryEntry.h"
 
 // System.Collections.Generic.Dictionary`2/Transform`1<System.Type,System.Collections.Generic.LinkedList`1<System.ComponentModel.TypeDescriptionProvider>,System.Collections.DictionaryEntry>
-struct  Transform_1_t1_1432  : public MulticastDelegate_t1_21
+struct  Transform_1_t1_1433  : public MulticastDelegate_t1_21
 {
 };

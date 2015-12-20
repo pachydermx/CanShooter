@@ -14,6 +14,6 @@
 #include "Qualcomm_Vuforia_UnityExtensions_Vuforia_ImageTargetAbstract.h"
 
 // Vuforia.ImageTargetBehaviour
-struct  ImageTargetBehaviour_t8_46  : public ImageTargetAbstractBehaviour_t6_173
+struct  ImageTargetBehaviour_t8_48  : public ImageTargetAbstractBehaviour_t6_173
 {
 };

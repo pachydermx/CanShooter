@@ -13,11 +13,11 @@
 #include <exception>
 
 // RotateAround
-struct RotateAround_t8_32;
+struct RotateAround_t8_33;
 
 #include "codegen/il2cpp-codegen.h"
 
 // System.Void RotateAround::.ctor()
-extern "C" void RotateAround__ctor_m8_176 (RotateAround_t8_32 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RotateAround__ctor_m8_187 (RotateAround_t8_33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void RotateAround::Update()
-extern "C" void RotateAround_Update_m8_177 (RotateAround_t8_32 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C" void RotateAround_Update_m8_188 (RotateAround_t8_33 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

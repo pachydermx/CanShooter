@@ -15,7 +15,7 @@
 #include "UnityEngine_UnityEngine_FocusType.h"
 
 // UnityEngine.FocusType
-struct  FocusType_t5_194 
+struct  FocusType_t5_195 
 {
 	// System.Int32 UnityEngine.FocusType::value__
 	int32_t ___value___1;

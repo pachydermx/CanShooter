@@ -11,14 +11,14 @@
 #include <stdint.h>
 
 // System.Collections.Generic.IList`1<System.Int32>
-struct IList_1_t1_1650;
+struct IList_1_t1_1651;
 // System.Object
 struct Object_t;
 
 #include "mscorlib_System_Object.h"
 
 // System.Collections.ObjectModel.Collection`1<System.Int32>
-struct  Collection_1_t1_1651  : public Object_t
+struct  Collection_1_t1_1652  : public Object_t
 {
 	// System.Collections.Generic.IList`1<T> System.Collections.ObjectModel.Collection`1::list
 	Object_t* ___list_0;

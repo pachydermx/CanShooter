@@ -19,7 +19,7 @@ struct Win32_MIB_TCPROW_t2_339_marshaled;
 #include "mscorlib_System_ValueType.h"
 
 // System.Collections.Generic.List`1/Enumerator<System.Net.NetworkInformation.Win32IPGlobalProperties/Win32_MIB_TCPROW>
-struct  Enumerator_t1_1491 
+struct  Enumerator_t1_1492 
 {
 	// System.Collections.Generic.List`1<T> System.Collections.Generic.List`1/Enumerator::l
 	List_1_t1_962 * ___l_0;

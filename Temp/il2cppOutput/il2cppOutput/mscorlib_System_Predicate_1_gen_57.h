@@ -22,6 +22,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<Vuforia.Surface>
-struct  Predicate_1_t1_1942  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1948  : public MulticastDelegate_t1_21
 {
 };

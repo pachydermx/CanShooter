@@ -15,11 +15,11 @@
 // System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>
 struct SortedDictionary_2_t2_860;
 // System.Collections.Generic.IComparer`1<System.Object>
-struct IComparer_1_t1_1420;
+struct IComparer_1_t1_1421;
 // System.Collections.Generic.IDictionary`2<System.Object,System.Object>
-struct IDictionary_2_t1_2224;
+struct IDictionary_2_t1_2230;
 // System.Collections.Generic.ICollection`1<System.Object>
-struct ICollection_1_t1_2209;
+struct ICollection_1_t1_2215;
 // System.Object
 struct Object_t;
 // System.Collections.IDictionaryEnumerator
@@ -31,13 +31,13 @@ struct Array_t;
 // System.Collections.IEnumerator
 struct IEnumerator_t1_131;
 // System.Collections.Generic.IEnumerator`1<System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>>
-struct IEnumerator_1_t1_2217;
+struct IEnumerator_1_t1_2223;
 // System.Collections.Generic.SortedDictionary`2/KeyCollection<System.Object,System.Object>
 struct KeyCollection_t2_862;
 // System.Collections.Generic.SortedDictionary`2/ValueCollection<System.Object,System.Object>
 struct ValueCollection_t2_865;
 // System.Collections.Generic.KeyValuePair`2<System.Object,System.Object>[]
-struct KeyValuePair_2U5BU5D_t1_1421;
+struct KeyValuePair_2U5BU5D_t1_1422;
 
 #include "codegen/il2cpp-codegen.h"
 #include "mscorlib_System_Collections_Generic_KeyValuePair_2_gen_5.h"
@@ -62,17 +62,17 @@ extern "C" Object_t* SortedDictionary_2_System_Collections_Generic_IDictionaryU3
 extern "C" Object_t* SortedDictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m2_6801_gshared (SortedDictionary_2_t2_860 * __this, const MethodInfo* method);
 #define SortedDictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m2_6801(__this, method) (( Object_t* (*) (SortedDictionary_2_t2_860 *, const MethodInfo*))SortedDictionary_2_System_Collections_Generic_IDictionaryU3CTKeyU2CTValueU3E_get_Values_m2_6801_gshared)(__this, method)
 // System.Void System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Add(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" void SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6802_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2_t1_1311  ___item, const MethodInfo* method);
-#define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6802(__this, ___item, method) (( void (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2_t1_1311 , const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6802_gshared)(__this, ___item, method)
+extern "C" void SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6802_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2_t1_1312  ___item, const MethodInfo* method);
+#define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6802(__this, ___item, method) (( void (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2_t1_1312 , const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Add_m2_6802_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Contains(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6803_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2_t1_1311  ___item, const MethodInfo* method);
-#define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6803(__this, ___item, method) (( bool (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2_t1_1311 , const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6803_gshared)(__this, ___item, method)
+extern "C" bool SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6803_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2_t1_1312  ___item, const MethodInfo* method);
+#define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6803(__this, ___item, method) (( bool (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2_t1_1312 , const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Contains_m2_6803_gshared)(__this, ___item, method)
 // System.Boolean System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.get_IsReadOnly()
 extern "C" bool SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m2_6804_gshared (SortedDictionary_2_t2_860 * __this, const MethodInfo* method);
 #define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m2_6804(__this, method) (( bool (*) (SortedDictionary_2_t2_860 *, const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_get_IsReadOnly_m2_6804_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<TKey,TValue>>.Remove(System.Collections.Generic.KeyValuePair`2<TKey,TValue>)
-extern "C" bool SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6805_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2_t1_1311  ___item, const MethodInfo* method);
-#define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6805(__this, ___item, method) (( bool (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2_t1_1311 , const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6805_gshared)(__this, ___item, method)
+extern "C" bool SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6805_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2_t1_1312  ___item, const MethodInfo* method);
+#define SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6805(__this, ___item, method) (( bool (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2_t1_1312 , const MethodInfo*))SortedDictionary_2_System_Collections_Generic_ICollectionU3CSystem_Collections_Generic_KeyValuePairU3CTKeyU2CTValueU3EU3E_Remove_m2_6805_gshared)(__this, ___item, method)
 // System.Void System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::System.Collections.IDictionary.Add(System.Object,System.Object)
 extern "C" void SortedDictionary_2_System_Collections_IDictionary_Add_m2_6806_gshared (SortedDictionary_2_t2_860 * __this, Object_t * ___key, Object_t * ___value, const MethodInfo* method);
 #define SortedDictionary_2_System_Collections_IDictionary_Add_m2_6806(__this, ___key, ___value, method) (( void (*) (SortedDictionary_2_t2_860 *, Object_t *, Object_t *, const MethodInfo*))SortedDictionary_2_System_Collections_IDictionary_Add_m2_6806_gshared)(__this, ___key, ___value, method)
@@ -149,8 +149,8 @@ extern "C" bool SortedDictionary_2_ContainsKey_m2_6829_gshared (SortedDictionary
 extern "C" bool SortedDictionary_2_ContainsValue_m2_6830_gshared (SortedDictionary_2_t2_860 * __this, Object_t * ___value, const MethodInfo* method);
 #define SortedDictionary_2_ContainsValue_m2_6830(__this, ___value, method) (( bool (*) (SortedDictionary_2_t2_860 *, Object_t *, const MethodInfo*))SortedDictionary_2_ContainsValue_m2_6830_gshared)(__this, ___value, method)
 // System.Void System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::CopyTo(System.Collections.Generic.KeyValuePair`2<TKey,TValue>[],System.Int32)
-extern "C" void SortedDictionary_2_CopyTo_m2_6831_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2U5BU5D_t1_1421* ___array, int32_t ___arrayIndex, const MethodInfo* method);
-#define SortedDictionary_2_CopyTo_m2_6831(__this, ___array, ___arrayIndex, method) (( void (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2U5BU5D_t1_1421*, int32_t, const MethodInfo*))SortedDictionary_2_CopyTo_m2_6831_gshared)(__this, ___array, ___arrayIndex, method)
+extern "C" void SortedDictionary_2_CopyTo_m2_6831_gshared (SortedDictionary_2_t2_860 * __this, KeyValuePair_2U5BU5D_t1_1422* ___array, int32_t ___arrayIndex, const MethodInfo* method);
+#define SortedDictionary_2_CopyTo_m2_6831(__this, ___array, ___arrayIndex, method) (( void (*) (SortedDictionary_2_t2_860 *, KeyValuePair_2U5BU5D_t1_1422*, int32_t, const MethodInfo*))SortedDictionary_2_CopyTo_m2_6831_gshared)(__this, ___array, ___arrayIndex, method)
 // System.Collections.Generic.SortedDictionary`2/Enumerator<TKey,TValue> System.Collections.Generic.SortedDictionary`2<System.Object,System.Object>::GetEnumerator()
 extern "C" Enumerator_t2_867  SortedDictionary_2_GetEnumerator_m2_6832_gshared (SortedDictionary_2_t2_860 * __this, const MethodInfo* method);
 #define SortedDictionary_2_GetEnumerator_m2_6832(__this, method) (( Enumerator_t2_867  (*) (SortedDictionary_2_t2_860 *, const MethodInfo*))SortedDictionary_2_GetEnumerator_m2_6832_gshared)(__this, method)

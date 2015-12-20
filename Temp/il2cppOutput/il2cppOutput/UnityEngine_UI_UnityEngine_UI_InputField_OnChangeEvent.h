@@ -14,6 +14,6 @@
 #include "UnityEngine_UnityEngine_Events_UnityEvent_1_gen_3.h"
 
 // UnityEngine.UI.InputField/OnChangeEvent
-struct  OnChangeEvent_t7_94  : public UnityEvent_1_t5_314
+struct  OnChangeEvent_t7_94  : public UnityEvent_1_t5_315
 {
 };

@@ -23,6 +23,6 @@ struct Object_t;
 #include "mscorlib_System_MulticastDelegate.h"
 
 // System.Predicate`1<System.Net.NetworkInformation.Win32_IP_ADAPTER_INFO>
-struct  Predicate_1_t1_1520  : public MulticastDelegate_t1_21
+struct  Predicate_1_t1_1521  : public MulticastDelegate_t1_21
 {
 };
