@@ -7,6 +7,7 @@ public class CanTable : MonoBehaviour {
 	public GameObject ExplosiveCanPrefab;
 	public int currentStage = -1;
 	public int canRemain = -1;
+	private bool active = true;
 
 	private Vector3 Size = new Vector3(1, 1, 1);
 
@@ -107,6 +108,12 @@ public class CanTable : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.Alpha1)){
 			foreach(Vector3 item in Stages[0]){
 				Put(item, true);
+			}
+		}
+		if(Input.GetKeyDown(KeyCode.Alpha2)){
+			this.active = !this.active;
+			foreach(GameObject theCan in Cans){
+				theCan.SetActive(this.active);
 			}
 		}
 		if(Input.GetKeyDown(KeyCode.Period)){

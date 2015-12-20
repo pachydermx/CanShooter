@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\MultiTargetUIEventHandler.cs" />
      <Compile Include="Assets\Scripts\MultiTargetUIView.cs" />
      <Compile Include="Assets\Scripts\RotateAround.cs" />
+     <Compile Include="Assets\Tracker.cs" />
      <Compile Include="Assets\Vuforia\Scripts\BackgroundPlaneBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CloudRecoBehaviour.cs" />
      <Compile Include="Assets\Vuforia\Scripts\CylinderTargetBehaviour.cs" />
