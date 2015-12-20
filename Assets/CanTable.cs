@@ -177,4 +177,10 @@ public class CanTable : MonoBehaviour {
 		}
 	}
 
+	void GameReset(){
+		currentStage = -1;
+		canRemain = -1;
+		nextStage();
+	}
+
 }
