@@ -5,6 +5,7 @@ using System.Collections.Generic;
 public class CanTable : MonoBehaviour {
 	public GameObject CanPrefab;
 	public GameObject ExplosiveCanPrefab;
+	public GameObject Manager;
 	public int currentStage = -1;
 	public int canRemain = -1;
 	private bool active = true;
@@ -155,6 +156,8 @@ public class CanTable : MonoBehaviour {
 		}
 		currentStage++;
 		Stage (currentStage);
+
+		Manager.SendMessage("Bonus");
 	}
 
 	void Put(Vector3 pos, bool explosive){

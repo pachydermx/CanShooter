@@ -12,7 +12,7 @@ public class ScoreNotificator : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(transform.eulerAngles.z >= 45 && transform.eulerAngles.z <= 315){
+		if(transform.eulerAngles.z >= 45 && transform.eulerAngles.z <= 315 || transform.position.y < -10){
 			Manager.SendMessage("AddScore", Score);
 			Destroy(this);
 		}

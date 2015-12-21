@@ -13,7 +13,6 @@ public class ExplosiveCan : MonoBehaviour {
 			Debug.Log("C");
 			GameObject Table = GameObject.Find("CanTable");
 			Table.SendMessage("Explode", this.transform.position);
-
 		}
 	}
 	

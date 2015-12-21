@@ -10,7 +10,7 @@ public class AutoDelete : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (transform.position.y < -300){
+		if (transform.position.y < -30){
 			Destroy(this.gameObject);
 		}
 	}
