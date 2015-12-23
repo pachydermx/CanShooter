@@ -1,11 +1,1 @@
-sjdflajlskjfl
-askjdflakslkjdfl
-
-sjdlfkjsdkfl
-fsdf
-
-asjdofi4sldf
-sakjdfajsodifjaosdif
-
-
-sjdflsjdfkjlj
+Augmented Reality CanShooting Game
